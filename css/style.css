@@ -165,11 +165,11 @@ h5{margin:0;padding: 0;}
 #headlinks{background: url("../images/panel.png") no-repeat scroll 0 0 transparent;}
 
 	#headlinks a{color: #000;}
- 	a.home{ background: url("../images/bwicons_home.png") no-repeat scroll 0 0 transparent;
+ 	a.home{ background: url("../images/sprite_root.png") no-repeat scroll 0 0 transparent;
     height: 45px;
     text-indent: -9999px;
     width: 280px;}
-    a.home:hover{background: url("../images/bwicons_home.png") no-repeat scroll -276px 0 transparent;
+    a.home:hover{background: url("../images/sprite_root.png") no-repeat scroll -276px 0 transparent;
     height: 45px;
     text-indent: -9999px;
     width: 280px}
