@@ -1,7 +1,6 @@
 /* HTML TAGS */
 
 
-body{background: url("../images/anagi_logo_tapume.png") no-repeat fixed center;}
 
 p{font-size: 1.4em;
     margin: 0 0 20px;font-family:"Trebuchet MS";}
@@ -14,7 +13,7 @@ p.photo {
 }
 
 a{  color: #FFFFFF;
-    text-decoration: none;text-transform:uppercase;margin-right: 3px;margin-left: 3px;font-size: 10pt;font-family: Arial;}
+    text-decoration: none;text-transform:uppercase;font-family: Arial;}
 	a:focus,a:hover{color: #00c969;}
 
 }
@@ -156,105 +155,116 @@ h5{margin:0;padding: 0;}
 
 /*HEAD LINKS*/
 
+a.main_links {
+    height: 34px;
+    width: 133px;
+}
 #headlinks_projects{width: 10%;}
 #headlinks,#headlinks_transparent{
 	color: black;width: 25%;
     height: 362px;
-    padding-top: 50px;
     position: relative;}
 #headlinks{background: url("../images/panel.png") no-repeat scroll 0 0 transparent;}
 
 	#headlinks a{color: #000;}
- 	a.home{ background: url("../images/sprite_root.png") no-repeat scroll 0 0 transparent;
-    height: 45px;
+a#home {
+    background: url("../images/sprite_root.png") no-repeat scroll -17px -4px transparent;
     text-indent: -9999px;
-    width: 280px;}
-    a.home:hover{background: url("../images/sprite_root.png") no-repeat scroll -276px 0 transparent;
-    height: 45px;
+}
+a#home:hover {
+    background: url("../images/sprite_root.png") no-repeat scroll -150px -4px transparent;
     text-indent: -9999px;
-    width: 280px}
-    a.company{ background: url("../images/bwicons_home.png") no-repeat scroll 0 -48px transparent;
-    height: 45px;
+}
+a#company_main_link {
+    background: url("../images/sprite_root.png") no-repeat scroll -17px -36px transparent;
     text-indent: -9999px;
-    width: 280px;}
-    a.projects{ background: url("../images/bwicons_home.png") no-repeat scroll 0 -98px transparent;
-    height: 45px;
+}
+a#company_main_link:hover {
+    background: url("../images/sprite_root.png") no-repeat scroll -150px -36px transparent;
     text-indent: -9999px;
-    width: 280px}
-    a.products{ background: url("../images/bwicons_home.png") no-repeat scroll 0 -150px transparent;
-    height: 45px;
+}
+a#projects {
+    background: url("../images/sprite_root.png") no-repeat scroll -17px -68px transparent;
     text-indent: -9999px;
-    width: 280px}
-    a.clients{ background: url("../images/bwicons_home.png") no-repeat scroll 0 -202px transparent;
-    height: 45px;
+}
+a#projects:hover{background: url("../images/sprite_root.png") no-repeat scroll -150px -68px transparent;
+    
     text-indent: -9999px;
-    width: 280px}
-  	a.contact{ background: url("../images/bwicons_home.png") no-repeat scroll 0 -258px transparent;
-    height: 45px;
+}
+a#products {
+    background: url("../images/sprite_root.png") no-repeat scroll -17px -102px transparent;
     text-indent: -9999px;
-    width: 280px}
-   	a.projects_over{ background: url("../images/bwicons_home.png") no-repeat scroll -276px -98px transparent;
-    height: 45px;
+}
+    a#products:hover{background: url("../images/sprite_root.png") no-repeat scroll -150px -102px transparent;
+    
     text-indent: -9999px;
-    width: 280px;}
-  	a.company_over{  background: url("../images/bwicons_home.png") no-repeat scroll -276px -48px transparent;
-    height: 45px;
+}
+a#clients {
+    background: url("../images/sprite_root.png") no-repeat scroll -17px -135px transparent;
     text-indent: -9999px;
-    width: 280px;}
+}  
+
+a#clients:hover,a.clients_over{background: url("../images/sprite_root.png") no-repeat scroll -150px -135px transparent;
+    
+    text-indent: -9999px;
+}
+
+a#contact {
+    background: url("../images/sprite_root.png") no-repeat scroll -17px -166px transparent;
+    text-indent: -9999px;
+}   
+
+    a#contact:hover{background: url("../images/sprite_root.png") no-repeat scroll -150px -166px transparent;
+    
+    text-indent: -9999px;
+}
+
+   	a#projects_over{ background: url("../images/sprite_root.png") no-repeat scroll -276px -98px transparent;
+    
+    text-indent: -9999px;
+    }
+  	a#company_over{  background: url("../images/sprite_root.png") no-repeat scroll -276px -48px transparent;
+    
+    text-indent: -9999px;
+    }
 
  	
  	
-    a.company:hover{ background: url("../images/bwicons_home.png") no-repeat scroll -276px -48px transparent;
-    height: 45px;
-    text-indent: -9999px;
-    width: 293px;}
-    a.projects:hover{background: url("../images/bwicons_home.png") no-repeat scroll -276px -98px transparent;
-    height: 45px;
-    text-indent: -9999px;
-    width: 293px;}
-    a.products:hover{background: url("../images/bwicons_home.png") no-repeat scroll -276px -150px transparent;
-    height: 45px;
-    text-indent: -9999px;
-    width: 293px;}
-    a.clients:hover,a.clients_over{background: url("../images/bwicons_home.png") no-repeat scroll -276px -202px transparent;
-    height: 45px;
-    text-indent: -9999px;
-    width: 293px;}
-    a.contact:hover{background: url("../images/bwicons_home.png") no-repeat scroll -276px -258px transparent;
-    height: 45px;
-    text-indent: -9999px;
-    width: 293px;}
+
+ 
+
     
  	
 	
 /*RIGHT PART*/
 
-#anagiling{
-	background-image: url("../images/anagilang.png");
+#anagiling {
+    background-image: url("../images/sprite_root.png");
+    background-position: -150px -319px;
     color: #FFFFFF;
     float: right;
-    height: 89px;
+    font-size: 7pt;
+    height: 45px;
     line-height: 89px;
     position: relative;
     text-align: right;
     text-shadow: 1px 1px #000000;
     vertical-align: middle;
-    width: 179px;
-
-
+    width: 104px;
 }
 	#anagiling a.last{padding-right: 30px;}
 #rightpart{width:25%;}
 #rightpart_projects{width: 15%;float: right;}/*projects_page style*/
 #tanagi {width: 25%;background-color: black;}
-#social,#social_transparent{ 
+#social, #social_transparent {
     clear: both;
     display: block;
     float: right;
-    height: 170px;
-    margin: 58px 0 0;
+    height: 137px;
+    margin: 0;
     padding-right: 25px;
-    text-decoration: none;}
+    text-decoration: none;
+}
 #social_transparent {
     background-image: url("../images/back_social.png");
     left: 0;
@@ -263,45 +273,65 @@ h5{margin:0;padding: 0;}
 }
 
 	
-	
-	a.social_twitter{ background: url("../images/social_icon.png") repeat scroll 0 0 transparent;
-    height: 32px;
+#social a {
+    height: 22px;
+    width: 22px;
+}
+a.social_twitter {
+    background: url("../images/sprite_root.png") repeat scroll -14px -214px transparent;
     margin-top: 30px;
     text-indent: -9999px;
-    width: 32px;}
-	a.social_twitter:hover{ height: 32px;
+}
+a.social_twitter:hover {
+    background: url("../images/sprite_root.png") repeat scroll -36px -214px transparent;
     margin-top: 30px;
     text-indent: -9999px;
-    width: 32px;
-    background: url("../images/social_icon.png") repeat scroll 32px 0 transparent;}
-	a.social_facebook{ background: url("../images/social_icon.png") repeat scroll 0 -34px transparent;
-    height: 32px;
+}
+a.social_facebook {
+    background: url("../images/sprite_root.png") repeat scroll -14px -235px transparent;
     margin-top: 2px;
     text-indent: -9999px;
-    width: 32px;}
-	a.social_facebook:hover{ height: 32px;
+}    
+
+a.social_facebook:hover {
+    background: url("../images/sprite_root.png") repeat scroll -36px -235px transparent;
     margin-top: 2px;
     text-indent: -9999px;
-    width: 32px;
-    background: url("../images/social_icon.png") repeat scroll -40px -34px transparent;}
+}
 	
-	a.social_digg{ background: url("../images/social_icon.png") repeat scroll 0 -68px transparent;
-    height: 32px;
+	a.social_digg {
+    background: url("../images/sprite_root.png") repeat scroll -14px -257px transparent;
     margin-top: 2px;
     text-indent: -9999px;
-    width: 32px;}
+}
 	
 
-	a.social_digg:hover{ background: url("../images/social_icon.png") repeat scroll -40px -68px transparent;
-    height: 32px;
+a.social_digg:hover {
+    background: url("../images/sprite_root.png") repeat scroll -36px -257px transparent;
     margin-top: 2px;
     text-indent: -9999px;
-    width: 32px;}
-#buy{ clear: both;
-    float: right;
-    margin-top: 56px;
+}
+#anagi_links_container {
+    background: none repeat scroll 0 0;
+    line-height: 40px;
     position: relative;
-    text-align: right;}
+    text-align: center;
+}
+a.anagiling{background: url("../images/sprite_root.png") 0px 0px transparent;}
+a.anagiling:hover{background: url("../images/sprite_root.png") 0px 0px transparent;}
+
+a.buy:hover{color: transparent;}
+.buy {
+    background: url("../images/sprite_root.png") repeat scroll -10px -285px transparent;
+    clear: both;
+    color: transparent;
+    float: right;
+    font-size: 8pt;
+    padding-bottom: 5px;
+    padding-top: 13px;
+    position: relative;
+    text-align: right;
+}
 	
 
 /* MIDDLE CONTENT */
@@ -453,15 +483,14 @@ a.dock-item2 {
 
 /* FOOTER */
 
-#footer{
-   background: url("../images/bwover.png") no-repeat scroll center center #555554;
+#footer {
+    background: url("../images/sprite_root.png") no-repeat scroll 0 -391px #555554;
     bottom: 0;
     color: #FFFFFF;
     height: 65px;
     position: relative;
-    width: 100%; 
-   }
-   
+    width: 100%;
+}   
 #footer img{ 	
     position: relative;
     top: 10px;

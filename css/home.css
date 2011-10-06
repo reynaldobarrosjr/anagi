@@ -1,11 +1,11 @@
 html{background-attachment: fixed;
     background-clip: border-box;
     background-color: #FFFFFF;
-    background-image: url("../images/background.png");
+    background-image: url("../images/background_index.png");
     background-origin: padding-box;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;}
+    }
 
 a#piazza_dock,a#batumi_dock,a#mcdonalds_dock{float: left;position: relative;text-indent: -9999px;height:426px;}
 a#piazza_dock{background: url(../images/piazza_ico.png) 0 0 no-repeat scroll;width: 261px;}

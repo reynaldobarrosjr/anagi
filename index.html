@@ -6,38 +6,34 @@
 	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.9.0/build/reset-fonts-grids/reset-fonts-grids.css">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/home.css" type="text/css" media="screen">
-    
 	<meta charset="utf-8">
-
 	<title>Home Tanagi branch Desenv Refactory</title>
-
 	<!-- jQuery (required) -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
 	<script type="text/javascript" src="js/functions.js"></script>
 	<!-- Demo stuff -->
-
-
-	
 </head>
 
 <body id="simple">
 	<div id="topline"></div>
 	<div id="headlinks_transparent">
 	    		<ul>
-	    			<li><a class="home" href="#">Home</a></li>
-	    			<li><a class="company" href="company.html">Company</a></li>
-	    			<li><a class="projects" href="ourprojects.html">Our Projects</a></li>
-	    			<li><a class="products" href="#">Our Products</a></li>
-	    			<li><a class="clients" href="clients.html">Clients/Partners</a></li>
-	    			<li><a class="contact" href="contact.html">Contact</a></li>
+	    			<li><a class="main_links" id="home" href="#">Home</a></li>
+	    			<li><a class="main_links" id="company_main_link" href="company.html">Company</a></li>
+	    			<li><a class="main_links" id="projects" href="ourprojects.html">Our Projects</a></li>
+	    			<li><a class="main_links" id="products" href="#">Our Products</a></li>
+	    			<li><a class="main_links" id="clients" href="clients.html">Clients/Partners</a></li>
+	    			<li><a class="main_links" id="contact" href="contact.html">Contact</a></li>
 	    		</ul>
 	</div>
-	<div id="space">&nbsp;</div>
 	
 	
 	<div id="rightpart">
-	    		<div id="anagiling"><a class="current_lang" href="#">eng</a>/<a href="index_geo.html">geo</a>/<a class="last" href="#">rus</a></div>
+	    		<div id="anagiling">
+	    			<div id="anagi_links_container"><a class="anagiling" href="#">eng</a>/<a class="anagiling" href="index_geo.html">geo</a>/<a class="anagiling" href="#">rus</a></div>
+	    			
+	    		</div>
 	    		
 	    		<ul id="social">
 	    			<li><a class="social_twitter" href="#">Twitter</a></li>
@@ -45,7 +41,8 @@
 	    			<li><a class="social_digg" href="#">Digg</a></li>
 	    		</ul>
 	    		
-	    			<img id="buy" src="images/buy_apartments.png" alt="Buy apartments"/>
+	    		<a class="buy" href="#">Buy Apartments</a>
+	    			
 	</div>
 	<div id="dock">
 			<ul id="menu">
