@@ -60,7 +60,7 @@ h5{margin:0;padding: 0;}
 
 #rightpart,#headlinks,#middlecontent,#headlinks_transparent{position: relative;float: left;}
 
-
+#rightpart{float: right;}
 	/* Firefox Dotted Outline Fix */
 	a:active { 
 		outline: none; 

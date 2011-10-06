@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/home.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="css/piazza.css" type="text/css" media="screen">
     
     <!--[if IE]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen, projection"><![endif]-->
    	<!--[if IE 7]><link rel="stylesheet" href="css/ie7.css" type="text/css" media="screen, projection"><![endif]-->
@@ -30,6 +29,19 @@
 	<!-- Anything Slider -->
 	<link rel="stylesheet" href="css/anythingslider.css">
 	<script src="js/jquery.anythingslider.js"></script>
+	<script type="text/javascript">//<!-- Begin
+		var css = "";
+		if (screen.width >= 1920 && screen.height >=1080) css='css/small.css';
+		else if (screen.width <= 1280 && screen.height <= 768)  css='css/medium.css';
+		else css='no';
+		if (css!='no'){
+		document.write("<link href='"+css+"' rel='stylesheet' type='text/css' />");
+		alert("opaopa!");
+		
+
+	}
+	// End -->
+	</script>
 
 	<!-- AnythingSlider optional extensions -->
 	<!-- <script src="js/jquery.anythingslider.fx.js"></script> -->
@@ -294,6 +306,7 @@ a.wishmodus{
 	    			<li><a class="contact" href="contact.html">Contact</a></li>
 	    		</ul>
 	</div>
+	<div id="space">&nbsp;</div>
 	
 	
 	<div id="rightpart">
