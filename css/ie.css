@@ -1,0 +1,223 @@
+br{display: block;}
+
+
+/* OUR PROJECTS */
+
+#middlecontent_projects,#aux_middle_content{width:70%;}
+
+h1#current{text-indent: -9999px;background: url(../images/current.png) 0 0 transparent no-repeat;top:150px;margin-bottom: 150px;position: relative;}
+
+
+/*ANAGI TEAM STYLE */
+
+.anagi_bg{ background:url(../images/team_info_patern_bkg.png) repeat;color: #4a4a4a; font-family: "Trebuchet MS"}
+}
+#aux_top_content{ background: url("../images/team_bkg.png") repeat-x scroll 0 0 transparent;
+    height: 420px;}
+#aux_middle_content{padding-left:10%;}
+#grade_info{display: table;position:relative;clear: both;}
+
+.box_info img {}
+.extra_info{float:right;position: width:30%;}
+#anagiling img{vertical-align:middle;margin-right:25px;margin-top:20px;}
+
+
+
+a#director{ background: url("../images/team_links_over.png") repeat scroll 0 0 transparent;
+    color: transparent;
+    text-indent: -9999px;text-transform:capitalize;
+    width: 78px;
+	display:block;
+	float:left;
+
+}
+a#technical{  background: url("../images/team_links_over.png") repeat scroll -96px 0 transparent;
+   	color: transparent;
+    text-indent: -9999px;text-transform:capitalize;
+    width: 168px;
+	display:block;
+	float:left;
+
+    
+    }
+a#financial{    background: url("../images/team_links_over.png") repeat scroll -285px 0 transparent;
+    color: transparent;
+    text-indent: -9999px;text-transform:capitalize;
+    width: 164px;
+	display:block;
+	float:left;
+
+    }
+a#line{  background: url("../images/team_links_over.png") repeat scroll -470px 0 transparent;
+    color: transparent;
+   
+    text-indent: -9999px;text-transform:capitalize;
+    width: 114px;
+	display:block;
+	float:left;
+
+    
+    }
+a#human{  background: url("../images/team_links_over.png") no-repeat scroll -612px 0 transparent;
+    color: transparent;
+   
+
+    text-indent: -9999px;text-transform:capitalize;
+    width: 126px;
+	display:block;
+	float:left;
+
+    }
+a#mechanization{  background: url("../images/team_links_over.png") no-repeat scroll 0 -33px transparent;
+    color: transparent;
+   
+ 
+    text-indent: -9999px;text-transform:capitalize;
+    width: 108px;
+	display:block;
+	float:left;
+	height: 17px;
+	clear: both;
+
+    
+    }
+a#shops{ background: url("../images/team_links_over.png") no-repeat scroll -136px -31px transparent;
+    color: transparent;
+   
+    
+    text-indent: -9999px;text-transform:capitalize;
+    width: 291px;
+	display:block;
+	float:left;
+
+    
+    }
+a#juridical{  background: url("../images/team_links_over.png") no-repeat scroll -445px -33px transparent;
+    color: transparent;
+   
+    
+    text-indent: -9999px;text-transform:capitalize;
+    width: 164px;
+	display:block;
+	float:left;
+
+    
+    }
+    
+a#director:hover{background: url("../images/team_links.png") no-repeat scroll 0 0 transparent;
+    color: transparent;
+   
+    
+    text-indent: -9999px;text-transform:capitalize;
+    width: 78px;
+	display:block;
+	float:left;
+
+    
+    }
+    
+a#technical:hover{  background: url("../images/team_links.png") no-repeat scroll -96px 0 transparent;
+    color: transparent;
+   
+    text-indent: -9999px;text-transform:capitalize;
+    width: 168px;
+	display:block;
+	float:left;
+
+    
+    }
+    
+a#financial:hover{    background: url("../images/team_links.png") no-repeat scroll -285px 0 transparent;
+    color: transparent;
+   
+    
+    text-indent: -9999px;text-transform:capitalize;
+    width: 164px;
+	display:block;
+	float:left;
+
+    
+    }
+a#line:hover{  background: url("../images/team_links.png") no-repeat scroll -470px 0 transparent;
+    color: transparent;
+   
+    
+    text-indent: -9999px;text-transform:capitalize;
+    width: 114px;
+	display:block;
+	float:left;
+
+    }
+a#human:hover{  background: url("../images/team_links.png") no-repeat scroll -612px 0 transparent;
+    color: transparent;
+   
+    
+    text-indent: -9999px;text-transform:capitalize;
+    width: 126px;
+	display:block;
+	float:left;
+
+    }
+a#mechanization:hover{  background: url("../images/team_links.png") no-repeat scroll 0 -33px transparent;
+    color: transparent;
+    text-indent: -9999px;text-transform:capitalize;
+    width: 108px;
+	display:block;
+	float:left;
+	clear: both;
+    }
+
+a#shops:hover{ background: url("../images/team_links.png") no-repeat scroll -136px -31px transparent;
+    color: transparent;
+   
+  
+    text-indent: -9999px;text-transform:capitalize;
+    width: 291px;
+	display:block;
+	float:left;
+
+    }
+a#juridical:hover{  background: url("../images/team_links.png") no-repeat scroll -445px -33px transparent;
+    color: transparent;
+   
+
+    text-indent: -9999px;text-transform:capitalize;
+    width: 164px;
+	display:block;
+	float:left;
+
+    }
+
+
+
+a#director_current {
+
+	background: url("../images/team_links.png") no-repeat scroll 0 0 transparent;
+    color: transparent;
+    text-indent: -9999px;text-transform:capitalize;
+    width: 78px;
+	display:block;
+	float:left;
+
+}
+
+a#technical_current{
+
+
+}
+
+
+#links_team{ background: url("../images/links_team.png") no-repeat scroll 0 0 transparent;
+    height: 114px;
+    position: relative;
+    right: 14px;
+    width: 897px;}
+
+
+/* 
+a#financial_current 
+a#line_current 
+a#human_current
+a#mechanization_current, 
+a#shops_current,
+a#juridical_current,*/

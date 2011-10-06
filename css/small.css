@@ -1,0 +1,60 @@
+#airport {
+    background-attachment: scroll;
+    background-color: #090A1B;
+    background-image: url("../images/MestiaAirport.png");
+    background-position: center top;
+    background-size: 100% auto;
+    color: #090A1B;
+}
+
+#batumi {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #090A1B;
+    background-image: url("../images/batumi_back.png");
+    background-origin: padding-box;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color: #090A1B;
+}
+
+#piazza{   
+	background: url("../images/piazza_bkg.png") no-repeat scroll center top #090a1b;
+	background-size: 100% auto;
+    color: #090A1B; }
+    
+#service_center {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #090A1B;
+    background-image: url("../images/CustomsSTerminalDAY-front.jpg");
+    background-origin: padding-box;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color: #090A1B;
+}
+
+#mcdonalds {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #000000;
+    background-image: url("../images/mcdonalds_back.jpg");
+    background-origin: padding-box;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color: #090A1B;
+}
+
+
+#mia{   background: url("../images/mia_back.png") no-repeat scroll center top #090a1b;
+	background-size: 100% auto;
+	
+    color: #090A1B; }
+    
+#gph{   background: url("../images/gph_back.png") no-repeat scroll center top #090a1b;
+	background-size: 100% auto;
+	
+    color: #090A1B; }

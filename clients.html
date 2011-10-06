@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+   
+	<!-- Framework CSS -->
+    <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/clients.css" type="text/css" media="screen">
+
+    <!--[if lt IE 8]><link rel="stylesheet" href="css/ie7.css" type="text/css" media="screen, projection"><![endif]-->
+
+<title>Clients</title>
+
+	<!-- jQuery (required) -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+
+	<!-- Demo stuff -->
+
+	<!-- Anything Slider -->
+	<link rel="stylesheet" href="css/anythingslider.css">
+	<script src="js/jquery.anythingslider.js"></script>
+
+	<!-- AnythingSlider optional extensions -->
+	<!-- <script src="js/jquery.anythingslider.fx.js"></script> -->
+	<!-- <script src="js/jquery.anythingslider.video.js"></script> -->
+
+	<!-- Define slider dimensions here -->
+	
+<style>
+	
+/* Css for slider logo */	
+.block {
+    color: transparent;
+    float: right;
+    margin-right: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 178px;
+}
+	
+.slider {
+    background: url("images/wishmodus_logo.png") no-repeat scroll 0 0 transparent;
+    bottom: 0;
+    float: left;
+    height: 45px;
+    left: 140px;
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 0;
+    padding-left: 10px;
+    padding-top: 3px;
+    position: absolute;
+    width: 178px;
+}
+
+a.wishmodus{
+      color: transparent;
+	    display: block;
+	    height: 40px;
+	    text-decoration: none;
+	    text-indent: -99999px;
+	    width: 200px;
+}
+	
+/* end of css for slider logo */	
+
+
+</style>
+
+<script>
+		// DOM Ready
+		$(function(){
+			$('#slider').anythingSlider( {
+			buildNavigation     : false,
+			buildStart: false,
+			autoPlay : false,	
+			buildStartStop      : false,      // If true, builds the start/stop button
+			
+			
+			
+			});
+		//Full Box Sliding (Hidden to Visible)
+	   	$('.block').hover(function(){
+	        $(".slider", this).stop().animate({left:'0px'},{queue:false,duration:160});
+	        }, function() {
+	        $(".slider", this).stop().animate({left:'140px'},{queue:false,duration:160});
+	     });	
+			
+			
+		});
+</script>
+
+
+</head>
+
+<body class="clients">
+	
+		<div id="topline"></div>
+	
+	    <div id="headlinks_projects_transparent">
+	    		<ul>
+	    			<li class="no_label"><a title="Home" class="home" href="index.html">Home</a></li>
+	    			<li class="no_label"><a title="Company" class="company" href="company.html">Company</a></li>
+	    			<li class="no_label"><a title="Our Projects" class="projects" href="ourprojects.html">Our Projects</a></li>
+	    			<li class="no_label"><a title="Products" class="products" href="products.html">Our Products</a></li>
+	    			<li class="no_label"><a class="clients_over" title="Clients/Partners" class="clients" href="clients.html">Clients/Partners</a></li>
+	    			<li class="no_label"><a title="Contact" class="contact" href="contact.html">Contact</a></li>
+	    		</ul>
+	    </div>
+	    <div id="middlecontent_projects">
+	    	<h1 id="clients">Our Clients/Partners</h1>
+	    	<p>For the last 21 years Anagi has gained valuable trust from number of leading companies. As a result we sustainably have conducted partnership with TBC Bank, Coca-Cola, Arci, Armazi, Bank of Georgia, Ministry of Internal Affairs, Cartu Bank, and other Government or Labor Organizations.</p>
+
+			<p>In essence our wide range of partnership has been a motivational factor for our job in the society as well as being important factor for further co-operation with even more companies.
+			</p>
+			<ul class="list_client">
+	    		<li>
+	    			<a class="link_client" href="#">
+	    				<figure>
+  							<img src="images/patriacharte.png" alt="About image" />
+  							<figcaption>
+    							<p>PATRIARCHATE GERORGIA</p>
+  							</figcaption>
+						</figure>
+	    			</a>
+	    		</li>
+	    		<li>
+	    			<a class="link_client" href="#">
+	    				<figure>
+  							<img src="images/coca.png" alt="About image" />
+  							<figcaption>
+    							<p>Coca-Cola</p>
+  							</figcaption>
+						</figure>
+	    			</a>
+	    		</li>
+	    		<li>
+	    			<a class="link_client" href="#">
+	    				<figure>
+  							<img src="images/mcdonalds_client.png" alt="About image" />
+  							<figcaption>
+    							<p>Mc Donald's</p>
+  							</figcaption>
+						</figure>
+	    			</a>
+	    		</li>
+	    		<li>
+	    			<a class="link_client" href="#">
+	    				<figure>
+  							<img src="images/arci.png" alt="About image" />
+  							<figcaption>
+    							<p>Arci</p>
+  							</figcaption>
+						</figure>
+	    			</a>
+	    		</li>
+	    		<li>
+	    			<a class="link_client" href="#">
+	    				<figure>
+  							<img src="images/armazi.png" alt="About image" />
+  							<figcaption>
+    							<p>Armazi</p>
+  							</figcaption>
+						</figure>
+	    			</a>
+	    		</li>
+	    		
+	    		
+	    		
+	    	</ul>
+	    	<ul class="list_client">
+	    		<li>
+	    			<a class="link_client" href="#">
+	    				<figure>
+  							<img src="images/bankofgeorgia.png" alt="Bank of Georgia" />
+  							<figcaption>
+    							<p>Bank of Georgia</p>
+  							</figcaption>
+						</figure>
+	    			</a>
+	    		</li>
+	    		<li>
+	    			<a class="link_client" href="#">
+	    				<figure>
+  							<img src="images/affairs.png" alt="MINISTRY OF INTERNAL AFFAIRS OF GEORGIA" />
+  							<figcaption>
+    							<p>MINISTRY OF INTERNAL AFFAIRS OF GEORGIA</p>
+  							</figcaption>
+						</figure>
+	    			</a>
+	    		</li>
+	    		<li>
+	    			<a class="link_client" href="#">
+	    				<figure>
+  							<img src="images/tbcbank.png" alt="TBC Bank" />
+  							<figcaption>
+    							<p>TBC BANK</p>
+  							</figcaption>
+						</figure>
+	    			</a>
+	    		</li>
+	    		<li>
+	    			<a class="link_client" href="#">
+	    				<figure>
+  							<img src="images/rtubanck.png" alt="Artu Bank" />
+  							<figcaption>
+    							<p>Artu Bank</p>
+  							</figcaption>
+						</figure>
+	    			</a>
+	    		</li>
+	    		
+	    		
+	    		
+	    		
+	    	</ul>
+	    	<hr><hr>
+	    	
+	    </div>
+	    <div id="rightpart_projects">
+	    		<div id="anagiling"><img src="images/anaga_logo_right.png" alt="anaga_logo_right" width="96" height="50" /></div>
+	    		
+	    		<ul id="social">
+	    			<li><a class="social_twitter" href="#">Twitter</a></li>
+	    			<li><a class="social_facebook" href="#">Facebook</a></li>
+	    			<li><a class="social_digg" href="#">Digg</a></li>
+	    		</ul>
+	    		
+	    			<img id="buy" src="images/buy_apartments.png" alt="Buy apartments"/>
+	    		
+	    </div>
+		<div id="footer_clients">
+			<img id="logoanagi" src="images/logoanagi.png" alt="logoanagi" width="41" height="45" /> <span>&copy; Anagi.Inc All Rights Reserverd</span>
+	 		<div class="block">
+				<img src="images/wmlogo.png">
+				<div class="slider">
+                    <a class="wishmodus" href="#">Wishmodus	</a>
+                </div>
+         	</div>
+
+		
+		</div>   
+
+</body>
+
+</html>

@@ -1,0 +1,223 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+   
+	<!-- Framework CSS -->
+    <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/home.css" type="text/css" media="screen">
+    
+    
+    <link rel="stylesheet" href="css/piazza.css" type="text/css" media="screen">
+    
+    <!--[if IE]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+   	<!--[if IE 7]><link rel="stylesheet" href="css/ie7.css" type="text/css" media="screen, projection"><![endif]-->
+   	
+   	
+   	
+   	<style>
+	body {
+		background-color:#333333;
+		margin:0;
+	}
+	
+	/* Firefox Dotted Outline Fix */
+	a:active { 
+		outline: none; 
+	}
+	
+	/* Firefox Dotted Outline Fix */
+	a:focus { 
+		-moz-outline-style: none; 
+	}
+	
+	/* Menu Body */
+	ul#menu {
+		width:80%;
+		height:102px;
+		background:url(bg.png) repeat-x;
+		list-style:none;
+		margin:0;
+		padding:0;
+		padding-top:20px;
+		padding-left:20%;
+		display:inline;
+		overflow:hidden;
+	}
+	
+	/* Float LI Elements - horizontal display */
+	ul#menu li {
+		float:left;
+	}
+	
+	/* Link - common attributes */
+	ul#menu li a {
+		background:url(images/Iconswhiteback.png) no-repeat scroll top left;
+		display:block;
+		height:426px;
+		position:relative;
+	}
+	
+	/* Specify width and background position attributes specifically for the class: "home" */
+	ul#menu li a.home {
+		width:285px;
+	}
+	
+	/* Specify width and background position attributes specifically for the class: "piazza" */
+	ul#menu li a.piazza {
+		 background-position: -269px 0;
+    width: 269px;
+	}
+	/* Specify width and background position attributes specifically for the class: "custom_service" */
+	ul#menu li a.custom_service {
+		 background-position: -662px 0;
+    width: 281px;
+	}
+	/* Specify width and background position attributes specifically for the class: "mc_donalds" */
+	ul#menu li a.mc_donalds {
+		    background-position: -1058px 0;
+    width: 281px;
+	}
+	
+	/* Span (on hover) - common attributes */
+	ul#menu li a span {
+		background:url(images/Iconswhiteback.png) no-repeat scroll;
+		display:block;
+		position:absolute;
+		top:0;
+		left:0;
+		height:100%;
+		width:100%;
+		z-index:100;
+	}
+	
+	/* Span (on hover) - display pointer */
+	ul#menu li a span:hover {
+		cursor:pointer;
+	}
+	
+	/* Shift background position on hover for the class: "home" */
+	ul#menu li a.home span {
+		background-position:-278px 0px;
+	}
+	
+	/* Shift background position on hover for the class: "piazza" */
+	ul#menu li a.piazza span {
+		 background-position: -269px -357px;
+		 background-repeat:no-repeat;
+    	 
+	}
+	
+	
+	/* Shift background position on hover for the class: "custom service" */
+	ul#menu li a.custom_service span {
+		background-position:-662px -357px;
+	}
+	/* Shift background position on hover for the class: "mc_donalds" */
+	ul#menu li a.mc_donalds span {
+		background-position:-1058px -357px;
+	}
+	
+	
+	#footer{ background: url("../images/bwover.png") no-repeat scroll center center #555554;
+    bottom: 0;
+    color: #FFFFFF;
+    height: 73px;
+    position: absolute;
+    width: 100%;}
+	
+</style>
+
+   	
+<!-- Include jQuery Library -->
+<script src="js/jquery-1.2.2.pack.js" type="text/javascript"></script>
+
+<!-- Let's do the animation -->
+<script type="text/javascript">
+	$(function() {
+		// set opacity to nill on page load
+		$("ul#menu span").css("opacity","0");
+		// on mouse over
+		$("ul#menu span").hover(function () {
+			// animate opacity to full
+			$(this).stop().animate({
+				opacity: 1
+			}, 'slow');
+		},
+		// on mouse out
+		function () {
+			// animate opacity to nill
+			$(this).stop().animate({
+				opacity: 0
+			}, 'slow');
+		});
+	});
+</script>
+
+<title>Dock Test</title>
+
+</head>
+
+<body>
+<div id="topline"></div>
+	    <div id="headlinks_transparent">
+	    		<ul>
+	    			<li><a class="home" href="#">Home</a></li>
+	    			<li><a class="company" href="company.html">Company</a></li>
+	    			<li><a class="projects" href="ourprojects.html">Our Projects</a></li>
+	    			<li><a class="products" href="#">Our Products</a></li>
+	    			<li><a class="clients" href="clients.html">Clients/Partners</a></li>
+	    			<li><a class="contact" href="contact.html">Contact</a></li>
+	    		</ul>
+	    </div>
+	    <div id="middlecontent"> 
+	    
+	    &nbsp;
+	    </div>
+	    <div id="rightpart">
+	    		<div id="anagiling"><a class="current_lang" href="#">eng</a>/<a href="index_geo.html">geo</a>/<a class="last" href="#">rus</a></div>
+	    		
+	    		<ul id="social">
+	    			<li><a class="social_twitter" href="#">Twitter</a></li>
+	    			<li><a class="social_facebook" href="#">Facebook</a></li>
+	    			<li><a class="social_digg" href="#">Digg</a></li>
+	    		</ul>
+	    		
+	    			<img id="buy" src="images/buy_apartments.png" alt="Buy apartments"/>
+	    </div>
+
+<div id="dock_container">
+	<div id="table_container">
+		<div id="left_table">left</div>
+		<div id="middle_table">
+			<ul id="menu">
+    			
+        		<li><a href="#" class="piazza"><span></span></a></li>
+        		<li><a href="#" class="custom_service"><span></span></a></li>
+        		<li><a href="#" class="mc_donalds"><span></span></a></li>
+
+        		
+        		
+    		</ul>
+		
+		
+		
+		
+		</div>
+		<div id="right_table">right</div>
+	
+	
+	</div>
+
+
+</div>
+ <div id="footer">
+	    	<img src="images/logoanagi.png" alt="logoanagi" width="41" height="45" /> &copy; Anagi.Inc All Rights Reserverd
+	    	<img id="wmlogobw" src="images/wmlogo.png" alt="wmlogo" width="29" height="45" />
+	    
+	    </div>
+
+
+</body>
+</html>

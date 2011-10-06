@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+   
+	<!-- Framework CSS -->
+    <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <!--[if lt IE 8]><link rel="stylesheet" href="css/ie7.css" type="text/css" media="screen, projection"><![endif]-->
+
+<title>Company</title>
+<!-- jQuery (required) -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+
+	<!-- Demo stuff -->
+
+	<!-- Anything Slider -->
+	<link rel="stylesheet" href="css/anythingslider.css">
+	<script src="js/jquery.anythingslider.js"></script>
+
+	<!-- AnythingSlider optional extensions -->
+	<!-- <script src="js/jquery.anythingslider.fx.js"></script> -->
+	<!-- <script src="js/jquery.anythingslider.video.js"></script> -->
+
+	<!-- Define slider dimensions here -->
+
+<style>
+	
+/* Css for slider logo */	
+.block {
+    color: transparent;
+    float: right;
+    margin-right: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 178px;
+}
+	
+.slider {
+    background: url("images/wishmodus_logo.png") no-repeat scroll 0 0 transparent;
+    bottom: 0;
+    float: left;
+    height: 45px;
+    left: 140px;
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 0;
+    padding-left: 10px;
+    padding-top: 3px;
+    position: absolute;
+    width: 178px;
+}
+
+a.wishmodus{
+      color: transparent;
+	    display: block;
+	    height: 40px;
+	    text-decoration: none;
+	    text-indent: -99999px;
+	    width: 200px;
+}
+	
+/* end of css for slider logo */	
+
+
+</style>
+
+<script>
+		// DOM Ready
+		$(function(){
+			$('#slider').anythingSlider( {
+			buildNavigation     : false,
+			buildStart: false,
+			autoPlay : false,	
+			buildStartStop      : false,      // If true, builds the start/stop button
+			
+			
+			
+			});
+		//Full Box Sliding (Hidden to Visible)
+	   	$('.block').hover(function(){
+	        $(".slider", this).stop().animate({left:'0px'},{queue:false,duration:160});
+	        }, function() {
+	        $(".slider", this).stop().animate({left:'140px'},{queue:false,duration:160});
+	     });	
+			
+			
+		});
+</script>
+
+
+
+</head>
+
+<body class="company_bg">
+	
+		<div id="topline"></div>
+	
+	    <div id="headlinks_projects_transparent">
+	    		<ul>
+	    			<li class="no_label"><a title="Home" class="home" href="index.html">Home</a></li>
+	    			<li class="no_label"><a title="Company" class="company_over" href="company.html">Company</a></li>
+	    			<li class="no_label"><a title="Our Projects" class="projects" href="ourprojects.html">Our Projects</a></li>
+	    			<li class="no_label"><a title="Products" class="products" href="#">Our Products</a></li>
+	    			<li class="no_label"><a title="Clients/Partners" class="clients" href="#">Clients/Partners</a></li>
+	    			<li class="no_label"><a title="Contact" class="contact" href="#">Contact</a></li>
+	    		</ul>
+	    </div>
+	    <div id="middlecontent_projects">
+	    	<h1 id="company">Company</h1>
+	    	<p>&#8220;Anagi&#8221; is an effective, efficient and highly productive building company. It is recognized as one of the leading building companies operating in Georgia and is a perfect choice construction service.</p>
+
+			<h2 id="wdwd">What do we do?</h2>
+
+			<p>We are currently working on dozens of projects all around Georgian regions. Our diverse activity includes airports, pipelines, communications networks, road and rail systems, refining facilities, as well as urban recreation, personal domestic construction, office space and government services.</p>
+
+			<p>During the last 21 years, &#8220;Anagi&#8221; has shown itself as a stable company, carrying on its business in accordance with modern standards of technology, quality, reliability and responsibility to its customers, partners and society.</p>
+
+			<p>We create opportunities in order to achieve extraordinary outcomes, anticipating customer and partner requirements as desired. While we work for government and commercial companies, our projects have helped grow local economies and improve the quality of life for communities, industries and individuals.</p>
+
+			<h2 id="values">Values</h2>
+
+			<p>No matter how challenging a project is, &#8220;Anagi&#8221; is willing to satisfy and comply successfully with the given task, as well as handle the required job as effectively and efficiently as needed. This is because we bring unparalleled combination of knowledge, skill, 21 years of experience and customer commitment to every given job.
+			</p>
+			
+			<ul id="navlist">
+				<li><a href="team_info.html" alt="Team Info"><img src="images/team.png" alt="team" width="150" height="150" /></a></li>
+				<li><a href="technical_info.html"><img src="images/techinfo.png" alt="tech info" width="150" height="150" /></a></li>
+				<li><img src="images/lugo.png" alt="Lugo - Concrete Development"/></li>
+			</ul>
+
+	    </div>
+	    <div id="rightpart_projects">
+	    		<div id="anagiling"><img src="images/anaga_logo_right.png" alt="anaga_logo_right" width="96" height="50" /></div>
+	    		
+	    		<ul id="social">
+	    			<li><a class="social_twitter" href="#">Twitter</a></li>
+	    			<li><a class="social_facebook" href="#">Facebook</a></li>
+	    			<li><a class="social_digg" href="#">Digg</a></li>
+	    		</ul>
+	    		
+	    			<img id="buy" src="images/buy_apartments.png" alt="Buy apartments"/>
+	    		
+	    </div>
+		<div id="footer_projects">
+			<img id="logoanagi" src="images/logoanagi.png" alt="logoanagi" width="41" height="45" /> <span>&copy; Anagi.Inc All Rights Reserverd</span>
+	 	<div class="block">
+				<img src="images/wmlogo.png">
+				<div class="slider">
+                    <a class="wishmodus" href="#">Wishmodus	</a>
+                </div>
+         </div>
+		
+		</div>   
+
+</body>
+
+</html>

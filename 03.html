@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Easy Slider jQuery Plugin Demo</title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/easySlider.packed.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){	
+		$("#slider").easySlider({
+			prevText:'UP',
+			nextText:'DOWN',
+			orientation:'vertical'
+		});
+	});
+</script>
+<meta name="description" content="Simple easy-to-use jQuery plugin for sliding images and content">
+</meta>
+
+<style>
+body {
+	margin:0;
+	padding:40px;
+	background:#fff;
+	font:80% Arial, Helvetica, sans-serif;
+	color:#555;
+	line-height:180%;
+}
+h1{
+	font-size:180%;
+	font-weight:normal;
+	}
+h2{
+	font-size:160%;
+	font-weight:normal;
+	}	
+h3{
+	font-size:140%;
+	font-weight:normal;
+	}	
+img{border:none;}
+pre{
+	display:block;
+	font:12px "Courier New", Courier, monospace;
+	padding:10px;
+	border:1px solid #bae2f0;
+	background:#e3f4f9;	
+	margin:.5em 0;
+	width:500px;
+	}		
+
+/* Easy Slider */
+
+	#slider ul, #slider li{
+		margin:0;
+		padding:0;
+		list-style:none;
+		}
+	#slider, #slider li{ 
+		/* 
+			define width and height of container element and list item (slide)
+			list items must be the same size as the slider area
+		*/ 
+		width:696px;
+		height:241px;
+		overflow:hidden; 
+		}
+	#slider li{ 
+		background:#f1f1f1;
+		}		
+	#slider li h2{ 
+		margin:0 20px;
+		padding-top:20px;
+		}	
+	#slider li p{ 
+		margin:20px;
+		}				
+	span#prevBtn{}
+	span#nextBtn{}					
+
+/* // Easy Slider */
+
+</style>
+</head>
+<body>
+
+	<h1>Easy Slider jQuery Plugin Demo</h1>
+	
+	<h2>Easy Slider for content - non styled version with custom link text and vertical sliding</h2>
+	
+	<div id="slider">
+		<ul>				
+			<li>
+				<h2>What's Templatica anyway?</h2>
+				<p>Templatica is a membership based template club where you get 
+				<strong>full access to all templates</strong> in the <a href="http://templatica.com/templates">css template gallery</a> for a single and very affordable
+				<strong>annual fee of $24!</strong><br />
+				Yup, that's right! All of <a href="http://templatica.com/templates" title="CSS templates">this</a> plus <strong>all of the 
+				templates released within one year from the day you join</strong>. No extra cost, no hidden fees!<br />		
+				You also have a possibility of purchasing a <strong>single template for as low as $5</strong>.</p>
+			</li>
+			<li>
+				<h2>Why is the fee so low?</h2>
+				<p>I wanted to make premium templates <strong>available to as many of you as possible</strong>. 
+				<a href="http://templatica.com/templates">Templates</a> are not only meant for commercial but for 
+				<strong>educational purpose as well</strong>. I would like you to <a href="http://templatica.com/join">join</a>, 
+				download templates, analyze the code and hopefully learn something new. <br/>
+				For those who'd like to <strong>test the quality</strong> of the templates I suggest my <strong>single template purchase option</strong>.</p>
+			</li>			
+			<li>
+				<h2>What Templatica offers</h2>	
+				<p>Templatica offers static design templates with <strong>valid XHTML and CSS</strong>. 
+				All templates are tested in<strong> Firefox Win, IE7, IE6, Opera</strong> on Windows 
+				as well as <strong>Safari and Firefox</strong> on Mac. <br />
+				Templates are <strong>highly customizable</strong>. The download package for each template 
+				includes HTML, CSS, JavaScript files and related images.</p>
+			</li>
+		</ul>
+	</div>
+	
+	<h3>Usage</h3>
+	
+<pre>$(document).ready(function(){	
+	$("#slider").easySlider({
+		prevText:'UP',
+		nextText:'DOWN',
+		orientation:'vertical'
+	});
+});</pre>
+	
+	<p><a href="http://cssglobe.com/post/3783/jquery-plugin-easy-image-or-content-slider" title="read more about this jquery plugin">back to the article</a></p>
+	
+	<p><strong>Easy Slider</strong> jQuery Plugin is brought to you by <a href="http://cssglobe.com" title="web standards magazine and css news">Css Globe</a> and supported by <a href="http://templatica.com">Css Templates</a> by Templatica</p>
+
+
+</body>
+</html>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-783567-1";
+urchinTracker();
+</script>

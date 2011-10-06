@@ -1,0 +1,362 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+   
+	<!-- Framework CSS -->
+    <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/home.css" type="text/css" media="screen">
+    
+    
+    <link rel="stylesheet" href="css/airport.css" type="text/css" media="screen">
+    
+    <!--[if IE]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+   	<!--[if IE 7]><link rel="stylesheet" href="css/ie7.css" type="text/css" media="screen, projection"><![endif]-->
+
+<title>Mestia Airport</title>
+<!-- jQuery (required) -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+
+
+	<script src="js/jquery-1.2.1.pack.js" type="text/javascript"></script>
+	<script src="js/jquery-easing.1.2.pack.js" type="text/javascript"></script>
+	<script src="js/jquery-easing-compatibility.1.2.pack.js" type="text/javascript"></script>
+	<script src="js/coda-slider.1.1.1.pack.js" type="text/javascript"></script>
+
+	<style type="text/css">
+				/* Float LI Elements - horizontal display */
+	ul#menu li {
+		  float: left;
+    margin-right: 28px;
+	}
+	
+	/* Link - common attributes */
+	ul#menu li a {
+		background:url(images/Iconswhiteback.png) no-repeat scroll top left;
+		display:block;
+		height:426px;
+		position:relative;
+	}
+	
+	/* Specify width and background position attributes specifically for the class: "home" */
+	ul#menu li a.home {
+		width:285px;
+	}
+	
+	/* Specify width and background position attributes specifically for the class: "piazza" */
+	ul#menu li a.piazza {
+		 background-position: 0 45px;
+    width: 292px;
+	}
+	/* Shift background position on hover for the class: "piazza" */
+	ul#menu li a.piazza span {
+		 background-position: -293px 45px;
+    background-repeat: no-repeat;
+    	 
+	}
+	/* Specify width and background position attributes specifically for the class: "custom_service" */
+	ul#menu li a.custom_service {
+		  background-position: -588px 45px;
+    width: 302px;
+	}
+	/* Shift background position on hover for the class: "custom service" */
+	ul#menu li a.custom_service span {
+		background-position: -890px 45px;	}
+	/* Specify width and background position attributes specifically for the class: "mc_donalds" */
+	ul#menu li a.mc_donalds {
+		     background-position: -1880px 50%;
+    width: 282px;
+	}
+	/* Shift background position on hover for the class: "mc_donalds" */
+	ul#menu li a.mc_donalds span {
+		background-position: -2197px 50%;	
+	}
+	/* Specify width and background position attributes specifically for the class: "batumi_opera" */
+	ul#menu li a.batumi_opera {
+		   background-position: -1224px 50%;
+    width: 300px;	}
+	/* Shift background position on hover for the class: "batumi_opera" */
+	ul#menu li a.batumi_opera span {
+		 background-position: -1554px 50%;
+    background-repeat: no-repeat;
+    	 
+	}
+	/* Specify width and background position attributes specifically for the class: "Mestia Airport" */
+	ul#menu li a.mestia_airport {
+		    background-position: -2801px 50%;
+    width: 245px;
+	}
+	/* Shift background position on hover for the class: "Mestia Airport" */
+	ul#menu li a.mestia_airport span {
+		background-position: -2801px 50%;
+    	background-repeat: no-repeat;
+    	 
+	}
+	/* Specify width and background position attributes specifically for the class: "Magnolia" */
+	ul#menu li a.magnolia {
+		     background-position: -3050px 50%;
+    width: 329px;
+	}
+	/* Shift background position on hover for the class: "magnolia" */
+	ul#menu li a.magnolia span {
+		  background-position: -3380px 50%;
+    background-repeat: no-repeat;
+    	 
+	}
+	/* Specify width and background position attributes specifically for the class: "arci_batumi" */
+	ul#menu li a.arci_batumi {
+		    background-position: -3784px 50%;
+    		width: 284px;
+    }
+	/* Shift background position on hover for the class: "arci_batumi" */
+	ul#menu li a.arci_batumi span {
+		 background-position: -4143px 50%;
+    	 background-repeat: no-repeat;
+    
+    	 
+	}
+	/* Specify width and background position attributes specifically for the class: "mia" */
+	ul#menu li a.mia {
+		background-position: -4502px 50%;
+    width: 284px;
+	}
+	/* Shift background position on hover for the class: "mia" */
+	ul#menu li a.mia span {
+		  background-position: -4864px 50%;
+    background-repeat: no-repeat;
+    	 
+	}
+	/* Specify width and background position attributes specifically for the class: "gran_palace" */
+	ul#menu li a.gran_palace {
+		 background-position: -5205px 50%;
+    width: 287px;
+	}
+	/* Shift background position on hover for the class: "gran_palace" */
+	ul#menu li a.gran_palace span {
+		background-position: -5571px 50%;
+    	background-repeat: no-repeat;
+    	 
+	}
+	
+	/* Span (on hover) - common attributes */
+	ul#menu li a span {
+		background:url(images/Iconswhiteback.png) no-repeat scroll;
+		display:block;
+		position:absolute;
+		top:0;
+		left:0;
+		height:100%;
+		width:100%;
+		z-index:100;
+	}
+	
+	/* Span (on hover) - display pointer */
+	ul#menu li a span:hover {
+		cursor:pointer;
+	}
+	
+	/* Shift background position on hover for the class: "home" */
+	ul#menu li a.home span {
+		background-position:-278px 0px;
+	}
+		
+				
+	</style>
+	<script type="text/javascript"><!-- Begin
+var css = "";
+if (screen.width < 800) css='small.css';
+else if (screen.width < 1280 && screen.height <= 768)  css='css/medium.css';
+else css='no';
+if (css!='no'){
+document.write("<link href='"+css+"' rel='stylesheet' type='text/css' />");
+
+}
+// End -->
+</script>
+	
+	<!-- Initialize each slider on the page. Each slider must have a unique id -->
+	<script type="text/javascript">
+		jQuery(window).bind("load", function() {
+			jQuery("div#slider1").codaSlider({
+				
+			
+			
+			
+			});
+			jQuery("div#slider2").codaSlider();
+			// etc, etc. Beware of cross-linking difficulties if using multiple sliders on one page.
+		});
+	</script>
+
+
+
+
+</head>
+
+<body  id="airport">
+	
+		<div id="topline"></div>
+	
+	    <div id="headlinks_projects">
+	    		<ul>
+	    			<li class="no_label"><a title="Home" class="home" href="index.html">Home</a></li>
+	    			<li class="no_label"><a title="Company" class="company_over" href="company.html">Company</a></li>
+	    			<li class="no_label"><a title="Our Projects" class="projects" href="ourprojects.html">Our Projects</a></li>
+	    			<li class="no_label"><a title="Products" class="products" href="#">Our Products</a></li>
+	    			<li class="no_label"><a title="Clients/Partners" class="clients" href="clients.html">Clients/Partners</a></li>
+	    			<li class="no_label"><a title="Contact" class="contact" href="#">Contact</a></li>
+	    		</ul>
+	    </div>
+	    
+	    
+	    <div id="rightpart_projects">
+	    		<div id="anagiling"><img src="images/anaga_logo_right.png" alt="anaga_logo_right" width="96" height="50" /></div>
+	    		
+	    		<ul id="social_transparent">
+	    			<li><a class="social_twitter" href="#">Twitter</a></li>
+	    			<li><a class="social_facebook" href="#">Facebook</a></li>
+	    			<li><a class="social_digg" href="#">Digg</a></li>
+	    		</ul>
+	    		
+	    			<img id="buy" src="images/buy_apartments.png" alt="Buy apartments"/>
+	    			
+	    		
+	    </div>
+	    <hr>
+	    	
+</div>
+	  	<div id="container_slider">
+	  	<div class="slider-wrap">
+				<div id="slider1" class="csw">
+					<div class="panelContainer">
+					
+						<div class="panel" title="Panel 1">
+							<div class="wrapper">
+								<ul id="menu">
+    			    				<li><a href="piazza.html" class="piazza"><span></span></a></li>
+    			    				<li><a href="servicecenter.html#1" class="custom_service"><span></span></a></li>
+    			    				<li><a href="mcdonalds.html" class="mc_donalds"><span></span></a></li>
+    							</ul>
+							</div>
+						</div>
+						<div class="panel" title="Panel 2">
+							<div class="wrapper">
+								<ul id="menu">
+    			    		<li><a href="batumi.html#2" class="batumi_opera"><span></span></a></li>
+    			    		<li><a href="#" class="mestia_airport"></a></li>
+    			    		<li><a href="magnolia.html#2" class="magnolia"><span></span></a></li>
+    					</ul> 
+							</div>
+						</div>		
+						<div class="panel" title="Panel 3">
+							<div class="wrapper">
+								<ul id="menu">
+									<li><a href="#" class="arci_batumi"><span></span></a></li>
+    			    				<li><a href="mia.html" class="mia"><span></span></a></li>
+    			    				<li><a href="#" class="gran_palace"><span></span></a></li>
+								</ul>
+							</div>
+						</div>
+						
+						</div>
+						
+					</div><!-- .panelContainer -->
+				</div><!-- #slider1 -->
+		</div><!-- .slider-wrap -->
+		</div>
+	    <div id="details">
+	    	
+	    	<div id="container_details">
+	    		<div id="top_text">
+	    			<div id="left_corner">
+	    				<h1>Mestia Airport</h1>
+	    				<h2>Details</h2>
+	    			</div>
+	    			
+	    			<div id="description">
+	    				<p>Constructing refurbishing works of Queen Tamar Airpot</p>
+					
+						<p>Client:</p>
+					
+						<p="details_data">Start Date: 00 month of 0000 Completion: 24 December 2010    /    Mestia, Georgia</p>
+						
+						
+							    		
+	    			</div>
+	    		</div>
+	    	
+	    		<div id="building_details">
+	    			<h2 class="title">Queen Tamar Airport</h2>
+	    		</div>
+	    		
+	    		
+	    		
+	    	
+	    	</div>
+	    	<hr>
+	    	   	<div class="slider-wrap">
+				<div id="slider2" class="csw">
+					<div class="panelContainer">
+					
+						<div class="panel" title="Panel 1">
+							<div class="wrapper">
+								<img src="images/mestiaairport_1.png" alt="mestiaairport_1" /></br>
+											    					<h3>Front View</h3>
+									    							<p class="photo">Text Goes Here, Text Goes Here, Text Goes Here, Text Goes Here, Text Goes Here, Text Goes Here, Text Goes Here, Text Goes Here, Text Goes Here, Text Goes Here, Text Goes Here, Text Goes Here, Text Goes Here, Text Goes Here.<a class="cross-link" href="#2">Panel 2</a></p>
+								
+							</div>
+						</div>
+						<div class="panel" title="Panel 2">
+							<div class="wrapper">
+								<img src="images/mestiaairport_1.png" alt="mestiaairport_1" /></br>
+								<h3>Front View</h3>
+								<p class="photo">Text Goes Here, Text Goes Here, Text Goes Here, Text Goes Here, Text Goes Here, Text Goes Here, Text Goes Here, Text Goes Here, Text Goes Here, Text Goes Here, Text Goes Here, Text Goes Here, Text Goes Here, Text Goes Here.</p>
+								
+							</div>
+						</div>		
+					   
+						
+						
+					</div><!-- .panelContainer -->
+				</div><!-- #slider1 -->
+		</div><!-- .slider-wrap -->                
+	    	
+	    	
+	    	
+	    	<div id="footer_airport">
+					<img id="logoanagi_footer" src="images/logoanagi.png" alt="logoanagi" width="41" height="45" /> &copy; Anagi.Inc All Rights Reserverd
+	    			<img id="wmlogobw" src="images/wmlogo.png" alt="wmlogo" width="29" height="45" />
+
+		
+			</div>	
+	    		
+	    		
+	    	</div>
+		   
+
+</body>
+<!-- Let's do the animation -->
+<script type="text/javascript">
+	$(function() {
+		// set opacity to nill on page load
+		$("span").css("opacity","0");
+		// on mouse over
+		$("span").hover(function () {
+			// animate opacity to full
+			$(this).stop().animate({
+				opacity: 1
+			}, 'fast');
+		},
+		// on mouse out
+		function () {
+			// animate opacity to nill
+			$(this).stop().animate({
+				opacity: 0
+			}, 'fast');
+		});
+	});
+</script>
+
+</html>

@@ -1,0 +1,362 @@
+h1,h2,p{color: #444}
+h3{  color: #FFFFFF;
+    font-family: "Trebuchet MS";
+    font-size: 24pt;
+    text-transform: uppercase;
+    }
+h1,h2{
+    text-shadow: none;
+    text-transform: uppercase;}
+h1{font-size: 29.2pt;}
+h2{clear: both;}
+p{float: left;
+    width: 50%;}
+p.photo{ 
+    float: none;
+    margin-left: auto;
+    margin-right: auto;}
+
+
+#batumi{   background: url("../images/batumi_back.png") no-repeat scroll center top #090a1b;
+	background-size: 100% auto;
+	
+    color: #090A1B; }
+
+
+
+#headlinks{
+    float: left;
+    position: relative;
+}
+#rightpart{float: right;}
+#headlinks_piazza{color: black;width: 25%;background: url("../images/panel.png") no-repeat scroll 0 0 transparent;
+    height: 362px;
+    padding-top: 50px;
+    position: relative;}
+#dock{    height: 330px;
+    margin-top: 200px;
+    text-align: center;
+    width: 100%;
+    }
+	#dock img{  margin: 0;
+    padding: 0;
+    position: relative;
+    right: 0px;
+    top: 310px;}
+#dock_bottom{  background: none repeat scroll 0 0 #060A19;
+    height: 37px;
+    margin-top: -42px;
+    position: relative;
+    width: 100%;
+    z-index: 0;}
+#details{
+   background-attachment: scroll;
+    background-color: #e5e5e5;
+    background-position: 0 0;
+    background-size: 100% 2099px;
+    color: #FFFFFF;
+    position: relative;
+    box-shadow: 0 0 65px #000000 inset;
+  }
+
+
+ul#menu {
+    height: 113px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0 0 0 3%;
+    width: 100%;
+}
+
+
+
+/* MIDDLE CONTENT*/
+
+#middlecontent_piazza{width: 75%;}
+#container_top{ background: none repeat scroll 0 0;
+    height: 193px;
+    margin-left: auto;
+    padding-bottom: 2px;
+    padding-top: 20px;
+    position: relative;
+    width: 100%;
+    
+    }
+#top_text{ color:black;
+  height:135px;
+  margin-left:auto;
+  margin-right:auto;
+  padding-bottom:30px;
+  padding-left:30px;
+  padding-right:0;
+  padding-top:30px;}
+#left_corner{float: left;
+   }
+#container_details{ 
+ background-attachment: scroll;
+    background-color: transparent;
+    background-image: url("../images/gradientlower.png");
+    background-position: 0 0;
+    bottom: 30px;
+    margin-bottom: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 36px;
+    width: 1024px;
+    
+}
+#building_details{ 
+     height: 469px;
+    padding: 35px 0 0;
+    text-align: center;
+    width: 100%;
+}
+
+#description{ background: none repeat scroll 0 0 transparent;
+    display: table;
+    float: right;
+    margin-bottom: 30px;
+    position: relative;
+    width: 540px;
+    }
+    #description p{float: none;width: 50%;}
+div.description_container{margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    position: relative;
+    text-align: center;
+    width: 70%;}
+
+#thumb1,#thumb2,#thumb3{width: 50%;clear:both;}
+	#thumb1{  position: relative;
+    top: 90px;
+}
+    #thumb2{   position: relative;
+    top: 145px;}
+    #thumb3{     position: relative;
+    top: 310px;}
+#thumb1 img,#thumb2 img {}
+#thumb3 img{ float: left;
+    margin-right: 20px;
+    position: relative;}
+h2.title{  background: url("../images/queen_tamar_airport.png") repeat scroll 0 0 transparent;
+    height: 146px;
+    margin-left: 30px;
+    text-indent: -9999px;
+    width: 219px;}
+#gallery{width: 100%;height:100%;}
+#container_slider{
+background: url("../images/table.png") no-repeat scroll center bottom transparent;
+margin-bottom: -20px;
+position: relative;
+}
+
+#building{
+	background: url("../images/batumi_building_bottom_bck.png") repeat scroll center center transparent;
+    height: 717px;
+    width: 100%;
+    }
+    
+#box1,#box2{ float: left;
+    text-align: left;
+    width: 440px;}
+#box2{margin-left: 40px;}
+#container_boxes{margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 920px;}
+
+/* FOOTER */
+
+#footer_airport{
+	background: url("../images/background_footer.png") repeat-x scroll 0 0 transparent;
+bottom: 0;
+clear: left;
+color: #FFFFFF;
+height: 65px;
+position: absolute;
+vertical-align: middle;
+width: 100%;}
+    
+    
+    
+    
+* { margin: 0; padding: 0 }
+		/* I've used a hard CSS reset above, but you should consider a more sophisticated reset, such as this one: http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/ */
+		
+		p { text-align: left; margin: 15px 0 }
+		
+		p, ul { font-size: 13px;
+    line-height: 1.4em;
+     } 
+		p{width: 100%;}
+		p a, li a { color: #39c; text-decoration: none }
+		
+		p.intro { border-bottom: 1px solid #ccc; margin-bottom: 20px; padding: 20px 0 30px 0; text-align: center; width: 100% }
+		
+		p#cross-links { text-align: center }
+		
+		p#cross-links { border-bottom: 1px solid #ccc; margin-bottom: 30px; padding-bottom: 30px }
+		
+		noscript p, noscript ol { color: #a00; font-size: 13px; line-height: 1.4em; text-align: left }
+		noscript a { color: #a00; text-decoration: underline }
+		noscript ol { margin-left: 25px; }
+		
+		a:focus { outline:none }
+		
+		img { border: 0 }
+		
+		h3 { border-bottom: 1px solid silver;
+    color: #444444;
+    margin-bottom: 5px;
+    padding-bottom: 3px;
+    text-align: left;
+    text-transform: capitalize; }
+		
+		
+		.stripViewer .panelContainer .panel ul {
+			text-align: left;
+			margin: 0 15px 0 30px;
+		}
+		
+		.slider-wrap { /* This div isn't entirely necessary but good for getting the side arrows vertically centered */
+			margin: 20px 0;
+			position: relative;
+			width: 100%;
+		}
+
+		/* These 2 lines specify style applied while slider is loading */
+		.csw {
+background: none repeat scroll 0 0 #FFFFFF;
+height: 460px;
+overflow: scroll;
+width: 100%;
+}
+		.csw .loading {margin: 200px 0 300px 0; text-align: center}
+
+		.stripViewer { /* This is the viewing window */
+			position: relative;
+			overflow: hidden; 
+			/*border: 5px solid #000; /* this is the border. should have the same value for the links */
+			margin: auto;
+			width: 1024px; /* Also specified in  .stripViewer .panelContainer .panel  below */
+			height: 460px;
+			clear: both;
+			
+			
+		}
+		
+		.stripViewer .panelContainer { /* This is the big long container used to house your end-to-end divs. Width is calculated and specified by the JS  */
+			 list-style-type: none;
+    position: relative;
+    top: -7px;
+			/* -moz-user-select: none; // This breaks CSS validation but stops accidental (and intentional - beware) panel highlighting in Firefox. Some people might find this useful, crazy fools. */
+		}
+		
+		.stripViewer .panelContainer .panel { /* Each panel is arranged end-to-end */
+			float:left;
+			height: 100%;
+			position: relative;
+			width: 1024px; /* Also specified in  .stripViewer  above */
+		}
+		
+		.stripViewer .panelContainer .panel .wrapper { 
+		
+		padding-right: 1px;
+		
+		/* Wrapper to give some padding in the panels, without messing with existing panel width */
+		}
+		
+		.stripNav { /* This is the div to hold your nav (the UL generated at run time) */
+			 display: none;
+    margin: auto;
+		}
+		
+		.stripNav ul { /* The auto-generated set of links */
+			list-style: none;
+		}
+		
+		.stripNav ul li {
+			float: left;
+			 /* If you change this, be sure to adjust the initial value of navWidth in coda-slider.1.1.1.js */
+		}
+		
+		.stripNav a { /* The nav links */
+			font-size: 10px;
+			font-weight: bold;
+			text-align: center;
+			line-height: 32px;
+			background: #c6e3ff;
+			color: #fff;
+			text-decoration: none;
+			display: block;
+			padding: 0 15px;
+		}
+		
+		.stripNav li.tab1 a { background: #60f }
+		.stripNav li.tab2 a { background: #60c }
+		.stripNav li.tab3 a { background: #63f }
+		.stripNav li.tab4 a { background: #63c }
+		.stripNav li.tab5 a { background: #00e }
+		
+		.stripNav li a:hover {
+			background: #333;
+		}
+		
+		.stripNav li a.current {
+			background: #000;
+			color: #fff;
+		}
+		
+		.stripNavL, .stripNavR { /* The left and right arrows */
+			position: absolute;
+			top: 230px;
+			text-indent: -9000em;
+		}
+		
+		.stripNavL a, .stripNavR a {
+			 background: url("../images/more_button.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 40px;
+    width: 85px;
+		}
+		.stripNavR a {
+    background-position: -75px 0;
+}
+		
+		.stripNavL a:hover, .stripNavR a:hover {
+    		background: url("../images/more_button.png") no-repeat scroll 0 -60px transparent;
+    display: block;
+    height: 40px;
+    width: 85px;
+		}
+		.stripNavR a:hover{background-position: -75px -60px;}
+		
+		.stripNavL {
+			left: 0;
+		}
+		
+		.stripNavR {
+			right: 0;
+		}
+		
+		.stripNavL {
+			
+    z-index: 9999;
+		}
+		
+		.stripNavR {
+			
+    z-index: 9999;
+		}
+		#slider1{ position: relative;
+    top: 75px;}
+#slider2 {
+    background: url("../images/next_info_background.png") repeat scroll 0 0 transparent;
+    height: 675px;
+}
+ 
+		
+		
+

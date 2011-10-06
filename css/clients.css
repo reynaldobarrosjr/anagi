@@ -1,0 +1,59 @@
+.clients{ 
+	background-attachment: fixed;
+    background-clip: border-box;
+    background-color: #9FA09F;
+    background-image: url("../images/background_clients.png");
+    background-origin: padding-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+h1#clients {
+    background: url("../images/client_partners.png") no-repeat scroll 0 0 transparent;
+    text-indent: -9999px;
+}
+
+
+/* HTMLS TAGS */
+
+a.link_client{color: #454545;
+    font-size: 7pt;
+    text-align: center;}
+
+p.link_client{    font-family: "Trebuchet MS";
+    font-size: 1.4em;
+    margin: 0 0 20px;
+    text-align: center;}
+
+figure{background: none repeat scroll 0 0;
+    height: 185px;
+    width: 190px;}
+figcaption{width: 190px;}
+
+
+
+
+
+/* MIDDLE */
+
+
+ul.list_client{width: 100%;height: 200px;display: table;}
+
+.list_client li{ display: table;
+    float: left;}
+
+
+
+
+/* FOOTER */
+
+
+#footer_clients {
+    background: url("../images/footer_clients.png") repeat-x scroll 0 0 transparent;
+    bottom: 0;
+    clear: left;
+    color: #FFFFFF;
+    height: 55px;
+    padding-top: 11px;
+    width: 100%;
+}

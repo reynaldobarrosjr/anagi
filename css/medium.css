@@ -1,0 +1,110 @@
+html{max-width: 1024px;overflow-x: hidden;}
+a.up {
+background: url("../images/arrows.png") no-repeat scroll -122px 0 transparent;
+color: transparent;
+height: 62px;
+left: 10px;
+padding: 7px 9px 10px 0;
+position: relative;
+text-indent: -9999px;
+top: 5px;
+width: 41px;
+z-index: 9999;
+}
+a.right_up {
+background: url("../images/arrows.png") no-repeat scroll -176px 0 transparent;
+color: transparent;
+float: right;
+height: 62px;
+left: -5px;
+padding: 8px 6px 5px 3px;
+position: relative;
+right: 40px;
+text-indent: -9999px;
+top: 65px;
+width: 41px;
+z-index: 9999;
+}
+#airport {
+    background-attachment: scroll;
+    background-color: #090A1B;
+    background-image: url("../images/MestiaAirport.png");
+    background-position: center top;
+    background-size: auto auto;
+    color: #090A1B;
+}
+
+#batumi {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #090A1B;
+    background-image: url("../images/batumi_back.png");
+    background-origin: padding-box;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    color: #090A1B;
+}
+
+#piazza{   
+	background: url("../images/piazza_bkg.png") no-repeat scroll center top #090a1b;
+	background-size: auto auto;
+    color: #090A1B; }
+    
+#service_center {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #090A1B;
+    background-image: url("../images/CustomsSTerminalDAY-front.jpg");
+    background-origin: padding-box;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size:auto auto;
+    color: #090A1B;
+}
+
+#mcdonalds {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #000000;
+    background-image: url("../images/mcdonalds_back.jpg");
+    background-origin: padding-box;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    color: #090A1B;
+}
+
+#mia{   background: url("../images/mia_back.png") no-repeat scroll center top #090a1b;
+	background-size: auto auto;
+	
+    color: #090A1B; }
+    
+#arci{   background: url("../images/arci_back.png") no-repeat scroll center top #090a1b;
+	background-size: auto auto;
+	
+    color: #090A1B; }
+#gph{   background: url("../images/gph_back.png") no-repeat scroll center top #090a1b;
+	background-size: auto auto;
+	
+    color: #090A1B; }
+#magnolia {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #090A1B;
+    background-image: url("../images/magnolia_back.png");
+    background-origin: padding-box;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    color: #090A1B;
+}
+
+ul#menu{
+	height: 113px;
+	list-style: none outside none;
+	margin:0;
+	padding:0 0 0 3%;
+	width:100%;
+
+}

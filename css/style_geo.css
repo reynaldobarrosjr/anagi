@@ -1,0 +1,527 @@
+/* HTML TAGS */
+
+body{background: url(../images/geo/background.png) fixed no-repeat center #828283;}
+
+p{font-size: 1.4em;
+    margin: 0 0 20px;font-family:"AcadNusx"; }
+
+a{  color: #FFFFFF;
+    text-decoration: none;text-transform:uppercase;margin-right: 3px;margin-left: 3px;font-size: 10pt;font-family: Arial;}
+	a:focus,a:hover{color: #00c969;}
+
+}
+hr{text-indent: -9999px;}
+
+ul{padding-left: 2.5em;}
+
+li a{height: 50px;display: block;}
+
+h1{
+	color: #FFFFFF;
+    font-size: 6em;
+    line-height: 1;
+    text-shadow: 2px 4px 2px #000000;
+    text-weight: 9999;
+    margin-bottom: 10px;
+    font-family:AcadMtavr;
+}
+h5{margin:0;padding: 0;font-family: AcadNusx;}
+
+
+/* GENERAL */
+
+#rightpart,#headlinks,#middlecontent{position: relative;float: left;}
+
+
+/* HEADER */
+
+#topline{background-image: url("../images/topline.png");width: 100%;height: 39px;}
+
+/*HEAD LINKS*/
+
+#headlinks_projects{width: 10%;}
+#headlinks{color: black;width: 25%;background: url("../images/panel.png") no-repeat scroll 0 0 transparent;
+    height: 362px;
+    padding-top: 50px;
+    position: relative;}
+	#headlinks a{color: #000;margin-bottom: 4px;}
+ 	a.home{  background: url("../images/geo/bwicons_home.png") no-repeat scroll -37px -32px transparent;
+    height: 45px;
+    text-indent: -9999px;
+    width: 293px;}
+    a.company{ background: url("../images/geo/bwicons_home.png") no-repeat scroll -37px -83px transparent;
+    height: 45px;
+    text-indent: -9999px;
+    width: 293px;}
+    a.projects{ background: url("../images/geo/bwicons_home.png") no-repeat scroll -37px -138px transparent;
+    height: 45px;
+    text-indent: -9999px;
+    width: 293px;}
+    a.products{ background: url("../images/geo/bwicons_home.png") no-repeat scroll -37px -192px transparent;
+    height: 45px;
+    text-indent: -9999px;
+    width: 293px;}
+    a.clients{ background: url("../images/geo/bwicons_home.png") no-repeat scroll -37px -240px transparent;
+    height: 45px;
+    text-indent: -9999px;
+    width: 293px;}
+  	a.contact{ background: url("../images/geo/bwicons_home.png") no-repeat scroll -37px -295px transparent;
+    height: 45px;
+    text-indent: -9999px;
+    width: 293px;}
+   	a.projects_over{ background: url("../images/geo/bwicons_homehover.png") no-repeat scroll -37px -98px transparent;
+    height: 45px;
+    text-indent: -9999px;
+    width: 293px;}
+  	a.company_over{  background: url("../images/geo/bwicons_homehover.png") no-repeat scroll -37px -85px transparent;
+    height: 45px;
+    text-indent: -9999px;
+    width: 293px;}
+
+ 	
+ 	a.home:hover{background: url("../images/geo/bwicons_homehover.png") no-repeat scroll -37px -32px transparent;
+    height: 45px;
+    text-indent: -9999px;
+    width: 293px;}
+    a.company:hover{background: url("../images/geo/bwicons_homehover.png") no-repeat scroll -37px -83px transparent;
+    height: 45px;
+    text-indent: -9999px;
+    width: 293px;}
+    a.projects:hover{background: url("../images/geo/bwicons_homehover.png") no-repeat scroll -37px -138px transparent;
+    height: 45px;
+    text-indent: -9999px;
+    width: 293px;}
+    a.products:hover{background: url("../images/geo/bwicons_homehover.png") no-repeat scroll -37px -192px transparent;
+    height: 45px;
+    text-indent: -9999px;
+    width: 293px;}
+    a.clients:hover{background: url("../images/geo/bwicons_homehover.png") no-repeat scroll -37px -240px transparent;
+    height: 45px;
+    text-indent: -9999px;
+    width: 293px;}
+    a.contact:hover{background: url("../images/geo/bwicons_homehover.png") no-repeat scroll -37px -295px transparent;
+    height: 45px;
+    text-indent: -9999px;
+    width: 293px;}
+    
+ 	
+	
+/*RIGHT PART*/
+
+#anagiling{
+	background-image: url("../images/anagilang.png");
+    color: #FFFFFF;
+    float: right;
+    height: 89px;
+    line-height: 89px;
+    position: relative;
+    text-align: right;
+    text-shadow: 1px 1px #000000;
+    vertical-align: middle;
+    width: 179px;
+
+
+}
+	#anagiling a.last{padding-right: 30px;}
+#rightpart{width:25%;}
+#rightpart_projects{width: 15%;float: right;}/*projects_page style*/
+#tanagi {width: 25%;background-color: black;}
+#social,#social_transparent{ 
+    clear: both;
+    display: block;
+    float: right;
+    height: 170px;
+    margin: 58px 0 0;
+    padding-right: 25px;
+    text-decoration: none;}
+#social_transparent{
+	background-image: url("../images/back_social.png");
+
+
+
+
+}
+	
+	
+	a.social_twitter{background-image:url(../images/twitt.png);width: 32px;height: 32px;text-indent: -9999px;margin-top:30px;}
+	a.social_facebook{background-image:url(../images/fb.png);width: 32px;height: 32px;text-indent: -9999px;margin-top: 2px;}
+	a.social_digg{background-image:url(../images/digg.png);width: 32px;height: 32px;text-indent: -9999px;margin-top: 2px;}
+	a.social_twitter:hover{background-image:url(../images/twitt_color.png);width: 32px;height: 32px;text-indent: -9999px;margin-top:30px;}
+	a.social_facebook:hover{background-image:url(../images/fb_color.png);width: 32px;height: 32px;text-indent: -9999px;margin-top: 2px;}
+	a.social_digg:hover{background-image:url(../images/digg_color.png);width: 32px;height: 32px;text-indent: -9999px;margin-top: 2px;}
+#buy{ clear: both;
+    float: right;
+    margin-top: 56px;
+    position: relative;
+    text-align: right;}
+	
+
+/* MIDDLE CONTENT */
+
+#middlecontent{width: 50%;}
+#middlecontent_projects,#aux_middle_content{width: 75%;}/*-projects_page style-*/
+#aux_top_content{ background: url("../images/team_bkg.png") repeat-x scroll 0 0 transparent;
+    height: 420px;}
+#aux_middle_content{padding-left:10%;}
+#grad{ background-image: url("../images/grad.png");
+    background-repeat: repeat-x;
+    bottom: 0;
+    height: 182px;
+    position: absolute;
+    width: 100%;}
+
+
+#navigation_container{margin-left:auto;margin-right: auto;position: relative;bottom:62px;}
+#left_corner_navigation,#middle_navigation,#right_corner_navigation{float:left;}
+#left_corner_navigation{background: url("../images/table.png") no-repeat scroll 0 0 transparent;width: 169px;height: 137px;}
+#middle_navigation{background: url("../images/table.png") no-repeat scroll 0 0 transparent;width: 70%;background-position: -167px 0px;height: 137px;}
+#right_corner_navigation{background: url("../images/table_corner.png") no-repeat scroll right center transparent;width: 169px;height: 137px;}
+
+
+
+#dock{background: url("../images/dock_belt.png") repeat-x scroll 0 247px transparent;
+    display: table;
+    height: 179px;
+    position: relative;
+    width: 100%;}
+
+#table_container{
+	background: url("../images/dock_bkg.png") no-repeat scroll center bottom transparent;
+    display: table;
+    height: 179px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    }
+
+
+/* dock2 - bottom */
+#dock2 {
+	 bottom: 49px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.dock-container2 {
+	position: absolute;
+	background: url(images/dock-bg.gif);
+	padding-left: 20px;
+}
+a.dock-item2 {
+	display: block; 
+	font: bold 12px Arial, Helvetica, sans-serif;
+	color: #000; 
+	bottom: 0px; 
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+}
+.dock-item2 span {
+	display: none;
+	top:100px;
+	position: relative;
+}
+.dock-item2 img {
+	border: none; 
+	
+	width: 100%; 
+}
+
+
+
+/* FOOTER */
+
+#footer{
+   background: url("../images/bwover.png") no-repeat scroll center center #555554;
+    bottom: 0;
+    color: #FFFFFF;
+    height: 65px;
+    position: relative;
+    width: 100%;  
+   }
+   
+#footer img{ 
+	
+	left: 10px;
+    margin-right: 15px;
+    position: relative;
+    top: 10px;
+    vertical-align: sub;}
+    	
+#wmlogobw{ float: right;position: relative;right: 30px;}
+
+#footer_relative{
+	position: relative; 
+	width:100%;
+   	height:65px;   /* Height of the footer */
+   	background:url(../images/bwover.png);
+   	color: #fff;
+}
+
+
+
+
+
+
+
+
+/* OUR PROJECTS - specific CSS*/
+
+.our_projects{ background: url(../images/our_project_bkg.png) fixed no-repeat center #181818;color: #fff; }
+#headlinks_projects,#middlecontent_projects{float: left;}
+
+#headlinks_projects{background: url("../images/panel.png") no-repeat scroll 0 0 transparent;
+    height: 362px;
+    padding-top: 50px;
+    position: relative;}
+#anagiling img{vertical-align:middle;margin-right:25px;}
+
+
+ul.list_projects{display: table;
+    margin: 0 0 50px;
+    padding: 0;}
+li.realized,li.current{
+    float: left;
+    height: 180px;
+    line-height: 180px;
+    text-align: center;
+    width: 180px;
+    text-transform: uppercase;
+    display: table;
+    
+    }
+
+li.realized{background: url("../images/ball_realized.png") repeat scroll 0 0 transparent;
+    font-size: 1.2em;
+    font-weight: bold;}
+li.current{background:url(../images/ball_current.png);}
+
+h1#project{text-indent: -9999px;background: url(../images/projects.png) 0 0 transparent no-repeat;}
+h1#realized{text-indent: -9999px;background: url(../images/realized.png) 0 0 transparent no-repeat;}
+a.realized_link{color: #fff;}
+a.realized_link:hover{color:#000;}
+a.current_link{color: #fff;}
+a.current_link:hover{color:#EF113B;}
+h1#current{text-indent: -9999px;background: url(../images/current.png) 0 0 transparent no-repeat;}
+
+
+
+#rightpart_projects{width: 15%;position: relative;}
+#middlecontent_projects{ position: relative;
+    top: 10px;
+    width: 75%;}
+
+
+#footer_projects{
+	background: url("../images/projects_footer.png") repeat-x scroll 0 0 transparent;
+    clear: left;
+    color: #FFFFFF;
+    height: 55px;
+    padding-top: 11px;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+    top:40px;
+  
+}
+#logoanagi_footer{ 
+     margin-left: 30px;	}
+
+li.no_label{width:45px;overflow: hidden;}
+
+/*END OF PROJECTS STYLE*/
+
+
+/* COMPANY - specific CSS*/
+.company_bg{ background: url(../images/company_bkg.png) fixed no-repeat center #515151;color: #4a4a4a; }
+h2{color:#4a4a4a;font-weight: bold;font-family: AcadNusx;}
+#company{text-indent: -9999px;background: url(../images/geo/company.png) 0 0 transparent no-repeat;}
+#navlist{ display: table;
+    margin: 30px -35px 50px -30px;
+    position: relative;}
+	#navlist li
+	{
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+	}
+	#navlist li a{display: inline;}
+
+/* END OF COMPANY STYLE*/
+
+
+/* ANAGI TEAM STYLE */
+.anagi_bg{ background:url(../images/team_info_patern_bkg.png) repeat;color: #4a4a4a;}
+
+h1.anagiteam {text-indent: -9999px;background: url(../images/geo/anagi_team.png) no-repeat;margin-bottom: 20px;}
+.anagi_bg p{ color: #FFFFFF;
+    font-size: 12pt;
+    margin: 0 0 20px;}
+.anagi_bg h2{ color: #3C3C3C;
+    font-family: AcadNusX;
+    font-size: 24pt;}
+#links_team{  background: url("../images/links_team.png") no-repeat scroll 0 0 transparent;
+    height: 114px;
+    margin-bottom: 20px;
+    padding: 26px 0 3px 3px;
+    position: relative;
+    right: 14px;
+    width: 892px;
+    font-size: 1pt;
+    
+    }
+#links_team a{font-size: 1pt;}
+.box_info{background: none repeat scroll 0 0 #F7F7F7;
+    display: table;
+    float: left;
+    height: 472px;
+    margin-bottom: 10px;
+    margin-right: 10%;
+    margin-top: 10px;
+    width: 560px;}
+.bio_title{background-color: #00C969;
+    color: #FFFFFF;
+    font-size: 12pt;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 0;
+    padding-left: 25px;
+    vertical-align: middle;font-family:AcadNusx; }
+.extra_info{float: right;
+    width: 40%; font-size: 10pt;color:#3C3C3C;}
+    .extra_info span, .extra_info p{ color: #3C3C3C;
+    font-size: 10pt;
+    margin-bottom: 14px;}
+    .extra_info span{margin-bottom: 0px;}
+ span.high,p.high{
+    bottom: 20px;
+    color: #00C969;
+    display: block;
+    margin-top: 8px;
+    position: relative;}
+ p.high{ bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0;}
+ p.dark{color: #3c3c3c;}
+ h5.name{font-size: 12pt;font-weight: bold;color: #00c969;font-family: AcadNusx;}
+ a.team_link{background: #00c969;border-width: medium;
+border-style: solid;
+border-color: #0000FF;}
+    
+a#director{ background: url("../images/geo/team_links_over.png") repeat scroll 0 0 transparent;
+    color: transparent;
+    margin-left: 25px;
+    margin-right: -5px;
+    padding: 3px 3px 7px 0;
+    text-indent: -9999px;
+    width: 298px;
+}
+a#technical{ background: url("../images/geo/team_links.png") repeat scroll -135px 0 transparent;
+    color: transparent;
+    font-size: 4px;
+    padding: 2px 90px 17px 8px;
+    right: 12px;
+    text-indent: -9999px;
+    width: 298px;}
+a#financial{   background: url("../images/geo/team_links.png") repeat scroll -298px 0 transparent;
+    color: transparent;
+    padding: 4px 5px 17px 175px;
+    text-indent: -9999px;
+    width: 298px;}
+a#line{  background: url("../images/geo/team_links.png") repeat scroll -509px 0 transparent;
+    color: transparent;
+    padding: 4px 6px 17px 130px;
+    text-indent: -9999px;
+    width: 300px;}
+a#human{background: url("../images/geo/team_links.png") no-repeat scroll -669px 0 transparent;
+    color: transparent;
+    padding: 4px 53px 17px 102px;
+    text-indent: -9999px;
+    width: 298px;}
+a#mechanization{ background: url("../images/geo/team_links.png") repeat scroll 0 -33px transparent;
+    color: transparent;
+    margin-left: 25px;
+    padding: 4px 6px 17px 88px;
+    text-indent: -9999px;
+    width: 298px;}
+a#shops{background: url("../images/geo/team_links.png") no-repeat scroll -119px -33px transparent;
+    color: transparent;
+    font-size: 1pt;
+    line-height: 17px;
+    padding: 4px 205px 23px 157px;
+    position: relative;
+    text-indent: -9999px;
+    width: 0;}
+a#juridical{ background: url("../images/geo/team_links.png") repeat scroll -1380px -33px transparent;
+    color: transparent;
+    padding: 4px 9px 16px 172px;
+    text-indent: -9999px;
+    width: 298px;}
+    
+a#director_current,a#director:hover{  background: url("../images/geo/team_links_over.png") repeat scroll 0 0 transparent;
+    color: transparent;
+    height: 62px;
+    margin-left: 25px;
+    margin-right: -5px;
+    padding: 4px 120px 15px 0;
+    text-indent: -9999px;
+    width: 301px;
+    
+    }
+    
+a#technical_current,a#technical:hover{  background: url("../images/geo/team_links_over.png") repeat scroll -135px 0 transparent;
+    color: transparent;
+    font-size: 4px;
+    padding: 2px 90px 17px 8px;
+    right: 12px;
+    text-indent: -9999px;
+    width: 298px;}
+    
+a#financial_current,a#financial:hover{  background: url("../images/geo/team_links_over.png") repeat scroll -298px 0 transparent;
+    color: transparent;
+    padding: 4px 5px 17px 175px;
+    text-indent: -9999px;
+    width: 298px;}
+a#line_current,a#line:hover{  background: url("../images/geo/team_links_over.png") repeat scroll -509px 0 transparent;
+    color: transparent;
+    padding: 4px 6px 17px 130px;
+    text-indent: -9999px;
+    width: 300px;}
+a#human_current,a#human:hover{background: url("../images/geo/team_links_over.png") no-repeat scroll -669px 0 transparent;
+    color: transparent;
+    padding: 4px 53px 17px 102px;
+    text-indent: -9999px;
+    width: 298px;}
+a#mechanization_current,a#mechanization:hover{   background: url("../images/geo/team_links_over.png") repeat scroll 0 -33px transparent;
+    color: transparent;
+    margin-left: 25px;
+    padding: 4px 6px 17px 88px;
+    text-indent: -9999px;
+    width: 298px;}
+
+a#shops_current,a#shops:hover{ background: url("../images/geo/team_links_over.png") no-repeat scroll -119px -33px transparent;
+    color: transparent;
+    font-size: 1pt;
+    line-height: 17px;
+    padding: 4px 205px 23px 157px;
+    position: relative;
+    text-indent: -9999px;
+    width: 0;}
+a#juridical_current,a#juridical:hover{  background: url("../images/geo/team_links_over.png") repeat scroll -1380px -33px transparent;
+    color: transparent;
+    padding: 4px 9px 16px 172px;
+    text-indent: -9999px;
+    width: 298px;}
+    
+    
+#grade_info{ background: url("../images/grad_info.png") repeat scroll 0 0 transparent;
+    height: 16px;
+    margin: -5px 0 0;
+    padding: 0;}
+    
+    
+    
+

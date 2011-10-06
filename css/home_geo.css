@@ -1,0 +1,34 @@
+
+
+
+a#piazza_dock,a#batumi_dock,a#mcdonalds_dock{float: left;position: relative;text-indent: -9999px;height:426px;}
+a#piazza_dock{background: url(../images/geo/piazza_ico.png) 0 0 no-repeat scroll;width: 384px;}
+a#piazza_dock:hover{background: url(../images/geo/piazza_ico_on.png) 0 0 no-repeat scroll;width: 384px;}
+a#batumi_dock{background: url(../images/geo/batumi_ico.png) 0 0 no-repeat scroll;width: 365px;}
+a#batumi_dock:hover{background: url(../images/geo/batumi_ico_on.png) 0 0 no-repeat scroll;width: 365px;}
+a#mcdonalds_dock{background: url(../images/geo/mc_donalds_ico.png) 0 0 no-repeat scroll;width: 365px;}
+a#mcdonalds_dock:hover{background: url(../images/geo/mc_donalds_ico_on.png) 0 0 no-repeat scroll;width: 365px;}
+a#opera_dock,a#airport_dock,a#gph_dock{float: left;position: relative;text-indent: -9999px;height:426px;}
+a#opera_dock{background: url(../images/geo/opera_ico.png) 0 0 no-repeat scroll;width: 381px;}
+a#opera_dock:hover{background: url(../images/geo/opera_ico_on.png) 0 0 no-repeat scroll;width: 381px;}
+a#airport_dock{background: url(../images/geo/airport_ico.png) 0 0 no-repeat scroll;width: 325px;}
+a#airport_dock:hover{background: url(../images/geo/airport_ico_on.png) 0 0 no-repeat scroll;width: 325px;}
+a#gph_dock{background: url(../images/geo/gph_ico.png) 0 0 no-repeat scroll;width: 416px;}
+a#gph_dock:hover{background: url(../images/geo/gph_ico_on.png) 0 0 no-repeat scroll;width: 416px;}
+
+
+#dock ul{
+	 background: none repeat scroll 0 0;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1175px;
+
+
+
+}
+#table_container ul li{margin-left:30px;}
+
+a.current_lang{color: #00c969;}
+
+a.social_twitter{background-image:url(../images/twitt.png);width: 32px;height: 32px;text-indent: -9999px;margin-top:30px;}

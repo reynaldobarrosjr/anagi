@@ -1,0 +1,85 @@
+/* HTML TAGS */
+*{margin:0;padding:0;}
+html{
+height: 100%;width: 100%;  
+-moz-box-shadow: inset 0 0 20px -5px #000;
+-webkit-box-shadow: inset 0 0 20px -5px#000;
+box-shadow: inset 0 0 20px -5px #000;
+
+}
+body{
+	background-attachment: fixed;
+    background-clip: border-box;
+    background-color: #FFFFFF;
+    background-image: url("../images/background_tapume.jpg");
+    background-origin: padding-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+p.geo{font-family:"AcadNusx";}
+
+
+/* MIDDLE CONTENT */
+#container{
+	background: none repeat scroll 0 0 transparent;
+    height: 390px;
+    margin-top: -195px;
+    position: absolute;
+    top: 50%;
+    vertical-align: middle;
+    width: 100%;
+}
+
+#middle_text{ background: none repeat scroll 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+    width: 515px;}
+    
+img.logo{margin-bottom: 30px;}
+a.newsite{
+	line-height: 150px;
+    margin-top: 30px;
+    position: relative;
+}
+
+/* FOOTER */
+
+#footer{
+   background: url("../images/bwover.png") no-repeat scroll center center #555554;
+    bottom: 0;
+    color: #FFFFFF;
+    height: 65px;
+    position: absolute;
+    width: 100%; 
+   }
+   
+#footer img{ 	
+    position: relative;
+    top: 10px;
+    vertical-align: sub;}
+#logoanagi{  margin-left: 10px;}  
+#tanagi_footer{width: 80%;} 	
+#wmlogobw{ 
+    float:right;
+  	margin-right:10px;
+}
+
+#footer_relative{
+	position: absolute; 
+	width:100%;
+   	height:65px;   /* Height of the footer */
+   	background:url(../images/bwover.png);
+   	color: #fff;
+}
+
+
+
+
+
+
+
+
+
