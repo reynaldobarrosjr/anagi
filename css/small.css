@@ -1,3 +1,17 @@
+#home{
+	
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-color: #FFFFFF;
+    background-image: url("../images/background_home_1920.png");
+    background-origin: padding-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+
+
+}
+
 #airport {
     background-attachment: scroll;
     background-color: #090A1B;
