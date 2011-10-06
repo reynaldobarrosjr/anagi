@@ -776,7 +776,40 @@ a#juridical_current,a#juridical:hover{  background: url("../images/team_links.pn
     height: 16px;
     margin: -5px 0 0;
     padding: 0;}
-    
-
+   
+/* Style for slider on footer */
+ 
+.slider {
+    background: url("../images/wishmodus_logo.png") no-repeat scroll 0 0 transparent;
+    bottom: 0;
+    float: left;
+    height: 45px;
+    left: 140px;
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 0;
+    padding-left: 10px;
+    padding-top: 3px;
+    position: absolute;
+    width: 178px;
+}
 	
+a.wishmodus {
+    color: transparent;
+    display: block;
+    height: 40px;
+    text-decoration: none;
+    text-indent: -99999px;
+    width: 200px;
+}
 
+.block {
+    color: transparent;
+    float: right;
+    margin-right: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 178px;
+}
+
+/* end of style of slider footer */

@@ -2,33 +2,22 @@
 <html id="home">
 
 <head>
-	<!-- Framework CSS -->
-    <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
-    <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print">
+    <!-- Source File -->
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.9.0/build/reset-fonts-grids/reset-fonts-grids.css">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/home.css" type="text/css" media="screen">
     
-    <!--[if IE]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen, projection"><![endif]-->
-   	<!--[if IE 7]><link rel="stylesheet" href="css/ie7.css" type="text/css" media="screen, projection"><![endif]-->
-   	
-   	<!-- Older IE stylesheet, to reposition navigation arrows, added AFTER the theme stylesheet above -->
-	<!--[if lte IE 7]>
-	<link rel="stylesheet" href="css/anythingslider-ie.css" type="text/css" media="screen" />
-	<![endif]-->
-	
 	<meta charset="utf-8">
 
-	<title>Home Tanagi</title>
+	<title>Home Tanagi branch Desenv Refactory</title>
 
 	<!-- jQuery (required) -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-
+	<script type="text/javascript" src="js/functions.js"></script>
 	<!-- Demo stuff -->
 
-	<!-- Anything Slider -->
-	<link rel="stylesheet" href="css/anythingslider.css">
-	<script src="js/jquery.anythingslider.js"></script>
+
 	<script type="text/javascript">//<!-- Begin
 		var css = "";
 		if (screen.width >= 1920 && screen.height >=1080) css='css/small.css';
@@ -43,255 +32,7 @@
 	// End -->
 	</script>
 
-	<!-- AnythingSlider optional extensions -->
-	<!-- <script src="js/jquery.anythingslider.fx.js"></script> -->
-	<!-- <script src="js/jquery.anythingslider.video.js"></script> -->
-
-	<!-- Define slider dimensions here -->
-	<style>
-	#slider { 
-    display: inline-block;
-    height: 390px;width:1020px;}
 	
-	<!-- estilos inline -->
-	
-	
-	/* Firefox Dotted Outline Fix */
-	a:active { 
-		outline: none; 
-	}
-	
-	/* Firefox Dotted Outline Fix */
-	a:focus { 
-		-moz-outline-style: none; 
-	}
-	
-	/* Menu Body */
-	ul#menu {
-		width:80%;
-		height:102px;
-		background:url(bg.png) repeat-x;
-		list-style:none;
-		margin:0;
-		padding:0;
-		padding-top:20px;
-		padding-left:20%;
-		display:inline;
-		overflow:hidden;
-	}
-	
-	/* Float LI Elements - horizontal display */
-	ul#menu li {
-		 float: left;
-    	 margin-left: 4%;
-	}
-	
-	/* Link - common attributes */
-	ul#menu li a {
-		background:url(images/Iconswhiteback.png) no-repeat scroll top left;
-		display:block;
-		height:426px;
-		position:relative;
-	}
-	
-	/* Specify width and background position attributes specifically for the class: "home" */
-	ul#menu li a.home {
-		width:285px;
-	}
-	
-	/* Specify width and background position attributes specifically for the class: "piazza" */
-	ul#menu li a.piazza {
-		  background-position: 0 45px;
-    width: 269px;
-	}
-	/* Shift background position on hover for the class: "piazza" */
-	ul#menu li a.piazza span {
-		 background-position: -293px 45px;
-    background-repeat: no-repeat;
-    	 
-	}
-	/* Specify width and background position attributes specifically for the class: "custom_service" */
-	ul#menu li a.custom_service {
-		  background-position: -588px 45px;
-    width: 283px;
-	}
-	/* Shift background position on hover for the class: "custom service" */
-	ul#menu li a.custom_service span {
-		background-position: -890px 45px;	}
-	/* Specify width and background position attributes specifically for the class: "mc_donalds" */
-	ul#menu li a.mc_donalds {
-		     background-position: -1880px 50%;
-    width: 282px;
-	}
-	/* Shift background position on hover for the class: "mc_donalds" */
-	ul#menu li a.mc_donalds span {
-		background-position: -2197px 50%;	
-	}
-	/* Specify width and background position attributes specifically for the class: "batumi_opera" */
-	ul#menu li a.batumi_opera {
-		    background-position: -1224px 50%;
-    		width: 295px;
-	}
-	/* Shift background position on hover for the class: "batumi_opera" */
-	ul#menu li a.batumi_opera span {
-		 background-position: -1554px 50%;
-    background-repeat: no-repeat;
-    	 
-	}
-	/* Specify width and background position attributes specifically for the class: "Mestia Airport" */
-	ul#menu li a.mestia_airport {
-		    background-position: -2523px 50%;
-    width: 245px;
-	}
-	/* Shift background position on hover for the class: "Mestia Airport" */
-	ul#menu li a.mestia_airport span {
-		background-position: -2801px 50%;
-    	background-repeat: no-repeat;
-    	 
-	}
-	/* Specify width and background position attributes specifically for the class: "Magnolia" */
-	ul#menu li a.magnolia {
-		     background-position: -3089px 50%;
-    width: 287px;
-	}
-	/* Shift background position on hover for the class: "magnolia" */
-	ul#menu li a.magnolia span {
-		 background-position: -3419px 50%;
-         background-repeat: no-repeat;
-    	 
-	}
-	/* Specify width and background position attributes specifically for the class: "arci_batumi" */
-	ul#menu li a.arci_batumi {
-		    background-position: -3784px 50%;
-    		width: 284px;
-    }
-	/* Shift background position on hover for the class: "arci_batumi" */
-	ul#menu li a.arci_batumi span {
-		 background-position: -4143px 50%;
-    	 background-repeat: no-repeat;
-    
-    	 
-	}
-	/* Specify width and background position attributes specifically for the class: "mia" */
-	ul#menu li a.mia {
-		background-position: -4502px 50%;
-    width: 284px;
-	}
-	/* Shift background position on hover for the class: "mia" */
-	ul#menu li a.mia span {
-		  background-position: -4864px 50%;
-    background-repeat: no-repeat;
-    	 
-	}
-	/* Specify width and background position attributes specifically for the class: "gran_palace" */
-	ul#menu li a.gran_palace {
-		 background-position: -5205px 50%;
-    width: 287px;
-	}
-	/* Shift background position on hover for the class: "gran_palace" */
-	ul#menu li a.gran_palace span {
-		background-position: -5571px 50%;
-    	background-repeat: no-repeat;
-    	 
-	}
-	
-	/* Span (on hover) - common attributes */
-	ul#menu li a span {
-		background:url(images/Iconswhiteback.png) no-repeat scroll;
-		display:block;
-		position:absolute;
-		top:0;
-		left:0;
-		height:100%;
-		width:100%;
-		z-index:100;
-	}
-	
-	/* Span (on hover) - display pointer */
-	ul#menu li a span:hover {
-		cursor:pointer;
-	}
-	
-	/* Shift background position on hover for the class: "home" */
-	ul#menu li a.home span {
-		background-position:-278px 0px;
-	}
-	
-	
-/* Css for slider logo */	
-.block {
-    color: transparent;
-    float: right;
-    margin-right: 10px;
-    overflow: hidden;
-    position: relative;
-    width: 178px;
-}
-	
-.slider {
-    background: url("images/wishmodus_logo.png") no-repeat scroll 0 0 transparent;
-    bottom: 0;
-    float: left;
-    height: 45px;
-    left: 140px;
-    list-style-type: none;
-    margin: 0;
-    padding-bottom: 0;
-    padding-left: 10px;
-    padding-top: 3px;
-    position: absolute;
-    width: 178px;
-}
-
-a.wishmodus{
-      color: transparent;
-	    display: block;
-	    height: 40px;
-	    text-decoration: none;
-	    text-indent: -99999px;
-	    width: 200px;
-}
-	
-/* end of css for slider logo */	
-	
-	
-	
-<!-- fim dos estilos -->
-	
-	
-	
-	</style>
-
-	<!-- AnythingSlider initialization -->
-	<script>
-		// DOM Ready
-		$(function(){
-			$('#slider').anythingSlider( {
-			buildNavigation     : false,
-			buildStart: false,
-			autoPlay : false,	
-			buildStartStop      : false,      // If true, builds the start/stop button
-			
-			
-			
-			});
-		//Full Box Sliding (Hidden to Visible)
-	   	$('.block').hover(function(){
-	        $(".slider", this).stop().animate({left:'0px'},{queue:false,duration:160});
-	        }, function() {
-	        $(".slider", this).stop().animate({left:'140px'},{queue:false,duration:160});
-	     });	
-			
-			
-		});
-	</script>
-	
-	
-
-	<!-- Older IE stylesheet, to reposition navigation arrows, added AFTER the theme stylesheet -->
-	<!--[if lte IE 7]>
-	<link rel="stylesheet" href="css/anythingslider-ie.css" type="text/css" media="screen" />
-	<![endif]-->
 </head>
 
 <body id="simple">
@@ -320,47 +61,8 @@ a.wishmodus{
 	    		
 	    			<img id="buy" src="images/buy_apartments.png" alt="Buy apartments"/>
 	</div>
-	<hr>
-	
-	<!-- Simple AnythingSlider -->
-	<div id="slide_container">
-		<ul id="slider">
-
-		<li>
-			<ul id="menu">
-        		<li><a href="piazza.html#1" class="piazza"><span></span></a></li>
-        		<li><a href="servicecenter.html#1" class="custom_service"><span></span></a></li>
-        		<li><a href="mcdonalds.html#1" class="mc_donalds"><span></span></a></li>
-    		</ul>
-		</li>
-
-		<li>
-			<ul id="menu">
-        		<li><a href="batumi.html#2" class="batumi_opera"><span></span></a></li>
-        		<li><a href="airport.html#2" class="mestia_airport"><span></span></a></li>
-        		<li><a href="magnolia.html#2" class="magnolia"><span></span></a></li>
-    		</ul>
-    	</li>
-    	
-    	
-		<li>
-			<ul id="menu">
-				<li><a href="arci.html#3" class="arci_batumi"><span></span></a></li>
-        		<li><a href="mia.html#3" class="mia"><span></span></a></li>
-        		<li><a href="gph.html#3" class="gran_palace"><span></span></a></li>
-			</ul>
-		</li>
-
-		
-
-	</ul>
 	
 	
-	</div>
-	
-	
-
-	<!-- END AnythingSlider -->
 	 <div id="footer">
 	 	<img id="logoanagi" src="images/logoanagi.png" alt="logoanagi" width="41" height="45" /> <span>&copy; Anagi.Inc All Rights Reserverd</span>
 	 	<div class="block">
