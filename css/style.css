@@ -480,8 +480,11 @@ a.dock-item2 {
    	background:url(../images/bwover.png);
    	color: #fff;
 }
-
-
+.left_footer {
+    background: none repeat scroll 0 0 ;
+    float: left;
+    width: 300px;
+}
 
 
 

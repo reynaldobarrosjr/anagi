@@ -18,20 +18,6 @@
 	<!-- Demo stuff -->
 
 
-	<script type="text/javascript">//<!-- Begin
-		var css = "";
-		if (screen.width >= 1920 && screen.height >=1080) css='css/small.css';
-		else if (screen.width <= 1280 && screen.height <= 768)  css='css/medium.css';
-		else css='no';
-		if (css!='no'){
-		document.write("<link href='"+css+"' rel='stylesheet' type='text/css' />");
-		alert("opaopa!");
-		
-
-	}
-	// End -->
-	</script>
-
 	
 </head>
 
@@ -61,16 +47,25 @@
 	    		
 	    			<img id="buy" src="images/buy_apartments.png" alt="Buy apartments"/>
 	</div>
+	<div id="dock">
+			<ul id="menu">
+    		    <li><a class="piazza" href="piazza.html">Piazza</a></li>
+    		    <li><a class="custom_service" href="servicecenter.html">Custom Service<span style="opacity: 1;"></span></a></li>
+    		    <li><a class="mc_donalds" href="mcdonalds.html">Mc Donalds<span style="opacity: 0;"></span></a></li>
+    		</ul>
 	
+	</div>
 	
 	 <div id="footer">
-	 	<img id="logoanagi" src="images/logoanagi.png" alt="logoanagi" width="41" height="45" /> <span>&copy; Anagi.Inc All Rights Reserverd</span>
+	 	<div class="left_footer">
+	 		<img id="logoanagi" src="images/logoanagi.png" alt="logoanagi" width="41" height="45" /> <span>&copy; Anagi.Inc All Rights Reserverd</span>
+	 	</div>
 	 	<div class="block">
 				<img src="images/wmlogo.png">
 				<div class="slider">
                     <a class="wishmodus" href="#">Wishmodus	</a>
                 </div>
-         </div>
+        </div>
 	 
 	    	
 	    
@@ -78,28 +73,5 @@
 
 </body>
 
-
-
-<!-- Let's do the animation -->
-<script type="text/javascript">
-	$(function() {
-		// set opacity to nill on page load
-		$("ul#menu span").css("opacity","0");
-		// on mouse over
-		$("ul#menu span").hover(function () {
-			// animate opacity to full
-			$(this).stop().animate({
-				opacity: 1
-			}, 'fast');
-		},
-		// on mouse out
-		function () {
-			// animate opacity to nill
-			$(this).stop().animate({
-				opacity: 0
-			}, 'fast');
-		});
-	});
-</script>
 
 </html>
