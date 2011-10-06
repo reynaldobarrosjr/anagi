@@ -9,6 +9,21 @@ $(document).ready(function(){
 	        $(".slider", this).stop().animate({left:'140px'},{queue:false,duration:160});
 	        });	  
 	        
-	        
+		// set opacity to nill on page load
+		$("#dock span").css("opacity","0");
+		// on mouse over
+		$("#dock span").hover(function () {
+			// animate opacity to full
+			$(this).stop().animate({
+				opacity: 1
+			}, 'fast');
+		},
+		// on mouse out
+		function () {
+			// animate opacity to nill
+			$(this).stop().animate({
+				opacity: 0
+			}, 'fast');
+		});        
 	      
  });
