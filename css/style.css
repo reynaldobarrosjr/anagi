@@ -272,14 +272,15 @@ ul#social li {
     position: relative;
 }
 #social_transparent {
-    background-image: url("../images/back_social.png");
+    background-image: url("../images/sprite_root.png");
+    background-position: -369px 6px;
     left: 0;
     padding-left: 30px;
     position: relative;
 }
 
 	
-#social a {
+#social a,#social_transparent a {
     height: 22px;
     width: 22px;
 }
@@ -508,25 +509,26 @@ ul#menu li a.gran_palace span {
     }
     
 a.details {
-    background: url("../images/arrows.png") no-repeat scroll -2px 0 transparent;
+    background: url("../images/sprite_mesa.png") no-repeat scroll -12px -4px transparent;
     color: transparent;
+    float: left;
     height: 62px;
     padding: 10px 0;
     position: relative;
     text-indent: -9999px;
-    top: 414px;
-    width: 40px;
+    top: 554px;
+    width: 56px;
     z-index: 9999;
 }
 a.details:hover {
-    background: url("../images/arrows.png") no-repeat scroll -64px 0 transparent;
+    background: url("../images/sprite_mesa.png") no-repeat scroll -138px -4px transparent;
 }
 a.up {
     background: url("../images/arrows.png") no-repeat scroll -122px 0 transparent;
     color: transparent;
     height: 62px;
-    left: 10px;
-    padding: 7px 9px 10px 0;
+    left: -15px;
+    padding: 92px 10px 10px 0;
     position: relative;
     text-indent: -9999px;
     top: 65px;

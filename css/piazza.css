@@ -46,6 +46,12 @@ ul#menu li {
     text-decoration: none;
     top: 182px;
 }
+.coda-nav-left a {
+    display: block;
+    float: left;
+    top: 202px;
+    z-index: -10;
+}
 
 /* */
 #details {
@@ -63,7 +69,7 @@ ul#menu li {
     position: relative;
     text-align: left;
     top: 590px;
-    width: 70%;
+    width: 60%;
 }
 
 /*top text - left and description*/
@@ -103,6 +109,13 @@ div#text_container p{
 
 }
 
+
+#social a, #social_transparent a {
+    height: 22px;
+    left: 15px;
+    position: relative;
+    width: 22px;
+}
 
 
 /* footer */
