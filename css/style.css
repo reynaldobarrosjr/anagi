@@ -205,7 +205,7 @@ a#clients {
     text-indent: -9999px;
 } 
 
-a#clients:hover, a.clients_over {
+a#clients:hover,a#clients_over{
     background: url("../images/sprite_root.png") no-repeat scroll -149px -134px transparent;
     text-indent: -9999px;
 }
@@ -219,10 +219,10 @@ a#contact:hover {
     text-indent: -9999px;
 }
 
-   	a#projects_over{ background: url("../images/sprite_root.png") no-repeat scroll -276px -97px transparent;
-    
+a#projects_over {
+    background: url("../images/sprite_root.png") no-repeat scroll -149px -68px transparent;
     text-indent: -9999px;
-    }
+}
 a#company_over {
     background: url("../images/sprite_root.png") no-repeat scroll -149px -35px transparent;
     text-indent: -9999px;
@@ -768,6 +768,7 @@ h2 {
 #company {
     background: url("../images/company_logo.png") no-repeat scroll 0 0 transparent;
     font-size: 22pt;
+    margin-bottom: 15px;
     text-indent: -9999px;
 }
 #navlist{ display: table;
