@@ -21,10 +21,10 @@ ul {
     padding-left: 20px;
 }
 p {
+    color: #FFFFFF;
     font-family: "Trebuchet MS";
     font-size: 1.4em;
     margin: 0 0 5px;
-    color: #8b8b8a;
 }
 .coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel {
     width: 750px;
@@ -90,21 +90,28 @@ ul#menu li {
     padding: 30px 0 30px 30px;
 }
 #left_corner {
+    background: url("../images/sprite_mesa.png") repeat scroll 15px -299px transparent;
     float: left;
+    left: 12px;
     position: relative;
     text-align: left;
+    text-indent: -9999px;
     text-transform: uppercase;
+    top: 24px;
+    width: 336px;
 }
 #description {
     background: none repeat scroll 0 0 transparent;
+    color: #FFFFFF;
     display: table;
     float: right;
-    font-size: 8pt;
+    font-size: 7pt;
     margin-bottom: 30px;
     position: relative;
+    right: 70px;
     text-align: left;
+    top: 30px;
     width: 40%;
-    color: #8b8b8a;
 }
 div#text_container p{
 
