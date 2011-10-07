@@ -351,92 +351,83 @@ ul#menu li a {
 	
 	/* Specify width and background position attributes specifically for the class: "piazza" */
 ul#menu li a.piazza {
-    background-position: 3px -85px;
+    background-position: 0 -85px;
 }
 	/* Shift background position on hover for the class: "piazza" */
 ul#menu li a.piazza span {
-    background-position: -1617px -85px;
+    background-position: -170px -85px;
     background-repeat: no-repeat;
 }
 	/* Specify width and background position attributes specifically for the class: "custom_service" */
 ul#menu li a.custom_service {
-    background-position: -376px -85px;
+    background-position: -356px -85px;
 }
 	/* Shift background position on hover for the class: "custom service" */
 ul#menu li a.custom_service span {
-    background-position: -1988px -85px;
+    background-position: -539px -85px;
 }
 	/* Specify width and background position attributes specifically for the class: "mc_donalds" */
-	ul#menu li a.mc_donalds {
-		    background-position: -1880px 50%;
-	}
+ul#menu li a.mc_donalds {
+    background-position: -724px -85px;
+}
 	/* Shift background position on hover for the class: "mc_donalds" */
-	ul#menu li a.mc_donalds span {
-		background-position: -2197px 50%;	
-	}
+ul#menu li a.mc_donalds span {
+    background-position: -911px -85px;
+}
 	/* Specify width and background position attributes specifically for the class: "batumi_opera" */
-	ul#menu li a.batumi_opera {
-		   background-position: -1224px 50%;
-    	}
+ul#menu li a.batumi_opera {
+    background-position: -1099px -85px;
+}
 	/* Shift background position on hover for the class: "batumi_opera" */
-	ul#menu li a.batumi_opera span {
-		 background-position: -1554px 50%;
+ul#menu li a.batumi_opera span {
+    background-position: -1285px -85px;
     background-repeat: no-repeat;
-    	 
-	}
+}
 	/* Specify width and background position attributes specifically for the class: "Mestia Airport" */
 	ul#menu li a.mestia_airport {
-		   background-position: -2525px 50%;
-    width: 245px;
-	}
+    background-position: -1457px -85px;
+}
 	/* Shift background position on hover for the class: "Mestia Airport" */
-	ul#menu li a.mestia_airport span {
-		 background-position: -2803px 50%;
-    background-repeat: no-repeat;
-    	 
-	}
+	ul#menu li a.magnolia {
+    background-position: -1988px -85px;
+    width: 200px;
+}
 	/* Specify width and background position attributes specifically for the class: "Magnolia" */
 	ul#menu li a.magnolia {
-    background-position: -3050px 50%;
-    width: 329px;
-	}
+    background-position: -1786px -85px;
+    width: 200px;
+}
 	/* Shift background position on hover for the class: "magnolia" */
 	ul#menu li a.magnolia span {
-		  background-position: -3380px 50%;
+    background-position: -1988px -85px;
     background-repeat: no-repeat;
-    	 
-	}
+}
 	/* Specify width and background position attributes specifically for the class: "arci_batumi" */
 	ul#menu li a.arci_batumi {
-		    background-position: -3784px 50%;
-    		width: 284px;
-    }
+    background-position: -2178px -85px;
+}
 	/* Shift background position on hover for the class: "arci_batumi" */
 	ul#menu li a.arci_batumi span {
-		 background-position: -4143px 50%;
-    	 background-repeat: no-repeat;
-    
-    	 
-	}
+    background-position: -2320px -84px;
+    background-repeat: no-repeat;
+}
 	/* Specify width and background position attributes specifically for the class: "mia" */
 	ul#menu li a.mia {
-		background-position: -4502px 50%;
-    width: 284px;
-	}
+    background-position: -2472px -85px;
+}
 	/* Shift background position on hover for the class: "mia" */
 	ul#menu li a.mia span {
-		  background-position: -4864px 50%;
+		  background-position: -4864px 80px;
     background-repeat: no-repeat;
     	 
 	}
 	/* Specify width and background position attributes specifically for the class: "gran_palace" */
 	ul#menu li a.gran_palace {
-		 background-position: -5205px 50%;
-    width: 287px;
+		 background-position: -5205px 80px;
 	}
 	/* Shift background position on hover for the class: "gran_palace" */
 	ul#menu li a.gran_palace span {
-		background-position: -5571px 50%;
+		background-position: -5571px 80px;
     	background-repeat: no-repeat;
     	 
 	}
