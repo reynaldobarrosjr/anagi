@@ -4,25 +4,21 @@
 	This plugin available for use in all personal or commercial projects under both MIT and GPL licenses.
 */
 
-/* Insignificant stuff, for demo purposes */
 
-	body { padding: 0; margin:0; }
-	.panel h2.title { margin-bottom: 0; }
-	noscript div { background: #ccc; border: 1px solid #900; margin: 0; padding: 15px }
 
 /* Most common stuff you'll need to change */
 
 	.coda-slider-wrapper { padding: 20px 0 }
-	.coda-slider {  }
+	.coda-slider { background: #ebebeb }
 	
 	/* Use this to keep the slider content contained in a box even when JavaScript is disabled */
 	.coda-slider-no-js .coda-slider { height: 200px; overflow: auto !important; padding-right: 20px }
 	
 	/* Change the width of the entire slider (without dynamic arrows) */
-	.coda-slider, .coda-slider .panel { width: 600px } 
+	.coda-slider, .coda-slider .panel { width: 800px; } 
 	
 	/* Change margin and width of the slider (with dynamic arrows) */
-	.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel { width: 600px }
+	.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel { width: 767px; }
 	.coda-slider-wrapper.arrows .coda-slider { margin: 0 10px }
 	
 	/* Arrow styling */
@@ -32,7 +28,7 @@
 	.coda-nav ul li a.current { background: #39c }
 	
 	/* Panel padding */
-	.coda-slider .panel-wrapper {  }
+	.coda-slider .panel-wrapper { padding: 20px }
 	
 	/* Preloader */
 	.coda-slider p.loading { padding: 20px; text-align: center }
@@ -45,13 +41,10 @@
 	.coda-nav ul li a { background: #000; color: #fff; display: block; float: left; margin-right: 1px; padding: 3px 6px; text-decoration: none }
 	
 	/* Miscellaneous */
-	.coda-slider-wrapper {      background-color: yellow;
-   }
+	.coda-slider-wrapper { clear: both; overflow: auto }
 	.coda-slider { float: left; overflow: hidden; position: relative }
 	.coda-slider .panel { display: block; float: left }
-	.coda-slider .panel-container { position: relative;top:91px;text-align: center; }
-	.coda-nav-left, .coda-nav-right {  bottom: 280px;
-    float: left;
-    position: relative; }
+	.coda-slider .panel-container { position: relative }
+	.coda-nav-left, .coda-nav-right { float: left }
 	.coda-nav-left a, .coda-nav-right a { display: block; text-align: center; text-decoration: none }
 	

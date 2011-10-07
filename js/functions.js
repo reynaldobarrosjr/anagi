@@ -10,9 +10,9 @@ $(document).ready(function(){
 	        });	  
 	        
 		// set opacity to nill on page load
-		$("#dock span").css("opacity","0");
+		$("#menu li span").css("opacity","0");
 		// on mouse over
-		$("#dock span").hover(function () {
+		$("#menu li span").hover(function () {
 			// animate opacity to full
 			$(this).stop().animate({
 				opacity: 1
