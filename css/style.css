@@ -32,14 +32,13 @@ ul{padding-left: 2.5em;}
 
 li a{height: 50px;display: block;}
 
-h1{
-	color: #FFFFFF;
+h1 {
+    color: #FFFFFF;
     font-family: "Trebuchet MS";
-    font-size: 6em;
+    font-size: 34pt;
     line-height: 1;
+    margin-bottom: 0;
     text-shadow: 2px 4px 2px #000000;
-    text-weight: 9999;
-    margin-bottom: 10px;
 }
 h1#anagi_team{background: url(../images/anagi_team.png) no-repeat;text-indent: -9999px;}
 h1#office{background: url(../images/offices.png) no-repeat;text-indent: -9999px;}
@@ -664,9 +663,11 @@ a.dock-item2 {
     color: #FFFFFF; }
 #headlinks_projects,#middlecontent_projects,#headlinks_projects_transparent{float: left;}
 
-#headlinks_projects,#headlinks_projects_transparent{
+#headlinks_projects, #headlinks_projects_transparent {
     height: 362px;
-    position: relative;}
+    margin-right: 11px;
+    position: relative;
+}
 #headlinks_projects{
    background: url("../images/panel.png") no-repeat scroll 0 0 transparent;
     z-index: 9999;
@@ -679,31 +680,42 @@ a.dock-item2 {
 ul.list_projects{display: table;
     margin: 0 0 50px;
     padding: 0;}
-li.realized,li.current{
-    float: left;
-    height: 180px;
-    line-height: 180px;
-    text-align: center;
-    width: 180px;
-    text-transform: uppercase;
+li.realized, li.current {
     display: table;
-    
-    }
-
-li.realized{background: url("../images/ball_realized.png") repeat scroll 0 0 transparent;
+    float: left;
+    height: 130px;
+    line-height: 105px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 108px;
+}
+li.realized {
+    background: url("../images/sprite_project.png") repeat scroll -21px -165px transparent;
     font-family: "Ms Trebuchet MS";
     font-size: 1.2em;
-    font-weight: bold;}
-li.current{background:url(../images/ball_current.png);}
-
-h1#project{text-indent: -9999px;background: url(../images/projects.png) 0 0 transparent no-repeat;}
-h1#realized{text-indent: -9999px;background: url(../images/realized.png) 0 0 transparent no-repeat;}
+    font-weight: bold;
+}
+li.current {
+    background: url("../images/sprite_project.png") repeat scroll -193px -905px transparent;
+    height: 142px;
+    line-height: 150px;
+}
+h1#project {
+    background: url("../images/sprite_project.png") no-repeat scroll -19px -20px transparent;
+    text-indent: -9999px;
+}
+h1#realized {
+    background: url("../images/sprite_project.png") repeat scroll -18px -60px transparent;
+    text-indent: -9999px;
+}
 a.realized_link{color: #fff;}
 a.realized_link:hover{color:#000;}
 a.current_link{color: #fff;}
 a.current_link:hover{color:#EF113B;}
-h1#current{text-indent: -9999px;background: url(../images/current.png) 0 0 transparent no-repeat;}
-
+h1#current {
+    background: url("../images/sprite_project.png") no-repeat scroll -17px -102px transparent;
+    text-indent: -9999px;
+}
 
 
 #rightpart_projects{position: relative;
@@ -718,24 +730,23 @@ h1#current{text-indent: -9999px;background: url(../images/current.png) 0 0 trans
 }
 
 
-#footer_projects{
-	background: url("../images/projects_footer.png") repeat-x scroll 0 0 transparent;
+#footer_projects {
+    background: url("../images/sprite_project.png") repeat-x scroll 0 -300px transparent;
     clear: left;
     color: #FFFFFF;
-    height: 55px;
+    height: 40px;
     padding-top: 11px;
     position: relative;
+    top: 43px;
     vertical-align: middle;
     width: 100%;
-    top:40px;
-  
 }
 #logoanagi_footer{ 
      margin-left: 30px;	}
 
 li.no_label {
     overflow: hidden;
-    width: 40px;
+    width: 35px;
 }
 li.no_label a{height: 32px;}
 /*END OF PROJECTS STYLE*/

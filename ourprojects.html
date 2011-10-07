@@ -3,8 +3,7 @@
 <head>
    
 	<!-- Framework CSS -->
-    <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
-    <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print">
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.9.0/build/reset-fonts-grids/reset-fonts-grids.css">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
     <!--[if lt IE 8]><link rel="stylesheet" href="css/ie7.css" type="text/css" media="screen, projection"><![endif]-->
     
@@ -16,85 +15,11 @@
 	<!-- jQuery (required) -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+	<script type="text/javascript" src="js/functions.js"></script>
 
-	<!-- Demo stuff -->
 
-	<!-- Anything Slider -->
-	<link rel="stylesheet" href="css/anythingslider.css">
-	<script src="js/jquery.anythingslider.js"></script>
 
-	<!-- AnythingSlider optional extensions -->
-	<!-- <script src="js/jquery.anythingslider.fx.js"></script> -->
-	<!-- <script src="js/jquery.anythingslider.video.js"></script> -->
 
-	<!-- Define slider dimensions here -->
-<style>
-
-	
-	
-/* Css for slider logo */	
-.block {
-    color: transparent;
-    float: right;
-    margin-right: 10px;
-    overflow: hidden;
-    position: relative;
-    width: 178px;
-}
-	
-.slider {
-    background: url("images/wishmodus_logo.png") no-repeat scroll 0 0 transparent;
-    bottom: 0;
-    float: left;
-    height: 45px;
-    left: 140px;
-    list-style-type: none;
-    margin: 0;
-    padding-bottom: 0;
-    padding-left: 10px;
-    padding-top: 3px;
-    position: absolute;
-    width: 178px;
-}
-
-a.wishmodus{
-      color: transparent;
-	    display: block;
-	    height: 40px;
-	    text-decoration: none;
-	    text-indent: -99999px;
-	    width: 200px;
-}
-	
-/* end of css for slider logo */	
-	
-	
-	
-<!-- fim dos estilos -->
-</style>
-
-<script>
-		// DOM Ready
-		$(function(){
-			$('#slider').anythingSlider( {
-			buildNavigation     : false,
-			buildStart: false,
-			autoPlay : false,	
-			buildStartStop      : false,      // If true, builds the start/stop button
-			
-			
-			
-			});
-		//Full Box Sliding (Hidden to Visible)
-	   	$('.block').hover(function(){
-	        $(".slider", this).stop().animate({left:'0px'},{queue:false,duration:160});
-	        }, function() {
-	        $(".slider", this).stop().animate({left:'140px'},{queue:false,duration:160});
-	     });	
-			
-			
-		});
-</script>
 
 </head>
 
@@ -104,12 +29,12 @@ a.wishmodus{
 	
 	    <div id="headlinks_projects_transparent">
 	    		<ul>
-	    			<li class="no_label"><a title="Home" class="home" href="index.html">Home</a></li>
-	    			<li class="no_label"><a title="Company" class="company" href="company.html">Company</a></li>
-	    			<li class="no_label"><a title="Our Projects" class="projects_over" href="ourprojects.html">Our Projects</a></li>
-	    			<li class="no_label"><a title="Products" class="products" href="products.html">Our Products</a></li>
-	    			<li class="no_label"><a title="Clients/Partners" class="clients" href="clients.html">Clients/Partners</a></li>
-	    			<li class="no_label"><a title="Contact" class="contact" href="contact.html">Contact</a></li>
+	    			<li class="no_label"><a title="Home" id="home" href="index.html">Home</a></li>
+	    			<li class="no_label"><a title="Company" id="company_main_link" href="company.html">Company</a></li>
+	    			<li class="no_label"><a title="Our Projects" id="projects" href="ourprojects.html">Our Projects</a></li>
+	    			<li class="no_label"><a title="Products" id="products" href="#">Our Products</a></li>
+	    			<li class="no_label"><a title="Clients/Partners" id="clients" href="#">Clients/Partners</a></li>
+	    			<li class="no_label"><a title="Contact" id="contact" href="#">Contact</a></li>
 	    		</ul>
 	    </div>
 	    <div id="middlecontent_projects">
@@ -120,7 +45,7 @@ a.wishmodus{
 	    		<li class="realized"><a class="realized_link" href="#">Dwelling</a></li>
 	    		<li class="realized"><a class="realized_link" href="#">Hotel</a></li>
 	    		<li class="realized"><a class="realized_link" href="office.html">Offices</a></li>
-	    		<li class="realized"><a class="realized_link" href="#">Industrial</a></li><br>
+	    		<li class="realized"><a class="realized_link" href="#">Industrial</a></li>
 				<li class="realized"><a class="realized_link" href="#">Rehabilitation</a></li>
 	    		<li class="realized"><a class="realized_link" href="#">Individual Dwelling</a></li>
 	    		<li class="realized"><a class="realized_link" href="#">Entertainment</a></li>
@@ -130,7 +55,7 @@ a.wishmodus{
 	    		<li class="current"><a class="current_link" href="#">Dwelling</a></li>
 	    		<li class="current"><a class="current_link" href="#">Hotel</a></li>
 	    		<li class="current"><a class="current_link" href="office.html">Offices</a></li>
-	    		<li class="current"><a class="current_link" href="#">Industrial</a></li><br>
+	    		<li class="current"><a class="current_link" href="#">Industrial</a></li>
 				<li class="current"><a class="current_link" href="#">Rehabilitation</a></li>
 	    		<li class="current"><a class="current_link" href="#">Individual Dwelling</a></li>
 	    		<li class="current"><a class="current_link" href="#">Entertainment</a></li>
@@ -140,7 +65,7 @@ a.wishmodus{
 	    
 	    </div>
 	    <div id="rightpart_projects">
-	    		<div id="anagiling"><img src="images/anaga_logo_right.png" alt="anaga_logo_right" width="96" height="50" /></div>
+	    		<div id="anagiling"></div>
 	    		
 	    		<ul id="social">
 	    			<li><a class="social_twitter" href="#">Twitter</a></li>
@@ -148,11 +73,13 @@ a.wishmodus{
 	    			<li><a class="social_digg" href="#">Digg</a></li>
 	    		</ul>
 	    		
-	    			<img id="buy" src="images/buy_apartments.png" alt="Buy apartments"/>
+	    			<a class="buy" href="#">Buy Apartments</a>
 	    		
 	    </div>
 		<div id="footer_projects">
-			<img id="logoanagi" src="images/logoanagi.png" alt="logoanagi" width="41" height="45" /> <span>&copy; Anagi.Inc All Rights Reserverd</span>
+			<div class="left_footer">
+	 			<img alt="logoanagi" src="images/logoanagi.png" id="logoanagi"> <span>&copy; Anagi.Inc All Rights Reserverd</span>
+	 		</div>
 	 	<div class="block">
 				<img src="images/wmlogo.png">
 				<div class="slider">
