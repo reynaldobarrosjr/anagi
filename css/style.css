@@ -82,9 +82,10 @@ h5{margin:0;padding: 0;}
 	}
 	
 	/* Float LI Elements - horizontal display */
-	ul#menu li {
-		float:left;
-	}
+ul#menu li {
+    float: left;
+    margin-left: 59px;
+}
 	
 	/* Link - common attributes */
 	ul#menu li a {
@@ -159,10 +160,12 @@ a.main_links {
     width: 133px;
 }
 #headlinks_projects{width: 10%;}
-#headlinks,#headlinks_transparent{
-	color: black;width: 25%;
-    height: 362px;
-    position: relative;}
+#headlinks, #headlinks_transparent {
+    color: black;
+    height: 230px;
+    position: relative;
+    width: 25%;
+}
 #headlinks{background: url("../images/panel.png") no-repeat scroll 0 0 transparent;}
 
 	#headlinks a{color: #000;}
@@ -613,14 +616,15 @@ a.dock-item2 {
     background: url("../images/sprite_root.png") no-repeat scroll 0 -391px #555554;
     bottom: 0;
     color: #FFFFFF;
-    height: 65px;
+    height: 42px;
     position: relative;
     width: 100%;
-}   
-#footer img{ 	
+} 
+#footer img {
     position: relative;
-    top: 10px;
-    vertical-align: sub;}
+    top: 5px;
+    vertical-align: sub;
+}
 #logoanagi{  margin-left: 10px;}  
 #tanagi_footer{width: 80%;} 	
 #wmlogobw{ 
@@ -636,9 +640,9 @@ a.dock-item2 {
    	color: #fff;
 }
 .left_footer {
-    background: none repeat scroll 0 0 ;
+    background: none repeat scroll 0 0 transparent;
     float: left;
-    width: 300px;
+    width: 229px;
 }
 
 
@@ -942,15 +946,14 @@ a#juridical_current,a#juridical:hover{  background: url("../images/team_links.pn
     bottom: 0;
     float: left;
     height: 45px;
-    left: 140px;
+    left: 90px;
     list-style-type: none;
     margin: 0;
     padding-bottom: 0;
     padding-left: 10px;
-    padding-top: 3px;
+    padding-top: 0;
     position: absolute;
-    width: 178px;
-}
+    width: 109px;}
 	
 a.wishmodus {
     color: transparent;
@@ -967,7 +970,7 @@ a.wishmodus {
     margin-right: 10px;
     overflow: hidden;
     position: relative;
-    width: 178px;
+    width: 109px;
 }
 
 /* end of style of slider footer */

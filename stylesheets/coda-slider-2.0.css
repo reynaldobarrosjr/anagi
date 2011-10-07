@@ -9,7 +9,7 @@
 /* Most common stuff you'll need to change */
 
 	.coda-slider-wrapper { padding: 20px 0 }
-	.coda-slider { background: #ebebeb }
+	.coda-slider {  }
 	
 	/* Use this to keep the slider content contained in a box even when JavaScript is disabled */
 	.coda-slider-no-js .coda-slider { height: 200px; overflow: auto !important; padding-right: 20px }
@@ -18,7 +18,7 @@
 	.coda-slider, .coda-slider .panel { width: 800px; } 
 	
 	/* Change margin and width of the slider (with dynamic arrows) */
-	.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel { width: 767px; }
+	.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel { width: 769px; }
 	.coda-slider-wrapper.arrows .coda-slider { margin: 0 10px }
 	
 	/* Arrow styling */
