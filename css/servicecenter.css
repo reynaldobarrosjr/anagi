@@ -36,11 +36,16 @@ ul#menu li {
 
 
 #headlinks_projects, #headlinks_projects_transparent {
-    height: 303px;
+    height: 294px;
     margin-bottom: 60px;
     margin-right: 11px;
     position: relative;
     width: 69px;
+}
+#headlinks_projects {
+    background: url("../images/sprite_root.png") no-repeat scroll -318px -7px transparent;
+    padding-top: 10px;
+    z-index: 9999;
 }
 /* dock navigation*/
 
