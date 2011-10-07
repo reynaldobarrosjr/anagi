@@ -72,14 +72,13 @@ h5{margin:0;padding: 0;}
 	
 	/* Menu Body */
 	ul#menu {
-		width:80%;
+		
 		height:102px;
 		background:url(bg.png) repeat-x;
 		list-style:none;
 		margin:0;
 		padding:0;
-		padding-top:20px;
-		padding-left:20%;
+		
 	}
 	
 	/* Float LI Elements - horizontal display */
@@ -333,6 +332,142 @@ a.buy:hover{color: transparent;}
     text-align: right;
 }
 	
+
+
+/* ICONS */
+
+/* Link - common attributes */
+ul#menu li a {
+    background: url("../images/sprite_mesa.png") no-repeat scroll left top transparent;
+    display: block;
+    height: 200px;
+    position: relative;
+    width: 175px;
+}
+	
+	/* Specify width and background position attributes specifically for the class: "home" */
+	ul#menu li a.home {
+		width:285px;
+	}
+	
+	/* Specify width and background position attributes specifically for the class: "piazza" */
+ul#menu li a.piazza {
+    background-position: -19px -85px;
+}
+	/* Shift background position on hover for the class: "piazza" */
+	ul#menu li a.piazza span {
+    background-position: -196px -85px;
+    background-repeat: no-repeat;
+}
+	/* Specify width and background position attributes specifically for the class: "custom_service" */
+	ul#menu li a.custom_service {
+		  background-position: -588px 45px;
+	}
+	/* Shift background position on hover for the class: "custom service" */
+	ul#menu li a.custom_service span {
+		background-position: -890px 45px;	}
+	/* Specify width and background position attributes specifically for the class: "mc_donalds" */
+	ul#menu li a.mc_donalds {
+		    background-position: -1880px 50%;
+	}
+	/* Shift background position on hover for the class: "mc_donalds" */
+	ul#menu li a.mc_donalds span {
+		background-position: -2197px 50%;	
+	}
+	/* Specify width and background position attributes specifically for the class: "batumi_opera" */
+	ul#menu li a.batumi_opera {
+		   background-position: -1224px 50%;
+    	}
+	/* Shift background position on hover for the class: "batumi_opera" */
+	ul#menu li a.batumi_opera span {
+		 background-position: -1554px 50%;
+    background-repeat: no-repeat;
+    	 
+	}
+	/* Specify width and background position attributes specifically for the class: "Mestia Airport" */
+	ul#menu li a.mestia_airport {
+		   background-position: -2525px 50%;
+    width: 245px;
+	}
+	/* Shift background position on hover for the class: "Mestia Airport" */
+	ul#menu li a.mestia_airport span {
+		 background-position: -2803px 50%;
+    background-repeat: no-repeat;
+    	 
+	}
+	/* Specify width and background position attributes specifically for the class: "Magnolia" */
+	ul#menu li a.magnolia {
+    background-position: -3050px 50%;
+    width: 329px;
+	}
+	/* Shift background position on hover for the class: "magnolia" */
+	ul#menu li a.magnolia span {
+		  background-position: -3380px 50%;
+    background-repeat: no-repeat;
+    	 
+	}
+	/* Specify width and background position attributes specifically for the class: "arci_batumi" */
+	ul#menu li a.arci_batumi {
+		    background-position: -3784px 50%;
+    		width: 284px;
+    }
+	/* Shift background position on hover for the class: "arci_batumi" */
+	ul#menu li a.arci_batumi span {
+		 background-position: -4143px 50%;
+    	 background-repeat: no-repeat;
+    
+    	 
+	}
+	/* Specify width and background position attributes specifically for the class: "mia" */
+	ul#menu li a.mia {
+		background-position: -4502px 50%;
+    width: 284px;
+	}
+	/* Shift background position on hover for the class: "mia" */
+	ul#menu li a.mia span {
+		  background-position: -4864px 50%;
+    background-repeat: no-repeat;
+    	 
+	}
+	/* Specify width and background position attributes specifically for the class: "gran_palace" */
+	ul#menu li a.gran_palace {
+		 background-position: -5205px 50%;
+    width: 287px;
+	}
+	/* Shift background position on hover for the class: "gran_palace" */
+	ul#menu li a.gran_palace span {
+		background-position: -5571px 50%;
+    	background-repeat: no-repeat;
+    	 
+	}
+	
+	/* Span (on hover) - common attributes */
+	ul#menu li a span {
+		background:url(../images/sprite_mesa.png) no-repeat scroll;
+		display:block;
+		position:absolute;
+		top:0;
+		left:0;
+		height:100%;
+		width:100%;
+		z-index:100;
+	}
+	
+	/* Span (on hover) - display pointer */
+	ul#menu li a span:hover {
+		cursor:pointer;
+	}
+	
+	/* Shift background position on hover for the class: "home" */
+	ul#menu li a.home span {
+		background-position:-278px 0px;
+	}
+
+/* END OF ICONS *?
+
+
+
+
 
 /* MIDDLE CONTENT */
 

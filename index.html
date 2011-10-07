@@ -13,6 +13,28 @@
 	<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
 	<script type="text/javascript" src="js/functions.js"></script>
 	<!-- Demo stuff -->
+	
+	
+	
+	<!-- Begin Stylesheets -->
+		<link rel="stylesheet" href="stylesheets/coda-slider-2.0.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="javascripts/jquery-1.3.2.min.js"></script>
+		<script type="text/javascript" src="javascripts/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="javascripts/jquery.coda-slider-2.0.js"></script>
+		 <script type="text/javascript">
+			$().ready(function() {
+				$('#coda-slider-1').codaSlider({
+				
+				dynamicArrows: true,
+				dynamicTabs: false
+				
+				
+				});
+				
+			});
+		 </script>
+	<!-- End JavaScript -->
+	
 </head>
 
 <body id="simple">
@@ -44,16 +66,53 @@
 	    		<a class="buy" href="#">Buy Apartments</a>
 	    			
 	</div>
-	<div id="dock">
-			<ul id="menu">
-    		    <li><a class="piazza" href="piazza.html">Piazza</a></li>
-    		    <li><a class="custom_service" href="servicecenter.html">Custom Service<span style="opacity: 1;"></span></a></li>
-    		    <li><a class="mc_donalds" href="mcdonalds.html">Mc Donalds<span style="opacity: 0;"></span></a></li>
-    		</ul>
 	
-	</div>
+	<!-- navigation -->
 	
-	 <div id="footer">
+	<div class="coda-slider-wrapper">
+	<div class="coda-slider preload" id="coda-slider-1">
+		<div class="panel">
+
+			<div class="panel-wrapper">
+				<ul id="menu">
+    			    <li><a href="piazza.html" class="piazza"><span></span></a></li>
+    			    <li><a href="servicecenter.html" class="custom_service"><span></span></a></li>
+    			    <li><a href="mcdonalds.html" class="mc_donalds"><span></span></a></li>
+    			</ul>
+			</div>
+		</div>
+		<div class="panel">
+			<div class="panel-wrapper">
+				<ul id="menu">
+    			    <li><a href="batumi.html#2" class="batumi_opera"><span></span></a></li>
+    			    <li><a href="airport.html#2" class="mestia_airport"><span></span></a></li>
+    			    <li><a href="magnolia.html#2" class="magnolia"><span></span></a></li>
+    			</ul>
+			</div>
+		</div>
+		<div class="panel">
+			<div class="panel-wrapper">
+				<ul id="menu">
+    			    <li><a href="arci.html#3" class="arci_batumi"><span></span></a></li>
+    			    <li><a href="mia.html#3" class="mia"><span></span></a></li>
+    			    <li><a href="gph.html#3" class="gran_palace"><span></span></a></li>
+    			</ul>			
+    		</div>
+		</div>
+		
+
+	</div><!-- .coda-slider -->
+</div><!-- .coda-slider-wrapper -->
+	
+	
+	<!-- end of navigation -->
+	
+	
+	
+	
+	
+		
+	<div id="footer">
 	 	<div class="left_footer">
 	 		<img id="logoanagi" src="images/logoanagi.png" alt="logoanagi" width="41" height="45" /> <span>&copy; Anagi.Inc All Rights Reserverd</span>
 	 	</div>
