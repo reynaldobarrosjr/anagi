@@ -67,16 +67,15 @@ ul#menu li {
     position: relative;
 }
 #building_details {
-    height: 761px;
+    height: 618px;
 }
-
 #text_container {
     font-size: 6pt;
     margin-left: auto;
     margin-right: auto;
     position: relative;
     text-align: left;
-    top: 590px;
+    top: 0;
     width: 60%;
 }
 
