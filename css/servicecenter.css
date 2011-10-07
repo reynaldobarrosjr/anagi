@@ -124,7 +124,8 @@ div#text_container p{
     width: 22px;
 }
 
-
+#coda-slider-9, #coda-slider-9 .panel { width: 1024px; }
+#coda-slider-9 h2.title { display: none }
 /* footer */
 
 #footer_airport {

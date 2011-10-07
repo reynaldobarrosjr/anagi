@@ -54,7 +54,6 @@
 	
 	/* Miscellaneous */
 	.coda-slider-wrapper {
-    background: url("../images/dock_bkg.png") no-repeat scroll center bottom transparent;
     clear: both;
     overflow: auto;
 }
