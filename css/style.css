@@ -72,14 +72,13 @@ h5{margin:0;padding: 0;}
 	
 	/* Menu Body */
 	ul#menu {
-		width:80%;
+		
 		height:102px;
 		background:url(bg.png) repeat-x;
 		list-style:none;
 		margin:0;
 		padding:0;
-		padding-top:20px;
-		padding-left:20%;
+		
 	}
 	
 	/* Float LI Elements - horizontal display */
