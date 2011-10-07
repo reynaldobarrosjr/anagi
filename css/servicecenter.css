@@ -1,4 +1,8 @@
-body{background: url(../images/background_piazza.png) no-repeat 0 0 scroll;}
+body {
+    background: url("../images/background_csc.jpg") no-repeat scroll 0 0 transparent;
+    max-height: 1593px;
+    overflow-x: hidden;
+}
 h1 {
     color: #FFFFFF;
     font-family: "Trebuchet MS";
@@ -55,7 +59,6 @@ ul#menu li {
 
 /* */
 #details {
-    background: url("../images/piazza_details_background.png") repeat scroll 0 -24px transparent;
     position: relative;
 }
 #building_details {
