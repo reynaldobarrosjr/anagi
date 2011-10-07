@@ -171,7 +171,7 @@ a#home {
     text-indent: -9999px;
 }
 a#home:hover {
-    background: url("../images/sprite_root.png") no-repeat scroll -150px -4px transparent;
+    background: url("../images/sprite_root.png") no-repeat scroll -150px -3px transparent;
     text-indent: -9999px;
 }
 a#company_main_link {
@@ -179,46 +179,45 @@ a#company_main_link {
     text-indent: -9999px;
 }
 a#company_main_link:hover {
-    background: url("../images/sprite_root.png") no-repeat scroll -150px -36px transparent;
+    background: url("../images/sprite_root.png") no-repeat scroll -150px -35px transparent;
     text-indent: -9999px;
 }
 a#projects {
     background: url("../images/sprite_root.png") no-repeat scroll -17px -68px transparent;
     text-indent: -9999px;
 }
-a#projects:hover{background: url("../images/sprite_root.png") no-repeat scroll -150px -68px transparent;
+a#projects:hover{background: url("../images/sprite_root.png") no-repeat scroll -150px -67px transparent;
     
     text-indent: -9999px;
 }
 a#products {
-    background: url("../images/sprite_root.png") no-repeat scroll -17px -102px transparent;
+    background: url("../images/sprite_root.png") no-repeat scroll -16px -102px transparent;
     text-indent: -9999px;
 }
-    a#products:hover{background: url("../images/sprite_root.png") no-repeat scroll -150px -102px transparent;
-    
+a#products:hover {
+    background: url("../images/sprite_root.png") no-repeat scroll -149px -101px transparent;
     text-indent: -9999px;
 }
 a#clients {
-    background: url("../images/sprite_root.png") no-repeat scroll -17px -135px transparent;
+    background: url("../images/sprite_root.png") no-repeat scroll -16px -135px transparent;
     text-indent: -9999px;
-}  
+} 
 
-a#clients:hover,a.clients_over{background: url("../images/sprite_root.png") no-repeat scroll -150px -135px transparent;
-    
+a#clients:hover, a.clients_over {
+    background: url("../images/sprite_root.png") no-repeat scroll -149px -134px transparent;
     text-indent: -9999px;
 }
-
 a#contact {
-    background: url("../images/sprite_root.png") no-repeat scroll -17px -166px transparent;
+    background: url("../images/sprite_root.png") no-repeat scroll -16px -166px transparent;
     text-indent: -9999px;
 }   
 
-    a#contact:hover{background: url("../images/sprite_root.png") no-repeat scroll -150px -166px transparent;
-    
+a#contact:hover {
+    background: url("../images/sprite_root.png") no-repeat scroll -149px -165px transparent;
     text-indent: -9999px;
 }
 
-   	a#projects_over{ background: url("../images/sprite_root.png") no-repeat scroll -276px -98px transparent;
+   	a#projects_over{ background: url("../images/sprite_root.png") no-repeat scroll -276px -97px transparent;
     
     text-indent: -9999px;
     }
@@ -352,20 +351,21 @@ ul#menu li a {
 	
 	/* Specify width and background position attributes specifically for the class: "piazza" */
 ul#menu li a.piazza {
-    background-position: -19px -85px;
+    background-position: 3px -85px;
 }
 	/* Shift background position on hover for the class: "piazza" */
-	ul#menu li a.piazza span {
-    background-position: -196px -85px;
+ul#menu li a.piazza span {
+    background-position: -1617px -85px;
     background-repeat: no-repeat;
 }
 	/* Specify width and background position attributes specifically for the class: "custom_service" */
-	ul#menu li a.custom_service {
-		  background-position: -588px 45px;
-	}
+ul#menu li a.custom_service {
+    background-position: -376px -85px;
+}
 	/* Shift background position on hover for the class: "custom service" */
-	ul#menu li a.custom_service span {
-		background-position: -890px 45px;	}
+ul#menu li a.custom_service span {
+    background-position: -1988px -85px;
+}
 	/* Specify width and background position attributes specifically for the class: "mc_donalds" */
 	ul#menu li a.mc_donalds {
 		    background-position: -1880px 50%;
