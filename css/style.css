@@ -643,7 +643,8 @@ a.dock-item2 {
 .left_footer {
     background: none repeat scroll 0 0 transparent;
     float: left;
-    width: 229px;
+    width: 233px;
+	font-size: 10px;
 }
 
 
@@ -976,6 +977,7 @@ a.wishmodus {
 
 .block {
     color: transparent;
+	top: 2px;
     float: right;
     margin-right: 10px;
     overflow: hidden;
