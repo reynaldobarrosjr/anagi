@@ -224,22 +224,17 @@ a#contact:hover {
     
     text-indent: -9999px;
     }
-  	a#company_over{  background: url("../images/sprite_root.png") no-repeat scroll -276px -48px transparent;
-    
+a#company_over {
+    background: url("../images/sprite_root.png") no-repeat scroll -149px -35px transparent;
     text-indent: -9999px;
-    }
-
- 	
- 	
-
- 
-
+}    
+   
     
  	
 	
 /*RIGHT PART*/
 
-#anagiling {
+#anagiling,#anagilogo {
     background-image: url("../images/sprite_root.png");
     background-position: -150px -319px;
     color: #FFFFFF;
@@ -252,6 +247,11 @@ a#contact:hover {
     text-shadow: 1px 1px #000000;
     vertical-align: middle;
     width: 104px;
+}
+#anagilogo {
+    background-position: -271px -319px;
+    height: 50px;
+    width: 110px;
 }
 	#anagiling a.last{padding-right: 30px;}
 #rightpart{width:25%;}
@@ -415,25 +415,23 @@ ul#menu li a.arci_batumi span {
     background-repeat: no-repeat;
 }
 	/* Specify width and background position attributes specifically for the class: "mia" */
-	ul#menu li a.mia {
-    background-position: -2472px -72px;
+ul#menu li a.mia {
+    background-position: -2567px -75px;
 }
 	/* Shift background position on hover for the class: "mia" */
-	ul#menu li a.mia span {
-		  background-position: -4864px 80px;
+ul#menu li a.mia span {
+    background-position: -2785px -75px;
     background-repeat: no-repeat;
-    	 
-	}
+}
 	/* Specify width and background position attributes specifically for the class: "gran_palace" */
-	ul#menu li a.gran_palace {
-		 background-position: -5205px 80px;
-	}
+ul#menu li a.gran_palace {
+    background-position: -2992px -75px;
+}
 	/* Shift background position on hover for the class: "gran_palace" */
-	ul#menu li a.gran_palace span {
-		background-position: -5571px 80px;
-    	background-repeat: no-repeat;
-    	 
-	}
+ul#menu li a.gran_palace span {
+    background-position: -3203px -75px;
+    background-repeat: no-repeat;
+}
 	
 	/* Span (on hover) - common attributes */
 	ul#menu li a span {
@@ -619,14 +617,17 @@ a.dock-item2 {
     height: 42px;
     position: relative;
     width: 100%;
+    clear:left;
 } 
 #footer img {
     position: relative;
     top: 5px;
     vertical-align: sub;
 }
-#logoanagi{  margin-left: 10px;}  
-#tanagi_footer{width: 80%;} 	
+#logoanagi {
+    margin-left: 10px;
+    vertical-align: middle;
+}#tanagi_footer{width: 80%;} 	
 #wmlogobw{ 
     float:right;
   	margin-right:10px;
@@ -665,7 +666,6 @@ a.dock-item2 {
 
 #headlinks_projects,#headlinks_projects_transparent{
     height: 362px;
-    padding-top: 50px;
     position: relative;}
 #headlinks_projects{
    background: url("../images/panel.png") no-repeat scroll 0 0 transparent;
@@ -709,9 +709,13 @@ h1#current{text-indent: -9999px;background: url(../images/current.png) 0 0 trans
 #rightpart_projects{position: relative;
     width: 15%;
     z-index: 9999;}
-#middlecontent_projects{ position: relative;
+#middlecontent_projects {
+    font-size: 7pt;
+    position: relative;
+    text-align: left;
     top: 10px;
-    width: 75%;}
+    width: 75%;
+}
 
 
 #footer_projects{
@@ -729,25 +733,31 @@ h1#current{text-indent: -9999px;background: url(../images/current.png) 0 0 trans
 #logoanagi_footer{ 
      margin-left: 30px;	}
 
-li.no_label{width:45px;overflow: hidden;}
-
+li.no_label {
+    overflow: hidden;
+    width: 40px;
+}
+li.no_label a{height: 32px;}
 /*END OF PROJECTS STYLE*/
 
 
 /* COMPANY - specific CSS*/
-.company_bg {
-    background-attachment: fixed;
-    background-clip: border-box;
-    background-color: #515151;
-    background-image: url("../images/company_bkg.png");
-    background-origin: padding-box;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    color: #4A4A4A;
+#company {
+    background: url("../images/company_logo.png") no-repeat scroll 0 0 transparent;
+    text-indent: -9999px;
 }
-h2{color:#4a4a4a;font-weight: bold;font-family: "Trebuchet MS"}
-#company{text-indent: -9999px;background: url(../images/company.png) 0 0 transparent no-repeat;}
+h2 {
+    color: #4A4A4A;
+    font-family: "Trebuchet MS";
+    font-size: 15pt;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#company {
+    background: url("../images/company_logo.png") no-repeat scroll 0 0 transparent;
+    font-size: 22pt;
+    text-indent: -9999px;
+}
 #navlist{ display: table;
     margin: 30px -35px 50px -30px;
     position: relative;}

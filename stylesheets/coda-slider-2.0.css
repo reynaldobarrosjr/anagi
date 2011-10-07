@@ -25,7 +25,8 @@
 }	
 	/* Arrow styling */
 	.coda-nav-left a, .coda-nav-right a { background: #000; color: #fff; padding: 5px; width: 100px }
-	
+	.coda-nav-left a {background: url(../images/sprite_mesa.png) 0px 0px;}
+	.coda-nav-right a{background: url(../images/sprite_mesa.png) 0px 0px;}
 	/* Tab nav */
 	.coda-nav ul li a.current { background: #39c }
 	
