@@ -273,9 +273,8 @@ ul#social li {
 }
 #social_transparent {
     background-image: url("../images/sprite_root.png");
-    background-position: -369px 6px;
+    background-position: -379px 6px;
     left: 0;
-    padding-left: 30px;
     position: relative;
 }
 
