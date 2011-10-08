@@ -1,4 +1,4 @@
-body{background: url(../images/background_piazza.png) no-repeat 0 0 scroll;}
+body{background: url(../images/background_piazza.jpg) no-repeat 0 0 scroll;}
 h1 {
     color: #FFFFFF;
     font-family: "Trebuchet MS";
@@ -20,7 +20,7 @@ p {
     font-family: "Trebuchet MS";
     font-size: 1.4em;
     margin: 0 0 5px;
-    color: #8b8b8a;
+    color: #ffffff;
 }
 .coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel {
     width: 750px;
@@ -88,15 +88,17 @@ ul#menu li {
     text-transform: uppercase;
 }
 #description {
-    background: none repeat scroll 0 0 transparent;
-    display: table;
-    float: right;
-    font-size: 8pt;
-    margin-bottom: 30px;
-    position: relative;
-    text-align: left;
-    width: 40%;
-    color: #8b8b8a;
+	    background: none repeat scroll 0 0 transparent;
+	    color: #FFFFFF;
+	    display: table;
+	    float: right;
+	    font-size: 7pt;
+	    margin-bottom: 30px;
+	    position: relative;
+	    right: 70px;
+	    text-align: left;
+	    top: 30px;
+	    width: 40%;
 }
 div#text_container p{
 
@@ -120,7 +122,7 @@ div#text_container p{
 /* footer */
 
 #footer_airport {
-    background: none repeat scroll 0 0 #000000;
+	padding-top:605px;
     height: 45px;
     color: #fff;
 }

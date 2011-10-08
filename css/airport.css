@@ -1,6 +1,6 @@
 body {
     background: url("../images/background_airport.jpg") no-repeat scroll 0 0 transparent;
-    max-height: 1593px;
+    max-height: 1632px;
     overflow-x: hidden;
 }
 h1 {
@@ -134,7 +134,7 @@ div#text_container p{
 /* footer */
 
 #footer_airport {
-    background: none repeat scroll 0 0 #000000;
+	padding-top:5px;
     height: 45px;
     color: #fff;
 }
