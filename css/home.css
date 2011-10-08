@@ -59,3 +59,10 @@ a.current_lang{color: #00c969;}
     height: 400px;
     position: absolute;
     width: 100%;}
+    
+    
+.coda-slider-wrapper {
+    background: url("../images/dock_bkg.png") no-repeat scroll center bottom transparent;
+    clear: both;
+    overflow: auto;
+}

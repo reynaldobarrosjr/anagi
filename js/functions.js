@@ -1,6 +1,16 @@
-
 $(document).ready(function(){
-		
+	   	//detect screen resolution
+	   	alert("Your resolution is"+ screen.width) + alert(screen.height);
+		var css = "";
+		var loadcss="";
+		if (screen.width >= 1280 && screen.height >=800) css='../css/small.css';
+		else if (screen.width <= 1280 && screen.height <= 768) css='../css/medium.css';
+		else css='no';
+		if (css!='no'){
+		loadcss=window.document.write("<link href='"+css+"' rel='stylesheet' type='text/css' />"); 
+		document.getElementsByTagName("head")[4].appendChild(loadcss);
+
+		};
 	
        //Full Box Sliding (Hidden to Visible)
 	   $('.block').hover(function(){
