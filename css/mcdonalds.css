@@ -1,6 +1,6 @@
 body {
     background: url("../images/background_mc.jpg") no-repeat scroll 0 0 transparent;
-    max-height: 1593px;
+    max-height: 1632px;
     overflow-x: hidden;
 }
 h1 {
@@ -133,8 +133,7 @@ div#text_container p{
 #coda-slider-2, #coda-slider-2 .panel { width: 740px; }
 /* footer */
 
-#footer_airport {
-    background: none repeat scroll 0 0 #000000;
+#footer_mcd {
     height: 45px;
     color: #fff;
 }
