@@ -1,6 +1,6 @@
 body {
     background: url("../images/background_batumi.jpg") no-repeat scroll 0 0 transparent;
-    max-height: 1632px;
+    min-height: 1593px;
     overflow-x: hidden;
 }
 h1 {
@@ -75,15 +75,14 @@ ul#menu li {
     margin-right: auto;
     position: relative;
     text-align: left;
-    top: 0;
+    top: 10px;
     width: 60%;
 }
-
 /*top text - left and description*/
 
 #top_text {
     color: black;
-    height: 135px;
+    height: 110px;
     margin-bottom: 66px;
     margin-left: auto;
     margin-right: auto;
@@ -130,10 +129,22 @@ div#text_container p{
     width: 22px;
 }
 
-#coda-slider-2, #coda-slider-2 .panel { width: 740px; }
+a.next_button {
+    background: url("../images/sprite_mesa.png") repeat scroll -1160px 10px transparent;
+    color: transparent;
+    float: right;
+    left: 42px;
+    padding: 33px 20px;
+    position: relative;
+    top: -255px;
+}
+
 /* footer */
 
 #footer_airport {
-    height: 45px;
-    color: #fff;
+    bottom: 0;
+    color: #FFFFFF;
+    height: 9px;
+    position: relative;
+    top: 30px;
 }

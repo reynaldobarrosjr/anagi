@@ -6,6 +6,7 @@ h1 {
     line-height: 1;
     margin-bottom: 0;
     margin-left: 40px;
+    text-indent: -999px;
     text-shadow: 2px 4px 2px #000000;
 }
 h2 {
@@ -55,7 +56,6 @@ ul#menu li {
 
 /* */
 #details {
-    background: url("../images/piazza_details_background.png") repeat scroll 0 -24px transparent;
     position: relative;
 }
 #building_details {

@@ -1,3 +1,4 @@
+html{background: #000;}
 body{background: url(../images/background_gph.jpg) no-repeat 0 0 scroll;
 	max-height: 1632px;
     overflow-x: hidden;
@@ -58,19 +59,18 @@ ul#menu li {
 
 /* */
 #details {
+    height: 920px;
     position: relative;
 }
 #building_details {
-    height: 761px;
+    padding-top: 51px;
 }
 
 #text_container {
     font-size: 6pt;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
     text-align: left;
-    top: 590px;
     width: 60%;
 }
 
@@ -78,10 +78,9 @@ ul#menu li {
 
 #top_text {
     color: black;
-    height: 135px;
+    height: 145px;
     margin-left: auto;
     margin-right: auto;
-    padding: 30px 0 30px 30px;
 }
 #left_corner {
     float: left;
@@ -90,17 +89,28 @@ ul#menu li {
 	text-indent: -9999px;
 }
 #description {
-	    background: none repeat scroll 0 0 transparent;
-	    color: #FFFFFF;
-	    display: table;
-	    float: right;
-	    font-size: 7pt;
-	    margin-bottom: 30px;
-	    position: relative;
-	    right: 70px;
-	    text-align: left;
-	    top: 30px;
-	    width: 40%;
+    background: none repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    display: table;
+    float: right;
+    font-size: 7pt;
+    margin-bottom: 30px;
+    position: relative;
+    right: 70px;
+    text-align: left;
+    top: 55px;
+    width: 40%;
+}
+div#building_text {
+    color: #FFFFFF;
+    font-size: 9pt;
+    height: 98px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: left;
+    text-shadow: 1px 1px 1px #000000;
+    width: 540px;
 }
 div#text_container p{
 
@@ -122,8 +132,8 @@ div#text_container p{
 
 
 /* footer */
-
 #footer_gph {
+    color: #FFFFFF;
     height: 45px;
-    color: #fff;
+    margin-top: -50px;
 }

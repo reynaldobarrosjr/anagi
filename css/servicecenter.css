@@ -83,7 +83,7 @@ ul#menu li {
 
 #top_text {
     color: black;
-    height: 135px;
+    height: 149px;
     margin-bottom: 66px;
     margin-left: auto;
     margin-right: auto;
@@ -131,9 +131,16 @@ div#text_container p{
     width: 22px;
 }
 
-#coda-slider-2, #coda-slider-2 .panel { width: 740px; }
+#coda-slider-2, #coda-slider-2 .panel { width: 1008px; }
 /* footer */
-
+a.next_button {
+    background: url("../images/sprite_mesa.png") repeat scroll -1160px 10px transparent;
+    color: transparent;
+    float: right;
+    padding: 33px 20px;
+    position: relative;
+    top: -65px;
+}
 #footer_airport {
     background: none repeat scroll 0 0 #000000;
     height: 45px;

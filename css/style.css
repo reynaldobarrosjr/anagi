@@ -523,19 +523,20 @@ a.details:hover {
     background: url("../images/sprite_mesa.png") no-repeat scroll -138px -4px transparent;
 }
 a.up {
-    background: url("../images/arrows.png") no-repeat scroll -122px 0 transparent;
+    background: url("../images/sprite_mesa.png") no-repeat scroll -871px 0 transparent;
     color: transparent;
+    float: left;
     height: 62px;
-    left: -15px;
+    left: 10px;
     padding: 92px 10px 10px 0;
     position: relative;
     text-indent: -9999px;
-    top: 65px;
+    top: 0;
     width: 41px;
     z-index: 9999;
 }
 a.up:hover {
-    background: url("../images/arrows.png") no-repeat scroll -150px 0 transparent;
+    background: url("../images/sprite_mesa.png") no-repeat scroll -1004px 0 transparent;
 }
 a.right_up {
     background: url("../images/arrows.png") no-repeat scroll -176px 0 transparent;
@@ -612,7 +613,24 @@ a.dock-item2 {
 	width: 100%; 
 }
 
-
+#coda-slider-2, #coda-slider-2 .panel {
+    width: 1008px;
+}
+#coda-slider-2 .coda-nav-right a {
+    background: none;
+    position: relative;
+    text-indent: -9999px;
+    top: 130px;
+}
+#container_details .coda-nav-right a{display: none;} 
+a.next_button {
+    background: url("../images/sprite_mesa.png") repeat scroll -1160px 10px transparent;
+    color: transparent;
+    float: right;
+    padding: 33px 20px;
+    position: relative;
+    top: -65px;
+}
 
 /* FOOTER */
 

@@ -1,6 +1,6 @@
 body {
     background: url("../images/background_miaAgency.jpg") no-repeat scroll 0 0 transparent;
-    max-height: 1593px;
+    min-height: 1593px;
     overflow-x: hidden;
 }
 h1 {
@@ -83,7 +83,7 @@ ul#menu li {
 
 #top_text {
     color: black;
-    height: 135px;
+    height: 105px;
     margin-bottom: 66px;
     margin-left: auto;
     margin-right: auto;
@@ -121,19 +121,40 @@ div#text_container p{
 
 
 }
-
-
+div#building_text {
+    color: #FFFFFF;
+    font-size: 9pt;
+    left: -81px;
+    margin-bottom: -60px;
+    margin-left: auto;
+    position: relative;
+    text-align: left;
+    text-shadow: 1px 1px 1px #000000;
+    top: -43px;
+    width: 550px;
+}
 #social a, #social_transparent a {
     height: 22px;
     left: 15px;
     position: relative;
     width: 22px;
 }
+a.next_button {
+    background: url("../images/sprite_mesa.png") repeat scroll -1160px 10px transparent;
+    color: transparent;
+    float: right;
+    left: 42px;
+    padding: 33px 20px;
+    position: relative;
+    top: -255px;
+}
 
-#coda-slider-2, #coda-slider-2 .panel { width: 740px; }
 /* footer */
 
 #footer_airport {
+    color: #FFFFFF;
     height: 45px;
-    color: #fff;
+    padding-top: 7px;
+    position: relative;
+    top: 29px;
 }

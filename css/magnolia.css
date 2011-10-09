@@ -121,6 +121,16 @@ div#text_container p{
 
 
 }
+div#building_text {
+    font-size: 9pt;
+    margin-bottom: -100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: left;
+    top: -65px;
+    width: 550px;
+}
 
 
 #social a, #social_transparent a {
@@ -130,7 +140,7 @@ div#text_container p{
     width: 22px;
 }
 
-#coda-slider-2, #coda-slider-2 .panel { width: 740px; }
+#coda-slider-2, #coda-slider-2 .panel { width: 1008px; }
 /* footer */
 
 #footer_airport {
