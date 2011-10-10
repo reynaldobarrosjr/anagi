@@ -401,8 +401,8 @@ ul#menu li a.batumi_opera span {
 }
 	/* Specify width and background position attributes specifically for the class: "Magnolia" */
 ul#menu li a.magnolia {
-  background-position: -1786px 38px;
-  width: 200px;
+    background-position: -1802px 89px;
+    width: 200px;
 }
 	/* Shift background position on hover for the class: "magnolia" */
 	ul#menu li a.magnolia span {
