@@ -1,6 +1,7 @@
 html#team_info{background: url(../images/background_team.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
 
 h1#anagi_team{text-indent: -9999px;}
+h2{text-indent: -9999px;}
 
 #links_team {
     
@@ -15,4 +16,14 @@ h1#anagi_team{text-indent: -9999px;}
     margin-left: 38px;
     margin-top: 13px;
     position: relative;
+}
+.box_info {
+    background: none repeat scroll 0 0 #F7F7F7;
+    display: table;
+    float: left;
+    height: 324px;
+    margin-bottom: 10px;
+    margin-right: 10%;
+    margin-top: 10px;
+    width: 383px;
 }
