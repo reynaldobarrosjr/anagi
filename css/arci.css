@@ -1,3 +1,4 @@
+html{min-width: 1008px;}
 body{background: url(../images/background_arci.jpg) no-repeat 0 0 scroll;
 	max-height: 1632px;
     overflow-x: hidden;

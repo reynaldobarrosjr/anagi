@@ -1,3 +1,5 @@
+html{min-width: 1008px;}
+
 body {
     background: url("../images/background_miaAgency.jpg") no-repeat scroll 0 0 transparent;
     min-height: 1593px;
