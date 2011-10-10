@@ -636,12 +636,12 @@ a.next_button {
 #footer {
     background: url("../images/sprite_root.png") no-repeat scroll 0 -391px #555554;
     bottom: 0;
+    clear: left;
     color: #FFFFFF;
     height: 42px;
-    position: relative;
+    position: absolute;
     width: 100%;
-    clear:left;
-} 
+}
 #footer img {
     position: relative;
     top: 5px;
@@ -668,10 +668,9 @@ a.next_button {
     float: left;
     font-size: 10px;
     position: relative;
-    top: 10px;
+    top: 0;
     width: 233px;
 }
-
 
 
 
