@@ -679,15 +679,10 @@ a.next_button {
 
 /* OUR PROJECTS - specific CSS*/
 
-.our_projects{ background-attachment: fixed;
-    background-clip: border-box;
-    background-color: #181818;
-    background-image: url("../images/our_project_bkg.png");
-    background-origin: padding-box;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    color: #FFFFFF; }
+.our_projects {
+    background: url("../images/our_project_bkg.png") no-repeat fixed center center #181818;
+    color: #FFFFFF;
+}
 #headlinks_projects,#middlecontent_projects,#headlinks_projects_transparent{float: left;}
 
 #headlinks_projects, #headlinks_projects_transparent {
@@ -717,15 +712,15 @@ li.realized, li.current {
 li.realized {
     background: url("../images/sprite_project.png") repeat scroll -21px -165px transparent;
     font-family: "Ms Trebuchet MS";
-    font-size: 1.2em;
+    font-size: 6pt;
     font-weight: bold;
 }
 li.current {
     background: url("../images/sprite_project.png") repeat scroll -193px -905px transparent;
+    font-size: 6pt;
     height: 142px;
     line-height: 150px;
-}
-h1#project {
+}h1#project {
     background: url("../images/sprite_project.png") no-repeat scroll -19px -20px transparent;
     text-indent: -9999px;
 }
@@ -849,8 +844,9 @@ h2 {
 .extra_info {
     color: #3C3C3C;
     float: right;
-    font-size: 10pt;
+    font-size: 6pt;
     padding-right: 8px;
+    text-align: left;
     width: 40%;
 }
     .extra_info span{margin-bottom: 0px;}
@@ -891,8 +887,9 @@ a#director_current,a#director:hover{background: url("../images/team_links.png") 
     
 
     
-
-
+#box_container {
+    height: 1700px;
+}
     
     
 .grade_info{ background: url("../images/grad_info.png") repeat scroll 0 0 transparent;

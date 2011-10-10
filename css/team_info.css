@@ -1,7 +1,10 @@
 html#team_info{background: url(../images/background_team.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
 
 h1#anagi_team{text-indent: -9999px;}
-h2{text-indent: -9999px;}
+h2 {
+    margin-bottom: -30px;
+    text-indent: -9999px;
+}
 h5 {
     font-size: 8pt;
     margin-bottom: 13px;
@@ -105,6 +108,7 @@ li.list_team {
     position: relative;
 }
 #box_container p{font-size: 7pt;}
+#boxes_container{height: 1100px;}
 .box_info ,.box_info_right{
     background: none repeat scroll 0 0 #F7F7F7;
     display: table;
@@ -115,4 +119,3 @@ li.list_team {
     margin-top: 10px;
     width: 383px;
 }
-.box_info_right{float:right;}
