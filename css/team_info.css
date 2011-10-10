@@ -1,18 +1,112 @@
 html#team_info{background: url(../images/background_team.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
 
 h1#anagi_team{text-indent: -9999px;}
+h2{text-indent: -9999px;}
 
 #links_team {
-    
     height: 114px;
     margin-bottom: 20px;
     padding: 26px 0 3px 3px;
     position: relative;
     right: 14px;
-    width: 892px;
+    width: 838px;
 }
+
+a#director_current, a#director:hover,a#technical,a#technical:hover,a#financial_current,a#financial:hover,a#financial,a#line,a#human_current,a#human:hover,a#human,a#mechanization,a#mechanization_current,a#mechanization:hover,a#shops_current,a#shops:hover,a#shops,a#juridical,a#juridical_current,a#juridical:hover{ height: 24px;text-indent: -9999px;background: url("../images/sprite_button_team.png") repeat scroll 0 0 transparent;}
+
+
+a#director_current, a#director:hover {
+    background: url("../images/sprite_button_team.png") repeat scroll 0 0 transparent;
+    color: transparent;
+    height: 20px;
+    margin-left: 44px;
+    margin-right: -5px;
+    padding: 3px 3px 7px 0;
+    text-indent: -9999px;
+    width: 73px;
+}
+
+a#technical {
+    background-position: -92px -74px;
+    width: 140px;
+}
+a#financial {
+    background-position: -248px -74px;
+    width: 145px;
+}
+a#line {
+    background-position: -409px -74px;
+    width: 107px;
+}
+a#line_current, a#line:hover {
+    background-position: -409px -130px;
+}
+a#technical_current,a#technical:hover{  
+	background-position: -92px 0;
+    
+}
+
+a#financial_current, a#financial:hover {
+    background-position: -248px -130px;
+}
+a#human {
+    background-position: -533px 56px;
+    width: 193px;
+}
+a#human_current, a#human:hover {
+    background-position: -533px -130px;
+}
+a#mechanization {
+    background-position: -728px -104px;
+    left: -71px;
+    position: relative;
+    width: 120px;
+}
+a#mechanization_current,a#mechanization:hover{
+background-position: -728px -160px;
+
+}
+a#shops {
+    background-position: -848px -104px;
+    left: -87px;
+    position: relative;
+    width: 254px;
+}
+a#shops_current, a#shops:hover {
+    background-position: -848px -160px;
+}
+
+a#juridical {
+    background-position: -1118px -104px;
+    left: -87px;
+    position: relative;
+    width: 298px;
+}
+a#juridical_current, a#juridical:hover {
+    background-position: -1118px -160px;
+}
+
+
+
+li.list_team {
+    float: left;
+    list-style: none outside none;
+    width: auto;
+}
+
+
 #middlecontent_projects p {
     margin-left: 38px;
     margin-top: 13px;
     position: relative;
+}
+.box_info {
+    background: none repeat scroll 0 0 #F7F7F7;
+    display: table;
+    float: left;
+    height: 324px;
+    margin-bottom: 10px;
+    margin-right: 10%;
+    margin-top: 10px;
+    width: 383px;
 }
