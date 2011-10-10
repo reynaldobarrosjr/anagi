@@ -867,54 +867,10 @@ h2 {
 border-style: solid;
 border-color: #0000FF;}
     
-a#director{ background: url("../images/team_links_over.png") repeat scroll 0 0 transparent;
-    color: transparent;
-    margin-left: 25px;
-    margin-right: -5px;
-    padding: 3px 3px 7px 0;
-    text-indent: -9999px;
-    width: 298px;
-}
-a#technical{  background: url("../images/team_links_over.png") repeat scroll -92px 0 transparent;
-    color: transparent;
-    padding: 3px;
-    text-indent: -9999px;
-    width: 298px;}
-a#financial{    background: url("../images/team_links_over.png") repeat scroll -285px 0 transparent;
-    color: transparent;
-    padding: 3px;
-    text-indent: -9999px;
-    width: 298px;}
-a#line{  background: url("../images/team_links_over.png") repeat scroll -472px 0 transparent;
-    color: transparent;
-    padding: 3px 6px;
-    text-indent: -9999px;
-    width: 300px;}
-a#human{  background: url("../images/team_links_over.png") no-repeat scroll -612px 0 transparent;
-    color: transparent;
-    padding: 3px 3px 3px 97px;
-    text-indent: -9999px;
-    width: 298px;}
-a#mechanization{  background: url("../images/team_links_over.png") repeat scroll 0 -33px transparent;
-    color: transparent;
-    margin-left: 25px;
-    padding: 3px 6px;
-    text-indent: -9999px;
-    width: 298px;}
-a#shops{ background: url("../images/team_links_over.png") no-repeat scroll -136px -33px transparent;
-    bottom: 2px;
-    color: transparent;
-    font-size: 12px;
-    line-height: 17px;
-    padding: 3px 0 8px 3px;
-    position: relative;
-    text-indent: -9999px;
-    width: 0;}
-a#juridical{  background: url("../images/team_links_over.png") repeat scroll -1284px -33px transparent;
-    color: transparent;
-    padding: 3px;
-    text-indent: -9999px;
-    width: 298px;}
+
+
+
+
     
 a#director_current,a#director:hover{background: url("../images/team_links.png") repeat scroll 0 0 transparent;
     color: transparent;
@@ -924,48 +880,10 @@ a#director_current,a#director:hover{background: url("../images/team_links.png") 
     text-indent: -9999px;
     width: 298px;}
     
-a#technical_current,a#technical:hover{  background: url("../images/team_links.png") repeat scroll -92px 0 transparent;
-    color: transparent;
-    padding: 3px;
-    text-indent: -9999px;
-    width: 298px;}
-    
-a#financial_current,a#financial:hover{    background: url("../images/team_links.png") repeat scroll -285px 0 transparent;
-    color: transparent;
-    padding: 3px;
-    text-indent: -9999px;
-    width: 298px;}
-a#line_current,a#line:hover{  background: url("../images/team_links.png") repeat scroll -472px 0 transparent;
-    color: transparent;
-    padding: 3px 6px;
-    text-indent: -9999px;
-    width: 300px;}
-a#human_current,a#human:hover{  background: url("../images/team_links.png") no-repeat scroll -612px 0 transparent;
-    color: transparent;
-    padding: 3px 3px 3px 97px;
-    text-indent: -9999px;
-    width: 298px;}
-a#mechanization_current,a#mechanization:hover{  background: url("../images/team_links.png") repeat scroll 0 -33px transparent;
-    color: transparent;
-    margin-left: 25px;
-    padding: 3px 6px;
-    text-indent: -9999px;
-    width: 298px;}
 
-a#shops_current,a#shops:hover{ background: url("../images/team_links.png") no-repeat scroll -136px -33px transparent;
-    bottom: 2px;
-    color: transparent;
-    font-size: 12px;
-    line-height: 17px;
-    padding: 3px 0 8px 3px;
-    position: relative;
-    text-indent: -9999px;
-    width: 0;}
-a#juridical_current,a#juridical:hover{  background: url("../images/team_links.png") repeat scroll -1284px -33px transparent;
-    color: transparent;
-    padding: 3px;
-    text-indent: -9999px;
-    width: 298px;}
+    
+
+
     
     
 .grade_info{ background: url("../images/grad_info.png") repeat scroll 0 0 transparent;
