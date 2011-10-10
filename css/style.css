@@ -751,12 +751,12 @@ h1#current {
 
 #footer_projects {
     background: url("../images/sprite_project.png") repeat-x scroll 0 -300px transparent;
+    bottom: 0;
     clear: left;
     color: #FFFFFF;
     height: 40px;
     padding-top: 11px;
     position: relative;
-    top: 43px;
     vertical-align: middle;
     width: 100%;
 }

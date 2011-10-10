@@ -1,3 +1,8 @@
+.offices {
+    background: url("../images/background_offices.png") no-repeat scroll 100% 50% transparent;
+    color: #FFFFFF;
+    min-height: 768px;
+}
 h2 {
     color: #fff;
     font-family: "Trebuchet MS";
@@ -22,3 +27,15 @@ ul.list_photos li{ display: inline;
 .info_box{border-left: solid 1px #fff;padding:15px;}
 .dashed_box{  border: 1px dashed #FFFFFF;
     display: table;padding: 30px;}
+#footer_projects {
+  background: url("../images/sprite_project.png") repeat-x scroll 0 -300px transparent;
+  bottom: 0;
+  clear: left;
+  color: #FFFFFF;
+  height: 40px;
+  padding-top: 11px;
+  position: relative;
+  top: 463px;
+  vertical-align: middle;
+  width: 100%;
+}
