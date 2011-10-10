@@ -5,6 +5,7 @@ html{background-attachment: fixed;
     background-origin: padding-box;
     background-position: center center;
     background-repeat: no-repeat;
+    min-width: 1008px;
     }
 
 a#piazza_dock,a#batumi_dock,a#mcdonalds_dock{float: left;position: relative;text-indent: -9999px;height:426px;}
@@ -64,5 +65,6 @@ a.current_lang{color: #00c969;}
 .coda-slider-wrapper {
     background: url("../images/dock_bkg.png") no-repeat scroll center bottom transparent;
     clear: both;
-    overflow: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
