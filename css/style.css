@@ -668,7 +668,7 @@ a.next_button {
     float: left;
     font-size: 10px;
     position: relative;
-    top: 0;
+    top: 10px;
     width: 233px;
 }
 

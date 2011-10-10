@@ -104,6 +104,7 @@ li.list_team {
     margin-top: -8px;
     position: relative;
 }
+#box_container p{font-size: 7pt;}
 .box_info ,.box_info_right{
     background: none repeat scroll 0 0 #F7F7F7;
     display: table;
