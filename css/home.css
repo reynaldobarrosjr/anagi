@@ -32,7 +32,10 @@ a.current_lang{color: #00c969;}
 
 #space{width: 50%;}
 
-
+#rightpart {
+  width: 25%;
+  margin-bottom: -20px;
+}
 
 /* DOCK STYLE */
 
@@ -63,8 +66,11 @@ a.current_lang{color: #00c969;}
     
     
 .coda-slider-wrapper {
-    background: url("../images/dock_bkg.png") no-repeat scroll center bottom transparent;
-    clear: both;
-    overflow-x: auto;
-    overflow-y: hidden;
+  background: url("../images/dock_bkg.png") no-repeat scroll center bottom transparent;
+  clear: both;
+  margin-bottom: -31px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: relative;
+  top: -30px;
 }
