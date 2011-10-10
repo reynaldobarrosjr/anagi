@@ -66,11 +66,11 @@ a.current_lang{color: #00c969;}
     
     
 .coda-slider-wrapper {
-  background: url("../images/dock_bkg.png") no-repeat scroll center bottom transparent;
-  clear: both;
-  margin-bottom: -31px;
-  overflow-x: auto;
-  overflow-y: hidden;
-  position: relative;
-  top: -30px;
+    background: url("../images/dock_bkg.png") no-repeat scroll center bottom transparent;
+    clear: both;
+    margin-bottom: -7px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: relative;
+    top: -7px;
 }
