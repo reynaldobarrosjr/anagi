@@ -837,7 +837,7 @@ h2 {
     border-style: solid solid solid none;
     border-width: 1px 1px 1px medium;
     color: #FFFFFF;
-    font-size: 15pt;
+    font-size: 10pt;
     font-weight: bold;
     height: 48px;
     line-height: 48px;
@@ -846,23 +846,32 @@ h2 {
     vertical-align: middle;
     width: 80%;
 }
-.extra_info{float: right;
-    width: 40%; font-size: 10pt;color:#3C3C3C;}
-    .extra_info span, .extra_info p{ color: #3C3C3C;
+.extra_info {
+    color: #3C3C3C;
+    float: right;
     font-size: 10pt;
-    margin-bottom: 14px;}
+    padding-right: 8px;
+    width: 40%;
+}
     .extra_info span{margin-bottom: 0px;}
- span.high,p.high{
-    bottom: 20px;
+span.high, p.high {
+    bottom: 14px;
     color: #00C969;
     display: block;
+    font-size: 7pt;
     margin-top: 8px;
-    position: relative;}
+    position: relative;
+}
  p.high{ bottom: 0;
     margin-bottom: 0;
     margin-top: 0;}
  p.dark{color: #3c3c3c;}
- h5.name{font-size: 12pt;font-weight: bold;color: #00c969;}
+h5.name {
+    color: #00C969;
+    font-size: 10pt;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
  a.team_link{background: #00c969;border-width: medium;
 border-style: solid;
 border-color: #0000FF;}

@@ -1,121 +1,42 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
-   	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   
 	<!-- Framework CSS -->
-    <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
-    <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print">
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.9.0/build/reset-fonts-grids/reset-fonts-grids.css">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/technical_info.css" type="text/css" media="screen">
-    
-
-	
-    <!--[if IE]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen, projection"><![endif]-->
-    <!--[if IE 7]><link rel="stylesheet" href="css/ie7.css" type="text/css" media="screen, projection"><![endif]-->
 
 
+    <!--[if lt IE 8]><link rel="stylesheet" href="css/ie7.css" type="text/css" media="screen, projection"><![endif]-->
 
-<title>Technical Information / Equipment</title>
-
-<!-- jQuery (required) -->
+<title>Technical Info</title>
+	<!-- jQuery (required) -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-
-	<!-- Demo stuff -->
-
-	<!-- Anything Slider -->
-	<link rel="stylesheet" href="css/anythingslider.css">
-	<script src="js/jquery.anythingslider.js"></script>
-
-	<!-- AnythingSlider optional extensions -->
-	<!-- <script src="js/jquery.anythingslider.fx.js"></script> -->
-	<!-- <script src="js/jquery.anythingslider.video.js"></script> -->
-
-	<!-- Define slider dimensions here -->
-	
-<style>
-	
-/* Css for slider logo */	
-.block {
-    color: transparent;
-    float: right;
-    margin-right: 10px;
-    overflow: hidden;
-    position: relative;
-    width: 178px;
-}
-	
-.slider {
-    background: url("images/wishmodus_logo.png") no-repeat scroll 0 0 transparent;
-    bottom: 0;
-    float: left;
-    height: 45px;
-    left: 140px;
-    list-style-type: none;
-    margin: 0;
-    padding-bottom: 0;
-    padding-left: 10px;
-    padding-top: 3px;
-    position: absolute;
-    width: 178px;
-}
-
-a.wishmodus{
-      color: transparent;
-	    display: block;
-	    height: 40px;
-	    text-decoration: none;
-	    text-indent: -99999px;
-	    width: 200px;
-}
-	
-/* end of css for slider logo */	
+	<script type="text/javascript" src="js/functions.js"></script>
 
 
-</style>
-
-<script>
-		// DOM Ready
-		$(function(){
-			$('#slider').anythingSlider( {
-			buildNavigation     : false,
-			buildStart: false,
-			autoPlay : false,	
-			buildStartStop      : false,      // If true, builds the start/stop button
-			
-			
-			
-			});
-		//Full Box Sliding (Hidden to Visible)
-	   	$('.block').hover(function(){
-	        $(".slider", this).stop().animate({left:'0px'},{queue:false,duration:160});
-	        }, function() {
-	        $(".slider", this).stop().animate({left:'140px'},{queue:false,duration:160});
-	     });	
-			
-			
-		});
-</script>
 
 </head>
 
-<body class="anagi_bg">
-		<div id="aux_top_content">
-					
-					<div id="topline"></div>
-					
-	    		<div id="headlinks_projects">
-	    			    <ul>
-	    			    	<li class="no_label"><a title="Home" class="home" href="index.html">Home</a></li>
-	    			    	<li class="no_label"><a title="Company" class="company_over" href="company.html">Company</a></li>
-	    			    	<li class="no_label"><a title="Our Projects" class="projects" href="ourprojects.html">Our Projects</a></li>
-	    			    	<li class="no_label"><a title="Products" class="products" href="#">Our Products</a></li>
-	    			    	<li class="no_label"><a title="Clients/Partners" class="clients" href="#">Clients/Partners</a></li>
-	    			    	<li class="no_label"><a title="Contact" class="contact" href="#">Contact</a></li>
-	    			    </ul>
-	    		</div>
-	    		<div id="middlecontent_projects">
-	    			<h1 id="technical_info">Technical Information / Equipment </h1>
+<body class="company_bg">
+	
+		<div id="topline"></div>
+	
+	    <div id="headlinks_projects_transparent">
+	    		<ul>
+	    			<li class="no_label"><a title="Home" id="home" href="index.html">Home</a></li>
+	    			<li class="no_label"><a title="Company" id="company_over" href="company.html">Company</a></li>
+	    			<li class="no_label"><a title="Our Projects" id="projects" href="ourprojects.html">Our Projects</a></li>
+	    			<li class="no_label"><a title="Products" id="products" href="#">Our Products</a></li>
+	    			<li class="no_label"><a title="Clients/Partners" id="clients" href="#">Clients/Partners</a></li>
+	    			<li class="no_label"><a title="Contact" id="contact" href="#">Contact</a></li>
+	    		</ul>
+	    </div>
+	    <div id="middlecontent_projects">
+			<h1 id="technical_info">Technical Information / Equipment </h1>
 	    			<p>The firm "Anagi" has at its disposal two premises, one in the city of Batumi and another in the region of Khelvachauri with the following facilities:</p>
 					<ul>
 						<li>Indoor warehouses;
@@ -128,149 +49,35 @@ a.wishmodus{
 						<li>We have our own supplies of inert materials in amount of 50,000 cubic metres;</li>
 						<li>Laboratory for checking standards and quality of construction materials.</li>
 					
-					</ul>
-	    		</div>
-	    		<div id="rightpart_projects">
-	    			    <div id="anagiling"><img src="images/anaga_logo_right.png" alt="anaga_logo_right" width="96" height="50" /></div>
-	    			    
-	    			    <ul id="social">
-	    			    	<li><a class="social_twitter" href="#">Twitter</a></li>
-	    			    	<li><a class="social_facebook" href="#">Facebook</a></li>
-	    			    	<li><a class="social_digg" href="#">Digg</a></li>
-	    			    </ul>
-	    			    
-	    			    	
-	    			    
-	    		</div>
-		
-		</div>
+					</ul>   	
+	    	
+	    </div>
+	    </div>
+	    <div id="rightpart_projects">
+	    		<div id="anagilogo"></div>
+	    		<div style="background: url(images/back_social.png)" width="96" height="170"></div>
+	    			<ul id="social">
+		    			<li><a class="social_twitter" href="#">Twitter</a></li>
+		    			<li><a class="social_facebook" href="#">Facebook</a></li>
+		    			<li><a class="social_digg" href="#">Digg</a></li>
+		    		</ul>
 	
-		
-	    <div id="aux_middle_content">
-			<div class="box_info">
-				<div class="header_box_info">
-					<h4 class="bio_title">The list of cars and machineries of constructive company</h4>
+	    		
 
-				
-				</div>
-				
-				<div class="extra_info">
-					<div class="box_list">
-						<h5 class="name">Our Iventory</h5>
-						<ul id="extra_list_1">
-							<li>Lorry "Mercedes" 5t</li>
-							<li>Lorry "Ford-transit" 2t</li>
-							<li>Tip-lorry "Maz"</li>
-							<li>Tip-lorry "Kamaz" 12m3</li>
-							<li>Tip-lorry "Ford Kargo" 18m3</li>
-							<li>Excavator "Libger" 1,0m3</li>
-							<li>Excavator &#8221;Belorus&#8221; 0,25m3</li>
-							<li>Bucket Bulk &#8221;Samsung&#8221; 3m3</li>
-							<li>Buldozer</li>
-							<li>Truck Crane "Kamaz" 30t</li>
-							<li>Truck Crane "Maz" 15t</li>
-							<li>Bucket Bulk</li>
-							<li>Bucket Bulk</li>
-							<li>Telescopic elevator "ZIL 130"</li>
-							<li>Elevator  (pioneer) carrying, capacity 300kg</li>
-							<li>Elevator  (pioneer) carrying, capacity 500kg</li>
-							<li>Concrete-mixer "Mercedes" 9 m3</li>
-							<li>Concrete-mixer "Mercedes" 7 m3</li>
-							<li>Concrete-mixer portable</li>
-							<li>Concrete-mixer portable pomp</li>
-							<li>Compressors 9 m3/min.</li>
-							<li>Automatic electric welding device</li>
-							<li>Portable power generator 12 Kwt.</li>
-							<li>Woodworker</li>
-							<li>Depth electric vibrator</li>
-							<li>Superficial electric vibrator</li>
-							<li>Automatic electric welding device portable.</li>
-						
-						</ul>
-					</div>
-					<div class="box_list">
-						<h5 class="name">Machinery on Contract</h5>
-						<ul id="extra_list_2">
-							<li>Truck Crane "Kato" 50t</li>
-							<li>Truck Crane "Kato" 25t</li>
-							<li>Bucket Bulk "Kamatsu" 3,7 m3</li>
-							<li>Excavator "Kamazu" 0,45m3</li>
-							<li>Excavator "Libger"  0,65m3</li>
-							<li>Concrete-mixer "Tatra-steter" 7 m3</li>
-							<li>Concrete-mixer "Kamaz" 5 m3</li>
-							<li>Tip-lorry "Tatra" 12 m3</li>
-							<li>Lorry "Toyota diana" 3t</li>
-							<li>Concrete pump "Mani"</li>
-							<li>Tip-lorry "Kraz"</li>
-							<li>Lorry "Supermaz" 12m</li>
-							<li>Excavator "CAS" 1,25 m3</li>
-							<li>Tip-lorry "Renault" 11 m3</li>
-							<li>Tip-lorry "Mercedes" 10 m3</li>
-						</ul>
-					</div>					
-				
-				</div>
-				<hr>
-				<div class="grade_info"></div>
-			
-			</div><!--end of box info -->
-			
-			<div class="box_info">
-				<div class="header_box_info">
-					<h4 class="bio_title">Anagi LLC Information of our sister companies</h4>
-
-				
-				</div>
-				
-				<div class="extra_info">
-					<div class="box_list">
-						<h5 class="name">Sister Companies</h5>
-						<ul id="extra_list_3">
-						
-						
-						
-							<li>Lugo LTD - Concrete Production 
-							David Agmashenebeli St 121, Khelvachauri, Georgia;</li>
-
-							<li>Redline LTD - (Tbilisi Office) 
-							73rd Vaja-Pshavela St, 112 apt, Tbilisi Georgia;</li>
-							
-							<li>Amra LTD - (Metal-Plastic and Aluminium Facility) 
-							David Agmashenebeli St 121, Khelvachauri, Georgia;</li>
-							
-							<li>Ikorta 2009 LTD - (David Agmashenebeli St 121, Khelvachauri, Georgia)
-							David Agmashenebeli St 121, Khelvachauri, Georgia;</li>
-							
-							<li>Mshentechkontroli LTD - (Concrete Laboratory)
-							David Agmashenebeli St 121, Khelvachauri, Georgia;</li>
-
-
-						
-						</ul>
-					</div>
-							
-				
-				</div>
-				<hr>
-				<div class="grade_info"></div>
-			
-			</div><!--end of box info -->
-			
-
-	    
-	    
-	    
-	    </div><!-- end of aux mid content -->
-		<div id="footer_projects">
-			<img id="logoanagi" src="images/logoanagi.png" alt="logoanagi" width="41" height="45" /> <span>&copy; Anagi.Inc All Rights Reserverd</span>
-	 		<div class="block">
-				<img src="images/wmlogo.png" alt="Wishmodus Logo">
+	    		
+	    			<a class="buy" href="#">Buy Apartments</a>
+	    		
+	    </div>
+		<div id="footer">
+			<div class="left_footer">
+	 		<img alt="logoanagi" src="images/logoanagi.png" id="logoanagi"> <span>&copy; Anagi.Inc All Rights Reserverd</span>
+	 	</div>
+	 	<div class="block">
+				<img src="images/wmlogo.png">
 				<div class="slider">
                     <a class="wishmodus" href="#">Wishmodus	</a>
                 </div>
-         	</div>
-
-
+         </div>
 		
 		</div>   
 

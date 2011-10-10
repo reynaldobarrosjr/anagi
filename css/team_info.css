@@ -2,44 +2,49 @@ html#team_info{background: url(../images/background_team.jpg) no-repeat 0 0 scro
 
 h1#anagi_team{text-indent: -9999px;}
 h2{text-indent: -9999px;}
-
+h5 {
+    font-size: 8pt;
+    margin-bottom: 13px;
+}
 #links_team {
     height: 114px;
     margin-bottom: 20px;
-    padding: 26px 0 3px 3px;
+    padding: 22px 0 3px 3px;
     position: relative;
     right: 14px;
     width: 838px;
 }
 
-a#director_current, a#director:hover,a#technical,a#technical:hover,a#financial_current,a#financial:hover,a#financial,a#line,a#human_current,a#human:hover,a#human,a#mechanization,a#mechanization_current,a#mechanization:hover,a#shops_current,a#shops:hover,a#shops,a#juridical,a#juridical_current,a#juridical:hover{ height: 24px;text-indent: -9999px;background: url("../images/sprite_button_team.png") repeat scroll 0 0 transparent;}
+a#director_current, a#director:hover,a#technical,a#technical:hover,a#financial_current,a#financial:hover,a#financial,a#line,a#human_current,a#human:hover,a#human,a#mechanization,a#mechanization_current,a#mechanization:hover,a#shops_current,a#shops:hover,a#shops,a#juridical,a#juridical_current,a#juridical:hover,a#director{  background: url("../images/sprite_button_team.png") repeat scroll 0 0 transparent;
+    height: 24px;
+    text-indent: -9999px;
+    margin-right: 9px;}
 
 
 a#director_current, a#director:hover {
     background: url("../images/sprite_button_team.png") repeat scroll 0 0 transparent;
     color: transparent;
     height: 20px;
-    margin-left: 44px;
-    margin-right: -5px;
-    padding: 3px 3px 7px 0;
+    margin-left: 0;
+    padding: 0 3px 7px 0;
     text-indent: -9999px;
     width: 73px;
 }
 
 a#technical {
-    background-position: -92px -74px;
+    background-position: -92px -57px;
     width: 140px;
 }
 a#financial {
-    background-position: -248px -74px;
-    width: 145px;
+    background-position: -257px -57px;
+    width: 150px;
 }
 a#line {
-    background-position: -409px -74px;
+    background-position: -421px -57px;
     width: 107px;
 }
 a#line_current, a#line:hover {
-    background-position: -409px -130px;
+    background-position: -421px -115px;
 }
 a#technical_current,a#technical:hover{  
 	background-position: -92px 0;
@@ -47,43 +52,42 @@ a#technical_current,a#technical:hover{
 }
 
 a#financial_current, a#financial:hover {
-    background-position: -248px -130px;
+    background-position: -257px -115px;
 }
 a#human {
-    background-position: -533px 56px;
+    background-position: -545px 58px;
     width: 193px;
 }
 a#human_current, a#human:hover {
-    background-position: -533px -130px;
+    background-position: -545px -115px;
 }
 a#mechanization {
-    background-position: -728px -104px;
-    left: -71px;
+    background-position: -758px -87px;
+    left: -78px;
     position: relative;
-    width: 120px;
+    width: 104px;
 }
-a#mechanization_current,a#mechanization:hover{
-background-position: -728px -160px;
-
+a#mechanization_current, a#mechanization:hover {
+    background-position: -758px -145px;
 }
 a#shops {
-    background-position: -848px -104px;
-    left: -87px;
+    background-position: -876px -87px;
+    left: -79px;
     position: relative;
-    width: 254px;
+    width: 274px;
 }
 a#shops_current, a#shops:hover {
-    background-position: -848px -160px;
+    background-position: -876px -145px;
 }
 
 a#juridical {
-    background-position: -1118px -104px;
-    left: -87px;
+    background-position: -1148px -87px;
+    left: -94px;
     position: relative;
     width: 298px;
 }
 a#juridical_current, a#juridical:hover {
-    background-position: -1118px -160px;
+    background-position: -1148px -145px;
 }
 
 
@@ -96,11 +100,11 @@ li.list_team {
 
 
 #middlecontent_projects p {
-    margin-left: 38px;
-    margin-top: 13px;
+    font-size: 8pt;
+    margin-top: -8px;
     position: relative;
 }
-.box_info {
+.box_info ,.box_info_right{
     background: none repeat scroll 0 0 #F7F7F7;
     display: table;
     float: left;
@@ -110,3 +114,4 @@ li.list_team {
     margin-top: 10px;
     width: 383px;
 }
+.box_info_right{float:right;}
