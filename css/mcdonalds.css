@@ -140,11 +140,11 @@ div#text_container p{
 }
 
 div#building_text {
-    font-size: 6pt;
-    left: 340px;
-    margin-bottom: -100px;
-    position: relative;
-    text-align: left;
-    top: -65px;
-    width: 550px;
+  font-size: 6pt;
+  left: 340px;
+  margin-bottom: -73px;
+  position: relative;
+  text-align: left;
+  top: -65px;
+  width: 550px;
 }
