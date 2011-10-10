@@ -151,6 +151,8 @@ a.next_button {
 /* footer */
 
 #footer_airport {
+    color: #FFFFFF;
     height: 45px;
-    color: #fff;
+    position: relative;
+    top: 7px;
 }
