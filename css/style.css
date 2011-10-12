@@ -665,13 +665,18 @@ a.next_button {
    	color: #fff;
 }
 .left_footer {
-  background: none repeat scroll 0 0 transparent;
-  float: left;
-  font-size: 10px;
-  position: relative;
-  width: 233px;
+  background-attachment:scroll;
+  background-clip:initial;
+  background-color:transparent;
+  background-image:none;
+  background-origin:initial;
+  background-position:0 0;
+  background-repeat:repeat repeat;
+  float:left;
+  font-size:10px;
+  position:relative;
+  width:233px;
 }
-
 
 
 

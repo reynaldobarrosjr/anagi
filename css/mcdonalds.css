@@ -148,3 +148,14 @@ div#building_text {
   top: -65px;
   width: 550px;
 }
+.left_footer {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: none;
+    background-position: 0 0;
+    float: left;
+    font-size: 10px;
+    position: relative;
+    top: 8px;
+    width: 233px;
+}

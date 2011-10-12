@@ -127,3 +127,23 @@ div#text_container p{
     height: 45px;
     color: #fff;
 }
+.block {
+  color:transparent;
+  float:right;
+  margin-right:10px;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  position:relative;
+  width:109px;
+}
+.left_footer {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: none;
+    background-position: 0 0;
+    float: left;
+    font-size: 10px;
+    position: relative;
+    top: 10px;
+    width: 233px;
+}

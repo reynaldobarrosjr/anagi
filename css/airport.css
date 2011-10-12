@@ -138,3 +138,50 @@ div#text_container p{
     height: 45px;
     color: #fff;
 }
+.left_footer {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: none;
+    background-position: 0 0;
+    float: left;
+    font-size: 10px;
+    position: relative;
+    top: 10px;
+    width: 233px;
+}
+
+.left_footer {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: none;
+    background-position: 0 0;
+    float: left;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    width: 233px;
+}
+.block {
+    color: transparent;
+    float: right;
+    margin-right: 10px;
+    overflow: hidden;
+    position: relative;
+    top: 11px;
+    width: 109px;
+}
+.slider {
+    background: url("../images/wishmodus_logo.png") no-repeat scroll 0 0 transparent;
+    bottom: 0;
+    float: left;
+    height: 45px;
+    left: 90px;
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 0;
+    padding-left: 10px;
+    padding-top: 0;
+    position: absolute;
+    top: 0;
+    width: 109px;
+}
