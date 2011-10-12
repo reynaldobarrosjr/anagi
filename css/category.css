@@ -1,7 +1,38 @@
 .offices {
-    background: url("../images/background_offices.png") no-repeat scroll 100% 50% transparent;
+    background: url("../images/background_offices.jpg") no-repeat scroll 100% 50% transparent;
     color: #FFFFFF;
     min-height: 768px;
+}
+.dwelling{
+    background: url("../images/background_dwelling.jpg") no-repeat scroll 100% 50% transparent;
+    color: #FFFFFF;
+    min-height: 768px;
+}
+.hotel{
+    background: url("../images/background_hotel.jpg") no-repeat scroll 100% 50% transparent;
+    color: #FFFFFF;
+    min-height: 768px;    
+}    
+.industrial{
+    background: url("../images/background_industrial.jpg") no-repeat scroll 100% 50% transparent;
+    color: #FFFFFF;
+    min-height: 768px;    
+}    
+.rehabilitation{
+    background: url("../images/background_rehabilitation.jpg") no-repeat scroll 100% 50% transparent;
+    color: #FFFFFF;
+    min-height: 768px;    
+}
+.individualdwelling{
+    background: url("../images/background_individualdwelling.jpg") no-repeat scroll 100% 50% transparent;
+    color: #FFFFFF;
+    min-height: 768px;    
+}
+.entertainment{
+    background: url("../images/background_entertainment.jpg") no-repeat scroll 100% 50% transparent;
+    color: #FFFFFF;
+    min-height: 768px;        
+        
 }
 h2 {
     color: #fff;
@@ -27,8 +58,11 @@ ul.list_photos li{ display: inline;
 .info_box{border-left: solid 1px #fff;padding:15px;}
 .dashed_box{  border: 1px dashed #FFFFFF;
     display: table;padding: 30px;}
-#footer_projects {
-  background: url("../images/sprite_project.png") repeat-x scroll 0 -300px transparent;
+.left_footer{
+	top:7px;
+}
+  
+#footer_projects_internal {
   bottom: 0;
   clear: left;
   color: #FFFFFF;
@@ -36,6 +70,15 @@ ul.list_photos li{ display: inline;
   padding-top: 11px;
   position: relative;
   top: 463px;
-  vertical-align: middle;
+  vertical-align: bottom;
   width: 100%;
+}
+
+.left_footer_internal {
+    background: none repeat scroll 0 0 transparent;
+    float: left;
+    font-size: 102px;
+    position: relative;
+    top: 0;
+    width: 233px;
 }
