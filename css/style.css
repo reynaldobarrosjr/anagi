@@ -615,6 +615,7 @@ a.dock-item2 {
 #coda-slider-2, #coda-slider-2 .panel {
     width: 1008px;
 }
+#coda-slider-2{height: 400px;}
 #coda-slider-2 .coda-nav-right a {
     background: none;
     position: relative;
