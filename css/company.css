@@ -13,6 +13,6 @@ html{background-attachment: fixed;
     clear: left;
     color: #FFFFFF;
     height: 42px;
-    position: relative;
+    position: absolute;
     width: 100%;
 }
