@@ -48,7 +48,18 @@ p.start,p.complete{    color: #FFFFFF;
 }
 
 hr{color: transparent;background: transparent;}
-
+.buy {
+    background: url("../images/sprite_root.png") repeat scroll -10px -285px transparent;
+    clear: both;
+    color: transparent;
+    float: right;
+    font-size: 8pt;
+    padding-bottom: 5px;
+    padding-top: 13px;
+    position: relative;
+    text-align: right;
+    width: 104px;
+}
 
 #category_info{width: 30%;float: left;}
 #photos{}
