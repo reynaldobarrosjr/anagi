@@ -1,4 +1,13 @@
 html#team_info{background: url(../images/background_team.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
+html#technical_dep{background: url(../images/background_technical_department.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
+html#financial_dep{background: url(../images/background_financial_department.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
+html#line_engineers{background: url(../images/background_lineengineers.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
+html#human_resources{background: url(../images/background_humanresources.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
+html#mechanization{background: url(../images/background_mechanization.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
+html#shops{background: url(../images/background_shops.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
+
+html#juridical{background: url(../images/background_juridical.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
+
 
 h1#anagi_team{text-indent: -9999px;}
 h2 {
@@ -118,4 +127,13 @@ li.list_team {
     margin-right: 10%;
     margin-top: 10px;
     width: 383px;
+}
+#footer {
+    background: url("../images/sprite_root.png") no-repeat scroll 0 -391px #555554;
+    bottom: 0;
+    clear: left;
+    color: #FFFFFF;
+    height: 42px;
+    position: relative;
+    width: 100%;
 }

@@ -756,7 +756,7 @@ h1#current {
     color: #FFFFFF;
     height: 40px;
     padding-top: 11px;
-    position: relative;
+    position: absolute;
     vertical-align: middle;
     width: 100%;
 }
