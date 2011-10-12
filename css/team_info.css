@@ -27,11 +27,18 @@ h5 {
     width: 838px;
 }
 
-a#director_current, a#director:hover,a#technical,a#technical:hover,a#financial_current,a#financial:hover,a#financial,a#line,a#human_current,a#human:hover,a#human,a#mechanization,a#mechanization_current,a#mechanization:hover,a#shops_current,a#shops:hover,a#shops,a#juridical,a#juridical_current,a#juridical:hover,a#director{  background: url("../images/sprite_button_team.png") repeat scroll 0 0 transparent;
+a#director_current, a#director:hover,a#technical,a#technical:hover,a#technical_current,a#financial_current,a#financial:hover,a#financial,a#line,a#human_current,a#human:hover,a#human,a#mechanization,a#mechanization_current,a#mechanization:hover,a#shops_current,a#shops:hover,a#shops,a#juridical,a#juridical_current,a#juridical:hover,a#director,a#line_current, a#line:hover {  background: url("../images/sprite_button_team.png") repeat scroll 0 0 transparent;
     height: 24px;
     text-indent: -9999px;
     margin-right: 9px;}
 
+
+a#director {
+    background-position: 0 58px;
+    padding: 0 3px 7px 0;
+    text-indent: -9999px;
+    width: 73px;
+}
 
 a#director_current, a#director:hover {
     background: url("../images/sprite_button_team.png") repeat scroll 0 0 transparent;
@@ -57,14 +64,17 @@ a#line {
 }
 a#line_current, a#line:hover {
     background-position: -421px -115px;
+    width: 107px;
 }
 a#technical_current,a#technical:hover{  
 	background-position: -92px 0;
+	width: 140px;
     
 }
 
 a#financial_current, a#financial:hover {
     background-position: -257px -115px;
+    width: 150px;
 }
 a#human {
     background-position: -545px 58px;
@@ -72,6 +82,7 @@ a#human {
 }
 a#human_current, a#human:hover {
     background-position: -545px -115px;
+    width: 193px;
 }
 a#mechanization {
     background-position: -758px -87px;
@@ -81,6 +92,9 @@ a#mechanization {
 }
 a#mechanization_current, a#mechanization:hover {
     background-position: -758px -145px;
+    width: 104px;
+    left:-78px;
+    position: relative;
 }
 a#shops {
     background-position: -876px -87px;
@@ -90,6 +104,9 @@ a#shops {
 }
 a#shops_current, a#shops:hover {
     background-position: -876px -145px;
+     left: -79px;
+    position: relative;
+    width: 274px;
 }
 
 a#juridical {
@@ -100,6 +117,9 @@ a#juridical {
 }
 a#juridical_current, a#juridical:hover {
     background-position: -1148px -145px;
+    left: -94px;
+    position: relative;
+    width: 298px;
 }
 
 
