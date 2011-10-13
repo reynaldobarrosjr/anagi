@@ -1,0 +1,24 @@
+html{background-attachment: fixed;
+    background-clip: border-box;
+    background-color: #FFFFFF;
+    background-image: url("../images/background_index_1280.png");
+    background-origin: padding-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+
+a#home,a#home:hover {
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -88px -28px transparent;
+    text-indent: -9999px;
+}
+
+.coda-slider-wrapper {
+    background: url("../images/sprite_mesa1280x800.png") no-repeat scroll 0 -377px transparent;
+    bottom: 50px;
+    clear: both;
+    margin-bottom: -7px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: absolute;
+}
