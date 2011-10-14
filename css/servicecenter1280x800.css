@@ -1,0 +1,149 @@
+html{min-width: 1008px;}
+
+body {
+    background: url("../images/background_csc1280x800.jpg") no-repeat scroll 0 0 transparent;
+    max-height: 1961px;
+    overflow-x: hidden;
+}
+h1 {
+    color: #FFFFFF;
+    font-family: "Trebuchet MS";
+    font-size: 22pt;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-left: 40px;
+    text-shadow: 2px 4px 2px #000000;
+}
+h2 {
+    color: #212121;
+ 
+}
+
+ul {
+    padding-left: 20px;
+}
+p {
+    color: #FFFFFF;
+    font-family: "Trebuchet MS";
+    font-size: 1.4em;
+    margin: 0 0 5px;
+}
+.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel {
+    width: 1010px;
+}
+ul#menu li {
+    float: left;
+    margin-left: 50px;
+}
+
+#rightpart {
+    height: 391px;
+    width: 25%;
+}
+
+/* dock navigation*/
+
+
+.coda-nav-left a, .coda-nav-right a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    top: 182px;
+}
+.coda-nav-left a {
+    display: block;
+    float: left;
+    top: 202px;
+    z-index: -10;
+}
+
+/* */
+#details {
+    position: relative;
+}
+#building_details {
+    height: 755px;
+}
+#text_container {
+    font-size: 6pt;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: left;
+    top: 14px;
+    width: 60%;
+}
+
+/*top text - left and description*/
+
+#top_text {
+    color: black;
+    height: 226px;
+    margin-bottom: 66px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0 30px 30px;
+}
+#left_corner {
+    float: left;
+    left: 12px;
+    position: relative;
+    text-align: left;
+    text-indent: -9999px;
+    text-transform: uppercase;
+    top: 24px;
+    width: 336px;
+}
+#description {
+    background: none repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    display: table;
+    float: right;
+    font-size: 7pt;
+    margin-bottom: 30px;
+    position: relative;
+    right: 70px;
+    text-align: left;
+    top: 30px;
+    width: 40%;
+}
+div#text_container p{
+
+    color: #282828;
+    font-family: "Trebuchet MS";
+    font-size: 1.4em;
+    margin: 0 0 5px;
+
+
+}
+
+
+
+
+#coda-slider-2, #coda-slider-2 .panel { width: 1008px; }
+/* footer */
+a.next_button {
+    background: url("../images/sprite_mesa.png") repeat scroll -1160px 10px transparent;
+    color: transparent;
+    float: right;
+    padding: 33px 20px;
+    position: relative;
+    top: -65px;
+}
+#footer_airport {
+    height: 45px;
+    color: #fff;
+}
+.left_footer {
+  background-attachment:scroll;
+  background-clip:initial;
+  background-color:transparent;
+  background-image:none;
+  background-origin:initial;
+  background-position:0 0;
+  background-repeat:repeat repeat;
+  float:left;
+  font-size:10px;
+  position:relative;
+  top:10px;
+}

@@ -513,27 +513,28 @@ ul#menu li a span {
     }
     
 a.details {
-    background: url("../images/sprite_mesa1280x800.png") no-repeat scroll -12px -4px transparent;
+    background: url("../images/sprite_mesa1280x800.png") repeat scroll -1329px 94px transparent;
     color: transparent;
     float: left;
     height: 62px;
     padding: 10px 0;
     position: relative;
     text-indent: -9999px;
-    top: 554px;
+    top: 676px;
     width: 56px;
-    z-index: 9999;
+    z-index: 99;
 }
 a.details:hover {
-    background: url("../images/sprite_mesa1280x800.png") no-repeat scroll -138px -4px transparent;
+    background: url("../images/sprite_mesa1280x800.png") repeat scroll -1329px 144px transparent;
+    height: 34px;
 }
 a.up {
-    background: url("../images/sprite_mesa1280x800.png") no-repeat scroll -871px 0 transparent;
+    background: url("../images/sprite_mesa1280x800.png") repeat scroll -1329px 217px transparent;
     color: transparent;
     float: left;
-    height: 62px;
+    height: 7px;
     left: 10px;
-    padding: 92px 10px 10px 0;
+    padding: 40px 10px 10px 0;
     position: relative;
     text-indent: -9999px;
     top: 0;
@@ -541,23 +542,23 @@ a.up {
     z-index: 9999;
 }
 a.up:hover {
-    background: url("../images/sprite_mesa1280x800.png") no-repeat scroll -1004px 0 transparent;
+background:url("../images/sprite_mesa1280x800.png") repeat scroll -1328px 270px transparent;
 }
 a.right_up {
-    background: url("../images/arrows.png") no-repeat scroll -176px 0 transparent;
+    background: url("../images/sprite_mesa1280x800.png") repeat scroll -1328px 270px transparent;
     color: transparent;
     float: right;
     height: 62px;
-    left: 10px;
-    padding: 7px 0 10px 0;
+    padding: 7px 0 10px;
     position: relative;
+    right: 160px;
     text-indent: -9999px;
-    top: 65px;
+    top: 525px;
     width: 41px;
     z-index: 9999;
 }
 a.right_up:hover {
-    background: url("../images/arrows.png") no-repeat scroll -210px 0 transparent;
+    background: url("../images/sprite_mesa1280x800.png") repeat scroll -1328px 270px transparent;
 }
 
 a.right_up_photo {
@@ -702,8 +703,10 @@ a.next_button {
     position: relative;
 }
 #headlinks_projects {
-    background: url("../images/sprite_root1280x800.png") no-repeat scroll -3px -14px transparent;
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -3px -5px transparent;
+    height: 244px;
     padding-top: 39px;
+    width: 84px;
     z-index: 9999;
 }
 #anagiling img{vertical-align:middle;margin-right:25px;}
