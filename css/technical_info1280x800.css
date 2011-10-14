@@ -1,6 +1,6 @@
 html#technical_info {
-    background: url("../images/background_team1280x800.jpg") no-repeat scroll 0 0 transparent;
-    min-height: 1562px;
+    background: url("../images/background_techinfo1280x800.jpg") no-repeat scroll 0 0 transparent;
+    min-height: 1614px;
     min-width: 1008px;
 }
 
@@ -22,7 +22,10 @@ h5 {
     right: 14px;
     width: 838px;
 }
-
+#middlecontent_projects ul{
+    font-size: 10pt;
+   
+}
 a#director_current, a#director:hover,a#technical,a#technical:hover,a#financial_current,a#financial:hover,a#financial,a#line,a#human_current,a#human:hover,a#human,a#mechanization,a#mechanization_current,a#mechanization:hover,a#shops_current,a#shops:hover,a#shops,a#juridical,a#juridical_current,a#juridical:hover,a#director{  background: url("../images/sprite_button_team.png") repeat scroll 0 0 transparent;
     height: 24px;
     text-indent: -9999px;
@@ -108,7 +111,7 @@ li.list_team {
 
 
 #middlecontent_projects p {
-    font-size: 8pt;
+    font-size: 11pt;
     margin-top: -8px;
     position: relative;
 }
@@ -125,13 +128,13 @@ li.list_team {
     width: 383px;
 }
 #footer {
-    background: none;
+    background: none repeat scroll 0 0 transparent;
     bottom: 0;
     clear: left;
     color: #FFFFFF;
     height: 42px;
     position: relative;
-    top: 1260px;
+    top: 1300px;
     width: 100%;
 }
 .block {

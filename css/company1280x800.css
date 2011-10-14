@@ -42,6 +42,7 @@ html{background-attachment: fixed;
     color: #FFFFFF;
     height: 42px;
     position: relative;
+    top: 87px;
     width: 100%;
 }
 #navlist li a#tech_info {

@@ -163,6 +163,7 @@ a.main_links {
     height: 230px;
     position: relative;
     width: 25%;
+    z-index: 1;
 }
 #headlinks{background: url("../images/panel.png") no-repeat scroll 0 0 transparent;}
 
@@ -252,7 +253,7 @@ a#company_over {
 
 
 #anagilogo {
-    background-position: -759px -502px;
+    background-position: -754px -497px;
     height: 63px;
     width: 134px;
 }
@@ -277,12 +278,11 @@ ul#social li {
 }
 #social_transparent {
     background-image: url("../images/sprite_root1280x800.png");
-    background-position: -379px 6px;
+    background-position: -510px -139px;
     left: 0;
+    margin-bottom: 15px;
     position: relative;
-}
-
-	
+}	
 #social a, #social_transparent a {
     height: 30px;
     width: 30px;
@@ -702,7 +702,8 @@ a.next_button {
     position: relative;
 }
 #headlinks_projects {
-    background: url("../images/sprite_root1280x800.png") no-repeat scroll -318px -14px transparent;
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -3px -14px transparent;
+    padding-top: 39px;
     z-index: 9999;
 }
 #anagiling img{vertical-align:middle;margin-right:25px;}

@@ -149,11 +149,12 @@ p {
     width: 383px;
 }
 #footer {
-    background: url("../images/sprite_root.png") no-repeat scroll 0 -391px #555554;
+    background: none repeat scroll 0 0 transparent;
     bottom: 0;
     clear: left;
     color: #FFFFFF;
     height: 42px;
     position: relative;
+    top: 375px;
     width: 100%;
 }
