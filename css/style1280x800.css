@@ -227,15 +227,14 @@ a#projects_over {
     text-indent: -9999px;
 }
 a#company_over {
-    background: url("../images/sprite_root1280x800.png") no-repeat scroll -149px -35px transparent;
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -287px -68px transparent;
     text-indent: -9999px;
-}    
+}   
    
     
  	
 	
 /*RIGHT PART*/
-
 #anagiling, #anagilogo {
     background-image: url("../images/sprite_root1280x800.png");
     background-position: -516px -399px;
@@ -250,10 +249,12 @@ a#company_over {
     vertical-align: middle;
     width: 133px;
 }
+
+
 #anagilogo {
-    background-position: -271px -319px;
-    height: 50px;
-    width: 110px;
+    background-position: -164px -462px;
+    height: 63px;
+    width: 134px;
 }
 	#anagiling a.last{padding-right: 30px;}
 #rightpart{width:25%;}
@@ -320,10 +321,12 @@ a.social_digg:hover {
     text-indent: -9999px;
 }
 #anagi_links_container {
-    background: none repeat scroll 0 0;
+    background: none repeat scroll 0 0 transparent;
+    font-size: 8pt;
     line-height: 40px;
     position: relative;
     text-align: center;
+    top: 17px;
 }
 a.anagiling{background: url("../images/sprite_root1280x800.png") 0px 0px transparent;}
 a.anagiling:hover{background: url("../images/sprite_root1280x800.png") 0px 0px transparent;}
@@ -366,36 +369,37 @@ ul#menu li a.piazza {
 }
 	/* Shift background position on hover for the class: "piazza" */
 ul#menu li a.piazza span {
-background-position: -58px -33px;    background-repeat: no-repeat;
+    background-position: -3px -33px;
+    background-repeat: no-repeat;
 }
 	/* Specify width and background position attributes specifically for the class: "custom_service" */
 ul#menu li a.custom_service {
-    background-position: -356px -72px;
+  background-position: -1689px -33px;
 }
 	/* Shift background position on hover for the class: "custom service" */
 ul#menu li a.custom_service span {
-    background-position: -539px -72px;
+ 	background-position: -1349px -33px;
 }
 	/* Specify width and background position attributes specifically for the class: "mc_donalds" */
 ul#menu li a.mc_donalds {
-    background-position: -724px -72px;
+    background-position: -2399px -34px;
 }
 	/* Shift background position on hover for the class: "mc_donalds" */
 ul#menu li a.mc_donalds span {
-    background-position: -911px -72px;
+    background-position: -2059px -34px;
 }
 	/* Specify width and background position attributes specifically for the class: "batumi_opera" */
 ul#menu li a.batumi_opera {
-    background-position: -1099px -72px;
+    background-position: -4493px -33px;
 }
 	/* Shift background position on hover for the class: "batumi_opera" */
 ul#menu li a.batumi_opera span {
-    background-position: -1285px -72px;
+    background-position: -4223px -33px;
     background-repeat: no-repeat;
 }
 	/* Specify width and background position attributes specifically for the class: "Mestia Airport" */
-	ul#menu li a.mestia_airport {
-    background-position: -1457px -72px;
+ul#menu li a.mestia_airport {
+    background-position: -5085px -33px;
 }
 	/* Shift background position on hover for the class: "Mestia Airport" */
 	ul#menu li a.magnolia {
@@ -404,45 +408,45 @@ ul#menu li a.batumi_opera span {
 }
 	/* Specify width and background position attributes specifically for the class: "Magnolia" */
 ul#menu li a.magnolia {
-    background-position: -1802px 89px;
-    width: 200px;
+    background-position: -5666px -33px;
+    width: 236px;
 }
 	/* Shift background position on hover for the class: "magnolia" */
-	ul#menu li a.magnolia span {
-    background-position: -1988px -72px;
+ul#menu li a.magnolia span {
+    background-position: -5386px -33px;
     background-repeat: no-repeat;
 }
 	/* Specify width and background position attributes specifically for the class: "arci_batumi" */
-	ul#menu li a.arci_batumi {
-    background-position: -2178px -72px;
+ul#menu li a.arci_batumi {
+    background-position: -985px -33px;
 }
 	/* Shift background position on hover for the class: "arci_batumi" */
 ul#menu li a.arci_batumi span {
-    background-position: -2380px -72px;
+    background-position: -685px -33px;
     background-repeat: no-repeat;
 }
 	/* Specify width and background position attributes specifically for the class: "mia" */
 ul#menu li a.mia {
-    background-position: -2567px -75px;
+    background-position: -3037px -28px;
 }
 	/* Shift background position on hover for the class: "mia" */
 ul#menu li a.mia span {
-    background-position: -2785px -75px;
+    background-position: -2724px -28px;
     background-repeat: no-repeat;
 }
 	/* Specify width and background position attributes specifically for the class: "gran_palace" */
 ul#menu li a.gran_palace {
-    background-position: -2992px -75px;
+    background-position: -3812px -34px;
 }
 	/* Shift background position on hover for the class: "gran_palace" */
 ul#menu li a.gran_palace span {
-    background-position: -3203px -75px;
+    background-position: -3459px -34px;
     background-repeat: no-repeat;
 }
 	
 	/* Span (on hover) - common attributes */
-	ul#menu li a span {
-    background: url("../images/sprite_mesa1280x800.png") no-repeat scroll -1625px -72px transparent;
+ul#menu li a span {
+    background: url("../images/sprite_mesa1280x800.png") no-repeat scroll -4804px -33px transparent;
     display: block;
     height: 100%;
     left: 0;
@@ -451,7 +455,6 @@ ul#menu li a.gran_palace span {
     width: 100%;
     z-index: 100;
 }
-	
 	/* Span (on hover) - display pointer */
 	ul#menu li a span:hover {
 		cursor:pointer;
@@ -750,6 +753,7 @@ h1#current {
     z-index: 9999;}
 #middlecontent_projects {
     font-size: 7pt;
+    padding-left: 15px;
     position: relative;
     text-align: left;
     top: 10px;
@@ -780,10 +784,7 @@ li.no_label a{height: 32px;}
 
 
 /* COMPANY - specific CSS*/
-#company {
-    background: url("../images/company_logo.png") no-repeat scroll 0 0 transparent;
-    text-indent: -9999px;
-}
+
 h2 {
     color: #4A4A4A;
     font-family: "Trebuchet MS";
@@ -792,9 +793,10 @@ h2 {
     margin-bottom: 10px;
 }
 #company {
-    background: url("../images/company_logo.png") no-repeat scroll 0 0 transparent;
+    background: url("../images/sprite_company1280x800.png") no-repeat scroll 0 -19px transparent;
     font-size: 22pt;
     margin-bottom: 15px;
+    padding-top: 10px;
     text-indent: -9999px;
 }
 #navlist{ display: table;

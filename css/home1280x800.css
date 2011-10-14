@@ -21,4 +21,5 @@ a#home,a#home:hover {
     overflow-x: auto;
     overflow-y: hidden;
     position: absolute;
+    z-index: 0;
 }

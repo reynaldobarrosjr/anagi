@@ -33,10 +33,11 @@ a.current_lang{color: #00c969;}
 #space{width: 50%;}
 
 #rightpart {
-  width: 25%;
-  margin-bottom: -20px;
+    margin-bottom: -20px;
+    position: relative;
+    width: 25%;
+    z-index: 1;
 }
-
 /* DOCK STYLE */
 
 #left_table,#middle_table,#right_table{height:437px;}

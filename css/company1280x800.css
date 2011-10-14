@@ -1,0 +1,55 @@
+html{background-attachment: fixed;
+    background-clip: border-box;
+    background-color: #FFFFFF;
+    background-image: url("../images/background_company1280x800.png");
+    background-origin: padding-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-width: 1008px;
+    }
+#navlist li a {
+    background: url("../images/sprite_company1280x800.png") no-repeat scroll 0 -77px transparent;
+    color: transparent;
+    line-height: 125px;
+    padding: 55px 55px 54px 11px;
+    text-indent: -9999px;
+    width: 125px;
+}
+
+#anagiling, #anagilogo {
+    background-image: url("../images/sprite_company1280x800.png");
+    background-position: -516px -399px;
+    color: #FFFFFF;
+    float: right;
+    font-size: 7pt;
+    height: 71px;
+    line-height: 91px;
+    position: relative;
+    text-align: right;
+    text-shadow: 1px 1px #000000;
+    vertical-align: middle;
+    width: 133px;
+}
+#anagilogo {
+    background-position: -164px -462px;
+    height: 63px;
+    width: 134px;
+}
+
+#footer {
+    background: url("../images/sprite_root.png") no-repeat scroll 0 -391px #555554;
+    bottom: 0;
+    clear: left;
+    color: #FFFFFF;
+    height: 42px;
+    position: relative;
+    width: 100%;
+}
+#navlist li a#tech_info {
+    background-position: -162px -78px;
+    padding-left: 19px;
+}
+#navlist li a#lugo {
+    background-position: -313px -78px;
+    padding-left: 27px;
+}
