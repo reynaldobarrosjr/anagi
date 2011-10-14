@@ -763,13 +763,12 @@ h1#current {
     z-index: 9999;}
 #middlecontent_projects {
     font-size: 7pt;
-    padding-left: 15px;
+    padding-left: 37px;
     position: relative;
     text-align: left;
-    top: 10px;
+    top: 45px;
     width: 75%;
 }
-
 
 
 #logoanagi_footer{ 
@@ -870,7 +869,10 @@ span.high, p.high {
  p.high{ bottom: 0;
     margin-bottom: 0;
     margin-top: 0;}
- p.dark{color: #3c3c3c;}
+p.dark {
+    color: #3C3C3C;
+    margin-top: 50px;
+}
 h5.name {
     color: #00C969;
     font-size: 10pt;
