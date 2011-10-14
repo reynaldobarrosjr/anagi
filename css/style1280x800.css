@@ -172,7 +172,7 @@ a#home {
   text-indent: -9999px;
 }
 a#home:hover {
-    background: url("../images/sprite_root1280x800.png") no-repeat scroll -17px -240px transparent;
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -287px -29px transparent;
     text-indent: -9999px;
 }
 a#company_main_link {
@@ -223,7 +223,7 @@ a#clients:hover, a#clients_over {
 }
 
 a#projects_over {
-    background: url("../images/sprite_root1280x800.png") no-repeat scroll -149px -68px transparent;
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -287px -109px transparent;
     text-indent: -9999px;
 }
 a#company_over {
@@ -252,7 +252,7 @@ a#company_over {
 
 
 #anagilogo {
-    background-position: -164px -462px;
+    background-position: -759px -502px;
     height: 63px;
     width: 134px;
 }
@@ -298,13 +298,13 @@ a.social_twitter:hover {
     text-indent: -9999px;
 }
 a.social_facebook {
-    background: url("../images/sprite_root1280x800.png") repeat scroll -1336px -518px transparent;
+    background: url("../images/sprite_root1280x800.png") repeat scroll -618px -518px transparent;
     margin-top: 2px;
     text-indent: -9999px;
 }
 
 a.social_facebook:hover {
-    background: url("../images/sprite_root1280x800.png") repeat scroll -1365px -518px transparent;
+    background: url("../images/sprite_root1280x800.png") repeat scroll -647px -518px transparent;
     margin-top: 2px;
     text-indent: -9999px;
 }
@@ -333,7 +333,7 @@ a.anagiling:hover{background: url("../images/sprite_root1280x800.png") 0px 0px t
 
 a.buy:hover{color: transparent;}
 .buy {
-    background: url("../images/sprite_root1280x800.png") repeat scroll -1226px -1343px transparent;
+    background: url("../images/sprite_root1280x800.png") repeat scroll -508px -1343px transparent;
     clear: both;
     color: transparent;
     float: right;
@@ -690,8 +690,9 @@ a.next_button {
 /* OUR PROJECTS - specific CSS*/
 
 .our_projects {
-    background: url("../images/our_project_bkg.png") no-repeat fixed center center #181818;
+    background: url("../images/background_ourproject_1280x800.png") no-repeat scroll center center #181818;
     color: #FFFFFF;
+    min-height: 773px;
 }
 #headlinks_projects,#middlecontent_projects,#headlinks_projects_transparent{float: left;}
 
@@ -720,30 +721,39 @@ li.realized, li.current {
     width: 108px;
 }
 li.realized {
-    background: url("../images/sprite_project.png") repeat scroll -21px -165px transparent;
+    background: url("../images/sprite_project1280x800.png") repeat scroll -11px -300px transparent;
     font-family: "Ms Trebuchet MS";
     font-size: 6pt;
     font-weight: bold;
+    height: 146px;
+    width: 135px;
 }
 li.current {
-    background: url("../images/sprite_project.png") repeat scroll -193px -905px transparent;
+    background: url("../images/sprite_project1280x800.png") no-repeat scroll -186px -297px transparent;
     font-size: 6pt;
     height: 142px;
     line-height: 150px;
-}h1#project {
-    background: url("../images/sprite_project.png") no-repeat scroll -19px -20px transparent;
+    width: 135px;
+}
+h1#project {
+    background: url("../images/sprite_project1280x800.png") no-repeat scroll -21px 0 transparent;
+    position: relative;
     text-indent: -9999px;
+    top: -11px;
 }
 h1#realized {
-    background: url("../images/sprite_project.png") repeat scroll -18px -60px transparent;
+    background: url("../images/sprite_project1280x800.png") repeat scroll -18px -60px transparent;
     text-indent: -9999px;
 }
-a.realized_link{color: #fff;}
+a.realized_link {
+    color: #FFFFFF;
+    line-height: 136px;
+}
 a.realized_link:hover{color:#000;}
 a.current_link{color: #fff;}
 a.current_link:hover{color:#EF113B;}
 h1#current {
-    background: url("../images/sprite_project.png") no-repeat scroll -17px -102px transparent;
+    background: url("../images/sprite_project1280x800.png") no-repeat scroll -17px -102px transparent;
     text-indent: -9999px;
 }
 
@@ -761,17 +771,7 @@ h1#current {
 }
 
 
-#footer_projects {
-    background: url("../images/sprite_project.png") repeat-x scroll 0 -300px transparent;
-    bottom: 0;
-    clear: left;
-    color: #FFFFFF;
-    height: 40px;
-    padding-top: 11px;
-    position: absolute;
-    vertical-align: middle;
-    width: 100%;
-}
+
 #logoanagi_footer{ 
      margin-left: 30px;	}
 
@@ -793,7 +793,7 @@ h2 {
     margin-bottom: 10px;
 }
 #company {
-    background: url("../images/sprite_company1280x800.png") no-repeat scroll 0 -19px transparent;
+    background: url("../images/sprite_company1280x800.png") no-repeat scroll 0 1px transparent;
     font-size: 22pt;
     margin-bottom: 15px;
     padding-top: 10px;

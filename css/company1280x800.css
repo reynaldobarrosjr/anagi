@@ -8,14 +8,13 @@ html{background-attachment: fixed;
     min-width: 1008px;
     }
 #navlist li a {
-    background: url("../images/sprite_company1280x800.png") no-repeat scroll 0 -77px transparent;
+    background: url("../images/sprite_company1280x800.png") no-repeat scroll 0 -57px transparent;
     color: transparent;
     line-height: 125px;
     padding: 55px 55px 54px 11px;
     text-indent: -9999px;
     width: 125px;
 }
-
 #anagiling, #anagilogo {
     background-image: url("../images/sprite_company1280x800.png");
     background-position: -516px -399px;
@@ -46,10 +45,10 @@ html{background-attachment: fixed;
     width: 100%;
 }
 #navlist li a#tech_info {
-    background-position: -162px -78px;
+    background-position: -162px -57px;
     padding-left: 19px;
 }
 #navlist li a#lugo {
-    background-position: -313px -78px;
+    background-position: -313px -57px;
     padding-left: 27px;
 }
