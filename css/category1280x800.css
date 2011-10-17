@@ -1,37 +1,46 @@
 .offices {
-    background: url("../images/background_offices.jpg") no-repeat scroll 100% 50% transparent;
+    background: url("../images/background_offices1280x800.jpg") no-repeat scroll transparent;
     color: #FFFFFF;
     min-height: 768px;
 }
-.dwelling{
-    background: url("../images/background_dwelling.jpg") no-repeat scroll 100% 50% transparent;
+.dwelling {
+    background: url("../images/background_dwelling1280x800.jpg") no-repeat scroll 0 0 transparent;
     color: #FFFFFF;
-    min-height: 768px;
+    min-height: 800px;
+}
+.dwelling .block,.hotel .block ,.offices .block,.industrial .block,.rehabilitation .block,.individualdwelling .block, .entertainment .block{
+    color: transparent;
+    float: right;
+    margin-right: -160px;
+    overflow: hidden;
+    position: relative;
+    top: 2px;
+    width: 109px;
 }
 .hotel{
-    background: url("../images/background_hotel.jpg") no-repeat scroll 100% 50% transparent;
+    background: url("../images/background_hotel1280x800.jpg") no-repeat scroll transparent;
     color: #FFFFFF;
-    min-height: 768px;    
+    min-height: 800px;    
 }    
 .industrial{
-    background: url("../images/background_industrial.jpg") no-repeat scroll 100% 50% transparent;
+    background: url("../images/background_industrial1280x800.jpg") no-repeat scroll transparent;
     color: #FFFFFF;
-    min-height: 768px;    
+    min-height: 800px;    
 }    
 .rehabilitation{
-    background: url("../images/background_rehabilitation.jpg") no-repeat scroll 100% 50% transparent;
+    background: url("../images/background_rehabilitation1280x800.jpg") no-repeat scroll transparent;
     color: #FFFFFF;
-    min-height: 768px;    
+    min-height: 800px;    
 }
 .individualdwelling{
-    background: url("../images/background_individualdwelling.jpg") no-repeat scroll 100% 50% transparent;
+    background: url("../images/background_individual_dwelling1280x800.jpg") no-repeat scroll transparent;
     color: #FFFFFF;
-    min-height: 768px;    
+    min-height: 800px;    
 }
 .entertainment{
-    background: url("../images/background_entertainment.jpg") no-repeat scroll 100% 50% transparent;
+    background: url("../images/background_entertainment1280x800.jpg") no-repeat scroll transparent;
     color: #FFFFFF;
-    min-height: 768px;        
+    min-height: 800px;        
         
 }
 h2 {
@@ -49,16 +58,29 @@ p.start,p.complete{    color: #FFFFFF;
 
 hr{color: transparent;background: transparent;}
 .buy {
-    background: url("../images/sprite_root.png") repeat scroll -10px -285px transparent;
+    background: url("../images/sprite_root1280x800.png") repeat scroll -508px -1343px transparent;
     clear: both;
     color: transparent;
     float: right;
     font-size: 8pt;
     padding-bottom: 5px;
-    padding-top: 13px;
+    padding-top: 18px;
     position: relative;
     text-align: right;
-    width: 104px;
+    top: 75px;
+    width: 133px;
+}
+
+#social, #social_transparent {
+    clear: both;
+    display: block;
+    float: right;
+    height: 137px;
+    margin: 0;
+    padding-right: 25px;
+    position: relative;
+    text-decoration: none;
+    top: 30px;
 }
 
 #category_info{width: 30%;float: left;}
@@ -74,15 +96,15 @@ ul.list_photos li{ display: inline;
 }
   
 #footer_projects_internal {
-  bottom: 0;
-  clear: left;
-  color: #FFFFFF;
-  height: 40px;
-  padding-top: 11px;
-  position: relative;
-  top: 463px;
-  vertical-align: bottom;
-  width: 100%;
+    bottom: 0;
+    clear: left;
+    color: #FFFFFF;
+    height: 40px;
+    padding-top: 11px;
+    position: relative;
+    top: 487px;
+    vertical-align: bottom;
+    width: 100%;
 }
 
 .left_footer_internal {
