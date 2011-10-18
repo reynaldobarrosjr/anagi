@@ -712,7 +712,7 @@ a.next_button {
 
 
 ul.list_projects{display: table;
-    margin: 0 0 50px;
+    margin: 50px 0 0 0;
     padding: 0;}
 li.realized, li.current {
     display: table;
@@ -739,13 +739,11 @@ li.current {
     width: 135px;
 }
 h1#project {
-    background: url("../images/sprite_project1280x800.png") no-repeat scroll -21px 0 transparent;
     position: relative;
     text-indent: -9999px;
     top: -11px;
 }
 h1#realized {
-    background: url("../images/sprite_project1280x800.png") repeat scroll -18px -60px transparent;
     text-indent: -9999px;
 }
 a.realized_link {
@@ -756,7 +754,6 @@ a.realized_link:hover{color:#000;}
 a.current_link{color: #fff;}
 a.current_link:hover{color:#EF113B;}
 h1#current {
-    background: url("../images/sprite_project1280x800.png") no-repeat scroll -17px -102px transparent;
     text-indent: -9999px;
 }
 
@@ -766,7 +763,7 @@ h1#current {
     z-index: 9999;}
 #middlecontent_projects {
     font-size: 7pt;
-    padding-left: 37px;
+    padding-left: 15px;
     position: relative;
     text-align: left;
     top: 45px;
@@ -909,6 +906,14 @@ a#director_current,a#director:hover{background: url("../images/team_links.png") 
     height: 16px;
     margin: -5px 0 0;
     padding: 0;}
+    
+/* footer */
+
+#footer_projects{
+	position: relative;
+	top:340px;
+
+}
    
 /* Style for slider on footer */
  
