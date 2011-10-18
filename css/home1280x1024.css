@@ -1,12 +1,12 @@
-html{background-attachment: fixed;
+html {
+    background-attachment: fixed;
     background-clip: border-box;
     background-color: #FFFFFF;
-    background-image: url("../images/background_index1240x1024.png");
+    background-image: url("../images/background_index1240x1024.jpg");
     background-origin: padding-box;
     background-position: center center;
     background-repeat: no-repeat;
     min-height: 1024px;
-    
 }
 
 a#home,a#home:hover {
@@ -16,7 +16,7 @@ a#home,a#home:hover {
 
 .coda-slider-wrapper {
     background: url("../images/sprite_mesa1280x800.png") no-repeat scroll 0 -377px transparent;
-    bottom: 50px;
+    bottom: -673px;
     clear: both;
     margin-bottom: -7px;
     overflow-x: auto;

@@ -1,0 +1,951 @@
+/* HTML TAGS */
+
+
+
+p{font-size: 1.4em;
+    margin: 0 0 20px;font-family:"Trebuchet MS";}
+p.photo {
+    color: #444444;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+a{  color: #FFFFFF;
+    text-decoration: none;text-transform:uppercase;font-family: Arial;}
+	a:focus,a:hover{color: #00c969;}
+
+}
+hr{text-indent: -9999px;}
+hr.team {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    clear: both;
+    color: transparent;
+    float: none;
+    height: 0;
+    margin: 0;
+    width: 100%;
+}
+ul{padding-left: 2.5em;}
+
+li a{height: 50px;display: block;}
+
+h1 {
+    color: #FFFFFF;
+    font-family: "Trebuchet MS";
+    font-size: 34pt;
+    line-height: 1;
+    margin-bottom: 0;
+    text-shadow: 2px 4px 2px #000000;
+}
+h1#office{background: url(../images/offices.png) no-repeat;text-indent: -9999px;}
+h3 {
+    color: #FFFFFF;
+    font-family: "Trebuchet MS";
+    font-size: 24pt;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    width: 50%;
+}
+h5{margin:0;padding: 0;}
+
+
+/* GENERAL */
+
+#rightpart,#headlinks,#middlecontent,#headlinks_transparent{position: relative;float: left;}
+
+#rightpart{float: right;}
+	/* Firefox Dotted Outline Fix */
+	a:active { 
+		outline: none; 
+	}
+	
+	/* Firefox Dotted Outline Fix */
+	a:focus { 
+		-moz-outline-style: none; 
+	}
+	
+	/* Menu Body */
+	ul#menu {
+		
+		height:102px;
+		background:url(bg.png) repeat-x;
+		list-style:none;
+		margin:0;
+		padding:0;
+		
+	}
+	
+	/* Float LI Elements - horizontal display */
+ul#menu li {
+    float: left;
+    margin-left: 59px;
+}
+	
+	/* Link - common attributes */
+	ul#menu li a {
+		background:url(images/piazza_ico_js.png) no-repeat scroll top left;
+		display:block;
+		height:426px;
+		position:relative;
+	}
+	
+	/* Specify width and background position attributes specifically for the class: "home" */
+	ul#menu li a.home {
+		width:261px;
+	}
+	
+	/* Specify width and background position attributes specifically for the class: "batumi" */
+	ul#menu li a.batumi {
+		width:365px;
+		background-position:-566px 0px;
+	}
+	
+	/* Span (on hover) - common attributes */
+	ul#menu li a span {
+		background:url(images/piazza_ico_js.png) no-repeat scroll;
+		display:block;
+		position:absolute;
+		top:0;
+		left:0;
+		height:100%;
+		width:100%;
+		z-index:100;
+	}
+	
+	/* Span (on hover) - display pointer */
+	ul#menu li a span:hover {
+		cursor:pointer;
+	}
+	
+	/* Shift background position on hover for the class: "home" */
+	ul#menu li a.home span {
+		background-position:-278px 0px;
+	}
+	
+	/* Shift background position on hover for the class: "batumi" */
+	ul#menu li a.batumi span {
+		 background-position: -940px 0;
+    	 
+	}
+	
+	
+	/* Shift background position on hover for the class: "portfolio" */
+	ul#menu li a.portfolio span {
+		background-position:-159px 0px;
+	}
+
+     
+ div.description_container{
+ 	margin-top: 40px;
+    position: relative;
+    text-align: center;
+    }
+
+
+
+/* HEADER */
+
+#topline{width: 100%;height: 39px;}
+
+/*HEAD LINKS*/
+
+a.main_links {
+  height: 34px;
+  width: 173px;
+}
+#headlinks_projects{width: 10%;}
+#headlinks, #headlinks_transparent {
+    color: black;
+    height: 230px;
+    position: relative;
+    width: 25%;
+    z-index: 1;
+}
+#headlinks{background: url("../images/panel.png") no-repeat scroll 0 0 transparent;}
+
+	#headlinks a{color: #000;}
+a#home {
+  background: url("../images/sprite_root1280x800.png") no-repeat scroll -88px -28px transparent;
+  text-indent: -9999px;
+}
+a#home:hover {
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -287px -29px transparent;
+    text-indent: -9999px;
+}
+a#company_main_link {
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -88px -69px transparent;
+    text-indent: -9999px;
+}
+a#company_main_link:hover {
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -287px -69px transparent;
+    text-indent: -9999px;
+}
+a#projects {
+  background: url("../images/sprite_root1280x800.png") no-repeat scroll -88px -108px transparent;
+  text-indent: -9999px;
+}
+a#projects:hover {
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -287px -108px transparent;
+    text-indent: -9999px;
+}
+a#products {
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -88px -151px transparent;
+    text-indent: -9999px;
+}
+a#products:hover {
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -287px -151px transparent;
+    text-indent: -9999px;
+}
+a#clients {
+  background: url("../images/sprite_root1280x800.png") no-repeat scroll -88px -193px transparent;
+  text-indent: -9999px;
+}
+
+a#clients:hover,a#clients_over{
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -149px -193px transparent;
+    text-indent: -9999px;
+}
+a#contact {
+  background: url("../images/sprite_root1280x800.png") no-repeat scroll -88px -235px transparent;
+  text-indent: -9999px;
+}
+a#contact:hover, a#contact_over {
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -287px -235px transparent;
+    text-indent: -9999px;
+}
+
+a#clients:hover, a#clients_over {
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -287px -193px transparent;
+    text-indent: -9999px;
+}
+
+a#projects_over {
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -287px -109px transparent;
+    text-indent: -9999px;
+}
+a#company_over {
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -287px -68px transparent;
+    text-indent: -9999px;
+}   
+   
+    
+ 	
+	
+/*RIGHT PART*/
+#anagiling, #anagilogo {
+    background-image: url("../images/sprite_root1280x800.png");
+    background-position: -516px -399px;
+    color: #FFFFFF;
+    float: right;
+    font-size: 7pt;
+    height: 71px;
+    line-height: 91px;
+    position: relative;
+    text-align: right;
+    text-shadow: 1px 1px #000000;
+    vertical-align: middle;
+    width: 133px;
+}
+
+
+#anagilogo {
+    background-position: -754px -497px;
+    height: 63px;
+    width: 134px;
+}
+	#anagiling a.last{padding-right: 30px;}
+#rightpart{width:25%;}
+#rightpart_projects{width: 15%;float: right;}/*projects_page style*/
+#tanagi {width: 25%;background-color: black;}
+#social, #social_transparent {
+    clear: both;
+    display: block;
+    float: right;
+    height: 137px;
+    margin: 0;
+    padding-right: 25px;
+    text-decoration: none;
+}
+ul#social li {
+    left: 10px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#social_transparent {
+    background-image: url("../images/sprite_root1280x800.png");
+    background-position: -510px -139px;
+    left: 0;
+    margin-bottom: 15px;
+    position: relative;
+}	
+#social a, #social_transparent a {
+    height: 30px;
+    width: 30px;
+}
+a.social_twitter {
+    background: url("../images/sprite_root1280x800.png") repeat scroll -618px -145px transparent;
+    margin-top: 30px;
+    text-indent: -9999px;
+}
+a.social_twitter:hover {
+    background: url("../images/sprite_root1280x800.png") repeat scroll -647px -145px transparent;
+    margin-top: 30px;
+    text-indent: -9999px;
+}
+a.social_facebook {
+    background: url("../images/sprite_root1280x800.png") repeat scroll -618px -518px transparent;
+    margin-top: 2px;
+    text-indent: -9999px;
+}
+
+a.social_facebook:hover {
+    background: url("../images/sprite_root1280x800.png") repeat scroll -647px -518px transparent;
+    margin-top: 2px;
+    text-indent: -9999px;
+}
+	
+a.social_digg {
+    background: url("../images/sprite_root1280x800.png") repeat scroll -619px -548px transparent;
+    margin-top: 2px;
+    text-indent: -9999px;
+}	
+
+a.social_digg:hover {
+  background: url("../images/sprite_root1280x800.png") repeat scroll -648px -548px transparent;
+    margin-top: 2px;
+    text-indent: -9999px;
+}
+#anagi_links_container {
+    background: none repeat scroll 0 0 transparent;
+    font-size: 8pt;
+    line-height: 40px;
+    position: relative;
+    text-align: center;
+    top: 17px;
+}
+a.anagiling{background: url("../images/sprite_root1280x800.png") 0px 0px transparent;}
+a.anagiling:hover{background: url("../images/sprite_root1280x800.png") 0px 0px transparent;}
+
+a.buy:hover{color: transparent;}
+.buy {
+    background: url("../images/sprite_root1280x800.png") repeat scroll -508px -1343px transparent;
+    clear: both;
+    color: transparent;
+    float: right;
+    font-size: 8pt;
+    padding-bottom: 5px;
+    padding-top: 18px;
+    position: relative;
+    text-align: right;
+    width: 133px;
+}
+	
+
+
+/* ICONS */
+
+/* Link - common attributes */
+ul#menu li a {
+    background: url("../images/sprite_mesa1280x800.png") no-repeat scroll left top transparent;
+    display: block;
+    height: 310px;
+    position: relative;
+    width: 260px;
+}
+	
+	/* Specify width and background position attributes specifically for the class: "home" */
+	ul#menu li a.home {
+		width:285px;
+	}
+	
+	/* Specify width and background position attributes specifically for the class: "piazza" */
+ul#menu li a.piazza {
+    background-position: -312px -33px;
+}
+	/* Shift background position on hover for the class: "piazza" */
+ul#menu li a.piazza span {
+    background-position: -3px -33px;
+    background-repeat: no-repeat;
+}
+	/* Specify width and background position attributes specifically for the class: "custom_service" */
+ul#menu li a.custom_service {
+  background-position: -1689px -33px;
+}
+	/* Shift background position on hover for the class: "custom service" */
+ul#menu li a.custom_service span {
+ 	background-position: -1349px -33px;
+}
+	/* Specify width and background position attributes specifically for the class: "mc_donalds" */
+ul#menu li a.mc_donalds {
+    background-position: -2399px -34px;
+}
+	/* Shift background position on hover for the class: "mc_donalds" */
+ul#menu li a.mc_donalds span {
+    background-position: -2059px -34px;
+}
+	/* Specify width and background position attributes specifically for the class: "batumi_opera" */
+ul#menu li a.batumi_opera {
+    background-position: -4493px -33px;
+}
+	/* Shift background position on hover for the class: "batumi_opera" */
+ul#menu li a.batumi_opera span {
+    background-position: -4223px -33px;
+    background-repeat: no-repeat;
+}
+	/* Specify width and background position attributes specifically for the class: "Mestia Airport" */
+ul#menu li a.mestia_airport {
+    background-position: -5085px -33px;
+}
+	/* Shift background position on hover for the class: "Mestia Airport" */
+	ul#menu li a.magnolia {
+    background-position: -1988px -72px;
+    width: 200px;
+}
+	/* Specify width and background position attributes specifically for the class: "Magnolia" */
+ul#menu li a.magnolia {
+    background-position: -5666px -33px;
+    width: 236px;
+}
+	/* Shift background position on hover for the class: "magnolia" */
+ul#menu li a.magnolia span {
+    background-position: -5386px -33px;
+    background-repeat: no-repeat;
+}
+	/* Specify width and background position attributes specifically for the class: "arci_batumi" */
+ul#menu li a.arci_batumi {
+    background-position: -985px -33px;
+}
+	/* Shift background position on hover for the class: "arci_batumi" */
+ul#menu li a.arci_batumi span {
+    background-position: -685px -33px;
+    background-repeat: no-repeat;
+}
+	/* Specify width and background position attributes specifically for the class: "mia" */
+ul#menu li a.mia {
+    background-position: -3037px -28px;
+}
+	/* Shift background position on hover for the class: "mia" */
+ul#menu li a.mia span {
+    background-position: -2724px -28px;
+    background-repeat: no-repeat;
+}
+	/* Specify width and background position attributes specifically for the class: "gran_palace" */
+ul#menu li a.gran_palace {
+    background-position: -3812px -34px;
+}
+	/* Shift background position on hover for the class: "gran_palace" */
+ul#menu li a.gran_palace span {
+    background-position: -3459px -34px;
+    background-repeat: no-repeat;
+}
+	
+	/* Span (on hover) - common attributes */
+ul#menu li a span {
+    background: url("../images/sprite_mesa1280x800.png") no-repeat scroll -4804px -33px transparent;
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+	/* Span (on hover) - display pointer */
+	ul#menu li a span:hover {
+		cursor:pointer;
+	}
+	
+	/* Shift background position on hover for the class: "home" */
+	ul#menu li a.home span {
+		background-position:-278px 0px;
+	}
+
+/* END OF ICONS *?
+
+
+
+
+
+/* MIDDLE CONTENT */
+
+#middlecontent{width: 50%;}
+#middlecontent_projects,#aux_middle_content{width: 75%;}/*-projects_page style-*/
+#aux_top_content{ background: url("../images/team_bkg.png") repeat-x scroll 0 0 transparent;
+    height: 420px;}
+#aux_middle_content{padding-left:10%;}
+#grad{ background-image: url("../images/grad.png");
+    background-repeat: repeat-x;
+    bottom: 0;
+    height: 182px;
+    position: absolute;
+    width: 100%;}
+
+
+#navigation_container{margin-left:auto;margin-right: auto;position: relative;bottom:62px;}
+#left_corner_navigation,#middle_navigation,#right_corner_navigation{float:left;}
+#left_corner_navigation{background: url("../images/table.png") no-repeat scroll 0 0 transparent;width: 169px;height: 137px;}
+#middle_navigation{background: url("../images/table.png") no-repeat scroll 0 0 transparent;width: 70%;background-position: -167px 0px;height: 137px;}
+#right_corner_navigation{background: url("../images/table_corner.png") no-repeat scroll right center transparent;width: 169px;height: 137px;}
+
+
+
+#dock{
+    display: table;
+    height: 179px;
+    position: relative;
+    width: 100%;}
+
+#table_container{
+	
+   bottom: 0;
+    display: table;
+    height: 179px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    }
+    
+a.details {
+    background: url("../images/sprite_mesa1280x800.png") repeat scroll -1329px 94px transparent;
+    color: transparent;
+    float: left;
+    height: 62px;
+    padding: 10px 0;
+    position: relative;
+    text-indent: -9999px;
+    top: 676px;
+    width: 56px;
+    z-index: 99;
+}
+a.details:hover {
+    background: url("../images/sprite_mesa1280x800.png") repeat scroll -1329px 144px transparent;
+    height: 34px;
+}
+a.up {
+    background: url("../images/sprite_mesa1280x800.png") repeat scroll -1329px 217px transparent;
+    color: transparent;
+    float: left;
+    height: 7px;
+    left: 10px;
+    padding: 40px 10px 10px 0;
+    position: relative;
+    text-indent: -9999px;
+    top: 0;
+    width: 41px;
+    z-index: 9999;
+}
+a.up:hover {
+background:url("../images/sprite_mesa1280x800.png") repeat scroll -1328px 270px transparent;
+}
+a.right_up {
+    background: url("../images/sprite_mesa1280x800.png") repeat scroll -1328px 270px transparent;
+    color: transparent;
+    float: right;
+    height: 62px;
+    padding: 7px 0 10px;
+    position: relative;
+    right: 160px;
+    text-indent: -9999px;
+    top: 525px;
+    width: 41px;
+    z-index: 9999;
+}
+a.right_up:hover {
+    background: url("../images/sprite_mesa1280x800.png") repeat scroll -1328px 270px transparent;
+}
+
+a.right_up_photo {
+    background: url("../images/arrows.png") no-repeat scroll -176px 0 transparent;
+    color: transparent;
+    float: right;
+    height: 62px;
+    left: 300px;
+    padding: 10px 0;
+    position: relative;
+    text-indent: -9999px;
+    top: 430px;
+    width: 41px;
+    z-index: 9999;
+}
+a.right_up_photo:hover{
+	background: url("../images/arrows.png") no-repeat scroll -210px 0 transparent;
+
+}
+a.cross-link {
+    background: url("../images/next_image.png") no-repeat scroll 0 0 transparent;
+    bottom: 60px;
+    color: transparent;
+    float: right;
+    padding: 24px 104px 4px 0;
+    position: relative;
+    right: 20px;
+}
+/* dock2 - bottom */
+#dock2 {
+	 bottom: 49px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.dock-container2 {
+	position: absolute;
+	background: url(images/dock-bg.gif);
+	padding-left: 20px;
+}
+a.dock-item2 {
+	display: block; 
+	font: bold 12px Arial, Helvetica, sans-serif;
+	color: #000; 
+	bottom: 0px; 
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+}
+.dock-item2 span {
+	display: none;
+	top:100px;
+	position: relative;
+}
+.dock-item2 img {
+	border: none; 
+	
+	width: 100%; 
+}
+
+#coda-slider-2, #coda-slider-2 .panel {
+    width: 1008px;
+}
+#coda-slider-2{height: 400px;}
+#coda-slider-2 .coda-nav-right a {
+    background: none;
+    position: relative;
+    text-indent: -9999px;
+    top: 130px;
+}
+#container_details .coda-nav-right a{display: none;} 
+a.next_button {
+    background: url("../images/sprite_mesa1280x800.png") repeat scroll -1160px 10px transparent;
+    color: transparent;
+    float: right;
+    padding: 33px 20px;
+    position: relative;
+    top: -65px;
+}
+
+/* FOOTER */
+
+#footer {
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll 0 -391px #555554;
+    bottom: -722px;
+    clear: left;
+    color: #FFFFFF;
+    height: 42px;
+    position: absolute;
+    width: 100%;
+}
+#footer img {
+    position: relative;
+    top: 5px;
+    vertical-align: sub;
+}
+#logoanagi {
+    margin-left: 10px;
+    vertical-align: middle;
+}#tanagi_footer{width: 80%;} 	
+#wmlogobw{ 
+    float:right;
+  	margin-right:10px;
+}
+
+#footer_relative{
+	position: relative; 
+	width:100%;
+   	height:65px;   /* Height of the footer */
+   	background:url(../images/bwover.png);
+   	color: #fff;
+}
+.left_footer {
+  background-attachment:scroll;
+  background-clip:initial;
+  background-color:transparent;
+  background-image:none;
+  background-origin:initial;
+  background-position:0 0;
+  background-repeat:repeat repeat;
+  float:left;
+  font-size:10px;
+  position:relative;
+  width:233px;
+}
+
+
+
+
+/* OUR PROJECTS - specific CSS*/
+
+.our_projects {
+    background: url("../images/background_ourproject_1280x800.png") no-repeat scroll center center #181818;
+    color: #FFFFFF;
+    min-height: 773px;
+}
+#headlinks_projects,#middlecontent_projects,#headlinks_projects_transparent{float: left;}
+
+#headlinks_projects, #headlinks_projects_transparent {
+    height: 213px;
+    margin-right: 11px;
+    position: relative;
+}
+#headlinks_projects {
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -3px -5px transparent;
+    height: 244px;
+    padding-top: 39px;
+    width: 84px;
+    z-index: 9999;
+}
+#anagiling img{vertical-align:middle;margin-right:25px;}
+
+
+ul.list_projects{display: table;
+    margin: 0 0 50px;
+    padding: 0;}
+li.realized, li.current {
+    display: table;
+    float: left;
+    height: 130px;
+    line-height: 105px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 108px;
+}
+li.realized {
+    background: url("../images/sprite_project1280x800.png") repeat scroll -11px -300px transparent;
+    font-family: "Ms Trebuchet MS";
+    font-size: 6pt;
+    font-weight: bold;
+    height: 146px;
+    width: 135px;
+}
+li.current {
+    background: url("../images/sprite_project1280x800.png") no-repeat scroll -186px -297px transparent;
+    font-size: 6pt;
+    height: 142px;
+    line-height: 150px;
+    width: 135px;
+}
+h1#project {
+    background: url("../images/sprite_project1280x800.png") no-repeat scroll -21px 0 transparent;
+    position: relative;
+    text-indent: -9999px;
+    top: -11px;
+}
+h1#realized {
+    background: url("../images/sprite_project1280x800.png") repeat scroll -18px -60px transparent;
+    text-indent: -9999px;
+}
+a.realized_link {
+    color: #FFFFFF;
+    line-height: 136px;
+}
+a.realized_link:hover{color:#000;}
+a.current_link{color: #fff;}
+a.current_link:hover{color:#EF113B;}
+h1#current {
+    background: url("../images/sprite_project1280x800.png") no-repeat scroll -17px -102px transparent;
+    text-indent: -9999px;
+}
+
+
+#rightpart_projects{position: relative;
+    width: 15%;
+    z-index: 9999;}
+#middlecontent_projects {
+    font-size: 7pt;
+    padding-left: 37px;
+    position: relative;
+    text-align: left;
+    top: 45px;
+    width: 75%;
+}
+
+
+#logoanagi_footer{ 
+     margin-left: 30px;	}
+
+li.no_label {
+    overflow: hidden;
+    width: 35px;
+}
+li.no_label a{height: 32px;}
+/*END OF PROJECTS STYLE*/
+
+
+/* COMPANY - specific CSS*/
+
+h2 {
+    color: #4A4A4A;
+    font-family: "Trebuchet MS";
+    font-size: 15pt;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#company {
+    background: url("../images/sprite_company1280x800.png") no-repeat scroll 0 1px transparent;
+    font-size: 22pt;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    text-indent: -9999px;
+}
+#navlist{ display: table;
+    margin: 30px -35px 50px -30px;
+    position: relative;}
+	#navlist li
+	{
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+	}
+	#navlist li a{display: inline;}
+
+/* END OF COMPANY STYLE*/
+
+
+/* ANAGI TEAM STYLE */
+.anagi_bg{ background:url(../images/team_info_patern_bkg.png) repeat;color: #4a4a4a; font-family: "Trebuchet MS"}
+}
+#anagi_team{text-indent: -9999px;background: url(../images/anagi_team.png) 0 0 transparent no-repeat;margin-bottom: 20px;}
+.anagi_bg p{ color: #494949;
+    font-family: "Trebuchet MS";
+    font-size: 12pt;
+    margin: 0 0 20px;}
+.anagi_bg h2{ color: #3C3C3C;
+    font-size: 24pt;}
+
+
+.header_box_info {
+    background: none repeat scroll 0 0 #5A5A5A;
+    height: 54px;
+    padding-top: 8px;
+}
+.bio_title {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #9B9B9B;
+    border-color: -moz-use-text-color;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    color: #FFFFFF;
+    font-size: 10pt;
+    font-weight: bold;
+    height: 48px;
+    line-height: 48px;
+    margin: -2px 0 0;
+    padding-left: 25px;
+    vertical-align: middle;
+    width: 80%;
+}
+.extra_info {
+    color: #3C3C3C;
+    float: right;
+    font-size: 6pt;
+    padding-right: 8px;
+    text-align: left;
+    width: 40%;
+}
+    .extra_info span{margin-bottom: 0px;}
+span.high, p.high {
+    bottom: 14px;
+    color: #00C969;
+    display: block;
+    font-size: 7pt;
+    margin-top: 8px;
+    position: relative;
+}
+ p.high{ bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0;}
+p.dark {
+    color: #3C3C3C;
+    margin-top: 50px;
+}
+h5.name {
+    color: #00C969;
+    font-size: 10pt;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+ a.team_link{background: #00c969;border-width: medium;
+border-style: solid;
+border-color: #0000FF;}
+    
+
+
+
+
+    
+a#director_current,a#director:hover{background: url("../images/team_links.png") repeat scroll 0 0 transparent;
+    color: transparent;
+    margin-left: 25px;
+    margin-right: -5px;
+    padding: 3px 3px 7px 0;
+    text-indent: -9999px;
+    width: 298px;}
+    
+
+    
+#box_container {
+    height: 1700px;
+}
+    
+    
+.grade_info{ background: url("../images/grad_info.png") repeat scroll 0 0 transparent;
+    height: 16px;
+    margin: -5px 0 0;
+    padding: 0;}
+   
+/* Style for slider on footer */
+ 
+.slider {
+    background: url("../images/wishmodus_logo.png") no-repeat scroll 0 0 transparent;
+    bottom: 0;
+    float: left;
+    height: 45px;
+    left: 90px;
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 0;
+    padding-left: 10px;
+    padding-top: 0;
+    position: absolute;
+    width: 109px;}
+	
+a.wishmodus {
+    color: transparent;
+    display: block;
+    height: 40px;
+    text-decoration: none;
+    text-indent: -99999px;
+    width: 200px;
+}
+
+.block {
+    color: transparent;
+	top: 2px;
+    float: right;
+    margin-right: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 109px;
+}
+
+
+/* end of style of slider footer */
