@@ -134,6 +134,7 @@ div#text_container p{
 }
 
 #coda-slider-2, #coda-slider-2 .panel { width: 1008px; }
+ width: 1279px;
 /* footer */
 a.next_button {
     background: url("../images/sprite_mesa.png") repeat scroll -1160px 10px transparent;
