@@ -643,7 +643,7 @@ a.next_button {
 
 #footer {
     background: url("../images/sprite_root1280x800.png") no-repeat scroll 0 -391px #555554;
-    bottom: -722px;
+    bottom: 5px;
     clear: left;
     color: #FFFFFF;
     height: 42px;

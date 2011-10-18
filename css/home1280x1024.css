@@ -6,7 +6,7 @@ html {
     background-origin: padding-box;
     background-position: center center;
     background-repeat: no-repeat;
-    min-height: 1024px;
+    max-height: 1024px;
 }
 
 a#home,a#home:hover {
@@ -16,7 +16,7 @@ a#home,a#home:hover {
 
 .coda-slider-wrapper {
     background: url("../images/sprite_mesa1280x800.png") no-repeat scroll 0 -377px transparent;
-    bottom: -673px;
+    bottom: 54px;
     clear: both;
     margin-bottom: -7px;
     overflow-x: auto;
