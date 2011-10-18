@@ -1,0 +1,117 @@
+.offices {
+    background: url("../images/background_offices1280x800.jpg") no-repeat scroll transparent;
+    color: #FFFFFF;
+    min-height: 768px;
+}
+.dwelling {
+    background: url("../images/background_dwelling1280x800.jpg") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    min-height: 800px;
+}
+.dwelling .block,.hotel .block ,.offices .block,.industrial .block,.rehabilitation .block,.individualdwelling .block, .entertainment .block{
+    color: transparent;
+    float: right;
+    margin-right: -160px;
+    overflow: hidden;
+    position: relative;
+    top: 2px;
+    width: 109px;
+}
+.hotel{
+    background: url("../images/background_hotel1280x800.jpg") no-repeat scroll transparent;
+    color: #FFFFFF;
+    min-height: 800px;    
+}    
+.industrial{
+    background: url("../images/background_industrial1280x800.jpg") no-repeat scroll transparent;
+    color: #FFFFFF;
+    min-height: 800px;    
+}    
+.rehabilitation{
+    background: url("../images/background_rehabilitation1280x800.jpg") no-repeat scroll transparent;
+    color: #FFFFFF;
+    min-height: 800px;    
+}
+.individualdwelling{
+    background: url("../images/background_individual_dwelling1280x800.jpg") no-repeat scroll transparent;
+    color: #FFFFFF;
+    min-height: 800px;    
+}
+.entertainment{
+    background: url("../images/background_entertainment1280x800.jpg") no-repeat scroll transparent;
+    color: #FFFFFF;
+    min-height: 800px;        
+        
+}
+h2 {
+    color: #fff;
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+}
+
+a {color: #00c969; text-transform: lowercase;}
+p.start,p.complete{    color: #FFFFFF;
+    display: inline;
+    font-size: 9.5pt;
+    margin-right: 30px;
+}
+
+hr{color: transparent;background: transparent;}
+.buy {
+    background: url("../images/sprite_root1280x800.png") repeat scroll -508px -1343px transparent;
+    clear: both;
+    color: transparent;
+    float: right;
+    font-size: 8pt;
+    padding-bottom: 5px;
+    padding-top: 18px;
+    position: relative;
+    text-align: right;
+    top: 75px;
+    width: 133px;
+}
+
+#social, #social_transparent {
+    clear: both;
+    display: block;
+    float: right;
+    height: 137px;
+    margin: 0;
+    padding-right: 25px;
+    position: relative;
+    text-decoration: none;
+    top: 30px;
+}
+
+#category_info{width: 30%;float: left;}
+#photos{}
+ul.list_photos li{ display: inline;
+    float: left;
+    height: 173px;}
+.info_box{border-left: solid 1px #fff;padding:15px;}
+.dashed_box{  border: 1px dashed #FFFFFF;
+    display: table;padding: 30px;}
+.left_footer{
+	top:7px;
+}
+  
+#footer_projects_internal {
+    bottom: 0;
+    clear: left;
+    color: #FFFFFF;
+    height: 40px;
+    padding-top: 11px;
+    position: relative;
+    top: 487px;
+    vertical-align: bottom;
+    width: 100%;
+}
+
+.left_footer_internal {
+    background: none repeat scroll 0 0 transparent;
+    float: left;
+    font-size: 102px;
+    position: relative;
+    top: 0;
+    width: 233px;
+}
