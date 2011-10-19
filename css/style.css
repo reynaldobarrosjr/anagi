@@ -542,8 +542,8 @@ a.right_up {
     color: transparent;
     float: right;
     height: 62px;
-    left: 10px;
-    padding: 7px 0 10px 0;
+    left: 0;
+    padding: 7px 0 10px;
     position: relative;
     text-indent: -9999px;
     top: 65px;
