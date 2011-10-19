@@ -1,6 +1,5 @@
-html#contact{background: url(../images/background_clients1280x800.png) no-repeat scroll 0 0;min-height: 800px;}
+html#contact{background: url(../images/background_contact_1280x1024.jpg) no-repeat scroll 0 0;min-height: 1024px;}
 h1#contact {
-    background: url("../images/contact_title1280x800.png") no-repeat scroll 0 0 transparent;
     text-indent: -9999px;
 }
 
@@ -14,9 +13,17 @@ textarea{ height: 130px;
     height: 40px;
     padding-top: 11px;
     position: relative;
-    top: 141px;
+    top: 368px;
     vertical-align: middle;
     width: 100%;
+}
+#middlecontent_projects {
+    font-size: 7pt;
+    padding-left: 35px;
+    position: relative;
+    text-align: left;
+    top: 32px;
+    width: 75%;
 }
 
 select, input, textarea, button {

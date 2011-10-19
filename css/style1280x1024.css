@@ -769,6 +769,14 @@ h1#current {
     top: 45px;
     width: 75%;
 }
+#middlecontent {
+    font-size: 7pt;
+    padding-left: 35px;
+    position: relative;
+    text-align: left;
+    top: 45px;
+    width: 75%;
+}
 
 
 #logoanagi_footer{ 

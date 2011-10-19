@@ -1,4 +1,5 @@
-html{ background-image: url("../images/background_clients1280x800.png");
+html{ 
+	background: url("../images/background_clients1280x1024.jpg") scroll 0 0;
 }
 
 .clients {
@@ -7,11 +8,9 @@ html{ background-image: url("../images/background_clients1280x800.png");
     
     background-origin: padding-box;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    max-height: 800px;
+    max-height: 1024px;
 }
 h1#clients {
-    background: url("../images/clients_title.png") no-repeat scroll 0 0 transparent;
     text-indent: -9999px;
 }
 
@@ -69,6 +68,8 @@ ul.list_client {
     text-align: left;
     top: 10px;
     width: 75%;
+    padding-left: 25px;
+    padding-top:15px;
 }
 
 /* FOOTER */
@@ -80,7 +81,7 @@ ul.list_client {
     color: #FFFFFF;
     height: 40px;
     position: relative;
-    top: 193px;
+    top: 424px;
     width: 100%;
 }
 .left_footer {
