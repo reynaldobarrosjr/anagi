@@ -35,9 +35,11 @@ figure {
     height: 185px;
     margin: 0;
     padding: 0;
-    width: 125px;
+    width: 185px;
 }
-figcaption{width: 125px;}
+figcaption {
+    width: 185px;
+}
 
 
 #rightpart_projects {
@@ -58,9 +60,12 @@ ul.list_client {
     padding: 0;
     width: 100%;
 }
-.list_client li{ display: table;
-    float: left;}
-
+.list_client li {
+    display: table;
+    float: left;
+    margin-bottom: 22px;
+    margin-right: 30px;
+}
 
 #middlecontent_projects {
     font-size: 7pt;
@@ -80,7 +85,7 @@ ul.list_client {
     color: #FFFFFF;
     height: 40px;
     position: relative;
-    top: 193px;
+    top: 152px;
     width: 100%;
 }
 .left_footer {
