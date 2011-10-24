@@ -82,7 +82,7 @@ h5{margin:0;padding: 0;}
 	/* Float LI Elements - horizontal display */
 ul#menu li {
     float: left;
-    margin-left: 59px;
+    margin-left: 116px;
 }
 	
 	/* Link - common attributes */
@@ -155,7 +155,7 @@ ul#menu li {
 
 a.main_links {
     height: 50px;
-    width: 173px;
+    width: 204px;
 }
 #headlinks_projects{width: 10%;}
 #headlinks, #headlinks_transparent {
@@ -181,7 +181,7 @@ a#company_main_link {
     text-indent: -9999px;
 }
 a#company_main_link:hover {
-    background: url("../images/sprite_root1600x900.png") no-repeat scroll -287px -69px transparent;
+    background: url("../images/sprite_root1600x900.png") no-repeat scroll -249px -61px transparent;
     text-indent: -9999px;
 }
 a#projects {
@@ -189,7 +189,7 @@ a#projects {
     text-indent: -9999px;
 }
 a#projects:hover {
-    background: url("../images/sprite_root1600x900.png") no-repeat scroll -287px -108px transparent;
+    background: url("../images/sprite_root1600x900.png") no-repeat scroll -249px -111px transparent;
     text-indent: -9999px;
 }
 a#products {
@@ -197,7 +197,7 @@ a#products {
     text-indent: -9999px;
 }
 a#products:hover {
-    background: url("../images/sprite_root1600x900.png") no-repeat scroll -287px -151px transparent;
+    background: url("../images/sprite_root1600x900.png") no-repeat scroll -249px -163px transparent;
     text-indent: -9999px;
 }
 a#clients {
@@ -214,12 +214,12 @@ a#contact {
     text-indent: -9999px;
 }
 a#contact:hover, a#contact_over {
-    background: url("../images/sprite_root1600x900.png") no-repeat scroll -287px -235px transparent;
+    background: url("../images/sprite_root1600x900.png") no-repeat scroll -249px -268px transparent;
     text-indent: -9999px;
 }
 
 a#clients:hover, a#clients_over {
-    background: url("../images/sprite_root1600x900.png") no-repeat scroll -287px -193px transparent;
+    background: url("../images/sprite_root1600x900.png") no-repeat scroll -249px -214px transparent;
     text-indent: -9999px;
 }
 
@@ -293,7 +293,7 @@ a.social_twitter {
     text-indent: -9999px;
 }
 a.social_twitter:hover {
-    background: url("../images/sprite_root1600x900.png") repeat scroll -647px -145px transparent;
+    background: url("../images/sprite_root1600x900.png") repeat scroll -758px -166px transparent;
     margin-top: 30px;
     text-indent: -9999px;
 }
@@ -304,18 +304,17 @@ a.social_facebook {
 }
 
 a.social_facebook:hover {
-    background: url("../images/sprite_root1600x900.png") repeat scroll -647px -518px transparent;
+    background: url("../images/sprite_root1600x900.png") repeat scroll -758px -201px transparent;
     margin-top: 2px;
     text-indent: -9999px;
-}
-	
+}	
 a.social_digg {
     background: url("../images/sprite_root1600x900.png") repeat scroll -722px -636px transparent;
     margin-top: 2px;
     text-indent: -9999px;
 }
 a.social_digg:hover {
-  background: url("../images/sprite_root1600x900.png") repeat scroll -648px -548px transparent;
+    background: url("../images/sprite_root1600x900.png") repeat scroll -758px -236px transparent;
     margin-top: 2px;
     text-indent: -9999px;
 }
@@ -337,6 +336,7 @@ a.buy:hover{color: transparent;}
     color: transparent;
     float: right;
     font-size: 8pt;
+    margin-bottom: 76px;
     margin-top: 43px;
     padding-bottom: 5px;
     padding-top: 18px;
@@ -350,13 +350,12 @@ a.buy:hover{color: transparent;}
 
 /* Link - common attributes */
 ul#menu li a {
-    background: url("../images/sprite_mesa_1360x768.png") no-repeat scroll left top transparent;
+    background: url("../images/sprite_mesa1600x900.png") no-repeat scroll left top transparent;
     display: block;
     height: 310px;
     position: relative;
-    width: 260px;
+    width: 270px;
 }
-	
 	/* Specify width and background position attributes specifically for the class: "home" */
 	ul#menu li a.home {
 		width:285px;
@@ -364,28 +363,29 @@ ul#menu li a {
 	
 	/* Specify width and background position attributes specifically for the class: "piazza" */
 ul#menu li a.piazza {
-    background-position: -1556px 57px;
+    background-position: -254px 14px;
 }
 	/* Shift background position on hover for the class: "piazza" */
 ul#menu li a.piazza span {
-    background-position: -2621px 57px;
+    background-position: 9px 14px;
     background-repeat: no-repeat;
 }
 	/* Specify width and background position attributes specifically for the class: "custom_service" */
 ul#menu li a.custom_service {
-    background-position: -1869px 60px;
+    background-position: -821px 14px;
+    width: 269px;
 }
 	/* Shift background position on hover for the class: "custom service" */
 ul#menu li a.custom_service span {
-    background-position: -2934px 60px;
+    background-position: -535px 14px;
 }
 	/* Specify width and background position attributes specifically for the class: "mc_donalds" */
 ul#menu li a.mc_donalds {
-    background-position: -2203px 60px;
+    background-position: -1107px 14px;
 }
 	/* Shift background position on hover for the class: "mc_donalds" */
 ul#menu li a.mc_donalds span {
-    background-position: -3268px 60px;
+    background-position: -1391px 14px;
 }
 	/* Specify width and background position attributes specifically for the class: "batumi_opera" */
 ul#menu li a.batumi_opera {
@@ -417,11 +417,11 @@ ul#menu li a.magnolia span {
 }
 	/* Specify width and background position attributes specifically for the class: "arci_batumi" */
 ul#menu li a.arci_batumi {
-    background-position: -985px -33px;
+    background-position: -260px 14px;
 }
 	/* Shift background position on hover for the class: "arci_batumi" */
 ul#menu li a.arci_batumi span {
-    background-position: -685px -33px;
+    background-position: 3px 14px;
     background-repeat: no-repeat;
 }
 	/* Specify width and background position attributes specifically for the class: "mia" */
@@ -445,7 +445,7 @@ ul#menu li a.gran_palace span {
 	
 	/* Span (on hover) - common attributes */
 ul#menu li a span {
-    background: url("../images/sprite_mesa_1360x768.png") no-repeat scroll -4804px -33px transparent;
+    background: url("../images/sprite_mesa1600x900.png") no-repeat scroll -4804px -33px transparent;
     display: block;
     height: 100%;
     left: 0;
@@ -914,18 +914,18 @@ a#director_current,a#director:hover{background: url("../images/team_links.png") 
 /* Style for slider on footer */
  
 .slider {
-    background: url("../images/wishmodus_logo.png") no-repeat scroll 0 0 transparent;
+    background: url("../images/wmlogo.png") no-repeat scroll 0 0 transparent;
     bottom: 0;
     float: left;
     height: 45px;
-    left: 90px;
+    left: 138px;/*deslocamento do slider*/
     list-style-type: none;
     margin: 0;
     padding-bottom: 0;
     padding-left: 10px;
     padding-top: 0;
     position: absolute;
-    width: 109px;}
+    width: 169px;}
 	
 a.wishmodus {
     color: transparent;
@@ -938,13 +938,11 @@ a.wishmodus {
 
 .block {
     color: transparent;
-	top: 2px;
     float: right;
+    height: 54px;
     margin-right: 10px;
     overflow: hidden;
     position: relative;
-    width: 109px;
+    width: 169px;
 }
-
-
 /* end of style of slider footer */

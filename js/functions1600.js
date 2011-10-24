@@ -5,7 +5,7 @@ $(document).ready(function(){
 	   $('.block').hover(function(){
 	        $(".slider", this).stop().animate({left:'0px'},{queue:false,duration:160});
 	        }, function() {
-	        $(".slider", this).stop().animate({left:'138px'},{queue:false,duration:160});
+	        $(".slider", this).stop().animate({left:'50px'},{queue:false,duration:160});
 	        });	  
 	        
 		// set opacity to nill on page load
