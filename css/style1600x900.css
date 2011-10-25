@@ -389,16 +389,16 @@ ul#menu li a.mc_donalds span {
 }
 	/* Specify width and background position attributes specifically for the class: "batumi_opera" */
 ul#menu li a.batumi_opera {
-    background-position: -4493px -33px;
+    background-position: -2071px 17px;
 }
 	/* Shift background position on hover for the class: "batumi_opera" */
 ul#menu li a.batumi_opera span {
-    background-position: -4223px -33px;
+    background-position: -1750px 17px;
     background-repeat: no-repeat;
 }
 	/* Specify width and background position attributes specifically for the class: "Mestia Airport" */
 ul#menu li a.mestia_airport {
-    background-position: -5085px -33px;
+    background-position: -2705px 17px;
 }
 	/* Shift background position on hover for the class: "Mestia Airport" */
 	ul#menu li a.magnolia {
@@ -407,45 +407,45 @@ ul#menu li a.mestia_airport {
 }
 	/* Specify width and background position attributes specifically for the class: "Magnolia" */
 ul#menu li a.magnolia {
-    background-position: -5666px -33px;
-    width: 236px;
+    background-position: -3300px 17px;
+    width: 295px;
 }
 	/* Shift background position on hover for the class: "magnolia" */
 ul#menu li a.magnolia span {
-    background-position: -5386px -33px;
+    background-position: -3000px 17px;
     background-repeat: no-repeat;
 }
 	/* Specify width and background position attributes specifically for the class: "arci_batumi" */
 ul#menu li a.arci_batumi {
-    background-position: -260px 14px;
+    background-position: -3700px 14px;
 }
 	/* Shift background position on hover for the class: "arci_batumi" */
 ul#menu li a.arci_batumi span {
-    background-position: 3px 14px;
+    background-position: -3945px 14px;
     background-repeat: no-repeat;
 }
 	/* Specify width and background position attributes specifically for the class: "mia" */
 ul#menu li a.mia {
-    background-position: -3037px -28px;
+    background-position: -4599px 14px;
 }
 	/* Shift background position on hover for the class: "mia" */
 ul#menu li a.mia span {
-    background-position: -2724px -28px;
+    background-position: -4274px 14px;
     background-repeat: no-repeat;
 }
 	/* Specify width and background position attributes specifically for the class: "gran_palace" */
 ul#menu li a.gran_palace {
-    background-position: -3812px -34px;
+    background-position: -5261px 14px;
 }
 	/* Shift background position on hover for the class: "gran_palace" */
 ul#menu li a.gran_palace span {
-    background-position: -3459px -34px;
+    background-position: -4951px 14px;
     background-repeat: no-repeat;
 }
 	
 	/* Span (on hover) - common attributes */
 ul#menu li a span {
-    background: url("../images/sprite_mesa1600x900.png") no-repeat scroll -4804px -33px transparent;
+    background: url("../images/sprite_mesa1600x900.png") no-repeat scroll -2406px 17px transparent;
     display: block;
     height: 100%;
     left: 0;
