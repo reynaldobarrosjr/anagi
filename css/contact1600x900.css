@@ -1,0 +1,37 @@
+html#contact{background: url(../images/background_contact1600x900.jpg) no-repeat scroll 0 0;min-height: 900px;}
+h1#contact {
+    text-indent: -9999px;
+}
+p {
+    font-family: "Trebuchet MS";
+    font-size: 13pt;
+    margin: 0 0 0 0;
+    width: 77%;
+}
+textarea{ height: 130px;
+    width: 300px;}
+#footer {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    clear: left;
+    color: #FFFFFF;
+    height: 40px;
+    padding-top: 11px;
+    position: relative;
+    top: 262px;
+    vertical-align: middle;
+    width: 100%;
+}
+#middlecontent_projects {
+    font-size: 7pt;
+    padding-left: 35px;
+    position: relative;
+    text-align: left;
+    top: 32px;
+    width: 75%;
+}
+
+select, input, textarea, button {
+    font: 99% arial,helvetica,clean,sans-serif;
+    margin-bottom: 20px;
+}

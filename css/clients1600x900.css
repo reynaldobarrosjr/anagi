@@ -1,0 +1,101 @@
+html{ 
+	background: url("../images/background_clients1600x900.jpg") scroll 0 0;
+}
+
+figcaption p{font-size: 10pt;}
+p {
+    font-family: "Trebuchet MS";
+    font-size: 13pt;
+    margin: 20px 0 36px 28px;
+    width: 77%;
+}
+.clients {
+    background-attachment: fixed;
+    background-clip: border-box;
+    
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    max-height: 900px;
+}
+h1#clients {
+    text-indent: -9999px;
+}
+
+
+/* HTMLS TAGS */
+
+a.link_client {
+    color: #454545;
+    font-size: 7pt;
+    text-align: center;
+    width: 133px;
+}
+
+p.link_client{    font-family: "Trebuchet MS";
+    font-size: 1.4em;
+    margin: 0 0 20px;
+    text-align: center;}
+
+figure {
+    background: none repeat scroll 0 0 transparent;
+    height: 185px;
+    margin: 0;
+    padding: 0;
+    width: 125px;
+}
+figcaption{width: 125px;}
+
+
+#rightpart_projects {
+    position: relative;
+    width: 15%;
+    z-index: 9999;
+    height: 400px;
+}
+
+
+/* MIDDLE */
+
+
+ul.list_client {
+    display: table;
+    height: 160px;
+    margin: 0 0 75px;
+    padding: 0;
+    width: 100%;
+}
+.list_client li{ display: table;
+    float: left;}
+
+
+#middlecontent_projects {
+    font-size: 7pt;
+    margin-bottom: 50px;
+    position: relative;
+    text-align: left;
+    top: 10px;
+    width: 75%;
+    padding-left: 25px;
+    padding-top:15px;
+}
+
+/* FOOTER */
+
+
+#footer_clients {
+    bottom: 0;
+    clear: left;
+    color: #FFFFFF;
+    height: 40px;
+    position: relative;
+    top: 17px;
+    width: 100%;
+}
+.left_footer {
+  background: none repeat scroll 0 0 transparent;
+  float: left;
+  font-size: 10px;
+  position: relative;
+  top: 6px;
+  width: 233px;
+}
