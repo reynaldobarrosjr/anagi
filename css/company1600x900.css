@@ -7,6 +7,11 @@ html{
     background-repeat: no-repeat;
     min-height:900px;
     }
+p {
+    font-size: 12pt;
+    margin: 16px 0 17px;
+    width: 72%;
+}
 #navlist li a {
     background: url("../images/sprite_company1280x800.png") no-repeat scroll 0 -57px transparent;
     color: transparent;
@@ -42,14 +47,13 @@ html{
     top: 45px;
     width: 75%;
 }
-
 #footer {
     bottom: 0;
     clear: left;
     color: #FFFFFF;
     height: 42px;
     position: relative;
-    top: 225px;
+    top: 110px;
     width: 100%;
 }
 #navlist li a#tech_info {

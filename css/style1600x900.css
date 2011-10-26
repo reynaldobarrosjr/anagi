@@ -2,8 +2,12 @@
 
 
 
-p{font-size: 1.4em;
-    margin: 0 0 20px;font-family:"Trebuchet MS";}
+p {
+    font-family: "Trebuchet MS";
+    font-size: 13pt;
+    margin: 0 0 152px;
+    width: 77%;
+}
 p.photo {
     color: #444444;
     float: none;
@@ -169,11 +173,11 @@ a.main_links {
 
 	#headlinks a{color: #000;}
 a#home {
-    background: url("../images/sprite_root1600x900.png") no-repeat scroll -251px -29px transparent;
+    background: url("../images/sprite_root1600x900.png") no-repeat scroll 0 -10px transparent;
     text-indent: -9999px;
 }
 a#home:hover {
-    background: url("../images/sprite_root1600x900.png") no-repeat scroll -287px -29px transparent;
+    background: url("../images/sprite_root1600x900.png") no-repeat scroll -250px -10px transparent;
     text-indent: -9999px;
 }
 a#company_main_link {
@@ -185,7 +189,7 @@ a#company_main_link:hover {
     text-indent: -9999px;
 }
 a#projects {
-    background: url("../images/sprite_root1600x900.png") no-repeat scroll 0 -130px transparent;
+    background: url("../images/sprite_root1600x900.png") no-repeat scroll 0 -111px transparent;
     text-indent: -9999px;
 }
 a#projects:hover {
@@ -193,7 +197,7 @@ a#projects:hover {
     text-indent: -9999px;
 }
 a#products {
-    background: url("../images/sprite_root1600x900.png") no-repeat scroll 0 -183px transparent;
+    background: url("../images/sprite_root1600x900.png") no-repeat scroll 0 -163px transparent;
     text-indent: -9999px;
 }
 a#products:hover {
@@ -201,7 +205,7 @@ a#products:hover {
     text-indent: -9999px;
 }
 a#clients {
-    background: url("../images/sprite_root1600x900.png") no-repeat scroll 0 -230px transparent;
+    background: url("../images/sprite_root1600x900.png") no-repeat scroll 0 -214px transparent;
     text-indent: -9999px;
 }
 
@@ -210,7 +214,7 @@ a#clients:hover,a#clients_over{
     text-indent: -9999px;
 }
 a#contact {
-    background: url("../images/sprite_root1600x900.png") no-repeat scroll 0 -280px transparent;
+    background: url("../images/sprite_root1600x900.png") no-repeat scroll 0 -268px transparent;
     text-indent: -9999px;
 }
 a#contact:hover, a#contact_over {
@@ -224,14 +228,13 @@ a#clients:hover, a#clients_over {
 }
 
 a#projects_over {
-    background: url("../images/sprite_root1600x900.png") no-repeat scroll -287px -109px transparent;
+    background: url("../images/sprite_root1600x900.png") no-repeat scroll -247px -109px transparent;
     text-indent: -9999px;
 }
 a#company_over {
-    background: url("../images/sprite_root1600x900.png") no-repeat scroll -249px -80px transparent;
+    background: url("../images/sprite_root1600x900.png") no-repeat scroll -249px -60px transparent;
     text-indent: -9999px;
-} 
-   
+}   
     
  	
 	
@@ -253,7 +256,7 @@ a#company_over {
 
 
 #anagilogo {
-    background-position: -754px -497px;
+    background-position: -764px -701px;
     height: 63px;
     width: 134px;
 }
@@ -331,11 +334,12 @@ a.anagiling:hover{background: url("../images/sprite_root1600x900.png") 0px 0px t
 
 a.buy:hover{color: transparent;}
 .buy {
-    background: url("../images/sprite_root1600x900.png") repeat scroll -514px -364px transparent;
+    background: url("../images/sprite_root1600x900.png") repeat scroll -514px -362px transparent;
     clear: both;
     color: transparent;
     float: right;
     font-size: 8pt;
+    height: 23px;
     margin-bottom: 76px;
     margin-top: 43px;
     padding-bottom: 5px;
@@ -690,9 +694,9 @@ a.next_button {
 /* OUR PROJECTS - specific CSS*/
 
 .our_projects {
-    background: url("../images/background_ourproject_1280x800.png") no-repeat scroll center center #181818;
+    background: url("../images/background_ourproject_1600x900.jpg") no-repeat scroll center center #181818;
     color: #FFFFFF;
-    min-height: 773px;
+    min-height: 900px;
 }
 #headlinks_projects,#middlecontent_projects,#headlinks_projects_transparent{float: left;}
 
@@ -739,7 +743,6 @@ li.current {
     width: 135px;
 }
 h1#project {
-    background: url("../images/sprite_project1280x800.png") no-repeat scroll -21px 0 transparent;
     position: relative;
     text-indent: -9999px;
     top: -11px;
@@ -756,7 +759,6 @@ a.realized_link:hover{color:#000;}
 a.current_link{color: #fff;}
 a.current_link:hover{color:#EF113B;}
 h1#current {
-    background: url("../images/sprite_project1280x800.png") no-repeat scroll -17px -102px transparent;
     text-indent: -9999px;
 }
 
@@ -778,11 +780,10 @@ h1#current {
      margin-left: 30px;	}
 
 li.no_label {
-    height: 45px;
     overflow: hidden;
     width: 35px;
 }
-li.no_label a{height: 32px;}
+li.no_label a{height: 50px;}
 /*END OF PROJECTS STYLE*/
 
 
@@ -791,7 +792,7 @@ li.no_label a{height: 32px;}
 h2 {
     color: #4A4A4A;
     font-family: "Trebuchet MS";
-    font-size: 15pt;
+    font-size: 16pt;
     font-weight: bold;
     margin-bottom: 10px;
 }
