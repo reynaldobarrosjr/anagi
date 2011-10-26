@@ -1,11 +1,13 @@
+alert("Width: " + screen.width);
 $(document).ready(function(){
-	 
-	
+		if(screen.width<1600){deslocamento='90px';} else {deslocamento='138px';}
+		alert("Deslocamento= "+ deslocamento);
+	   
        //Full Box Sliding (Hidden to Visible)
 	   $('.block').hover(function(){
 	        $(".slider", this).stop().animate({left:'0px'},{queue:false,duration:160});
 	        }, function() {
-	        $(".slider", this).stop().animate({left:'138px'},{queue:false,duration:160});
+	        $(".slider", this).stop().animate({left:deslocamento},{queue:false,duration:160});
 	        });	  
 	        
 		// set opacity to nill on page load

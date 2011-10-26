@@ -169,8 +169,8 @@ a.main_links {
 
 	#headlinks a{color: #000;}
 a#home {
-  background: url("../images/sprite_root1600x900.png") no-repeat scroll -88px -28px transparent;
-  text-indent: -9999px;
+    background: url("../images/sprite_root1600x900.png") no-repeat scroll -251px -29px transparent;
+    text-indent: -9999px;
 }
 a#home:hover {
     background: url("../images/sprite_root1600x900.png") no-repeat scroll -287px -29px transparent;
@@ -185,7 +185,7 @@ a#company_main_link:hover {
     text-indent: -9999px;
 }
 a#projects {
-    background: url("../images/sprite_root1600x900.png") no-repeat scroll 0 -111px transparent;
+    background: url("../images/sprite_root1600x900.png") no-repeat scroll 0 -130px transparent;
     text-indent: -9999px;
 }
 a#projects:hover {
@@ -193,7 +193,7 @@ a#projects:hover {
     text-indent: -9999px;
 }
 a#products {
-    background: url("../images/sprite_root1600x900.png") no-repeat scroll 0 -163px transparent;
+    background: url("../images/sprite_root1600x900.png") no-repeat scroll 0 -183px transparent;
     text-indent: -9999px;
 }
 a#products:hover {
@@ -201,7 +201,7 @@ a#products:hover {
     text-indent: -9999px;
 }
 a#clients {
-    background: url("../images/sprite_root1600x900.png") no-repeat scroll 0 -214px transparent;
+    background: url("../images/sprite_root1600x900.png") no-repeat scroll 0 -230px transparent;
     text-indent: -9999px;
 }
 
@@ -210,7 +210,7 @@ a#clients:hover,a#clients_over{
     text-indent: -9999px;
 }
 a#contact {
-    background: url("../images/sprite_root1600x900.png") no-repeat scroll 0 -268px transparent;
+    background: url("../images/sprite_root1600x900.png") no-repeat scroll 0 -280px transparent;
     text-indent: -9999px;
 }
 a#contact:hover, a#contact_over {
@@ -228,9 +228,9 @@ a#projects_over {
     text-indent: -9999px;
 }
 a#company_over {
-    background: url("../images/sprite_root1600x900.png") no-repeat scroll -287px -68px transparent;
+    background: url("../images/sprite_root1600x900.png") no-repeat scroll -249px -80px transparent;
     text-indent: -9999px;
-}   
+} 
    
     
  	
@@ -778,6 +778,7 @@ h1#current {
      margin-left: 30px;	}
 
 li.no_label {
+    height: 45px;
     overflow: hidden;
     width: 35px;
 }
@@ -795,7 +796,6 @@ h2 {
     margin-bottom: 10px;
 }
 #company {
-    background: url("../images/sprite_company1280x800.png") no-repeat scroll 0 1px transparent;
     font-size: 22pt;
     margin-bottom: 15px;
     padding-top: 10px;

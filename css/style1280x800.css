@@ -654,6 +654,7 @@ a.next_button {
     position: relative;
     top: 5px;
     vertical-align: sub;
+    width: 12%;
 }
 #logoanagi {
     margin-left: 10px;
@@ -939,11 +940,12 @@ a.wishmodus {
 
 .block {
     color: transparent;
-	top: 2px;
     float: right;
+    height: 45px;
     margin-right: 10px;
     overflow: hidden;
     position: relative;
+    top: 7px;
     width: 109px;
 }
 
