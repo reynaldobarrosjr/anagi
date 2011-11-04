@@ -1,8 +1,8 @@
 html{min-width: 1008px;}
 
 body {
-    background: url("../images/background_csc1280x800.jpg") no-repeat scroll 0 0 transparent;
-    max-height: 1961px;
+    background: url("../images/background_csc1600x900.jpg") no-repeat scroll 0 0 transparent;
+    max-height: 2355px;
     overflow-x: hidden;
 }
 h1 {
@@ -25,19 +25,22 @@ ul {
 p {
     color: #FFFFFF;
     font-family: "Trebuchet MS";
-    font-size: 1.4em;
+    font-size: 17pt;
     margin: 0 0 5px;
 }
+p.details_data {
+    font-size: 11pt;
+}
 .coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel {
-    width: 1010px;
+    width: 1031px;
 }
 ul#menu li {
     float: left;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 #rightpart {
-    height: 391px;
+    height: 491px;
     width: 25%;
 }
 
@@ -46,9 +49,10 @@ ul#menu li {
 
 .coda-nav-left a, .coda-nav-right a {
     display: block;
+    left: 74px;
     text-align: center;
     text-decoration: none;
-    top: 182px;
+    top: 242px;
 }
 .coda-nav-left a {
     display: block;
@@ -62,7 +66,7 @@ ul#menu li {
     position: relative;
 }
 #building_details {
-    height: 755px;
+    height: 1160px;
 }
 #text_container {
     font-size: 6pt;
@@ -104,8 +108,8 @@ ul#menu li {
     position: relative;
     right: 70px;
     text-align: left;
-    top: 30px;
-    width: 40%;
+    top: 46px;
+    width: 44%;
 }
 div#text_container p{
 
@@ -118,7 +122,7 @@ div#text_container p{
 }
 
 
-
+#coda-slider-1{margin-left: 130px;}
 
 #coda-slider-2, #coda-slider-2 .panel { width: 1279px;overflow-x: hidden; }
 /* footer */

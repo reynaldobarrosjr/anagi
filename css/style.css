@@ -647,6 +647,7 @@ a.next_button {
     position: relative;
     top: 5px;
     vertical-align: sub;
+    width: 25px;
 }
 #logoanagi {
     margin-left: 10px;
@@ -794,17 +795,32 @@ h2 {
     margin-bottom: 15px;
     text-indent: -9999px;
 }
-#navlist{ display: table;
-    margin: 30px -35px 50px -30px;
-    position: relative;}
+#navlist {
+    display: table;
+    margin: 50px -35px 70px -30px;
+    position: relative;
+}
 	#navlist li
 	{
 	display: inline;
 	list-style-type: none;
 	padding-right: 20px;
 	}
-	#navlist li a{display: inline;}
-
+#navlist li a {
+    background: url("../images/sprite_company.png") repeat scroll 0 -42px transparent;
+    display: inline;
+    padding: 40px 20px;
+    color: transparent;
+    margin:10px 0 0 10px;
+}
+#navlist li a#tech_info {
+    background-position: -121px -42px;
+    color:transparent;
+}
+#navlist li a#lugo {
+    background-position: -212px -42px;
+    color: transparent;
+}
 /* END OF COMPANY STYLE*/
 
 
@@ -928,11 +944,12 @@ a.wishmodus {
 
 .block {
     color: transparent;
-	top: 2px;
     float: right;
+    height: 48px;
     margin-right: 10px;
     overflow: hidden;
     position: relative;
+    top: 2px;
     width: 109px;
 }
 

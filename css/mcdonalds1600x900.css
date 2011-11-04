@@ -1,8 +1,8 @@
-html{min-width: 1008px;}
+html{min-width: 1600px;}
 
 body {
-    background: url("../images/background_mc1280x800.jpg") no-repeat scroll 0 0 transparent;
-    max-height: 1961px;
+    background: url("../images/background_mc1600x900.jpg") no-repeat scroll 0 0 transparent;
+    max-height: 2359px;
     overflow-x: hidden;
 }
 h1 {
@@ -18,36 +18,42 @@ h2 {
     color: #212121;
  
 }
-
+div#building_text p {
+    font-size: 11pt;
+    margin-bottom: 64px;
+    margin-left: 200px;
+    margin-top: 119px;
+    position: relative;
+    width: 620px;
+}
 ul {
     padding-left: 20px;
 }
 p {
     color: #FFFFFF;
     font-family: "Trebuchet MS";
-    font-size: 1.4em;
+    font-size: 19pt;
     margin: 0 0 5px;
 }
 
 ul#menu li {
     float: left;
-    margin-left: 50px;
+    margin-left: 104px;
 }
 
-
-#headlinks_projects, #headlinks_projects_transparent {
-    height: 294px;
-    margin-bottom: 60px;
-    margin-right: 11px;
-    position: relative;
-    width: 69px;
+#headlinks_projects {
+    background: url("../images/sprite_root1600x900.png") no-repeat scroll -983px -32px transparent;
+    height: 450px;
+    padding-top: 39px;
+    width: 84px;
+    z-index: 9999;
 }
 	
 /* dock navigation*/
 
 .coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel {
     left: 17px;
-    width: 1008px;
+    width: 1229px;
 }
 
 .coda-nav-left a, .coda-nav-right a {
@@ -68,7 +74,7 @@ ul#menu li {
     position: relative;
 }
 #building_details {
-    height: 853px;
+    height: 1101px;
 }
 #text_container {
     font-size: 6pt;
@@ -105,13 +111,13 @@ ul#menu li {
     color: #FFFFFF;
     display: table;
     float: right;
-    font-size: 7pt;
+    font-size: 12pt;
     margin-bottom: 30px;
     position: relative;
     right: 70px;
     text-align: left;
     top: 30px;
-    width: 40%;
+    width: 45%;
 }
 div#text_container p{
 
@@ -134,13 +140,13 @@ div#text_container p{
 }
 
 div#building_text {
-    font-size: 6pt;
+    font-size: 10pt;
     left: 340px;
     margin-bottom: -73px;
     position: relative;
     text-align: left;
     top: -24px;
-    width: 550px;
+    width: 763px;
 }
 .left_footer {
     background-attachment: scroll;

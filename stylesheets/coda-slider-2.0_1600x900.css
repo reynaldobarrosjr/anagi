@@ -32,11 +32,11 @@
     top: 220px;
 }
 .coda-nav-right a {
-    background: url("../images/sprite_mesa1280x800.png") repeat scroll -1442px 89px transparent;
+    background: url("../images/sprite_mesa1600x900.png") repeat scroll -5577px 135px transparent;
+    height: 33px;
     position: relative;
     text-indent: -9999px;
-    top: 222px;
-}	
+}
 /* Tab nav */
 	.coda-nav ul li a.current { background: #39c }
 	
