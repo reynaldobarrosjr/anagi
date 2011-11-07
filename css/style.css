@@ -803,12 +803,11 @@ h2 {
     margin: 50px -35px 70px -30px;
     position: relative;
 }
-	#navlist li
-	{
-	display: inline;
-	list-style-type: none;
-	padding-right: 20px;
-	}
+#navlist li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 4px;
+}
 #navlist li a {
     background: url("../images/sprite_company.png") repeat scroll 0 -42px transparent;
     display: inline;
@@ -926,7 +925,7 @@ a#director_current,a#director:hover{background: url("../images/team_links.png") 
     background: url("../images/wishmodus_logo.png") no-repeat scroll 0 0 transparent;
     bottom: 0;
     float: left;
-    height: 45px;
+    height: 27px;
     left: 90px;
     list-style-type: none;
     margin: 0;
@@ -939,7 +938,7 @@ a#director_current,a#director:hover{background: url("../images/team_links.png") 
 a.wishmodus {
     color: transparent;
     display: block;
-    height: 40px;
+    height: 27px;
     text-decoration: none;
     text-indent: -99999px;
     width: 200px;
@@ -948,11 +947,11 @@ a.wishmodus {
 .block {
     color: transparent;
     float: right;
-    height: 48px;
+    height: 27px;
     margin-right: 10px;
     overflow: hidden;
     position: relative;
-    top: 2px;
+    top: 8px;
     width: 109px;
 }
 

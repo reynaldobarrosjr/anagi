@@ -7,6 +7,16 @@ html {
     min-height: 768px;
     min-width: 1008px;
 }
+.block {
+    color: transparent;
+    float: right;
+    height: 27px;
+    margin-right: 10px;
+    overflow: hidden;
+    position: relative;
+    top: 4px;
+    width: 109px;
+}
 #footer {
     clear: left;
     color: #FFFFFF;
