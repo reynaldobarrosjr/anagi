@@ -1,13 +1,7 @@
 .clients {
-    background-attachment: fixed;
-    background-clip: border-box;
-    background-color: #9FA09F;
+ 
     background-image: url("../images/background.png");
-    background-origin: padding-box;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 780px;
+  	min-height:768px;
 }
 h1#clients {
     background: url("../images/clientes_logo.png") no-repeat scroll 0 0 transparent;
@@ -21,9 +15,8 @@ a.link_client {
     color: #454545;
     font-size: 7pt;
     text-align: center;
-    width: 133px;
+    width: 108px;
 }
-
 p.link_client{    font-family: "Trebuchet MS";
     font-size: 1.4em;
     margin: 0 0 20px;
@@ -74,7 +67,6 @@ ul.list_client {
 
 
 #footer_clients {
-    background: url("../images/footer_clients.png") repeat-x scroll 0 0 transparent;
     bottom: 0;
     clear: left;
     color: #FFFFFF;

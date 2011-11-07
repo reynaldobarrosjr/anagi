@@ -1,18 +1,32 @@
-html{background-attachment: fixed;
+html {
     background-clip: border-box;
     background-color: #FFFFFF;
     background-image: url("../images/background_company.png");
     background-origin: padding-box;
-    background-position: center center;
     background-repeat: no-repeat;
+    min-height: 768px;
     min-width: 1008px;
-    }
+}
 #footer {
-    background: url("../images/sprite_root.png") no-repeat scroll 0 -391px #555554;
-    bottom: 0;
     clear: left;
     color: #FFFFFF;
     height: 42px;
     position: relative;
+    top: 100px;
     width: 100%;
+}
+
+p {
+    font-family: "Trebuchet MS";
+    font-size: 1.2em;
+    margin: 0 0 20px;
+    width: 500px;
+}
+#middlecontent_projects {
+    font-size: 7pt;
+    margin-bottom: 10px;
+    position: relative;
+    text-align: left;
+    top: 10px;
+    width: 75%;
 }

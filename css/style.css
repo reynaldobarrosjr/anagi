@@ -631,12 +631,12 @@ a.next_button {
     position: relative;
     top: -65px;
 }
+figure img{width:96px;height:96px;}
 
 /* FOOTER */
 
 #footer {
-    background: url("../images/sprite_root.png") no-repeat scroll 0 -391px #555554;
-    bottom: 0;
+    bottom: -130px;
     clear: left;
     color: #FFFFFF;
     height: 42px;
@@ -652,7 +652,9 @@ a.next_button {
 #logoanagi {
     margin-left: 10px;
     vertical-align: middle;
-}#tanagi_footer{width: 80%;} 	
+    width: 25px;
+}
+#tanagi_footer{width: 80%;} 	
 #wmlogobw{ 
     float:right;
   	margin-right:10px;
@@ -685,8 +687,9 @@ a.next_button {
 /* OUR PROJECTS - specific CSS*/
 
 .our_projects {
-    background: url("../images/our_project_bkg.png") no-repeat fixed center center #181818;
+    background: url("../images/our_project_bkg.png") repeat scroll 0 0 #181818;
     color: #FFFFFF;
+    min-height: 768px;
 }
 #headlinks_projects,#middlecontent_projects,#headlinks_projects_transparent{float: left;}
 

@@ -1,12 +1,11 @@
-html{background-attachment: fixed;
-    background-clip: border-box;
+html {
     background-color: #FFFFFF;
     background-image: url("../images/background_index.png");
     background-origin: padding-box;
-    background-position: center center;
     background-repeat: no-repeat;
+    min-height: 768px;
     min-width: 1008px;
-    }
+}
 
 a#piazza_dock,a#batumi_dock,a#mcdonalds_dock{float: left;position: relative;text-indent: -9999px;height:426px;}
 a#piazza_dock{background: url(../images/piazza_ico.png) 0 0 no-repeat scroll;width: 261px;}
@@ -67,10 +66,9 @@ a.current_lang{color: #00c969;}
     
     
 .coda-slider-wrapper {
-    background: url("../images/dock_bkg.png") no-repeat scroll center bottom transparent;
-    bottom: 50px;
+    bottom: -76px;
     clear: both;
-    margin-bottom: -7px;
+    margin-bottom: -9px;
     overflow-x: auto;
     overflow-y: hidden;
     position: absolute;

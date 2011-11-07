@@ -1,12 +1,11 @@
-#footer_projects {
-    background: url("../images/sprite_project.png") repeat-x scroll 0 -300px transparent;
+#footer{
     bottom: 0;
     clear: left;
     color: #FFFFFF;
     height: 40px;
     padding-top: 11px;
     position: relative;
-    top: 96px;
+    top: 95px;
     vertical-align: middle;
     width: 100%;
 }
@@ -26,6 +25,6 @@
     margin-right: 10px;
     overflow: hidden;
     position: relative;
-    top: 0;
+    top: 8px;
     width: 109px;
 }
