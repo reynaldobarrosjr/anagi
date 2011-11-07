@@ -36,7 +36,6 @@ html{background-attachment: fixed;
 }
 
 #footer {
-    background: url("../images/sprite_root.png") no-repeat scroll 0 -391px #555554;
     bottom: 0;
     clear: left;
     color: #FFFFFF;

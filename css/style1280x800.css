@@ -642,12 +642,12 @@ a.next_button {
 /* FOOTER */
 
 #footer {
-    background: url("../images/sprite_root1280x800.png") no-repeat scroll 0 -391px #555554;
     bottom: 0;
     clear: left;
     color: #FFFFFF;
-    height: 42px;
-    position: absolute;
+    height: 27px;
+    position: relative;
+    top: 118px;
     width: 100%;
 }
 #footer img {
@@ -916,18 +916,18 @@ a#director_current,a#director:hover{background: url("../images/team_links.png") 
 /* Style for slider on footer */
  
 .slider {
-    background: url("../images/wishmodus_logo.png") no-repeat scroll 0 0 transparent;
+    background: url("../images/wishmodus_logo1280.png") no-repeat scroll 0 0 transparent;
     bottom: 0;
     float: left;
     height: 45px;
-    left: 90px;
+    left: 110px;
     list-style-type: none;
     margin: 0;
     padding-bottom: 0;
     padding-left: 10px;
     padding-top: 0;
     position: absolute;
-    width: 109px;}
+    width: 140px;}
 	
 a.wishmodus {
     color: transparent;
@@ -945,8 +945,8 @@ a.wishmodus {
     margin-right: 10px;
     overflow: hidden;
     position: relative;
-    top: 7px;
-    width: 109px;
+    top: 4px;
+    width: 136px;
 }
 
 
