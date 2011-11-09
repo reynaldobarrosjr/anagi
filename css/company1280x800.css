@@ -1,11 +1,7 @@
-html{background-attachment: fixed;
-    background-clip: border-box;
-    background-color: #FFFFFF;
+html{
     background-image: url("../images/background_company1280x800.png");
-    background-origin: padding-box;
-    background-position: center center;
-    background-repeat: no-repeat;
     min-width: 1008px;
+    min-height: 800px;
     }
 #navlist li a {
     background: url("../images/sprite_company1280x800.png") no-repeat scroll 0 -57px transparent;
@@ -41,7 +37,7 @@ html{background-attachment: fixed;
     color: #FFFFFF;
     height: 42px;
     position: relative;
-    top: 87px;
+    top: 104px;
     width: 100%;
 }
 #navlist li a#tech_info {
