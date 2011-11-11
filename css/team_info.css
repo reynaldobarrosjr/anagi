@@ -1,9 +1,8 @@
-html#team_info {
+html#team_info,html#technical_dep {
     background: url("../images/background_team.jpg") no-repeat scroll 0 0 transparent;
     min-height: 1171px;
     min-width: 1008px;
 }
-html#technical_dep{background: url(../images/background_technical_department.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
 html#financial_dep{background: url(../images/background_financial_department.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
 html#line_engineers{background: url(../images/background_lineengineers.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
 html#human_resources{background: url(../images/background_humanresources.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
@@ -211,14 +210,14 @@ ul.list_box {
 ul.list_box li{float: left;}
 
 a.next_team_page {
-    background: url("../images/sprite_team_info.png") repeat scroll -156px 0 transparent;
+    background: url("../images/sprite_team_info.png") repeat scroll -4961px 0 transparent;
     color: transparent;
     margin-top: 400px;
     padding-bottom: 10px;
     padding-left: 30px;
     padding-top: 6px;
     position: relative;
-    top: 822px;
+    top: 838px;
 }
 #footer {
     clear: left;

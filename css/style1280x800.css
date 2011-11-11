@@ -768,6 +768,7 @@ h1#current {
     z-index: 9999;}
 #middlecontent_projects {
     font-size: 7pt;
+    height: 458px;
     padding-left: 37px;
     position: relative;
     text-align: left;

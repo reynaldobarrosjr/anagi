@@ -136,18 +136,56 @@ p {
     margin-top: -8px;
     position: relative;
 }
-#box_container p{font-size: 7pt;}
-#boxes_container{height: 1100px;}
-.box_info ,.box_info_right{
-    background: none repeat scroll 0 0 #F7F7F7;
-    display: table;
-    float: left;
-    height: 324px;
-    margin-bottom: 10px;
-    margin-right: 10%;
-    margin-top: 10px;
-    width: 383px;
+
+/*box structure - team members--*/
+
+.list_box h1 {
+    color: #FFFFFF;
+    font-size: 10pt;
+    line-height: 49px;
+    margin-left: 10px;
+    position: relative;
+    text-shadow: 0 0 0;
 }
+h2.title_member {
+    color: #00C969;
+    font-size: 9pt;
+    margin-bottom: 0;
+    margin-top: 12px;
+    position: relative;
+    text-indent: 0;
+}
+.list_box{font-size: 8pt;}
+.team_box {
+    background: url("../images/team_box_bkg1280x800.png") repeat scroll 0 0 transparent;
+    height: 429px;
+    margin-bottom: 42px;
+    margin-right: 64px;
+    text-align: left;
+    width: 509px;
+}
+span.team_box{text-align: left;}
+.team_box img {
+    float: left;
+    margin-right: 21px;
+}
+ul.list_box {
+    padding-left: 118px;
+    position: relative;
+}
+ul.list_box li{float: left;}
+
+a.next_team_page {
+    background: url("../images/sprite_team_info.png") repeat scroll -4961px 0 transparent;
+    color: transparent;
+    margin-top: 400px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-top: 6px;
+    position: relative;
+    top: 838px;
+}
+/*footer*/
 #footer {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
