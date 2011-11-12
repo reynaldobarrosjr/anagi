@@ -681,7 +681,17 @@ figure img{width:96px;height:96px;}
   width:233px;
 }
 
-
+.left_footer2 {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: none;
+    background-position: 0 0;
+    float: left;
+    font-size: 10px;
+    position: relative;
+    top: 8px;
+    width: 233px;
+}
 
 
 /* OUR PROJECTS - specific CSS*/

@@ -220,7 +220,15 @@ a.next_team_page {
     color: #FFFFFF;
     height: 42px;
     position: relative;
-    top: 26px;
+    top: 5px;
+    width: 100%;
+}
+#footer_1line {
+    clear: left;
+    color: #FFFFFF;
+    height: 42px;
+    position: relative;
+    top: 369px;
     width: 100%;
 }
 
