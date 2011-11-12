@@ -1,13 +1,10 @@
-html#team_info,html#technical_dep,html#financial_dep,html#line_engineers {
+html#team_info,html#technical_dep,html#financial_dep,html#line_engineers,html#human_resources,html#mechanization,html#juridical {
     background: url("../images/background_team.jpg") no-repeat scroll 0 0 transparent;
     min-height: 1171px;
     min-width: 1008px;
 }
-html#human_resources{background: url(../images/background_humanresources.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
-html#mechanization{background: url(../images/background_mechanization.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
 html#shops{background: url(../images/background_shops.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
 
-html#juridical{background: url(../images/background_juridical.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
 
 
 h1#anagi_team {
