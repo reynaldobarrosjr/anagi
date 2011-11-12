@@ -1,10 +1,8 @@
-html#team_info,html#technical_dep {
+html#team_info,html#technical_dep,html#financial_dep,html#line_engineers {
     background: url("../images/background_team.jpg") no-repeat scroll 0 0 transparent;
     min-height: 1171px;
     min-width: 1008px;
 }
-html#financial_dep{background: url(../images/background_financial_department.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
-html#line_engineers{background: url(../images/background_lineengineers.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
 html#human_resources{background: url(../images/background_humanresources.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
 html#mechanization{background: url(../images/background_mechanization.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
 html#shops{background: url(../images/background_shops.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
@@ -43,10 +41,10 @@ h5 {
     width: 838px;
 }
 
-span.team_member_txt,span.destaq {
+span.team_member_txt, span.destaq {
     display: block;
     margin-bottom: 5px;
-    width: 350px;
+    width: 366px;
 }
 span.team_member_date{
     color: #00C969;
@@ -202,6 +200,7 @@ span.team_box{text-align: left;}
 .team_box img {
     float: left;
     margin-right: 21px;
+    width: 207px;
 }
 ul.list_box {
    	padding-left: 88px;
