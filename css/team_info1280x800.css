@@ -1,18 +1,18 @@
-html#team_info{background: url(../images/background_team1280x800.jpg) no-repeat 0 0 scroll;min-width: 1008px;min-height:1568px;}
-html#technical_dep{background: url(../images/background_technical_department1280x800.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
-html#financial_dep{background: url(../images/background_financial_department1280x800.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
-html#line_engineers{background: url(../images/background_lineengineers1280x800.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
-html#human_resources{background: url(../images/background_humanresources1280x800.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
-html#mechanization{background: url(../images/background_mechanization1280x800.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
+html#team_info,html#technical_dep,html#financial_dep,html#line_engineers,html#human_resources,html#mechanization,html#juridical{background: url(../images/background_team1280x800.jpg) no-repeat 0 0 scroll;min-width: 1008px;min-height:1568px;}
 html#shops{background: url(../images/background_shops1280x800.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
 
-html#juridical{background: url(../images/background_juridical1280X800.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
 
 
-h1#anagi_team{text-indent: -9999px;}
+h1#anagi_team {
+    background: url("../images/sprite_team_info_1280x800.png") no-repeat scroll -50px 0 transparent;
+    bottom: 40px;
+    position: relative;
+    right: 6px;
+    text-indent: -9999px;
+    width: 250px;
+}
 h2 {
     margin-bottom: -30px;
-    text-indent: -9999px;
 }
 h5 {
     font-size: 8pt;
@@ -32,7 +32,15 @@ a#director_current, a#director:hover,a#technical,a#technical:hover,a#technical_c
     text-indent: -9999px;
     margin-right: 9px;}
 
-
+span.team_member_txt, span.destaq {
+    display: block;
+    font-size: 9pt;
+    margin-bottom: 5px;
+    width: 490px;
+}
+span.destaq {
+    font-weight: bold;
+}
 a#director {
     background-position: 0 58px;
     padding: 0 3px 7px 0;
@@ -149,7 +157,7 @@ p {
 }
 h2.title_member {
     color: #00C969;
-    font-size: 9pt;
+    font-size: 11pt;
     margin-bottom: 0;
     margin-top: 12px;
     position: relative;
@@ -167,7 +175,9 @@ h2.title_member {
 span.team_box{text-align: left;}
 .team_box img {
     float: left;
+    height: 363px;
     margin-right: 21px;
+    width: 275px;
 }
 ul.list_box {
     padding-left: 118px;
@@ -176,14 +186,12 @@ ul.list_box {
 ul.list_box li{float: left;}
 
 a.next_team_page {
-    background: url("../images/sprite_team_info.png") repeat scroll -4961px 0 transparent;
+    background: url("../images/sprite_team_info_1280x800.png") no-repeat scroll -320px 0 transparent;
     color: transparent;
     margin-top: 400px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    padding-top: 6px;
+    padding: 6px 0 30px 45px;
     position: relative;
-    top: 838px;
+    top: 1165px;
 }
 /*footer*/
 #footer {
@@ -193,6 +201,27 @@ a.next_team_page {
     color: #FFFFFF;
     height: 42px;
     position: relative;
-    top: 375px;
+    top: 70px;
     width: 100%;
+}
+#footer_1line {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    clear: left;
+    color: #FFFFFF;
+    height: 42px;
+    position: relative;
+    top: 541px;
+    width: 100%;
+}
+
+.left_footer2 {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: none;
+    background-position: 0 0;
+    float: left;
+    font-size: 10px;
+    position: relative;
+    width: 233px;
 }

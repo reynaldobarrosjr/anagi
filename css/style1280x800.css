@@ -650,11 +650,11 @@ a.next_button {
     top: 118px;
     width: 100%;
 }
-#footer img {
+#footer img, #footer_1line img {
     position: relative;
     top: 5px;
     vertical-align: sub;
-    width: 12%;
+    width: 30px;
 }
 #logoanagi {
     margin-left: 10px;
