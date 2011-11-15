@@ -8,6 +8,11 @@
     color: #FFFFFF;
     min-height: 1013px;
 }
+.current_dwelling {
+    background: url("../images/background_category_current_dwelling1024x768.jpg") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    min-height: 1013px;
+}
 .dwelling .block,.hotel .block ,.offices .block,.industrial .block,.rehabilitation .block,.individualdwelling .block, .entertainment .block{
     color: transparent;
     float: right;

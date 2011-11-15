@@ -9,6 +9,12 @@
     color: #FFFFFF;
     min-height: 768px;
 }
+.current_dwelling{
+   	background: url(../images/background_category_current_dwelling1024x768.jpg) no-repeat scroll;
+    color: #FFFFFF;
+    min-height: 768px;
+}
+
 .hotel {
     background: url("../images/background_category_hotel_1024x768.jpg") no-repeat scroll transparent;
     color: #FFFFFF;
@@ -20,17 +26,17 @@
     min-height: 768px;    
 }    
 .rehabilitation{
-    background: url("../images/background_rehabilitation.jpg") no-repeat scroll 100% 50% transparent;
+    background: url("../images/background_category_rehabilitation_1024x768.jpg") no-repeat scroll transparent;
     color: #FFFFFF;
     min-height: 768px;    
 }
 .individualdwelling{
-    background: url("../images/background_individualdwelling.jpg") no-repeat scroll 100% 50% transparent;
+    background: url("../images/background_category_individual_dwelling_1024x768.jpg") no-repeat scroll transparent;
     color: #FFFFFF;
     min-height: 768px;    
 }
 .entertainment{
-    background: url("../images/background_entertainment.jpg") no-repeat scroll 100% 50% transparent;
+    background: url("../images/background_category_entertainment_1024x768.jpg") no-repeat scroll transparent;
     color: #FFFFFF;
     min-height: 768px;        
         
