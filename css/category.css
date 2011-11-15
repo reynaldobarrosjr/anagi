@@ -1,6 +1,6 @@
 
 .offices {
-    background: url("../images/background_offices.jpg") no-repeat scroll 100% 50% transparent;
+    background: url("../images/background_category_offices_1024x768.jpg") no-repeat scroll transparent;
     color: #FFFFFF;
     min-height: 768px;
 }
@@ -10,7 +10,7 @@
     min-height: 768px;
 }
 .hotel {
-    background: url("../images/background_category_hotel_1024x768.jpg") no-repeat scroll 100% 50% transparent;
+    background: url("../images/background_category_hotel_1024x768.jpg") no-repeat scroll transparent;
     color: #FFFFFF;
     min-height: 768px;
 }  
