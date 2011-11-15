@@ -5,6 +5,7 @@ html {
     background-repeat: no-repeat;
     min-height: 768px;
     min-width: 1008px;
+    background-size: auto auto;
 }
 
 a#piazza_dock,a#batumi_dock,a#mcdonalds_dock{float: left;position: relative;text-indent: -9999px;height:426px;}

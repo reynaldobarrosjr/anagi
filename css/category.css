@@ -1,10 +1,11 @@
+
 .offices {
     background: url("../images/background_offices.jpg") no-repeat scroll 100% 50% transparent;
     color: #FFFFFF;
     min-height: 768px;
 }
 .dwelling{
-    background: url("../images/background_dwelling.jpg") no-repeat scroll 100% 50% transparent;
+   	background: url(../images/background_dwelling_1024x768.jpg) no-repeat scroll;
     color: #FFFFFF;
     min-height: 768px;
 }
@@ -35,8 +36,9 @@
         
 }
 h2 {
-    color: #fff;
+    color: #FFFFFF;
     font-family: "Trebuchet MS";
+    font-size: 11pt;
     font-weight: bold;
 }
 
@@ -60,7 +62,6 @@ hr{color: transparent;background: transparent;}
     text-align: right;
     width: 104px;
 }
-
 #category_info{width: 30%;float: left;}
 #photos{}
 ul.list_photos li{ display: inline;
@@ -73,16 +74,15 @@ ul.list_photos li{ display: inline;
 	top:7px;
 }
   
-#footer{
-  bottom: 0;
-  clear: left;
-  color: #FFFFFF;
-  height: 40px;
-  padding-top: 11px;
-  position: relative;
-  top: 463px;
-  vertical-align: bottom;
-  width: 100%;
+#footer {
+    bottom: 0;
+    clear: left;
+    color: #FFFFFF;
+    height: 40px;
+    padding-top: 11px;
+    position: relative;
+    vertical-align: bottom;
+    width: 100%;
 }
 
 .left_footer_internal {
@@ -92,4 +92,12 @@ ul.list_photos li{ display: inline;
     position: relative;
     top: 0;
     width: 233px;
+}
+#row2 {
+    margin-bottom: -23px;
+    margin-top: 172px;
+    position: relative;
+}
+#row3 {
+    margin-bottom: 24px;
 }

@@ -4,17 +4,18 @@
     min-height: 768px;
 }
 .dwelling {
-    background: url("../images/background_dwelling1280x800.jpg") no-repeat scroll 0 0 transparent;
+    background: url("../images/background_category_dwelling_1280x800.jpg") no-repeat scroll 0 0 transparent;
     color: #FFFFFF;
-    min-height: 800px;
+    min-height: 1013px;
 }
 .dwelling .block,.hotel .block ,.offices .block,.industrial .block,.rehabilitation .block,.individualdwelling .block, .entertainment .block{
     color: transparent;
     float: right;
-    margin-right: -160px;
+    margin-bottom: 0;
+    margin-right: -460px;
     overflow: hidden;
+    padding-top: 8px;
     position: relative;
-    top: 2px;
     width: 109px;
 }
 .hotel{
@@ -55,7 +56,13 @@ p.start,p.complete{    color: #FFFFFF;
     font-size: 9.5pt;
     margin-right: 30px;
 }
-
+#rightpart_projects {
+    background: none repeat scroll 0 0 transparent;
+    height: 841px;
+    position: relative;
+    width: 15%;
+    z-index: 9999;
+}
 hr{color: transparent;background: transparent;}
 .buy {
     background: url("../images/sprite_root1280x800.png") repeat scroll -508px -1343px transparent;
@@ -85,6 +92,7 @@ hr{color: transparent;background: transparent;}
 
 #category_info{width: 30%;float: left;}
 #photos{}
+
 ul.list_photos li{ display: inline;
     float: left;
     height: 173px;}
@@ -94,7 +102,37 @@ ul.list_photos li{ display: inline;
 .left_footer{
 	top:7px;
 }
-  
+.gallery_category img {
+    width: 134px;
+}
+div.gallery_category {
+    float: right;
+    padding-top: 15px;
+    position: relative;
+    width: 60%;
+}
+
+div.category_line {
+    height: 170px;
+    margin-bottom: 165px;
+    margin-top: 85px;
+    padding-left: 110px;
+    padding-top: 0;
+    width: 84%;
+}
+
+#row2{margin-bottom: 0px;position: relative;}  
+#row3{margin-bottom: 10px;position: relative;}
+a.next_team_page {
+    background: url("../images/sprite_team_info.png") repeat scroll -4961px 0 transparent;
+    color: transparent;
+    margin-left: 993px;
+    margin-top: 0;
+    padding-bottom: 10px;
+    padding-left: 39px;
+    padding-top: 6px;
+    position: relative;
+}
 #footer_projects_internal {
     bottom: 0;
     clear: left;
@@ -114,4 +152,13 @@ ul.list_photos li{ display: inline;
     position: relative;
     top: 0;
     width: 233px;
+}
+#footer {
+    bottom: 0;
+    clear: left;
+    color: #FFFFFF;
+    height: 27px;
+    position: relative;
+    top: 49px;
+    width: 800px;
 }
