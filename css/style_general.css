@@ -56,3 +56,4 @@ a.next_team_page {
     padding-top: 6px;
     position: relative;
 }
+a.next_team_page :hover{color: transparent;}
