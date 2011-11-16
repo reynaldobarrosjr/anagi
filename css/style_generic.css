@@ -154,8 +154,8 @@ ul#menu li {
 /*HEAD LINKS*/
 
 a.main_links {
-    height: 34px;
-    width: 133px;
+  height: 34px;
+  width: 173px;
 }
 #headlinks_projects{width: 10%;}
 #headlinks, #headlinks_transparent {
@@ -163,93 +163,99 @@ a.main_links {
     height: 230px;
     position: relative;
     width: 25%;
+    z-index: 1;
 }
 #headlinks{background: url("../images/panel.png") no-repeat scroll 0 0 transparent;}
 
 	#headlinks a{color: #000;}
 a#home {
-    background: url("../images/sprite_root.png") no-repeat scroll -17px -4px transparent;
-    text-indent: -9999px;
+  background: url("../images/sprite_root1280x800.png") no-repeat scroll -88px -28px transparent;
+  text-indent: -9999px;
 }
 a#home:hover {
-    background: url("../images/sprite_root.png") no-repeat scroll -150px -3px transparent;
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -287px -29px transparent;
     text-indent: -9999px;
 }
 a#company_main_link {
-    background: url("../images/sprite_root.png") no-repeat scroll -17px -36px transparent;
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -88px -69px transparent;
     text-indent: -9999px;
 }
 a#company_main_link:hover {
-    background: url("../images/sprite_root.png") no-repeat scroll -150px -35px transparent;
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -287px -69px transparent;
     text-indent: -9999px;
 }
 a#projects {
-    background: url("../images/sprite_root.png") no-repeat scroll -17px -68px transparent;
-    text-indent: -9999px;
+  background: url("../images/sprite_root1280x800.png") no-repeat scroll -88px -108px transparent;
+  text-indent: -9999px;
 }
-a#projects:hover{background: url("../images/sprite_root.png") no-repeat scroll -150px -67px transparent;
-    
+a#projects:hover {
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -287px -108px transparent;
     text-indent: -9999px;
 }
 a#products {
-    background: url("../images/sprite_root.png") no-repeat scroll -16px -102px transparent;
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -88px -151px transparent;
     text-indent: -9999px;
 }
 a#products:hover {
-    background: url("../images/sprite_root.png") no-repeat scroll -149px -101px transparent;
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -287px -151px transparent;
     text-indent: -9999px;
 }
 a#clients {
-    background: url("../images/sprite_root.png") no-repeat scroll -16px -135px transparent;
-    text-indent: -9999px;
-} 
+  background: url("../images/sprite_root1280x800.png") no-repeat scroll -88px -193px transparent;
+  text-indent: -9999px;
+}
 
 a#clients:hover,a#clients_over{
-    background: url("../images/sprite_root.png") no-repeat scroll -149px -134px transparent;
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -149px -193px transparent;
     text-indent: -9999px;
 }
 a#contact {
-    background: url("../images/sprite_root.png") no-repeat scroll -16px -166px transparent;
+  background: url("../images/sprite_root1280x800.png") no-repeat scroll -88px -235px transparent;
+  text-indent: -9999px;
+}
+a#contact:hover, a#contact_over {
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -287px -235px transparent;
     text-indent: -9999px;
-}   
+}
 
-a#contact:hover ,a#contact_over{
-    background: url("../images/sprite_root.png") no-repeat scroll -149px -165px transparent;
+a#clients:hover, a#clients_over {
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -287px -193px transparent;
     text-indent: -9999px;
 }
 
 a#projects_over {
-    background: url("../images/sprite_root.png") no-repeat scroll -149px -68px transparent;
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -287px -109px transparent;
     text-indent: -9999px;
 }
 a#company_over {
-    background: url("../images/sprite_root.png") no-repeat scroll -149px -35px transparent;
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -287px -68px transparent;
     text-indent: -9999px;
-}    
+}   
    
     
  	
 	
 /*RIGHT PART*/
-
-#anagiling,#anagilogo {
-    background-image: url("../images/sprite_root.png");
-    background-position: -150px -319px;
+#anagiling, #anagilogo {
+    background-image: url("../images/sprite_root1280x800.png");
+    background-position: -516px -399px;
     color: #FFFFFF;
     float: right;
     font-size: 7pt;
-    height: 45px;
-    line-height: 89px;
+    height: 71px;
+    line-height: 91px;
     position: relative;
     text-align: right;
     text-shadow: 1px 1px #000000;
     vertical-align: middle;
-    width: 104px;
+    width: 133px;
 }
+
+
 #anagilogo {
-    background-position: -271px -319px;
-    height: 50px;
-    width: 110px;
+    background-position: -754px -497px;
+    height: 63px;
+    width: 134px;
 }
 	#anagiling a.last{padding-right: 30px;}
 #rightpart{width:25%;}
@@ -271,71 +277,72 @@ ul#social li {
     position: relative;
 }
 #social_transparent {
-    background-image: url("../images/sprite_root.png");
-    background-position: -379px 6px;
+    background-image: url("../images/sprite_root1280x800.png");
+    background-position: -510px -139px;
     left: 0;
+    margin-bottom: 15px;
     position: relative;
-}
-
-	
-#social a,#social_transparent a {
-    height: 22px;
-    width: 22px;
+}	
+#social a, #social_transparent a {
+    height: 30px;
+    width: 30px;
 }
 a.social_twitter {
-    background: url("../images/sprite_root.png") repeat scroll -14px -214px transparent;
+    background: url("../images/sprite_root1280x800.png") repeat scroll -618px -145px transparent;
     margin-top: 30px;
     text-indent: -9999px;
 }
 a.social_twitter:hover {
-    background: url("../images/sprite_root.png") repeat scroll -36px -214px transparent;
+    background: url("../images/sprite_root1280x800.png") repeat scroll -647px -145px transparent;
     margin-top: 30px;
     text-indent: -9999px;
 }
 a.social_facebook {
-    background: url("../images/sprite_root.png") repeat scroll -14px -235px transparent;
+    background: url("../images/sprite_root1280x800.png") repeat scroll -618px -518px transparent;
     margin-top: 2px;
     text-indent: -9999px;
-}    
+}
 
 a.social_facebook:hover {
-    background: url("../images/sprite_root.png") repeat scroll -36px -235px transparent;
+    background: url("../images/sprite_root1280x800.png") repeat scroll -647px -518px transparent;
     margin-top: 2px;
     text-indent: -9999px;
 }
 	
-	a.social_digg {
-    background: url("../images/sprite_root.png") repeat scroll -14px -257px transparent;
+a.social_digg {
+    background: url("../images/sprite_root1280x800.png") repeat scroll -619px -548px transparent;
     margin-top: 2px;
     text-indent: -9999px;
-}
-	
+}	
 
 a.social_digg:hover {
-    background: url("../images/sprite_root.png") repeat scroll -36px -257px transparent;
+  background: url("../images/sprite_root1280x800.png") repeat scroll -648px -548px transparent;
     margin-top: 2px;
     text-indent: -9999px;
 }
 #anagi_links_container {
-    background: none repeat scroll 0 0;
+    background: none repeat scroll 0 0 transparent;
+    font-size: 8pt;
     line-height: 40px;
     position: relative;
     text-align: center;
+    top: 17px;
 }
-a.anagiling{background: url("../images/sprite_root.png") 0px 0px transparent;}
-a.anagiling:hover{background: url("../images/sprite_root.png") 0px 0px transparent;}
+a.anagiling{background: url("../images/sprite_root1280x800.png") 0px 0px transparent;}
+a.anagiling:hover{background: url("../images/sprite_root1280x800.png") 0px 0px transparent;}
 
 a.buy:hover{color: transparent;}
 .buy {
-    background: url("../images/sprite_root.png") repeat scroll -10px -285px transparent;
+    background: url("../images/sprite_root1280x800.png") repeat scroll -508px -1343px transparent;
     clear: both;
     color: transparent;
     float: right;
     font-size: 8pt;
     padding-bottom: 5px;
-    padding-top: 13px;
+    padding-top: 18px;
     position: relative;
     text-align: right;
+    width: 133px;
 }
 	
 
@@ -344,11 +351,11 @@ a.buy:hover{color: transparent;}
 
 /* Link - common attributes */
 ul#menu li a {
-    background: url("../images/sprite_mesa.png") no-repeat scroll left top transparent;
+    background: url("../images/sprite_mesa1280x800.png") no-repeat scroll left top transparent;
     display: block;
-    height: 200px;
+    height: 310px;
     position: relative;
-    width: 175px;
+    width: 260px;
 }
 	
 	/* Specify width and background position attributes specifically for the class: "home" */
@@ -358,41 +365,41 @@ ul#menu li a {
 	
 	/* Specify width and background position attributes specifically for the class: "piazza" */
 ul#menu li a.piazza {
-    background-position: 0 -72px;
+    background-position: -312px -33px;
 }
 	/* Shift background position on hover for the class: "piazza" */
 ul#menu li a.piazza span {
-    background-position: -170px -72px;
+    background-position: -3px -33px;
     background-repeat: no-repeat;
 }
 	/* Specify width and background position attributes specifically for the class: "custom_service" */
 ul#menu li a.custom_service {
-    background-position: -356px -72px;
+  background-position: -1689px -33px;
 }
 	/* Shift background position on hover for the class: "custom service" */
 ul#menu li a.custom_service span {
-    background-position: -539px -72px;
+ 	background-position: -1349px -33px;
 }
 	/* Specify width and background position attributes specifically for the class: "mc_donalds" */
 ul#menu li a.mc_donalds {
-    background-position: -724px -72px;
+    background-position: -2399px -34px;
 }
 	/* Shift background position on hover for the class: "mc_donalds" */
 ul#menu li a.mc_donalds span {
-    background-position: -911px -72px;
+    background-position: -2059px -34px;
 }
 	/* Specify width and background position attributes specifically for the class: "batumi_opera" */
 ul#menu li a.batumi_opera {
-    background-position: -1099px -72px;
+    background-position: -4493px -33px;
 }
 	/* Shift background position on hover for the class: "batumi_opera" */
 ul#menu li a.batumi_opera span {
-    background-position: -1285px -72px;
+    background-position: -4223px -33px;
     background-repeat: no-repeat;
 }
 	/* Specify width and background position attributes specifically for the class: "Mestia Airport" */
-	ul#menu li a.mestia_airport {
-    background-position: -1457px -72px;
+ul#menu li a.mestia_airport {
+    background-position: -5085px -33px;
 }
 	/* Shift background position on hover for the class: "Mestia Airport" */
 	ul#menu li a.magnolia {
@@ -401,45 +408,45 @@ ul#menu li a.batumi_opera span {
 }
 	/* Specify width and background position attributes specifically for the class: "Magnolia" */
 ul#menu li a.magnolia {
-    background-position: -1802px 89px;
-    width: 200px;
+    background-position: -5666px -33px;
+    width: 236px;
 }
 	/* Shift background position on hover for the class: "magnolia" */
-	ul#menu li a.magnolia span {
-    background-position: -1988px -72px;
+ul#menu li a.magnolia span {
+    background-position: -5386px -33px;
     background-repeat: no-repeat;
 }
 	/* Specify width and background position attributes specifically for the class: "arci_batumi" */
-	ul#menu li a.arci_batumi {
-    background-position: -2178px -72px;
+ul#menu li a.arci_batumi {
+    background-position: -985px -33px;
 }
 	/* Shift background position on hover for the class: "arci_batumi" */
 ul#menu li a.arci_batumi span {
-    background-position: -2380px -72px;
+    background-position: -685px -33px;
     background-repeat: no-repeat;
 }
 	/* Specify width and background position attributes specifically for the class: "mia" */
 ul#menu li a.mia {
-    background-position: -2567px -75px;
+    background-position: -3037px -28px;
 }
 	/* Shift background position on hover for the class: "mia" */
 ul#menu li a.mia span {
-    background-position: -2785px -75px;
+    background-position: -2724px -28px;
     background-repeat: no-repeat;
 }
 	/* Specify width and background position attributes specifically for the class: "gran_palace" */
 ul#menu li a.gran_palace {
-    background-position: -2992px -75px;
+    background-position: -3812px -34px;
 }
 	/* Shift background position on hover for the class: "gran_palace" */
 ul#menu li a.gran_palace span {
-    background-position: -3203px -75px;
+    background-position: -3459px -34px;
     background-repeat: no-repeat;
 }
 	
 	/* Span (on hover) - common attributes */
-	ul#menu li a span {
-    background: url("../images/sprite_mesa.png") no-repeat scroll -1625px -72px transparent;
+ul#menu li a span {
+    background: url("../images/sprite_mesa1280x800.png") no-repeat scroll -4804px -33px transparent;
     display: block;
     height: 100%;
     left: 0;
@@ -448,7 +455,6 @@ ul#menu li a.gran_palace span {
     width: 100%;
     z-index: 100;
 }
-	
 	/* Span (on hover) - display pointer */
 	ul#menu li a span:hover {
 		cursor:pointer;
@@ -507,27 +513,28 @@ ul#menu li a.gran_palace span {
     }
     
 a.details {
-    background: url("../images/sprite_mesa.png") no-repeat scroll -12px -4px transparent;
+    background: url("../images/sprite_mesa1280x800.png") repeat scroll -1329px 94px transparent;
     color: transparent;
     float: left;
     height: 62px;
     padding: 10px 0;
     position: relative;
     text-indent: -9999px;
-    top: 554px;
+    top: 676px;
     width: 56px;
-    z-index: 9999;
+    z-index: 99;
 }
 a.details:hover {
-    background: url("../images/sprite_mesa.png") no-repeat scroll -138px -4px transparent;
+    background: url("../images/sprite_mesa1280x800.png") repeat scroll -1329px 144px transparent;
+    height: 34px;
 }
 a.up {
-    background: url("../images/sprite_mesa.png") no-repeat scroll -871px 0 transparent;
+    background: url("../images/sprite_mesa1280x800.png") repeat scroll -1329px 217px transparent;
     color: transparent;
     float: left;
-    height: 62px;
+    height: 7px;
     left: 10px;
-    padding: 92px 10px 10px 0;
+    padding: 40px 10px 10px 0;
     position: relative;
     text-indent: -9999px;
     top: 0;
@@ -535,23 +542,23 @@ a.up {
     z-index: 9999;
 }
 a.up:hover {
-    background: url("../images/sprite_mesa.png") no-repeat scroll -1004px 0 transparent;
+background:url("../images/sprite_mesa1280x800.png") repeat scroll -1328px 270px transparent;
 }
 a.right_up {
-    background: url("../images/arrows.png") no-repeat scroll -176px 0 transparent;
+    background: url("../images/sprite_mesa1280x800.png") repeat scroll -1328px 270px transparent;
     color: transparent;
     float: right;
     height: 62px;
-    left: 0;
     padding: 7px 0 10px;
     position: relative;
+    right: 160px;
     text-indent: -9999px;
-    top: 65px;
+    top: 525px;
     width: 41px;
     z-index: 9999;
 }
 a.right_up:hover {
-    background: url("../images/arrows.png") no-repeat scroll -210px 0 transparent;
+    background: url("../images/sprite_mesa1280x800.png") repeat scroll -1328px 270px transparent;
 }
 
 a.right_up_photo {
@@ -624,37 +631,35 @@ a.dock-item2 {
 }
 #container_details .coda-nav-right a{display: none;} 
 a.next_button {
-    background: url("../images/sprite_mesa.png") repeat scroll -1160px 10px transparent;
+    background: url("../images/sprite_mesa1280x800.png") repeat scroll -1160px 10px transparent;
     color: transparent;
     float: right;
     padding: 33px 20px;
     position: relative;
     top: -65px;
 }
-figure img{width:96px;height:96px;}
 
 /* FOOTER */
 
 #footer {
-    bottom: -107px;
+    bottom: 0;
     clear: left;
     color: #FFFFFF;
-    height: 42px;
-    position: absolute;
+    height: 27px;
+    position: relative;
+    top: 118px;
     width: 100%;
 }
-#footer img {
+#footer img, #footer_1line img {
     position: relative;
     top: 5px;
     vertical-align: sub;
-    width: 25px;
+    width: 30px;
 }
 #logoanagi {
     margin-left: 10px;
     vertical-align: middle;
-    width: 25px;
-}
-#tanagi_footer{width: 80%;} 	
+}#tanagi_footer{width: 80%;} 	
 #wmlogobw{ 
     float:right;
   	margin-right:10px;
@@ -681,25 +686,15 @@ figure img{width:96px;height:96px;}
   width:233px;
 }
 
-.left_footer2 {
-    background-attachment: scroll;
-    background-color: transparent;
-    background-image: none;
-    background-position: 0 0;
-    float: left;
-    font-size: 10px;
-    position: relative;
-    top: 8px;
-    width: 233px;
-}
+
 
 
 /* OUR PROJECTS - specific CSS*/
 
 .our_projects {
-    background: url("../images/our_project_bkg.png") repeat scroll 0 0 #181818;
+    background: url("../images/background_ourproject_1280x800.png") no-repeat scroll center center #181818;
     color: #FFFFFF;
-    min-height: 768px;
+    min-height: 773px;
 }
 #headlinks_projects,#middlecontent_projects,#headlinks_projects_transparent{float: left;}
 
@@ -709,7 +704,10 @@ figure img{width:96px;height:96px;}
     position: relative;
 }
 #headlinks_projects {
-    background: url("../images/sprite_root.png") no-repeat scroll -318px -14px transparent;
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -3px -5px transparent;
+    height: 244px;
+    padding-top: 39px;
+    width: 84px;
     z-index: 9999;
 }
 #anagiling img{vertical-align:middle;margin-right:25px;}
@@ -728,30 +726,39 @@ li.realized, li.current {
     width: 108px;
 }
 li.realized {
-    background: url("../images/sprite_project.png") repeat scroll -21px -165px transparent;
+    background: url("../images/sprite_project1280x800.png") repeat scroll -11px -300px transparent;
     font-family: "Ms Trebuchet MS";
     font-size: 6pt;
     font-weight: bold;
+    height: 146px;
+    width: 135px;
 }
 li.current {
-    background: url("../images/sprite_project.png") repeat scroll -193px -905px transparent;
+    background: url("../images/sprite_project1280x800.png") no-repeat scroll -186px -297px transparent;
     font-size: 6pt;
     height: 142px;
     line-height: 150px;
-}h1#project {
-    background: url("../images/sprite_project.png") no-repeat scroll -19px -20px transparent;
+    width: 135px;
+}
+h1#project {
+    background: url("../images/sprite_project1280x800.png") no-repeat scroll -21px 0 transparent;
+    position: relative;
     text-indent: -9999px;
+    top: -11px;
 }
 h1#realized {
-    background: url("../images/sprite_project.png") repeat scroll -18px -60px transparent;
+    background: url("../images/sprite_project1280x800.png") repeat scroll -18px -60px transparent;
     text-indent: -9999px;
 }
-a.realized_link{color: #fff;}
+a.realized_link {
+    color: #FFFFFF;
+    line-height: 136px;
+}
 a.realized_link:hover{color:#000;}
 a.current_link{color: #fff;}
 a.current_link:hover{color:#EF113B;}
 h1#current {
-    background: url("../images/sprite_project.png") no-repeat scroll -17px -102px transparent;
+    background: url("../images/sprite_project1280x800.png") no-repeat scroll -17px -102px transparent;
     text-indent: -9999px;
 }
 
@@ -761,24 +768,15 @@ h1#current {
     z-index: 9999;}
 #middlecontent_projects {
     font-size: 7pt;
+    height: 458px;
+    padding-left: 37px;
     position: relative;
     text-align: left;
-    top: 10px;
+    top: 45px;
     width: 75%;
 }
 
 
-#footer_projects {
-    background: url("../images/sprite_project.png") repeat-x scroll 0 -300px transparent;
-    bottom: 0;
-    clear: left;
-    color: #FFFFFF;
-    height: 40px;
-    padding-top: 11px;
-    position: absolute;
-    vertical-align: middle;
-    width: 100%;
-}
 #logoanagi_footer{ 
      margin-left: 30px;	}
 
@@ -791,10 +789,7 @@ li.no_label a{height: 32px;}
 
 
 /* COMPANY - specific CSS*/
-#company {
-    background: url("../images/company_logo.png") no-repeat scroll 0 0 transparent;
-    text-indent: -9999px;
-}
+
 h2 {
     color: #4A4A4A;
     font-family: "Trebuchet MS";
@@ -803,36 +798,23 @@ h2 {
     margin-bottom: 10px;
 }
 #company {
-    background: url("../images/company_logo.png") no-repeat scroll 0 0 transparent;
+    background: url("../images/sprite_company1280x800.png") no-repeat scroll 0 1px transparent;
     font-size: 22pt;
     margin-bottom: 15px;
+    padding-top: 10px;
     text-indent: -9999px;
 }
-#navlist {
-    display: table;
-    margin: 50px -35px 70px -30px;
-    position: relative;
-}
-#navlist li {
-    display: inline;
-    list-style-type: none;
-    padding-right: 4px;
-}
-#navlist li a {
-    background: url("../images/sprite_company.png") repeat scroll 0 -42px transparent;
-    display: inline;
-    padding: 40px 20px;
-    color: transparent;
-    margin:10px 0 0 10px;
-}
-#navlist li a#tech_info {
-    background-position: -121px -42px;
-    color:transparent;
-}
-#navlist li a#lugo {
-    background-position: -212px -42px;
-    color: transparent;
-}
+#navlist{ display: table;
+    margin: 30px -35px 50px -30px;
+    position: relative;}
+	#navlist li
+	{
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+	}
+	#navlist li a{display: inline;}
+
 /* END OF COMPANY STYLE*/
 
 
@@ -893,7 +875,10 @@ span.high, p.high {
  p.high{ bottom: 0;
     margin-bottom: 0;
     margin-top: 0;}
- p.dark{color: #3c3c3c;}
+p.dark {
+    color: #3C3C3C;
+    margin-top: 50px;
+}
 h5.name {
     color: #00C969;
     font-size: 10pt;
@@ -932,23 +917,23 @@ a#director_current,a#director:hover{background: url("../images/team_links.png") 
 /* Style for slider on footer */
  
 .slider {
-    background: url("../images/wishmodus_logo.png") no-repeat scroll 0 0 transparent;
+    background: url("../images/wishmodus_logo1280.png") no-repeat scroll 0 0 transparent;
     bottom: 0;
     float: left;
-    height: 27px;
-    left: 90px;
+    height: 45px;
+    left: 110px;
     list-style-type: none;
     margin: 0;
     padding-bottom: 0;
     padding-left: 10px;
     padding-top: 0;
     position: absolute;
-    width: 109px;}
+    width: 140px;}
 	
 a.wishmodus {
     color: transparent;
     display: block;
-    height: 27px;
+    height: 40px;
     text-decoration: none;
     text-indent: -99999px;
     width: 200px;
@@ -957,12 +942,12 @@ a.wishmodus {
 .block {
     color: transparent;
     float: right;
-    height: 27px;
+    height: 45px;
     margin-right: 10px;
     overflow: hidden;
     position: relative;
-    top: 8px;
-    width: 109px;
+    top: 4px;
+    width: 136px;
 }
 
 

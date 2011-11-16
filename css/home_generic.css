@@ -66,12 +66,14 @@ a.current_lang{color: #00c969;}
     
     
 .coda-slider-wrapper {
-    bottom: -76px;
+    bottom: 0;
     clear: both;
     margin-bottom: -9px;
+    margin-top: 184px;
     overflow-x: auto;
     overflow-y: hidden;
-    position: absolute;
+    position: relative;
+    top: 166px;
 }
 
 .left_footer {

@@ -67,12 +67,13 @@ a.current_lang{color: #00c969;}
     
     
 .coda-slider-wrapper {
-    bottom: -76px;
+    bottom: -77px;
     clear: both;
     margin-bottom: -9px;
     overflow-x: auto;
     overflow-y: hidden;
     position: absolute;
+    top: 280px;
 }
 
 .left_footer {
