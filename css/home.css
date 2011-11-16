@@ -87,10 +87,11 @@ a.current_lang{color: #00c969;}
     width: 233px;
 }
 #footer {
-    bottom: -204px;
+    background: none repeat scroll 0 0 transparent;
+    bottom: -203px;
     clear: left;
     color: #FFFFFF;
-    height: 42px;
+    height: 44px;
     position: relative;
     width: 100%;
 }

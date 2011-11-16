@@ -32,12 +32,13 @@ html{
 }
 
 #footer {
+    background: none repeat scroll 0 0 transparent;
     bottom: 0;
     clear: left;
     color: #FFFFFF;
     height: 42px;
     position: relative;
-    top: 253px;
+    top: 233px;
     width: 100%;
 }
 #navlist li a#tech_info {
@@ -47,4 +48,14 @@ html{
 #navlist li a#lugo {
     background-position: -313px -57px;
     padding-left: 27px;
+}
+.block {
+    color: transparent;
+    float: right;
+    height: 46px;
+    margin-right: 10px;
+    overflow: hidden;
+    position: relative;
+    top: 52px;
+    width: 109px;
 }

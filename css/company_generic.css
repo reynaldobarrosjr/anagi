@@ -1,0 +1,42 @@
+html {
+    background-clip: border-box;
+    background-color: #FFFFFF;
+    background-image: url("../images/background_company.png");
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.block {
+    color: transparent;
+    float: right;
+    height: 27px;
+    margin-right: 10px;
+    overflow: hidden;
+    position: relative;
+    top: 4px;
+    width: 109px;
+}
+#footer {
+    background: none repeat scroll 0 0 #5A5C5B;
+    bottom: 0;
+    clear: left;
+    color: #FFFFFF;
+    height: 42px;
+    position: absolute;
+    width: 100%;
+}
+
+p {
+    font-family: "Trebuchet MS";
+    font-size: 1.2em;
+    margin: 0 0 20px;
+    width: 70%;
+}
+#middlecontent_projects {
+    font-size: 7pt;
+    margin-bottom: 10px;
+    position: relative;
+    text-align: left;
+    top: 10px;
+    width: 75%;
+}

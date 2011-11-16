@@ -24,3 +24,7 @@ a#home,a#home:hover {
     width: auto;
     z-index: 0;
 }
+
+#footer {
+    background: none repeat scroll 0 0 transparent;
+}

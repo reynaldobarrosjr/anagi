@@ -2,8 +2,8 @@
 $(document).ready(function(){
 		
 		if(screen.width<1600){deslocamento='90px';} else {deslocamento='138px';}
-		if(screen.width==1280){deslocamento='80px';};
-	   
+		if(screen.width==1280){deslocamento='113px';};
+	    //alert(deslocamento);
        //Full Box Sliding (Hidden to Visible)
 	   $('.block').hover(function(){
 	        $(".slider", this).stop().animate({left:'0px'},{queue:false,duration:160});
