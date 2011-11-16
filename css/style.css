@@ -636,7 +636,7 @@ figure img{width:96px;height:96px;}
 /* FOOTER */
 
 #footer {
-    bottom: -108px;
+    bottom: 0;
     clear: left;
     color: #FFFFFF;
     height: 42px;

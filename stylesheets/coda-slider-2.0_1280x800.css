@@ -65,5 +65,5 @@
 	.coda-slider .panel { display: block; float: left }
 	.coda-slider .panel-container { position: relative }
 	.coda-nav-left, .coda-nav-right { float: left }
-	.coda-nav-left a, .coda-nav-right a { display: block; text-align: center; text-decoration: none }
+	.coda-nav-left a, .coda-nav-right a { display: block; text-align: center; text-decoration: none ;z-index: 9999;}
 	

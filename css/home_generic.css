@@ -1,9 +1,8 @@
 html {
-    background-color: #FFFFFF;
-    background-image: url("../images/background_index.png");
-    background-position: center center;
+    background-color: #FCFFFD;
+    background-image: url("../images/background_index_generic.jpg");
+    background-position: center top;
     background-repeat: no-repeat;
-    background-size: 100% auto;
 }
 
 a#piazza_dock,a#batumi_dock,a#mcdonalds_dock{float: left;position: relative;text-indent: -9999px;height:426px;}
@@ -64,14 +63,13 @@ a.current_lang{color: #00c969;}
     width: 100%;}
     
 .coda-slider-wrapper {
-    bottom: 0;
+    bottom: 60px;
     clear: both;
-    margin-bottom: -9px;
-    margin-left: auto;
+    margin-left: 12%;
     margin-right: auto;
     overflow-x: auto;
     overflow-y: hidden;
-    position: relative;
+    position: absolute;
     width: 80%;
 }
 
@@ -83,3 +81,6 @@ a.current_lang{color: #00c969;}
     top: 0;
     width: 233px;
 }
+#footer {
+    background: none repeat scroll 0 0 #000000;
+   }

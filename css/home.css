@@ -86,3 +86,11 @@ a.current_lang{color: #00c969;}
     top: 0;
     width: 233px;
 }
+#footer {
+    bottom: -204px;
+    clear: left;
+    color: #FFFFFF;
+    height: 42px;
+    position: relative;
+    width: 100%;
+}
