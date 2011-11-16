@@ -16,7 +16,7 @@ a{  color: #FFFFFF;
     text-decoration: none;text-transform:uppercase;font-family: Arial;}
 	a:focus,a:hover{color: #00c969;}
 
-}
+a.next_team_page:hover{color:transparent;}
 hr{text-indent: -9999px;}
 hr.team {
     background: none repeat scroll 0 0 transparent;
