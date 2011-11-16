@@ -2,6 +2,7 @@ html {
     background-image: url("../images/background_index_1280.png");
     background-origin: padding-box;
     background-repeat: no-repeat;
+    background-size: auto auto;
     min-height: 800px;
 }
 
@@ -14,8 +15,12 @@ a#home,a#home:hover {
     bottom: -106px;
     clear: both;
     margin-bottom: -7px;
+    margin-left: 0;
+    margin-right: 0;
     overflow-x: auto;
     overflow-y: hidden;
     position: relative;
+    top: 105px;
+    width: auto;
     z-index: 0;
 }

@@ -65,15 +65,17 @@ a.current_lang{color: #00c969;}
     position: absolute;
     width: 100%;}
     
-    
 .coda-slider-wrapper {
     bottom: -77px;
     clear: both;
     margin-bottom: -9px;
+    margin-left: 0;
+    margin-right: 0;
     overflow-x: auto;
     overflow-y: hidden;
-    position: absolute;
-    top: 280px;
+    position: relative;
+    top: 195px;
+    width: auto;
 }
 
 .left_footer {
