@@ -30,6 +30,11 @@
     color: #FFFFFF;
     min-height: 768px;    
 }
+.current_rehabilitation{
+    background: url("../images/background_category_current_rehabilitation1024x768.jpg") no-repeat scroll transparent;
+    color: #FFFFFF;
+    min-height: 768px;    
+}
 .individualdwelling{
     background: url("../images/background_category_individual_dwelling_1024x768.jpg") no-repeat scroll transparent;
     color: #FFFFFF;
