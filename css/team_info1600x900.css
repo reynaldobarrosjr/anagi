@@ -1,18 +1,8 @@
-html#team_info{background: url(../images/background_anagiteam1600x900.jpg) no-repeat 0 0 scroll;min-width: 1585px;min-height: 1724px;}
-html#technical_dep{background: url(../images/background_technical_department1600x900.jpg) no-repeat 0 0 scroll;min-width: 900px;}
-html#financial_dep{background: url(../images/background_financial_department1600x900.jpg) no-repeat 0 0 scroll;min-width: 900px;}
-html#line_engineers{background: url(../images/background_lineengineers1600x900.jpg) no-repeat 0 0 scroll;min-width: 900px;}
-html#human_resources{background: url(../images/background_human1600x900.jpg) no-repeat 0 0 scroll;min-width: 900px;}
-html#mechanization{background: url(../images/background_mechanization1600x900.jpg) no-repeat 0 0 scroll;min-width: 900px;}
-html#shops{background: url(../images/background_shop1600x900.jpg) no-repeat 0 0 scroll;min-width: 900px;}
-
+div.container{background: url(../images/background_anagiteam1600x900.jpg) no-repeat 0 0 scroll;}
 html#juridical{background: url(../images/background_juridical_department1600x900.jpg) no-repeat 0 0 scroll;min-width: 900px;}
-
-
-h1#anagi_team{text-indent: -9999px;}
 h2 {
     margin-bottom: -30px;
-    text-indent: -9999px;
+    margin-left: 12px;
 }
 h5 {
     font-size: 8pt;
@@ -148,22 +138,73 @@ p {
     margin-top: 10px;
     width: 383px;
 }
-#middlecontent_projects{
-font-size: 7pt;
-padding-left: 36px;
-position: relative;
-text-align: left;
-top:45px;
-width: 75%;
-
-}
-#footer {
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    clear: left;
-    color: #FFFFFF;
-    height: 42px;
+#middlecontent_projects {
+    font-size: 7pt;
+    height: 520px;
+    padding-left: 36px;
     position: relative;
-    top: 524px;
-    width: 100%;
+    text-align: left;
+    top: 45px;
+    width: 75%;
+}
+/* CONTENT */
+h1#anagi_team {
+    margin-bottom: 33px;
+    margin-left: 11px;
+    margin-top: -33px;
+}
+/* TEAM BOXES*/
+.team_box {
+    background: url("../images/team_box_bkg1600x900.jpg") repeat scroll 0 0 transparent;
+    height: 475px;
+    margin-bottom: 42px;
+    margin-right: 64px;
+    text-align: left;
+    width: 563px;
+}
+ul.list_box li {
+    float: left;
+}
+ul.list_box {
+    padding-left: 118px;
+    position: relative;
+}
+.list_box h1 {
+    color: #FFFFFF;
+    font-size: 10pt;
+    line-height: 49px;
+    margin-left: 10px;
+    position: relative;
+    text-shadow: 0 0 0;
+}
+h2.title_member {
+    color: #00C969;
+    font-size: 11pt;
+    margin-bottom: 0;
+    margin-top: 12px;
+    position: relative;
+    text-indent: 0;
+}
+.team_box img {
+    float: left;
+    height: 363px;
+    margin-right: 21px;
+    width: 275px;
+}
+span.team_member_txt, span.destaq {
+    display: block;
+    font-size: 9pt;
+    margin-bottom: 5px;
+    width: 490px;
+}
+span.destaq {
+    font-weight: bold;
+}
+
+/* FOOTER */
+
+#footer {
+    bottom: 0;
+    height: 57px;
+    position: absolute;
 }
