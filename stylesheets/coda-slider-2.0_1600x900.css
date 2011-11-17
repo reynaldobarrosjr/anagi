@@ -18,7 +18,7 @@
 	.coda-slider, .coda-slider .panel { width: 1344px; } 
 	
 	/* Change margin and width of the slider (with dynamic arrows) */
-	.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel { width: 1344px; }
+	.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel { width: 1360px; }
 .coda-slider-wrapper.arrows .coda-slider {
     margin: 0 10px;
     top: 16px;
@@ -26,7 +26,7 @@
 	/* Arrow styling */
 	.coda-nav-left a, .coda-nav-right a { background: #000; color: #fff; padding: 5px; width: 100px }
 .coda-nav-left a {
-    background: url("../images/sprite_mesa1280x800.png") repeat scroll -1684px 89px transparent;
+    background: url("../images/sprite_mesa1600x900.png") repeat scroll -1684px 89px transparent;
     position: relative;
     text-indent: -9999px;
     top: 220px;

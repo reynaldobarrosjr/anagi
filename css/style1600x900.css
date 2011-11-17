@@ -58,8 +58,14 @@ h5{margin:0;padding: 0;}
 
 
 /* GENERAL */
-
+,container{width: 1900px;position: relative;margin-left: auto;margin-right: auto;}
 #rightpart,#headlinks,#middlecontent,#headlinks_transparent{position: relative;float: left;}
+#rightpart {
+    margin-bottom: -29px;
+    position: relative;
+    width: 25%;
+    z-index: 1;
+}
 
 #rightpart{float: right;}
 	/* Firefox Dotted Outline Fix */
@@ -653,9 +659,11 @@ a.next_button {
     width: 100%;
 }
 #footer img {
+    height: 43px;
     position: relative;
-    top: 5px;
-    vertical-align: sub;
+    top: 0;
+    vertical-align: middle;
+    width: 39px;
 }
 #logoanagi {
     margin-left: 10px;
@@ -917,15 +925,16 @@ a#director_current,a#director:hover{background: url("../images/team_links.png") 
     background: url("../images/wmlogo.png") no-repeat scroll 0 0 transparent;
     bottom: 0;
     float: left;
-    height: 45px;
-    left: 138px;/*deslocamento do slider*/
+    height: 60px;
+    left: 138px;
     list-style-type: none;
     margin: 0;
     padding-bottom: 0;
     padding-left: 10px;
     padding-top: 0;
     position: absolute;
-    width: 169px;}
+    width: 169px;
+}
 	
 a.wishmodus {
     color: transparent;
@@ -939,7 +948,7 @@ a.wishmodus {
 .block {
     color: transparent;
     float: right;
-    height: 54px;
+    height: 60px;
     margin-right: 10px;
     overflow: hidden;
     position: relative;

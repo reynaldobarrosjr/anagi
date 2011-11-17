@@ -6,21 +6,53 @@ html {
     background-origin: padding-box;
     background-position: center top;
     background-repeat: no-repeat;
-    min-height: 900px;
+    width: 100%;
 }
-
+div.container{width:1600px;position: relative;margin-left: auto;margin-right: auto;}
 a#home, a#home:hover {
     background: url("../images/sprite_root1600x900.png") no-repeat scroll 0 -10px transparent;
     text-indent: -9999px;
 }
+#rightpart {
+    margin-bottom: -29px;
+    position: relative;
+    width: 25%;
+    z-index: 1;
+}
+
+/*-- SLIDER --*/
 
 .coda-slider-wrapper {
     background: url("../images/sprite_mesa_1600x900.png") no-repeat scroll 0 117px transparent;
     bottom: -71px;
     clear: both;
     margin-bottom: -7px;
+    margin-left: 0;
+    margin-right: 0;
     overflow-x: auto;
     overflow-y: hidden;
     position: relative;
+    width: auto;
     z-index: 0;
+}
+
+/*-- FOOTER --*/
+
+.left_footer {
+    background: none repeat scroll 0 0 transparent;
+    float: left;
+    font-size: 8pt;
+    height: 60px;
+    position: relative;
+    top: 0;
+    width: 233px;
+}
+.left_footer span {
+    line-height: 60px;
+    position: relative;
+    vertical-align: middle;
+}
+#footer {
+    background: none repeat scroll 0 0 transparent;
+    height: 60px;
 }
