@@ -1,16 +1,17 @@
-html{
-	
+html {
     background-clip: border-box;
     background-color: #FFFFFF;
-    background-image: url("../images/background_company1600x900.jpg");
+    background-image: none;
     background-origin: padding-box;
     background-repeat: no-repeat;
-    min-height:900px;
-    }
+    min-height: 900px;
+}
 p {
     font-size: 12pt;
     margin: 16px 0 17px;
     width: 72%;
+}
+.container{    background-image: url("../images/background_company1600x900.jpg");
 }
 #navlist li a {
     background: url("../images/sprite_company1280x800.png") no-repeat scroll 0 -57px transparent;
@@ -47,15 +48,7 @@ p {
     top: 45px;
     width: 75%;
 }
-#footer {
-    bottom: 0;
-    clear: left;
-    color: #FFFFFF;
-    height: 42px;
-    position: relative;
-    top: 110px;
-    width: 100%;
-}
+
 #navlist li a#tech_info {
     background-position: -162px -57px;
     padding-left: 19px;
@@ -63,4 +56,8 @@ p {
 #navlist li a#lugo {
     background-position: -313px -57px;
     padding-left: 27px;
+}
+#footer {
+  bottom:14px;
+  position:absolute;
 }

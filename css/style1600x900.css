@@ -58,7 +58,13 @@ h5{margin:0;padding: 0;}
 
 
 /* GENERAL */
-,container{width: 1900px;position: relative;margin-left: auto;margin-right: auto;}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 900px;
+    position: relative;
+    width: 1600px;
+}
 #rightpart,#headlinks,#middlecontent,#headlinks_transparent{position: relative;float: left;}
 #rightpart {
     margin-bottom: -29px;

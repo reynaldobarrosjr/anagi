@@ -14,12 +14,11 @@ a#home, a#home:hover {
     text-indent: -9999px;
 }
 #rightpart {
-    margin-bottom: -29px;
+    margin-bottom: -9px;
     position: relative;
     width: 25%;
     z-index: 1;
 }
-
 /*-- SLIDER --*/
 
 .coda-slider-wrapper {

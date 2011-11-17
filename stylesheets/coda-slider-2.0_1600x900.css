@@ -26,24 +26,30 @@
 	/* Arrow styling */
 	.coda-nav-left a, .coda-nav-right a { background: #000; color: #fff; padding: 5px; width: 100px }
 .coda-nav-left a {
-    background: url("../images/sprite_mesa1600x900.png") repeat scroll -1684px 89px transparent;
+    background: url("../images/sprite_mesa1600x900.png") repeat scroll -5577px 92px transparent;
+    font-size: 15pt;
+    
     position: relative;
     text-indent: -9999px;
-    top: 220px;
+    top: 246px;
 }
 .coda-nav-right a {
     background: url("../images/sprite_mesa1600x900.png") repeat scroll -5577px 135px transparent;
     height: 33px;
     position: relative;
+    right: 80px;
     text-indent: -9999px;
+    top: 246px;
 }
 /* Tab nav */
 	.coda-nav ul li a.current { background: #39c }
 	
 	/* Panel padding */
+
 	.coda-slider .panel-wrapper { padding: 20px }
+	.coda-slider .panel-wrapper{padding:0;padding-left:50px;}
+
 	.coda-slider-2 .panel-wrapper-2 {padding: 0px;} 
-	
 	/* Preloader */
 	.coda-slider p.loading { padding: 20px; text-align: center }
 
