@@ -3,19 +3,22 @@
     color: #FFFFFF;
     min-height: 1217px;
 }
-.dwelling {
-    background: url("../images/background_dwelling1600x900.jpg") no-repeat scroll 0 0 transparent;
+html.dwelling {
     color: #FFFFFF;
+    max-width: 100%;
     min-height: 1217px;
+    min-width: 1600px;
+    overflow-x: hidden;
+}
+.container{
+	background: url("../images/bck_cat_dwelling_1600x900.jpg") no-repeat scroll 0 0 transparent;
+    
 }
 .dwelling .block, .hotel .block, .offices .block, .industrial .block, .rehabilitation .block, .individualdwelling .block, .entertainment .block {
     color: transparent;
     float: right;
-    height: 47px;
-    margin-right: -232px;
     overflow: hidden;
     position: relative;
-    top: 2px;
     width: 169px;
 }
 .hotel{
@@ -44,7 +47,7 @@
     min-height: 1217px;        
 }
 h2 {
-    color: #fff;
+    color: #FFFFFF;
     font-family: "Trebuchet MS";
     font-weight: bold;
 }
@@ -95,11 +98,44 @@ ul.list_photos li{ display: inline;
   
 #footer {
     background: url("../images/sprite_root1280x800.png") no-repeat scroll 0 -391px transparent;
-    bottom: -84px;
     clear: left;
     color: #FFFFFF;
-    height: 42px;
+    height: 47px;
     position: relative;
-    top: 898px;
-    width: 100%;
+    width: 1600px;
+}
+
+/* PROJECTS LINES*/
+div.category_line {
+    height: 170px;
+    margin-bottom: 239px;
+    margin-top: 122px;
+    padding-left: 110px;
+    padding-top: 0;
+    width: 84%;
+}
+div.gallery_category {
+    float: left;
+    margin-left: 172px;
+    position: relative;
+    width: 66%;
+}
+div.building_information {
+    background: none repeat scroll 0 0 transparent;
+    border-left: 2px solid #FFFFFF;
+    float: left;
+    font-size: 7pt;
+    height: 184px;
+    padding-left: 30px;
+    text-align: left;
+    width: 150px;
+}
+div#row3 {
+    margin-bottom: 65px;
+    margin-top: -136px;
+    position: relative;
+}
+.gallery_category img {
+    margin-right: 50px;
+    
 }

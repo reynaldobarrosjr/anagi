@@ -7,8 +7,17 @@ html {
     background-position: center top;
     background-repeat: no-repeat;
     width: 100%;
+    max-height: 900px;
+    overflow-y: hidden;
 }
-div.container{width:1600px;position: relative;margin-left: auto;margin-right: auto;}
+body{max-height: inherit;}
+div.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 900px;
+    position: relative;
+    width: 1600px;
+}
 a#home, a#home:hover {
     background: url("../images/sprite_root1600x900.png") no-repeat scroll 0 -10px transparent;
     text-indent: -9999px;
