@@ -757,6 +757,7 @@ h1#project {
 }
 h1#realized {
     background: url("../images/sprite_project1280x800.png") repeat scroll -18px -60px transparent;
+    margin-top: 187px;
     text-indent: -9999px;
 }
 a.realized_link {

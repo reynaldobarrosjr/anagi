@@ -1,10 +1,16 @@
+body {
+    max-height: 1217px;
+    min-height: 1217px;
+    overflow-y: hidden;
+}
 .offices {
     background: url("../images/background_office1600x900.jpg") no-repeat scroll transparent;
     color: #FFFFFF;
     min-height: 1217px;
 }
-html.dwelling {
+html.dwelling,html.hotel {
     color: #FFFFFF;
+    max-height: 1217px;
     max-width: 100%;
     min-height: 1217px;
     min-width: 1600px;
@@ -21,11 +27,7 @@ html.dwelling {
     position: relative;
     width: 169px;
 }
-.hotel{
-    background: url("../images/background_hotel1600x900.jpg") no-repeat scroll transparent;
-    color: #FFFFFF;
-    min-height: 1217px;    
-}    
+   
 .industrial{
     background: url("../images/background_industrial1600x900.jpg") no-repeat scroll transparent;
     color: #FFFFFF;
@@ -95,12 +97,13 @@ ul.list_photos li{ display: inline;
 .dashed_box{  border: 1px dashed #FFFFFF;
     display: table;padding: 30px;}
 
-  
+/* FOOTER */  
 #footer {
     background: url("../images/sprite_root1280x800.png") no-repeat scroll 0 -391px transparent;
     clear: left;
     color: #FFFFFF;
     height: 47px;
+    margin-top: -18px;
     position: relative;
     width: 1600px;
 }
