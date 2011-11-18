@@ -16,10 +16,16 @@ html.dwelling,html.hotel {
     min-width: 1600px;
     overflow-x: hidden;
 }
+
+/* CONTAINERS */ 
+
 .container{
 	background: url("../images/bck_cat_dwelling_1600x900.jpg") no-repeat scroll 0 0 transparent;
     
 }
+html.hotel .container{	background: url("../images/bck_cat_hotel_1600x900.jpg") no-repeat scroll 0 0 transparent;}
+
+
 .dwelling .block, .hotel .block, .offices .block, .industrial .block, .rehabilitation .block, .individualdwelling .block, .entertainment .block {
     color: transparent;
     float: right;
