@@ -4,7 +4,7 @@ body {
     overflow-y: hidden;
 }
 
-html.dwelling,html.hotel, html.offices,html.rehabilitation,html.individual_dwelling ,html.entertainment{
+html.dwelling,html.hotel, html.offices,html.rehabilitation,html.individual_dwelling ,html.entertainment,html.current_dwelling,html.current_rehabilitation,html.current_individualdwelling{
     color: #FFFFFF;
     max-height: 1217px;
     max-width: 100%;
@@ -20,6 +20,11 @@ html.offices .container{	background: url("../images/bck_cat_offices_1600x900.jpg
 html.rehabilitation .container{	background: url("../images/bck_cat_rehabilitation_1600x900.jpg") no-repeat scroll 0 0 transparent;}
 html.individual_dwelling .container{	background: url("../images/bck_cat_individualdwelling_1600x900.jpg") no-repeat scroll 0 0 transparent;}
 html.entertainment .container{	background: url("../images/bck_cat_entertainment_1600x900.jpg") no-repeat scroll 0 0 transparent;}
+html.current_dwelling .container{background: url("../images/bck_cat_current_dwelling_1600x900.jpg") no-repeat scroll 0 0 transparent;}
+html.current_rehabilitation .container{background: url("../images/bck_cat_current_rehabilitation_1600x900.jpg") no-repeat scroll 0 0 transparent;}
+html.current_individualdwelling .container{background: url("../images/bck_cat_current_individualdwelling_1600x900.jpg") no-repeat scroll 0 0 transparent;}
+
+
 
 
 
