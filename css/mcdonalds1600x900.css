@@ -1,9 +1,12 @@
 html{min-width: 1600px;}
 
 body {
-    background: url("../images/background_mc1600x900.jpg") no-repeat scroll 0 0 transparent;
     max-height: 2359px;
     overflow-x: hidden;
+}
+.container {
+    background: url("../images/background_mc1600x900.jpg") no-repeat scroll 0 0 transparent;
+    min-height: 2359px;
 }
 h1 {
     color: #FFFFFF;
@@ -20,7 +23,7 @@ h2 {
 }
 div#building_text p {
     font-size: 11pt;
-    margin-bottom: 64px;
+    margin-bottom: 85px;
     margin-left: 200px;
     margin-top: 119px;
     position: relative;
@@ -49,25 +52,19 @@ ul#menu li {
     z-index: 9999;
 }
 	
-/* dock navigation*/
-
-.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel {
-    left: 17px;
-    width: 1229px;
-}
-
-.coda-nav-left a, .coda-nav-right a {
+/* CUSTOM SLIDER FOR MCDONALDS*/
+.coda-nav-left a {
+    background: none repeat scroll 0 0 transparent;
     display: block;
     text-align: center;
     text-decoration: none;
-    top: 182px;
+    z-index: -1;
 }
-.coda-nav-left a {
-    display: block;
-    float: left;
-    top: 202px;
-    z-index: -10;
+.coda-slider-wrapper {
+    padding: 40px 0;
 }
+#coda-slider-1{height: 322px;}
+.panel-wrapper img{margin-bottom:100px;}
 
 /* */
 #details {
@@ -85,7 +82,14 @@ ul#menu li {
     top: 29px;
     width: 60%;
 }
-
+a.next_button {
+    background: url("../images/sprite_mesa.png") repeat scroll -1160px 10px transparent;
+    color: transparent;
+    float: right;
+    padding: 33px 20px;
+    position: relative;
+    top: -65px;
+}
 /*top text - left and description*/
 
 #top_text {
@@ -134,9 +138,8 @@ div#text_container p{
 
 /* footer */
 
-#footer_mcd {
-    height: 45px;
-    color: #fff;
+#footer_absolute {
+    bottom: 25px;
 }
 
 div#building_text {

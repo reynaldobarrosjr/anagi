@@ -1,11 +1,14 @@
+
 html {
     background: none repeat scroll 0 0 transparent;
     min-height: 2009px;
     min-width: 1008px;
 }
 .container {
-    background: url("../images/bck_piazza_1600x900.jpg") no-repeat scroll 0 0 transparent;
-    min-height: 2415px;
+    background: url("../images/bck_airport_1600x900.jpg") no-repeat scroll 0 0 transparent;
+    max-height: 2351px;
+    min-height: 2351px;
+    overflow-y: hidden;
 }
 h1 {
     color: #FFFFFF;
@@ -26,12 +29,11 @@ ul {
     padding-left: 20px;
 }
 p {
-    color: #848482;
+    color: transparent;
     font-family: "Trebuchet MS";
     font-size: 1.4em;
     margin: 0 0 5px;
 }
-
 /* CUSTOM SLIDER CSS TO PIAZZA*/
 .coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel {
     width: 1360px;
@@ -75,6 +77,12 @@ ul#menu {
     top: 202px;
     z-index: -10;
 }
+#coda-slider-2, #coda-slider-2 .panel {
+    margin-bottom: 59px;
+    margin-top: 26px;
+    padding-bottom: 55px;
+    width: 1434px;
+}
 
 /* */
 #details {
@@ -87,11 +95,12 @@ ul#menu {
 
 #text_container {
     font-size: 6pt;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
     position: relative;
     text-align: left;
-    top: 590px;
     width: 60%;
 }
 
@@ -111,17 +120,9 @@ ul#menu {
     text-transform: uppercase;
 }
 #description {
-    background: none repeat scroll 0 0 transparent;
-    color: #848482;
-    display: table;
-    float: right;
+    color: transparent;
     font-size: 11pt;
-    margin-bottom: 30px;
-    position: relative;
-    right: 172px;
     text-align: left;
-    top: 41px;
-    width: 40%;
 }
 div#text_container p{
 
@@ -142,9 +143,8 @@ div#text_container p{
 
 /* footer */
 
-#footer_airport {
-    color: #FFFFFF;
-    height: 45px;
-    padding-top: 657px;
-}
+#footer_absolute {
 
+    height: 55px;
+  
+}

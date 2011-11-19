@@ -633,7 +633,9 @@ a.dock-item2 {
 }
 
 #coda-slider-2, #coda-slider-2 .panel {
-    width: 1008px;
+    margin-top: 80px;
+    padding-bottom: 55px;
+    width: 1434px;
 }
 #coda-slider-2{height: 400px;}
 #coda-slider-2 .coda-nav-right a {
@@ -661,6 +663,15 @@ a.next_button {
     color: #FFFFFF;
     height: 42px;
     position: relative;
+    width: 100%;
+}
+#footer_absolute {
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll 0 -391px transparent;
+    bottom: 0;
+    clear: left;
+    color: #FFFFFF;
+    height: 42px;
+    position: absolute;
     width: 100%;
 }
 #footer img {
@@ -714,7 +725,7 @@ a.next_button {
     position: relative;
 }
 #headlinks_projects {
-    background: url("../images/sprite_root1600x900.png") no-repeat scroll -983px -32px transparent;
+    background: url("../images/sprite_root1600x900.png") no-repeat scroll -985px -51px transparent;
     height: 344px;
     padding-top: 39px;
     width: 84px;
