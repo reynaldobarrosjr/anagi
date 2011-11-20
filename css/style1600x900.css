@@ -646,12 +646,12 @@ a.dock-item2 {
 }
 #container_details .coda-nav-right a{display: none;} 
 a.next_button {
-    background: url("../images/sprite_mesa1280x800.png") repeat scroll -1160px 10px transparent;
+    background: url("../images/sprite_mesa1600x900.png") repeat scroll -5570px 14px transparent;
     color: transparent;
     float: right;
-    padding: 33px 20px;
+    padding: 24px 50px;
     position: relative;
-    top: -65px;
+    top: -70px;
 }
 
 /* FOOTER */
