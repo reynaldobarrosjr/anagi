@@ -1,12 +1,27 @@
 html {
+    background-attachment: scroll;
+    background-clip: border-box;
     background-color: #FFFFFF;
     background-image: url("../images/background_index.png");
     background-origin: padding-box;
+    background-position: center top;
     background-repeat: no-repeat;
-    min-height: 768px;
-    min-width: 1008px;
-    background-size: auto auto;
+    width: 100%;
+    max-height: 768px;
 }
+body{max-height: inherit;}
+div.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 768px;
+    position: relative;
+    width: 1024px;
+}
+
+
+
+
+
 
 a#piazza_dock,a#batumi_dock,a#mcdonalds_dock{float: left;position: relative;text-indent: -9999px;height:426px;}
 a#piazza_dock{background: url(../images/piazza_ico.png) 0 0 no-repeat scroll;width: 261px;}

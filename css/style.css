@@ -697,7 +697,6 @@ figure img{width:96px;height:96px;}
 /* OUR PROJECTS - specific CSS*/
 
 .our_projects {
-    background: url("../images/our_project_bkg.png") repeat scroll 0 0 #181818;
     color: #FFFFFF;
     min-height: 768px;
 }

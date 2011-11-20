@@ -1,6 +1,32 @@
+html {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #FFFFFF;
+    background-origin: padding-box;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-height: 768px;
+    min-height: 768px;
+}
+body{max-height: inherit;}
+
+
+div.container {
+	background: url("../images/background.png")repeat scroll 0 0 #181818;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 768px;
+    min-height: 768px;
+    position: relative;
+    width: 1024px;
+}
+
+
+
 .clients {
  
-    background-image: url("../images/background.png");
+    
   	min-height:768px;
 }
 h1#clients {
