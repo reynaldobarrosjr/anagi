@@ -1,7 +1,16 @@
 html#team_info,html#technical_dep,html#financial_dep,html#line_engineers,html#human_resources,html#mechanization,html#juridical {
-    background: url("../images/background_team.jpg") no-repeat scroll 0 0 transparent;
+    
     min-height: 1171px;
     min-width: 1008px;
+}
+.container{
+	background: url("../images/background_team.jpg") no-repeat scroll 0 0 transparent;
+	margin-left: auto;
+    margin-right: auto;
+    max-height: 1171px;
+    min-height: 1171px;
+    position: relative;
+    width: 1024px;
 }
 html#shops{background: url(../images/background_shops.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
 
