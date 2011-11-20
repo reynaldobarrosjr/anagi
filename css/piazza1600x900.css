@@ -62,13 +62,7 @@ ul#menu {
 }
 /* dock navigation*/
 
-.coda-nav-left a, .coda-nav-right a {
-    display: block;
-    right: 100px;
-    text-align: center;
-    text-decoration: none;
-    top: 248px;
-}
+
 .coda-nav-left a {
     display: block;
     float: left;

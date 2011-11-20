@@ -28,10 +28,9 @@
 .coda-nav-left a {
     background: url("../images/sprite_mesa1600x900.png") repeat scroll -5577px 92px transparent;
     font-size: 15pt;
-    
     position: relative;
     text-indent: -9999px;
-    top: 246px;
+    top: 250px;
 }
 .coda-nav-right a {
     background: url("../images/sprite_mesa1600x900.png") repeat scroll -5577px 135px transparent;
@@ -39,7 +38,7 @@
     position: relative;
     right: 80px;
     text-indent: -9999px;
-    top: 246px;
+    top: 250px;
 }
 /* Tab nav */
 	.coda-nav ul li a.current { background: #39c }

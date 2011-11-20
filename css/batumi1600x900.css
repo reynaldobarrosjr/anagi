@@ -1,8 +1,14 @@
-html{min-width: 1008px;}
-body {
-    background: url("../images/background_batumi1280x800.jpg") no-repeat scroll 0 0 transparent;
-    min-height: 1960px;
-    overflow-x: hidden;
+
+html {
+    background: none repeat scroll 0 0 transparent;
+    min-height: 2009px;
+    min-width: 1008px;
+}
+.container {
+    background: url("../images/bck_batumi_1600x900.jpg") no-repeat scroll 0 0 transparent;
+    max-height: 2351px;
+    min-height: 2351px;
+    overflow-y: hidden;
 }
 h1 {
     color: #FFFFFF;
@@ -11,13 +17,14 @@ h1 {
     line-height: 1;
     margin-bottom: 0;
     margin-left: 40px;
+    text-indent: -999px;
     text-shadow: 2px 4px 2px #000000;
 }
 h2 {
     color: #212121;
- 
+    text-align: left;
 }
-
+#left_corner h2{text-indent:-999px;}
 ul {
     padding-left: 20px;
 }
@@ -27,31 +34,49 @@ p {
     font-size: 1.4em;
     margin: 0 0 5px;
 }
+/* CUSTOM SLIDER CSS TO GPH*/
 .coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel {
-    width: 1008px;
+    width: 1360px;
 }
+.coda-slider-wrapper.arrows .coda-slider {
+    margin: 119px -176px 0 127px;
+}
+
+
 ul#menu li {
     float: left;
     margin-left: 50px;
 }
-
+ul#menu {
+    bottom: 11px;
+    height: 102px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
 
 #headlinks_projects, #headlinks_projects_transparent {
-    height: 294px;
+    height: 303px;
     margin-bottom: 60px;
     margin-right: 11px;
     position: relative;
     width: 69px;
 }
+.panel-wrapper-1 img {
+    height: 699px;
+    width: 1599px;
+}
 
+}
 /* dock navigation*/
 
 .coda-nav-left a, .coda-nav-right a {
     display: block;
-    right: 105px;
+    right: 100px;
     text-align: center;
     text-decoration: none;
-    top: 251px;
+    top: 248px;
 }
 .coda-nav-left a {
     display: block;
@@ -59,97 +84,92 @@ ul#menu li {
     top: 202px;
     z-index: -10;
 }
+#coda-slider-2, #coda-slider-2 .panel {
+    margin-bottom: 59px;
+    margin-top: 26px;
+    padding-bottom: 55px;
+    width: 1550px;
+}
+#coda-nav-right-2{position: relative;left:100px;}
 
 /* */
 #details {
     position: relative;
 }
 #building_details {
-    height: 832px;
+    height: 849px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 142px;
+    position: relative;
+    width: 100%;
 }
-#text_container {
-  font-size:6pt;
-  margin-left:auto;
-  margin-right:auto;
-  position:relative;
-  text-align:left;
-  top:30px;
-  width:60%;
+#building_text{width:70%;position: relative;margin-right: AUTO;margin-left: auto;}
+#building_text {
+    color: #FFFFFF;
+    margin-bottom: -26px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: left;
+    width: 37%;
 }
 /*top text - left and description*/
 
 #top_text {
-  color:black;
-  height:150px;
-  margin-bottom:66px;
-  margin-left:auto;
-  margin-right:auto;
-  padding-bottom:30px;
-  padding-left:30px;
-  padding-right:0;
-  padding-top:30px;
+    color: black;
+    height: 266px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0 30px 30px;
 }
 #left_corner {
     float: left;
-    left: 12px;
     position: relative;
     text-align: left;
-    text-indent: -9999px;
     text-transform: uppercase;
-    top: 24px;
-    width: 336px;
 }
 #description {
-    background: none repeat scroll 0 0 transparent;
     color: #FFFFFF;
-    display: table;
-    float: right;
-    font-size: 7pt;
-    margin-bottom: 30px;
+    font-size: 11pt;
+    margin-left: 820px;
+    margin-top: 50px;
     position: relative;
-    right: 70px;
     text-align: left;
-    top: 30px;
-    width: 40%;
 }
-div#text_container p{
-
+div#text_container p {
     color: #282828;
     font-family: "Trebuchet MS";
     font-size: 1.4em;
     margin: 0 0 5px;
-
-
+    text-align: left;
 }
-
-
 
 a.next_button {
-    background: url("../images/sprite_mesa.png") repeat scroll -1160px 10px transparent;
+    background: url("../images/sprite_mesa1600x900.png") repeat scroll -5570px 14px transparent;
     color: transparent;
     float: right;
-    left: 42px;
-    padding: 33px 20px;
+    left: 10px;
+    padding: 24px 50px;
     position: relative;
-    top: -255px;
+    top: -194px;
 }
-
+#social a, #social_transparent a {
+ 
+    left: 15px;
+ }
+#text_container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 50%;
+}
+.panel-wrapper img {
+    left: 57px;
+    position: relative;
+}
 /* footer */
 
-#footer_airport {
-    color: #FFFFFF;
-    height: 9px;
-    position: relative;
-    top: 0;
-}
-.left_footer {
-    background-attachment: scroll;
-    background-color: transparent;
-    background-image: none;
-    background-position: 0 0;
-    float: left;
-    font-size: 10px;
-    position: relative;
-    top: 8px;
-    width: 233px;
+#footer_absolute {
+    height: 55px;
 }

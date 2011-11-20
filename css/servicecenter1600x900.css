@@ -51,11 +51,8 @@ ul#menu li {
 
 
 .coda-nav-left a, .coda-nav-right a {
-    display: block;
-    left: 74px;
-    text-align: center;
-    text-decoration: none;
-    top: 242px;
+   
+    top: 265px;
 }
 .coda-nav-left a {
     display: block;

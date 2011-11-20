@@ -90,6 +90,14 @@ a.next_button {
     position: relative;
     top: -65px;
 }
+.coda-nav-right a {
+    background: url("../images/sprite_mesa1600x900.png") repeat scroll -5577px 135px transparent;
+    height: 33px;
+    position: relative;
+    right: 130px;
+    text-indent: -9999px;
+    top: 219px;
+}
 /*top text - left and description*/
 
 #top_text {
