@@ -36,6 +36,10 @@ ul {
     vertical-align: middle;
     width: 104px;
 }
+.coda-slider-wrapper.arrows .coda-slider {
+    margin: 0 10px;
+    top: -74px;
+}
 #social, #social_transparent {
     clear: both;
     display: block;
