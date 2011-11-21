@@ -115,7 +115,7 @@ a#human {
 }
 a#human_current, a#human:hover {
     background-position: -545px -115px;
-    width: 193px;
+    width: 200px;
 }
 a#mechanization {
     background-position: -758px -87px;
@@ -236,7 +236,7 @@ a.next_team_page {
     color: #FFFFFF;
     height: 42px;
     position: relative;
-    top: 541px;
+    top: 531px;
     width: 100%;
 }
 

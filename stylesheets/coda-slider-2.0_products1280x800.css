@@ -70,9 +70,11 @@
 	.coda-slider .panel { display: block; float: left }
 	.coda-slider .panel-container { position: relative }
 	.coda-nav-left, .coda-nav-right { float: left }
-	.coda-nav-left a, .coda-nav-right a {
+.coda-nav-left a, .coda-nav-right a {
+    background: none repeat scroll 0 0 transparent;
     display: block;
+    padding: 29px 28px 0;
     text-align: center;
     text-decoration: none;
-    top: 174px;
-}	
+    top: 196px;
+}
