@@ -1,10 +1,19 @@
 html {
+    max-height: 1960px;
+    min-height: 1960px;
+    min-width: 100%;
 }
-body{background: url(../images/background_arci1280x800.jpg) no-repeat 0 0 scroll;
-	max-height: 1960px;
-    overflow-x: hidden;
-	}
-	
+body{max-height: inherit;width: 100%;overflow-x: hidden;min-height: inherit;}
+div.container {
+    background: url("../images/background_arci1280x800.jpg") no-repeat scroll 0 0 transparent;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: inherit;
+    min-height: inherit;
+    position: relative;
+    width: 1280px;
+}
+
 h1 {
     color: #FFFFFF;
     font-family: "Trebuchet MS";
@@ -65,7 +74,9 @@ ul#menu li {
     position: relative;
 }
 #building_details {
-    height: 905px;
+    height: 906px;
+    position: relative;
+    top: 11px;
 }
 #text_container {
     font-size: 6pt;
@@ -135,12 +146,22 @@ a.next_button {
     top: -50px;
 }
 
-
+#rightpart {
+    height: 389px;
+    padding-right: 0;
+    width: 25%;
+}
 #social a, #social_transparent a {
-    height: 22px;
+    height: 30px;
     left: 15px;
     position: relative;
-    width: 22px;
+    width: 30px;
+}
+.panel-wrapper-1 img {
+    bottom: 11px;
+    height: 540px;
+    position: relative;
+    width: 1230px;
 }
 .panel-wrapper-1 {
     padding: 0;
