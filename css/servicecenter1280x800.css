@@ -82,9 +82,7 @@ ul#menu li {
     position: relative;
 }
 #building_details {
-    bottom: 281px;
-    height: 755px;
-    position: relative;
+  
 }
 #text_container {
     font-size: 6pt;
@@ -138,10 +136,7 @@ div#text_container p{
 
 
 }
-.panel-wrapper img {
-    height: 542px;
-    width: 820px;
-}
+
 
 
 
