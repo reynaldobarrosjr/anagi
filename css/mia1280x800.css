@@ -1,10 +1,15 @@
-html{min-width: 1008px;}
-
-body {
+html{min-width: 100%;min-height: 1593px;max-height: 1593px;}
+body{max-height: inherit;width: 100%;overflow-x: hidden;min-height: inherit;}
+div.container {
     background: url("../images/backgorund_mia1280x800.jpg") no-repeat scroll 0 0 transparent;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: inherit;
     min-height: 1960px;
-    overflow-x: hidden;
+    position: relative;
+    width: 1280px;
 }
+
 h1 {
     color: #FFFFFF;
     font-family: "Trebuchet MS";
@@ -38,9 +43,11 @@ ul#menu li {
 
 
 #headlinks_projects, #headlinks_projects_transparent {
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -3px -5px transparent;
     height: 292px;
     margin-bottom: 60px;
     margin-right: 11px;
+    padding-top: 20px;
     position: relative;
     width: 69px;
 }
@@ -140,6 +147,17 @@ a.next_button {
     padding: 33px 20px;
     position: relative;
     top: -255px;
+}
+#social a, #social_transparent a {
+    height: 30px;
+    left: 15px;
+    position: relative;
+    width: 30px;
+}
+#rightpart {
+    height: 391px;
+    padding-right: 0;
+    width: 25%;
 }
 
 /* footer */

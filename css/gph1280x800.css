@@ -1,10 +1,16 @@
+html{min-width: 100%;min-height: 1591px;max-height: 1592px;}
+body{max-height: inherit;width: 100%;overflow-x: hidden;min-height: inherit;}
 
-html{background: #000;min-width: 1008px;}
-body {
+div.container {
     background: url("../images/background_gph1280x800.jpg") no-repeat scroll 0 0 transparent;
+    margin-left: auto;
+    margin-right: auto;
     max-height: 1963px;
-    overflow-x: hidden;
+    min-height: 1963px;
+    position: relative;
+    width: 1280px;
 }
+
 h1 {
     color: #FFFFFF;
     font-family: "Trebuchet MS";
@@ -80,12 +86,19 @@ ul#menu li {
 }
 
 /*top text - left and description*/
-
+#rightpart {
+    height: 385px;
+    padding-right: 0;
+    width: 25%;
+}
 #top_text {
     color: black;
     height: 145px;
     margin-left: auto;
     margin-right: auto;
+}
+#coda-slider-2, #coda-slider-2 .panel {
+    width: 1228px;
 }
 #left_corner {
     float: left;
@@ -128,7 +141,27 @@ div#text_container p{
 
 
 }
-
+#social a, #social_transparent a {
+    height: 30px;
+    left: 15px;
+    position: relative;
+    width: 30px;
+}
+.panel-wrapper-1 img {
+    bottom: 4px;
+    height: 540px;
+    position: relative;
+    width: 860px;
+}
+a.next_button {
+    background: url("../images/sprite_mesa.png") repeat scroll -1160px 10px transparent;
+    color: transparent;
+    float: right;
+    left: 42px;
+    padding: 33px 20px;
+    position: relative;
+    top: -46px;
+}
 
 /* footer */
 #footer_gph {
