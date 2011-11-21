@@ -15,7 +15,12 @@ div.container {
     position: relative;
     width: 1280px;
 }
-
+#rightpart {
+    margin-bottom: -190px;
+    position: relative;
+    width: 25%;
+    z-index: 1;
+}
 a#home,a#home:hover {
     background: url("../images/sprite_root1280x800.png") no-repeat scroll -88px -28px transparent;
     text-indent: -9999px;
@@ -37,4 +42,16 @@ a#home,a#home:hover {
 
 #footer {
     background: none repeat scroll 0 0 transparent;
+    margin-top: 35px;
+    position: relative;
+}
+.block {
+    color: transparent;
+    float: right;
+    height: 34px;
+    margin-right: 24px;
+    overflow: hidden;
+    position: relative;
+    top: 7px;
+    width: 134px;
 }
