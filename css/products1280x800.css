@@ -17,13 +17,13 @@ h2 {
     width: 186px;
 }
 .container {
-    background-image: url("../images/background_products.jpg");
+    background-image: url("../images/bck_products_1280x800.jpg");
     margin-left: auto;
     margin-right: auto;
-    max-height: 1320px;
-    min-height: 1320px;
+    max-height: 1598px;
+    min-height: 1598px;
     position: relative;
-    width: 1024px;
+    width: 1280px;
 }
 #headlinks_projects {
     background: none;
@@ -35,7 +35,7 @@ h2 {
     font-size: 7pt;
     height: 45px;
     line-height: 89px;
-    margin-bottom: 16px;
+    margin-bottom: 58px;
     position: relative;
     text-align: right;
     text-shadow: 1px 1px #000000;
@@ -69,12 +69,11 @@ h2 {
 .block {
     color: transparent;
     float: right;
-    height: 27px;
-    margin-right: 20px;
+    height: 34px;
     overflow: hidden;
     position: relative;
-    top: 13px;
-    width: 109px;
+    top: 4px;
+    width: 136px;
 }
 #footer {
     clear: left;
@@ -108,8 +107,8 @@ p {
     width: 207px;
 }
 ul#products_list {
-    margin-left: 52px;
-    margin-top: 130px;
+    margin-left: 80px;
+    margin-top: 207px;
     position: relative;
 }
 #middlecontent_projects {
@@ -119,8 +118,4 @@ ul#products_list {
     text-align: left;
     top: 10px;
     width: 75%;
-}
-.left_footer span {
-    position: relative;
-    top: 20px;
 }

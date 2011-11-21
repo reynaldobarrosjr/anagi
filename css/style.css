@@ -924,13 +924,13 @@ a#director_current,a#director:hover{background: url("../images/team_links.png") 
    
 /* FOOTER STYLES */   
 #footer_absolute {
-    bottom: -11px;
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
     color: #FFFFFF;
     height: 55px;
     position: absolute;
-    width: 1017px;
-}  
-
+    width: 1024px;
+}
 .left_footer {
     background-attachment: scroll;
     background-color: transparent;
@@ -939,7 +939,6 @@ a#director_current,a#director:hover{background: url("../images/team_links.png") 
     float: left;
     font-size: 10px;
     margin-left: 19px;
-    margin-top: 10px;
     position: relative;
     width: 206px;
 }
@@ -970,11 +969,11 @@ a.wishmodus {
 .block {
     color: transparent;
     float: right;
-    height: 27px;
+    height: 34px;
     margin-right: 24px;
     overflow: hidden;
     position: relative;
-    top: 8px;
+    top: 0;
     width: 109px;
 }
 

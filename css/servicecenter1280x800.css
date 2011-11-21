@@ -1,15 +1,27 @@
-html{min-width: 1008px;}
-
-body {
+html{min-width: 100%;min-height: 1961px;max-height: 1961px;}
+body{max-height: inherit;width: 100%;overflow-x: hidden;min-height: inherit;}
+div.container {
     background: url("../images/background_csc1280x800.jpg") no-repeat scroll 0 0 transparent;
-    max-height: 1961px;
-    overflow-x: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: inherit;
+    min-height: inherit;
+    position: relative;
+    width: 1280px;
 }
+#headlinks_projects {
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll 0 0 transparent;
+    height: 270px;
+    padding-top: 50px;
+    z-index: 9999;
+}
+
+
 h1 {
-    color: #FFFFFF;
+    color: transparent;
     font-family: "Trebuchet MS";
     font-size: 22pt;
-    line-height: 1;
+    line-height: 1px;
     margin-bottom: 0;
     margin-left: 40px;
     text-shadow: 2px 4px 2px #000000;
@@ -22,6 +34,7 @@ h2 {
 ul {
     padding-left: 20px;
 }
+
 p {
     color: #FFFFFF;
     font-family: "Trebuchet MS";

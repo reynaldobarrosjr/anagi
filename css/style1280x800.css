@@ -28,8 +28,9 @@ hr.team {
     margin: 0;
     width: 100%;
 }
-ul{padding-left: 2.5em;}
-
+ul {
+    padding-left: 1.5em;
+}
 li a{height: 50px;display: block;}
 
 h1 {
@@ -157,7 +158,12 @@ a.main_links {
   height: 34px;
   width: 173px;
 }
-#headlinks_projects{width: 10%;}
+
+#headlinks_projects {
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll 0 0 transparent;
+    padding-top: 10px;
+    z-index: 9999;
+}
 #headlinks, #headlinks_transparent {
     color: black;
     height: 230px;
@@ -659,7 +665,9 @@ a.next_button {
 #logoanagi {
     margin-left: 10px;
     vertical-align: middle;
-}#tanagi_footer{width: 80%;} 	
+    width: 30px;
+}
+#tanagi_footer{width: 80%;} 	
 #wmlogobw{ 
     float:right;
   	margin-right:10px;
@@ -919,16 +927,13 @@ a#director_current,a#director:hover{background: url("../images/team_links.png") 
     background: url("../images/wishmodus_logo1280.png") no-repeat scroll 0 0 transparent;
     bottom: 0;
     float: left;
-    height: 45px;
+    height: 35px;
     left: 110px;
     list-style-type: none;
-    margin: 0;
-    padding-bottom: 0;
-    padding-left: 10px;
-    padding-top: 0;
-    position: absolute;
-    width: 140px;}
-	
+    padding-right: 32px;
+    position: relative;
+    width: 136px;
+}	
 a.wishmodus {
     color: transparent;
     display: block;
@@ -947,6 +952,14 @@ a.wishmodus {
     position: relative;
     top: 4px;
     width: 136px;
+}
+#footer_absolute {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    color: #FFFFFF;
+    height: 55px;
+    position: absolute;
+    width: 1269px;
 }
 
 

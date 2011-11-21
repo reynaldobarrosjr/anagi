@@ -107,6 +107,16 @@ a.current_lang{color: #00c969;}
     top: 0;
     width: 218px;
 }
+.block {
+    color: transparent;
+    float: right;
+    height: 34px;
+    margin-right: 24px;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    width: 109px;
+}
 #footer {
     background: none repeat scroll 0 0 transparent;
     bottom: -203px;

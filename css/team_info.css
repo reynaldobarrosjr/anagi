@@ -1,8 +1,8 @@
-html#team_info,html#technical_dep,html#financial_dep,html#line_engineers,html#human_resources,html#mechanization,html#juridical {
-    
-    min-height: 1171px;
-    min-width: 1008px;
+html#team_info, html#technical_dep, html#financial_dep, html#line_engineers, html#human_resources, html#mechanization, html#juridical {
+    overflow-x: hidden;
+    width: 1024px;
 }
+body{width: inherit;}
 .container{
 	background: url("../images/background_team.jpg") no-repeat scroll 0 0 transparent;
 	margin-left: auto;
@@ -11,6 +11,7 @@ html#team_info,html#technical_dep,html#financial_dep,html#line_engineers,html#hu
     min-height: 1171px;
     position: relative;
     width: 1024px;
+    overflow-x: hidden;
 }
 html#shops{background: url(../images/background_shops.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
 

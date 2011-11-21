@@ -130,16 +130,7 @@ div.category_line {
 
 /*FOOTER*/
 
-#footer {
-    bottom: 0;
-    clear: left;
-    color: #FFFFFF;
-    height: 40px;
-    padding-top: 11px;
-    position: relative;
-    vertical-align: bottom;
-    width: 100%;
-}
+
 
 .left_footer_internal {
     background: none repeat scroll 0 0 transparent;

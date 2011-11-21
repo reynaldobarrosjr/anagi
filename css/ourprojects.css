@@ -41,13 +41,3 @@ div.container {
     width: 233px;
 }
 
-.block {
-    bottom: 3px;
-    color: transparent;
-    float: right;
-    margin-right: 10px;
-    overflow: hidden;
-    position: relative;
-    top: 8px;
-    width: 109px;
-}

@@ -1,9 +1,13 @@
-html {
-    background: none repeat scroll 0 0 transparent;
-    min-height: 2009px;
-    min-width: 1008px;
+html{width: 100%;}
+body{width: 100%;overflow-x: hidden;}
+
+.container {
+    background: url("../images/background_piazza1280x800.png") no-repeat scroll 0 0 transparent;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 1280px;
 }
-body{background: url(../images/background_piazza1280x800.png) no-repeat 0 0 scroll;}
 h1 {
     color: #FFFFFF;
     font-family: "Trebuchet MS";
@@ -139,13 +143,13 @@ div#text_container p{
     padding-top: 657px;
 }
 .block {
-  color:transparent;
-  float:right;
-  margin-right:10px;
-  overflow-x:hidden;
-  overflow-y:hidden;
-  position:relative;
-  width:109px;
+    color: transparent;
+    float: right;
+    margin-right: 10px;
+    overflow: hidden;
+    position: relative;
+    top: 34px;
+    width: 134px;
 }
 .left_footer {
     background-attachment: scroll;
