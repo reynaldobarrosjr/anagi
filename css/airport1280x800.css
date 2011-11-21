@@ -1,9 +1,19 @@
-html{min-width: 1008px;}
 body {
-    background: url("../images/background_airport1280x800.jpg") no-repeat scroll 0 0 transparent;
-    max-height: 1966px;
+    max-height: 1960px;
+    min-height: 1960px;
     overflow-x: hidden;
+    width: 100%;
 }
+div.container {
+    background: url("../images/background_airport1280x800.jpg") no-repeat scroll 0 0 transparent;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: inherit;
+    min-height: inherit;
+    position: relative;
+    width: 1280px;
+}
+
 h1 {
     color: #FFFFFF;
     font-family: "Trebuchet MS";
@@ -42,6 +52,16 @@ ul#menu li {
     margin-right: 11px;
     position: relative;
     width: 69px;
+}
+#headlinks_projects {
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll 0 0 transparent;
+    padding-top: 30px;
+    z-index: 9999;
+}
+#rightpart {
+    height: 390px;
+    padding-right: 0;
+    width: 25%;
 }
 
 /* dock navigation*/
@@ -154,6 +174,14 @@ div#text_container p{
     top: 12px;
     width: 233px;
 }
+a.next_button {
+    background: url("../images/sprite_mesa.png") repeat scroll -1160px 10px transparent;
+    color: transparent;
+    float: right;
+    padding: 33px 20px;
+    position: relative;
+    top: -65px;
+}
 .block {
     color: transparent;
     float: right;
@@ -163,12 +191,18 @@ div#text_container p{
     top: 11px;
     width: 109px;
 }
+.panel-wrapper img {
+    height: 540px;
+    position: relative;
+    top: 4px;
+    width: 1112px;
+}
 .slider {
-    background: url("../images/wishmodus_logo.png") no-repeat scroll 0 0 transparent;
+    background: url("../images/wishmodus_logo1280.png") no-repeat scroll 0 0 transparent;
     bottom: 0;
     float: left;
     height: 45px;
-    left: 90px;
+    left: 85px;
     list-style-type: none;
     margin: 0;
     padding-bottom: 0;
