@@ -1,8 +1,17 @@
-html{min-width: 1008px;}
+html{width:100%;}
 body {
-    background: url("../images/background_batumi1280x800.jpg") no-repeat scroll 0 0 transparent;
     min-height: 1960px;
     overflow-x: hidden;
+    width: 100%;
+}
+div.container {
+    background: url("../images/background_batumi1280x800.jpg") no-repeat scroll 0 0 transparent;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: inherit;
+    min-height: inherit;
+    position: relative;
+    width: 1280px;
 }
 h1 {
     color: #FFFFFF;
@@ -27,6 +36,12 @@ p {
     font-size: 1.4em;
     margin: 0 0 5px;
 }
+#rightpart {
+    height: 391px;
+    padding-right: 0;
+    width: 25%;
+}
+
 .coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel {
     width: 1008px;
 }
@@ -37,11 +52,16 @@ ul#menu li {
 
 
 #headlinks_projects, #headlinks_projects_transparent {
-    height: 294px;
+    height: 285px;
     margin-bottom: 60px;
     margin-right: 11px;
     position: relative;
     width: 69px;
+}
+#headlinks_projects {
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll 0 0 transparent;
+    padding-top: 39px;
+    z-index: 9999;
 }
 
 /* dock navigation*/
@@ -123,7 +143,13 @@ div#text_container p{
 }
 
 
-
+#coda-slider-2, #coda-slider-2 .panel {
+    left: 21px;
+    margin-bottom: 149px;
+    position: relative;
+    top: 50px;
+    width: 1008px;
+}
 a.next_button {
     background: url("../images/sprite_mesa.png") repeat scroll -1160px 10px transparent;
     color: transparent;
