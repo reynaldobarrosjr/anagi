@@ -1,7 +1,18 @@
-body{overflow-x: hidden;}
-
 html#team_info, html#technical_dep, html#financial_dep, html#line_engineers, html#human_resources, html#mechanization, html#juridical {
-    min-width: 1280px;
+   
+    overflow-x: hidden;
+    width: 100%;
+}
+body{width: inherit;}
+.container {
+    background: url("../images/background_team1280x800.jpg") no-repeat scroll 0 0 transparent;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 1562px;
+    min-height: 1562px;
+    position: relative;
+    width: 1280px;
+    overflow-x: hidden;
 }
 #middlecontent_projects {
     font-size: 7pt;
@@ -12,15 +23,7 @@ html#team_info, html#technical_dep, html#financial_dep, html#line_engineers, htm
     width: 75%;
 }
 
-.container {
-    background: url("../images/background_team1280x800.jpg") no-repeat scroll 0 0 transparent;
-    margin-left: auto;
-    margin-right: auto;
-   
-    min-height: 1562px;
-    position: relative;
-    width: 1280px;
-}
+
 html#shops{background: url(../images/background_shops1280x800.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
 
 
@@ -43,7 +46,7 @@ h5 {
 #links_team {
     height: 114px;
     margin-bottom: 50px;
-    padding: 22px 0 3px 3px;
+    padding: 20px 0 4px 15px;
     position: relative;
     right: 14px;
     width: 838px;
@@ -223,7 +226,7 @@ a.next_team_page {
     color: #FFFFFF;
     height: 42px;
     position: relative;
-    top: 70px;
+    top: 60px;
     width: 100%;
 }
 #footer_1line {
