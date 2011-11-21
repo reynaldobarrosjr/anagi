@@ -41,6 +41,12 @@ p {
     font-size: 1.4em;
     margin: 0 0 5px;
 }
+#social a, #social_transparent a {
+    height: 32px;
+    left: 9px;
+    position: relative;
+    width: 30px;
+}
 .coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel {
     width: 1010px;
 }
@@ -130,7 +136,10 @@ div#text_container p{
 
 
 }
-
+.panel-wrapper img {
+    height: 542px;
+    width: 820px;
+}
 
 
 
