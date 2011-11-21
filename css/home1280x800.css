@@ -5,7 +5,10 @@ html {
     max-height: 800px;
     min-height: 800px;
     overflow-x: hidden;
+    width:100%;
 }
+
+body{width: 100%;}
 div.container {
 	background-image: url("../images/background_index_1280.png");
     margin-left: auto;
@@ -14,6 +17,12 @@ div.container {
     min-height: 800px;
     position: relative;
     width: 1280px;
+}
+#rightpart {
+    margin-bottom: -220px;
+    position: relative;
+    width: 25%;
+    z-index: 1;
 }
 
 a#home,a#home:hover {
@@ -24,7 +33,7 @@ a#home,a#home:hover {
 .coda-slider-wrapper {
     bottom: -106px;
     clear: both;
-    margin-bottom: -7px;
+    margin-bottom: -16px;
     margin-left: 0;
     margin-right: 0;
     overflow-x: auto;
@@ -34,7 +43,16 @@ a#home,a#home:hover {
     width: auto;
     z-index: 0;
 }
-
 #footer {
     background: none repeat scroll 0 0 transparent;
+}
+.block {
+    color: transparent;
+    float: right;
+    height: 34px;
+    margin-right: 24px;
+    overflow: hidden;
+    position: relative;
+    top: 5px;
+    width: 134px;
 }
