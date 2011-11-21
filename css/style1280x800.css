@@ -264,7 +264,11 @@ a#company_over {
     width: 134px;
 }
 	#anagiling a.last{padding-right: 30px;}
-#rightpart{width:25%;}
+#rightpart {
+    height: 402px;
+    padding-right: 0;
+    width: 25%;
+}
 #rightpart_projects{width: 15%;float: right;}/*projects_page style*/
 #tanagi {width: 25%;background-color: black;}
 #social, #social_transparent {
