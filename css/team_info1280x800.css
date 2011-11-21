@@ -236,10 +236,9 @@ a.next_team_page {
     color: #FFFFFF;
     height: 42px;
     position: relative;
-    top: 531px;
+    top: 530px;
     width: 100%;
 }
-
 .left_footer2 {
     background-attachment: scroll;
     background-color: transparent;
@@ -248,5 +247,6 @@ a.next_team_page {
     float: left;
     font-size: 10px;
     position: relative;
+    top: 2px;
     width: 233px;
 }
