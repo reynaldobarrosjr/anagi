@@ -82,7 +82,9 @@ ul#menu li {
     position: relative;
 }
 #building_details {
+    bottom: 281px;
     height: 755px;
+    position: relative;
 }
 #text_container {
     font-size: 6pt;
@@ -124,7 +126,7 @@ ul#menu li {
     position: relative;
     right: 70px;
     text-align: left;
-    top: 30px;
+    top: -270px;
     width: 40%;
 }
 div#text_container p{
