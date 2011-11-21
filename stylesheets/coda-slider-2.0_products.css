@@ -24,8 +24,8 @@
 	.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel { width: 600px; }
 .coda-slider-wrapper.arrows .coda-slider {
     margin: 0 10px;
-    top: -74px;
-}
+    top: 16px;
+}	
 	/* Arrow styling */
 	.coda-nav-left a, .coda-nav-right a { background: #000; color: #fff; padding: 5px; width: 100px }
 .coda-nav-left a {
@@ -36,10 +36,10 @@
     top: 130px;
 }
 .coda-nav-right a {
-    background: none repeat scroll 0 0;
+    background: url("../images/sprite_products.png") no-repeat scroll -230px -10px transparent;
     padding-top: 18px;
     position: relative;
-    right: -37px;
+    right: 33px;
     text-indent: -9999px;
     top: 130px;
 }
@@ -70,9 +70,9 @@
 	.coda-slider .panel { display: block; float: left }
 	.coda-slider .panel-container { position: relative }
 	.coda-nav-left, .coda-nav-right { float: left }
-.coda-nav-left a, .coda-nav-right a {
+	.coda-nav-left a, .coda-nav-right a {
     display: block;
     text-align: center;
     text-decoration: none;
-    top: 106px;
-}
+    top: 174px;
+}	

@@ -44,7 +44,7 @@ ul#menu li {
 
 
 #headlinks_projects, #headlinks_projects_transparent {
-    height: 272px;
+    height: 293px;
     margin-bottom: 60px;
     margin-right: 11px;
     position: relative;
@@ -87,7 +87,7 @@ ul#menu li {
 
 /*top text - left and description*/
 #rightpart {
-    height: 392px;
+    height: 385px;
     padding-right: 0;
     width: 25%;
 }

@@ -86,7 +86,7 @@ ul#menu {
     margin-right: auto;
     position: relative;
     text-align: left;
-    top: 543px;
+    top: 590px;
     width: 60%;
 }
 
@@ -135,27 +135,14 @@ div#text_container p{
     position: relative;
     width: 29px;
 }
-a.right_up {
-    background: url("../images/sprite_mesa1280x800.png") repeat scroll -1328px 270px transparent;
-    color: transparent;
-    float: right;
-    height: 22px;
-    padding: 7px 0 10px;
-    position: relative;
-    right: 0;
-    text-indent: -9999px;
-    top: 525px;
-    width: 153px;
-    z-index: 9999;
-}
+
 
 /* footer */
 
-#footer_absolute {
-    bottom: 85px;
+#footer_airport {
     color: #FFFFFF;
-    height: 55px;
-    position: relative;
+    height: 45px;
+    padding-top: 657px;
 }
 .block {
     color: transparent;
