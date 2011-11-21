@@ -561,10 +561,10 @@ a.right_up {
     height: 62px;
     padding: 7px 0 10px;
     position: relative;
-    right: 160px;
+    right: 0;
     text-indent: -9999px;
     top: 525px;
-    width: 41px;
+    width: 153px;
     z-index: 9999;
 }
 a.right_up:hover {
