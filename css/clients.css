@@ -9,7 +9,7 @@ html {
     max-height: 768px;
     min-height: 768px;
 }
-body{max-height: inherit;}
+body{max-height: inherit;max-width: 1280px;overflow-x: hidden;}
 
 
 div.container {

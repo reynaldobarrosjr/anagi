@@ -1,5 +1,17 @@
-html#technical_info{background: url(../images/background_equipment.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
-
+html#technical_info{width: 100%;}
+body {
+    overflow-x: hidden;
+    
+}
+div.container {
+    background: url("../images/background_equipment.jpg") repeat scroll 0 0 #181818;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 1295px;
+    min-height: 1295px;
+    position: relative;
+    width: 1024px;
+}
 h1#anagi_team{text-indent: -9999px;}
 h1{text-indent: -9999px;}
 h2 {

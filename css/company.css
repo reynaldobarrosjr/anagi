@@ -3,6 +3,8 @@ html {
     background-color: #FFFFFF;
     background-origin: padding-box;
     background-repeat: no-repeat;
+    width: 100%;
+    overflow-x: hidden;
     
 }
 .container {

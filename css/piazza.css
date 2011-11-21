@@ -1,5 +1,10 @@
-html{min-width: 1008px;}
-body{background: url(../images/background_piazza.jpg) no-repeat 0 0 scroll;}
+html{width: 100%;}
+body{width: 100%;overflow-x: hidden;}
+.container{
+margin-left: auto;margin-right: auto;
+background: url(../images/background_piazza.jpg) no-repeat 0 0 scroll;
+
+}
 h1 {
     color: #FFFFFF;
     font-family: "Trebuchet MS";
@@ -120,12 +125,14 @@ div#text_container p{
 }
 
 
+
 /* footer */
 
-#footer_airport {
-	padding-top:605px;
-    height: 45px;
-    color: #fff;
+#footer_absolute {
+    bottom: 39px;
+    color: #FFFFFF;
+    height: 55px;
+    position: relative;
 }
 .block {
   color:transparent;

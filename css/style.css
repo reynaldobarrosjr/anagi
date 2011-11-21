@@ -1,6 +1,6 @@
 /* HTML TAGS */
 
-
+html{width: 100%;}
 
 p{font-size: 1.4em;
     margin: 0 0 20px;font-family:"Trebuchet MS";}
@@ -252,7 +252,10 @@ a#company_over {
     width: 110px;
 }
 	#anagiling a.last{padding-right: 30px;}
-#rightpart{width:25%;}
+#rightpart {
+    padding-right: 15px;
+    width: 25%;
+}
 #rightpart_projects{width: 15%;float: right;}/*projects_page style*/
 #tanagi {width: 25%;background-color: black;}
 #social, #social_transparent {
@@ -327,17 +330,17 @@ a.anagiling:hover{background: url("../images/sprite_root.png") 0px 0px transpare
 
 a.buy:hover{color: transparent;}
 .buy {
-    background: url("../images/sprite_root.png") repeat scroll -10px -285px transparent;
+    background: url("../images/sprite_root.png") repeat scroll 4px -280px transparent;
     clear: both;
     color: transparent;
     float: right;
     font-size: 8pt;
     padding-bottom: 5px;
-    padding-top: 13px;
+    padding-top: 18px;
     position: relative;
     text-align: right;
+    width: 118px;
 }
-	
 
 
 /* ICONS */
@@ -667,19 +670,7 @@ figure img{width:96px;height:96px;}
    	background:url(../images/bwover.png);
    	color: #fff;
 }
-.left_footer {
-  background-attachment:scroll;
-  background-clip:initial;
-  background-color:transparent;
-  background-image:none;
-  background-origin:initial;
-  background-position:0 0;
-  background-repeat:repeat repeat;
-  float:left;
-  font-size:10px;
-  position:relative;
-  width:233px;
-}
+
 
 .left_footer2 {
     background-attachment: scroll;
@@ -755,9 +746,11 @@ h1#current {
 }
 
 
-#rightpart_projects{position: relative;
+#rightpart_projects {
+    position: relative;
     width: 15%;
-    z-index: 9999;}
+    z-index: 9999;
+}
 #middlecontent_projects {
     font-size: 7pt;
     position: relative;
@@ -928,7 +921,28 @@ a#director_current,a#director:hover{background: url("../images/team_links.png") 
     margin: -5px 0 0;
     padding: 0;}
    
-/* Style for slider on footer */
+   
+/* FOOTER STYLES */   
+#footer_absolute {
+    bottom: -11px;
+    color: #FFFFFF;
+    height: 55px;
+    position: absolute;
+    width: 1017px;
+}  
+
+.left_footer {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: none;
+    background-position: 0 0;
+    float: left;
+    font-size: 10px;
+    margin-left: 19px;
+    margin-top: 10px;
+    position: relative;
+    width: 206px;
+}
  
 .slider {
     background: url("../images/wishmodus_logo.png") no-repeat scroll 0 0 transparent;
@@ -957,7 +971,7 @@ a.wishmodus {
     color: transparent;
     float: right;
     height: 27px;
-    margin-right: 10px;
+    margin-right: 24px;
     overflow: hidden;
     position: relative;
     top: 8px;

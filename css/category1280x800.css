@@ -1,18 +1,4 @@
-.offices {
-    background: url("../images/background_offices1280x800.jpg") no-repeat scroll transparent;
-    color: #FFFFFF;
-    min-height: 768px;
-}
-.dwelling {
-    background: url("../images/background_category_dwelling_1280x800.jpg") no-repeat scroll 0 0 transparent;
-    color: #FFFFFF;
-    min-height: 1013px;
-}
-.current_dwelling {
-    background: url("../images/background_category_current_dwelling1024x768.jpg") no-repeat scroll 0 0 transparent;
-    color: #FFFFFF;
-    min-height: 1013px;
-}
+html{width: 100%;}
 .dwelling .block,.hotel .block ,.offices .block,.industrial .block,.rehabilitation .block,.individualdwelling .block, .entertainment .block{
     color: transparent;
     float: right;
@@ -23,32 +9,28 @@
     position: relative;
     width: 109px;
 }
-.hotel{
-    background: url("../images/background_category_hotel_1280x1024.jpg") no-repeat scroll transparent;
-    color: #FFFFFF;
-    min-height: 800px;    
-}    
-.industrial{
-    background: url("../images/background_industrial1280x800.jpg") no-repeat scroll transparent;
-    color: #FFFFFF;
-    min-height: 800px;    
-}    
-.rehabilitation{
-    background: url("../images/background_rehabilitation1280x800.jpg") no-repeat scroll transparent;
-    color: #FFFFFF;
-    min-height: 800px;    
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 1217px;
+    position: relative;
+    width: 1280px;
 }
-.individualdwelling{
-    background: url("../images/background_individual_dwelling1280x800.jpg") no-repeat scroll transparent;
-    color: #FFFFFF;
-    min-height: 800px;    
-}
-.entertainment{
-    background: url("../images/background_entertainment1280x800.jpg") no-repeat scroll transparent;
-    color: #FFFFFF;
-    min-height: 800px;        
-        
-}
+
+/* CONTAINERS */ 
+html.dwelling .container{	background: url("../images/../images/bck_cat_dwelling_1600x900.jpg") no-repeat scroll 0 0 transparent;}
+html.hotel .container{	background: url("../images/background_category_hotel_1280x1024.jpg") no-repeat scroll 0 0 transparent;}
+html.offices .container{	background: url("../images/bck_cat_offices_1600x900.jpg") no-repeat scroll 0 0 transparent;}
+html.rehabilitation .container{	background: url("../images/background_rehabilitation1280x800.jpg") no-repeat scroll 0 0 transparent;}
+html.individual_dwelling .container{	background: url("../images/background_individual_dwelling1280x800.jpg") no-repeat scroll 0 0 transparent;}
+html.entertainment .container{	background: url("../images/background_entertainment1280x800.jpg") no-repeat scroll 0 0 transparent;}
+html.current_dwelling .container{background: url("../images/bck_cat_current_dwelling_1600x900.jpg") no-repeat scroll 0 0 transparent;}
+html.current_rehabilitation .container{background: url("../images/bck_cat_current_rehabilitation_1600x900.jpg") no-repeat scroll 0 0 transparent;}
+html.current_individualdwelling .container{background: url("../images/bck_cat_current_individualdwelling_1600x900.jpg") no-repeat scroll 0 0 transparent;}
+html.industrial .container{background: url("../images/background_category_hotel_1280x1024.jpg") no-repeat scroll 0 0 transparent;}
+
+
 h2 {
     color: #fff;
     font-family: "Trebuchet MS";
@@ -94,7 +76,16 @@ hr{color: transparent;background: transparent;}
     text-decoration: none;
     top: 30px;
 }
-
+div.building_information {
+    background: none repeat scroll 0 0 transparent;
+    border-left: 2px solid #FFFFFF;
+    float: left;
+    font-size: 7pt;
+    height: 184px;
+    padding-left: 30px;
+    text-align: left;
+    width: 150px;
+}
 #category_info{width: 30%;float: left;}
 #photos{}
 

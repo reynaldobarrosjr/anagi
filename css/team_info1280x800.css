@@ -1,5 +1,26 @@
-html#team_info,html#technical_dep,html#financial_dep,html#line_engineers,html#human_resources,html#mechanization,html#juridical{background: url(../images/background_team1280x800.jpg) no-repeat 0 0 scroll;min-width: 1008px;min-height:1568px;}
+body{overflow-x: hidden;}
 
+html#team_info, html#technical_dep, html#financial_dep, html#line_engineers, html#human_resources, html#mechanization, html#juridical {
+    min-width: 1280px;
+}
+#middlecontent_projects {
+    font-size: 7pt;
+    margin-bottom: 12px;
+    position: relative;
+    text-align: left;
+    top: 80px;
+    width: 75%;
+}
+
+.container {
+    background: url("../images/background_team1280x800.jpg") no-repeat scroll 0 0 transparent;
+    margin-left: auto;
+    margin-right: auto;
+   
+    min-height: 1562px;
+    position: relative;
+    width: 1280px;
+}
 html#shops{background: url(../images/background_shops1280x800.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
 
 
@@ -21,7 +42,7 @@ h5 {
 }
 #links_team {
     height: 114px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     padding: 22px 0 3px 3px;
     position: relative;
     right: 14px;

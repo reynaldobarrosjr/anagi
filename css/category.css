@@ -1,4 +1,8 @@
-
+.container{position: relative;margin-left:auto;margin-right:auto;max-width: 1280px;max-height:768px;min-height: 768px; }
+img {
+    margin-right: 20px;
+    width: 100px;
+}
 .offices {
     background: url("../images/background_category_offices_1024x768.jpg") no-repeat scroll transparent;
     color: #FFFFFF;
@@ -89,7 +93,43 @@ ul.list_photos li{ display: inline;
 .left_footer{
 	top:7px;
 }
-  
+/*PROJECTS LINES*/
+
+div.building_information {
+    background: none repeat scroll 0 0 transparent;
+    border-left: 2px solid #FFFFFF;
+    float: left;
+    font-size: 6pt;
+    height: 137px;
+    padding-left: 15px;
+    text-align: left;
+    width: 150px;
+}
+div.gallery_category {
+    float: right;
+    padding-top: 15px;
+    position: relative;
+    width: 60%;
+}
+
+div.category_line {
+    height: 153px;
+    margin-bottom: 154px;
+    margin-left: 82px;
+    margin-top: 40px;
+    padding-left: 0;
+    padding-top: 0;
+    width: 82%;
+}
+#rightpart_projects {
+    height: 571px;
+    position: relative;
+    width: 15%;
+    z-index: 9999;
+}
+
+/*FOOTER*/
+
 #footer {
     bottom: 0;
     clear: left;
@@ -110,10 +150,10 @@ ul.list_photos li{ display: inline;
     width: 233px;
 }
 #row2 {
-    margin-bottom: -23px;
-    margin-top: 172px;
+    margin-bottom: -43px;
+    margin-top: 137px;
     position: relative;
 }
 #row3 {
-    margin-bottom: 24px;
+    margin-bottom: 0;
 }
