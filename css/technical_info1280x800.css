@@ -1,7 +1,18 @@
 html#technical_info {
-    background: url("../images/background_techinfo1280x800.jpg") no-repeat scroll 0 0 transparent;
+    width:100%;
+}
+body {
+    overflow-x: hidden;
+    
+}
+div.container {
+    background: url("../images/background_techinfo1280x800.jpg") repeat scroll 0 0 #181818;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 1614px;
     min-height: 1614px;
-    min-width: 1008px;
+    position: relative;
+    width: 1280px;
 }
 
 h1#anagi_team{text-indent: -9999px;}
@@ -134,16 +145,26 @@ li.list_team {
     color: #FFFFFF;
     height: 42px;
     position: relative;
-    top: 1300px;
-    width: 100%;
+    top: 1068px;
+    width: 1280px;
+}
+.slider {
+    background: url("../images/wishmodus_logo1280.png") no-repeat scroll 0 0 transparent;
+    bottom: 0;
+    float: left;
+    height: 35px;
+    left: 110px;
+    list-style-type: none;
+    padding-right: 142px;
+    position: relative;
+    width: 227px;
 }
 .block {
     color: transparent;
     float: right;
-    left: 150px;
-    margin-right: 10px;
+    margin-right: 160px;
     overflow: hidden;
     position: relative;
     top: 2px;
-    width: 109px;
+    width: 140px;
 }
