@@ -1,9 +1,34 @@
-html{min-width: 1008px;}
-
+html {
+    min-height: 1961px;
+    min-width: 100%;
+}
 body {
-    background: url("../images/background_mc1280x800.jpg") no-repeat scroll 0 0 transparent;
     max-height: 1961px;
     overflow-x: hidden;
+}
+a.next_button {
+    background: url("../images/sprite_mesa.png") repeat scroll -1160px 10px transparent;
+    color: transparent;
+    float: right;
+    padding: 33px 20px;
+    position: relative;
+    top: -65px;
+}
+.coda-slider-wrapper {
+    position: relative;
+}
+div.container {
+    background: url("../images/background_mc1280x800.jpg") no-repeat scroll 0 0 transparent;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: inherit;
+    min-height: inherit;
+    position: relative;
+    width: 1280px;
+}
+.panel-wrapper img {
+    height: 510px;
+    width: 820px;
 }
 h1 {
     color: #FFFFFF;
@@ -33,14 +58,30 @@ ul#menu li {
     float: left;
     margin-left: 50px;
 }
-
+#rightpart {
+    height: 391px;
+    padding-right: 0;
+    width: 25%;
+}
+#social a, #social_transparent a {
+    height: 30px;
+    left: 15px;
+    position: relative;
+    width: 30px;
+}
 
 #headlinks_projects, #headlinks_projects_transparent {
-    height: 294px;
+    height: 274px;
     margin-bottom: 60px;
     margin-right: 11px;
     position: relative;
     width: 69px;
+}
+#headlinks_projects {
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll 0 -18px transparent;
+    height: 262px;
+    padding-top: 32px;
+    z-index: 9999;
 }
 	
 /* dock navigation*/
@@ -62,6 +103,14 @@ ul#menu li {
     float: left;
     top: 202px;
     z-index: -10;
+}
+.coda-slider-wrapper {
+    position: relative;
+}
+#coda-slider-2 {
+    padding: 20px 0 11px 90px;
+    position: relative;
+    top: 88px;
 }
 
 /* */

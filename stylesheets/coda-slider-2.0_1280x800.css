@@ -45,6 +45,8 @@
 	/* Panel padding */
 	.coda-slider .panel-wrapper { padding: 20px }
 	.coda-slider-2 .panel-wrapper-2 {padding: 0px; height: 620px;} 
+	.coda-slider-3 .panel-wrapper-3 {padding: 0px; height: 780px;} 
+
 	
 	/* Preloader */
 	.coda-slider p.loading { padding: 20px; text-align: center }
