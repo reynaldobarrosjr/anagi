@@ -153,7 +153,7 @@ a.next_button {
 }
 #social a, #social_transparent a {
     height: 30px;
-    left: 15px;
+    left: 5px;
     position: relative;
     width: 30px;
 }
@@ -188,4 +188,14 @@ a.next_button {
     position: relative;
     top: 10px;
     width: 233px;
+}
+.block {
+    color: transparent;
+    float: right;
+    height: 45px;
+    margin-right: 10px;
+    overflow: hidden;
+    position: relative;
+    top: 8px;
+    width: 136px;
 }

@@ -67,20 +67,20 @@ span.destaq {
     font-weight: bold;
 }
 a#director {
-    background-position: 0 58px;
+    background-position: -547px 28px;
     padding: 0 3px 7px 0;
     text-indent: -9999px;
-    width: 73px;
+    width: 110px;
 }
 
 a#director_current, a#director:hover {
-    background: url("../images/sprite_button_team.png") repeat scroll 0 0 transparent;
+    background: url("../images/sprite_button_team.png") repeat scroll -1297px -30px transparent;
     color: transparent;
     height: 20px;
     margin-left: 0;
-    padding: 0 3px 7px 0;
+    padding: 0 43px 7px 0;
     text-indent: -9999px;
-    width: 73px;
+    width: 70px;
 }
 
 a#technical {
@@ -119,40 +119,40 @@ a#human_current, a#human:hover {
 }
 a#mechanization {
     background-position: -758px -87px;
-    left: -78px;
+    left: -115px;
     position: relative;
     width: 104px;
 }
 a#mechanization_current, a#mechanization:hover {
     background-position: -758px -145px;
     width: 104px;
-    left:-78px;
+    left:-115px;
     position: relative;
 }
 a#shops {
     background-position: -876px -87px;
-    left: -79px;
+    left: -117px;
     position: relative;
-    width: 274px;
+    width: 273px;
 }
 a#shops_current, a#shops:hover {
     background-position: -876px -145px;
-     left: -79px;
+     left: -117px;
     position: relative;
-    width: 274px;
+    width: 273px;
 }
 
 a#juridical {
     background-position: -1148px -87px;
-    left: -94px;
+    left: -132px;
     position: relative;
-    width: 298px;
+    width: 154px;
 }
 a#juridical_current, a#juridical:hover {
     background-position: -1148px -145px;
-    left: -94px;
+    left: -132px;
     position: relative;
-    width: 298px;
+    width: 154px;
 }
 
 
@@ -225,9 +225,9 @@ a.next_team_page {
     clear: left;
     color: #FFFFFF;
     height: 42px;
+    margin-top: 1466px;
     position: relative;
-    top: 60px;
-    width: 100%;
+    width: 99%;
 }
 #footer_1line {
     background: none repeat scroll 0 0 transparent;

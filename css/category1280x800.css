@@ -3,24 +3,26 @@ html {
     width: 100%;
 }
 .dwelling .block,.hotel .block ,.offices .block,.industrial .block,.rehabilitation .block,.individualdwelling .block, .entertainment .block{
+background: none;
    
 }
 
 .container {
     margin-left: auto;
     margin-right: auto;
-    min-height: 1217px;
+    max-height: 1016px;
+    min-height: 1016px;
     position: relative;
     width: 1280px;
 }
 
 /* CONTAINERS */ 
-html.dwelling .container{	background: url("../images/../images/bck_cat_dwelling_1600x900.jpg") no-repeat scroll 0 0 transparent;}
+html.dwelling .container{	background: url("../images/../images/background_category_dwelling_1280x800.jpg") no-repeat scroll 0 0 transparent;}
 html.hotel .container{	background: url("../images/background_category_hotel_1280x1024.jpg") no-repeat scroll 0 0 transparent;}
-html.offices .container{	background: url("../images/bck_cat_offices_1600x900.jpg") no-repeat scroll 0 0 transparent;}
-html.rehabilitation .container{	background: url("../images/background_rehabilitation1280x800.jpg") no-repeat scroll 0 0 transparent;}
-html.individual_dwelling .container{	background: url("../images/background_individual_dwelling1280x800.jpg") no-repeat scroll 0 0 transparent;}
-html.entertainment .container{	background: url("../images/background_entertainment1280x800.jpg") no-repeat scroll 0 0 transparent;}
+html.offices .container{	background: url("../images/bck_category_offices1280x800.jpg") no-repeat scroll 0 0 transparent;}
+html.rehabilitation .container{	background: url("../images/bck_category_rehabilitation1280x800.jpg") no-repeat scroll 0 0 transparent;}
+html.individual_dwelling .container{	background: url("../images/bck_category_individual1280x800	.jpg") no-repeat scroll 0 0 transparent;}
+html.entertainment .container{	background: url("../images/bck_category_entertainment1280x800.jpg") no-repeat scroll 0 0 transparent;}
 html.current_dwelling .container{background: url("../images/bck_cat_current_dwelling_1600x900.jpg") no-repeat scroll 0 0 transparent;}
 html.current_rehabilitation .container{background: url("../images/bck_cat_current_rehabilitation_1600x900.jpg") no-repeat scroll 0 0 transparent;}
 html.current_individualdwelling .container{background: url("../images/bck_cat_current_individualdwelling_1600x900.jpg") no-repeat scroll 0 0 transparent;}
@@ -107,16 +109,20 @@ div.gallery_category {
 div.category_line {
     height: 170px;
     margin-bottom: 237px;
-    margin-top: 123px;
+    margin-top: 76px;
     padding-left: 110px;
     padding-top: 0;
     width: 84%;
 }
 
-#row2{margin-bottom: 0px;position: relative;}  
+#row2 {
+    margin-bottom: -20px;
+    margin-top: -70px;
+    position: relative;
+}
 #row3 {
     margin-bottom: 44px;
-    margin-top: 100px;
+    
     position: relative;
 }
 a.next_team_page {
@@ -138,6 +144,15 @@ a.next_team_page {
     position: relative;
     top: 487px;
     vertical-align: bottom;
+    width: 100%;
+}
+#footer {
+    bottom: 0;
+    clear: left;
+    color: #FFFFFF;
+    height: 27px;
+    position: relative;
+    top: 28px;
     width: 100%;
 }
 

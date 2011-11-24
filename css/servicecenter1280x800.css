@@ -35,6 +35,7 @@ ul {
     padding-left: 20px;
 }
 
+
 p {
     color: #FFFFFF;
     font-family: "Trebuchet MS";
@@ -169,4 +170,14 @@ a.next_button {
   font-size:10px;
   position:relative;
   top:10px;
+}
+.block {
+    color: transparent;
+    float: right;
+    height: 45px;
+    margin-right: 10px;
+    overflow: hidden;
+    position: relative;
+    top: 9px;
+    width: 136px;
 }

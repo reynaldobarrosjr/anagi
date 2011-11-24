@@ -186,3 +186,13 @@ a.next_button {
     top: 10px;
     width: 233px;
 }
+.block {
+    color: transparent;
+    float: right;
+    height: 45px;
+    margin-right: 10px;
+    overflow: hidden;
+    position: relative;
+    top: 9px;
+    width: 136px;
+}

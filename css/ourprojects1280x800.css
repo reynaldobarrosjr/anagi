@@ -51,3 +51,13 @@ div.container {
     vertical-align: middle;
     width: 100%;
 }
+.block {
+    color: transparent;
+    float: right;
+    height: 45px;
+    margin-right: 17px;
+    overflow: hidden;
+    position: relative;
+    top: 9px;
+    width: 136px;
+}

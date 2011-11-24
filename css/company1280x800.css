@@ -47,10 +47,10 @@ body{max-width: 100%;overflow-x: hidden;}
     clear: left;
     color: #FFFFFF;
     height: 42px;
+    margin-top: 609px;
     position: relative;
-    top: 233px;
-    width: 100%;
-}
+    width: 99%;
+}	
 #navlist li a#tech_info {
     background-position: -162px -57px;
     padding-left: 19px;
