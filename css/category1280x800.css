@@ -23,9 +23,9 @@ html.offices .container{	background: url("../images/bck_category_offices1280x800
 html.rehabilitation .container{	background: url("../images/bck_category_rehabilitation1280x800.jpg") no-repeat scroll 0 0 transparent;}
 html.individual_dwelling .container{	background: url("../images/bck_category_individual1280x800	.jpg") no-repeat scroll 0 0 transparent;}
 html.entertainment .container{	background: url("../images/bck_category_entertainment1280x800.jpg") no-repeat scroll 0 0 transparent;}
-html.current_dwelling .container{background: url("../images/bck_cat_current_dwelling_1600x900.jpg") no-repeat scroll 0 0 transparent;}
-html.current_rehabilitation .container{background: url("../images/bck_cat_current_rehabilitation_1600x900.jpg") no-repeat scroll 0 0 transparent;}
-html.current_individualdwelling .container{background: url("../images/bck_cat_current_individualdwelling_1600x900.jpg") no-repeat scroll 0 0 transparent;}
+html.current_dwelling .container{background: url("../images/bck_category_current_dwelling1280x800.jpg") no-repeat scroll 0 0 transparent;}
+html.current_rehabilitation .container{background: url("../images/bck_category_current_rehabilitation1280x800.jpg") no-repeat scroll 0 0 transparent;}
+html.current_individualdwelling .container{background: url("../images/bck_category_current_individual1280x800.jpg") no-repeat scroll 0 0 transparent;}
 html.industrial .container{background: url("../images/background_category_hotel_1280x1024.jpg") no-repeat scroll 0 0 transparent;}
 
 

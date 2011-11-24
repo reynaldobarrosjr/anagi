@@ -758,9 +758,17 @@ h1#project {
     text-indent: -9999px;
     top: -11px;
 }
-h1#realized {
-    background: url("../images/sprite_project1280x800.png") repeat scroll -18px -60px transparent;
+h1#current {
+    background: url("../images/sprite_project1280x800.png") repeat scroll -17px -170px transparent;
+    height: 86px;
     text-indent: -9999px;
+    width: 300px;
+}
+h1#realized {
+    background: url("../images/sprite_project1280x800.png") repeat scroll -17px -60px transparent;
+    height: 86px;
+    text-indent: -9999px;
+    width: 300px;
 }
 a.realized_link {
     color: #FFFFFF;
@@ -769,10 +777,7 @@ a.realized_link {
 a.realized_link:hover{color:#000;}
 a.current_link{color: #fff;}
 a.current_link:hover{color:#EF113B;}
-h1#current {
-    background: url("../images/sprite_project1280x800.png") no-repeat scroll -17px -102px transparent;
-    text-indent: -9999px;
-}
+
 
 
 #rightpart_projects{position: relative;
