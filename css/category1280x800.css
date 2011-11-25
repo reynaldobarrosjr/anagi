@@ -114,7 +114,6 @@ div.gallery_category {
     float: right;
     padding-top: 15px;
     position: relative;
-    width: 60%;
 }
 
 div.category_line {
@@ -126,14 +125,13 @@ div.category_line {
     width: 84%;
 }
 
-#row2 {
-    margin-bottom: 82px;
-    margin-top: -60px;
+#row2{
+	margin-top: -60px;
     position: relative;
 }
 #row3 {
-    margin-bottom: 45px;
-    position: relative;
+    margin-bottom: 51px;
+
 }
 a.next_team_page {
     background: url("../images/sprite_team_info.png") repeat scroll -5048px 0 transparent;
