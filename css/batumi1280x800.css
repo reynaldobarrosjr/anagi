@@ -94,13 +94,13 @@ ul#menu li {
     height: 832px;
 }
 #text_container {
-  font-size:6pt;
-  margin-left:auto;
-  margin-right:auto;
-  position:relative;
-  text-align:left;
-  top:30px;
-  width:60%;
+    font-size: 7pt;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: left;
+    top: -32px;
+    width: 60%;
 }
 /*top text - left and description*/
 
@@ -154,25 +154,33 @@ div#text_container p{
     margin-bottom: 149px;
     position: relative;
     top: 50px;
-    width: 1008px;
+    width: 1228px;
 }
 a.next_button {
     background: url("../images/sprite_mesa.png") repeat scroll -1160px 10px transparent;
     color: transparent;
     float: right;
-    left: 42px;
+    left: -28px;
     padding: 33px 20px;
     position: relative;
     top: -255px;
 }
-
+.panel-wrapper img, .panel-wrapper-1 img {
+    height: 60%;
+    padding: 0;
+    position: relative;
+    top: 27px;
+    width: 60%;
+}
 /* footer */
 
-#footer_airport {
+#footer_absolute {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 17px;
     color: #FFFFFF;
-    height: 9px;
-    position: relative;
-    top: 0;
+    height: 35px;
+    position: absolute;
+    width: 97%;
 }
 .left_footer {
     background-attachment: scroll;

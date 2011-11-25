@@ -82,7 +82,7 @@ ul#menu li {
     margin-right: auto;
     position: relative;
     text-align: left;
-    top: 0;
+    top: 140px;
     width: 60%;
 }
 
@@ -153,17 +153,25 @@ a.next_button {
     left: 42px;
     padding: 33px 20px;
     position: relative;
-    top: -255px;
+    top: -85px;
+}
+.panel-wrapper img, .panel-wrapper-1 img {
+    height: 50%;
+    padding: 0;
+    position: relative;
+    top: 75px;
+    width: 50%;
 }
 
 /* footer */
 
-#footer_airport {
+#footer_absolute {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 19px;
     color: #FFFFFF;
-    height: 45px;
-    padding-top: 7px;
-    position: relative;
-    top: 29px;
+    height: 25px;
+    position: absolute;
+    width: 1024px;
 }
 
 .left_footer {

@@ -202,7 +202,7 @@ a#products {
     background: url("../images/sprite_root1280x800.png") no-repeat scroll -88px -151px transparent;
     text-indent: -9999px;
 }
-a#products:hover {
+a#products:hover,a#products_over {
     background: url("../images/sprite_root1280x800.png") no-repeat scroll -287px -151px transparent;
     text-indent: -9999px;
 }
