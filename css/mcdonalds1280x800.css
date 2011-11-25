@@ -27,8 +27,9 @@ div.container {
     width: 1280px;
 }
 .panel-wrapper img {
-    height: 510px;
-    width: 820px;
+    height: 542px;
+    margin-left: 20px;
+    width: 1208px;
 }
 h1 {
     color: #FFFFFF;
@@ -43,7 +44,9 @@ h2 {
     color: #212121;
  
 }
-
+#coda-slider-2, #coda-slider-2 .panel {
+    width: 1228px;
+}
 ul {
     padding-left: 20px;
 }
@@ -105,12 +108,8 @@ ul#menu li {
     z-index: -10;
 }
 .coda-slider-wrapper {
+    margin-top: 81px;
     position: relative;
-}
-#coda-slider-2 {
-    padding: 20px 0 11px 90px;
-    position: relative;
-    top: 88px;
 }
 
 /* */
