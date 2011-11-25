@@ -39,6 +39,10 @@ figure {
     padding: 0;
     width: 185px;
 }
+figure img {
+    height: 132px;
+    width: 132px;
+}
 figcaption {
     width: 185px;
 }

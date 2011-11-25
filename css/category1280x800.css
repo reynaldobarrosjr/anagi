@@ -151,9 +151,9 @@ a.next_team_page {
     clear: left;
     color: #FFFFFF;
     height: 27px;
+    margin-top: -28px;
     position: relative;
-    top: 28px;
-    width: 100%;
+    width: 98%;
 }
 
 .left_footer_internal {

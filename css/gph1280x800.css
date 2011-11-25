@@ -150,9 +150,10 @@ div#text_container p{
 }
 .panel-wrapper-1 img {
     bottom: 4px;
-    height: 540px;
+    height: 553px;
+    margin-left: 60px;
     position: relative;
-    width: 860px;
+    width: 930px;
 }
 a.next_button {
     background: url("../images/sprite_mesa.png") repeat scroll -1160px 10px transparent;

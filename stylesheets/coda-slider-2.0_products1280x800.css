@@ -36,14 +36,14 @@
     top: 130px;
 }
 .coda-nav-right a {
-    background: url("../images/sprite_products.png") no-repeat scroll -230px -10px transparent;
+    background: none repeat scroll 0 0 transparent;
+    margin-left: 28px;
+    margin-top: 21px;
     padding-top: 18px;
     position: relative;
-    right: 33px;
     text-indent: -9999px;
     top: 130px;
 }
-
 
 	/* Tab nav */
 	.coda-nav ul li a.current { background: #39c }
@@ -76,5 +76,5 @@
     padding: 29px 28px 0;
     text-align: center;
     text-decoration: none;
-    top: 196px;
+    top: 175px;
 }

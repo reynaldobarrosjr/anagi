@@ -1,0 +1,122 @@
+html {
+    background-clip: border-box;
+    background-color: #FFFFFF;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    width: 100%;
+    overflow-x: hidden;
+    
+}
+h2 {
+    color: #4A4A4A;
+    font-family: "Trebuchet MS";
+    font-size: 15pt;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+    width: 186px;
+}
+.container {
+    background-image: url("../images/bck_buyapartments_1280x800.jpg");
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 1598px;
+    min-height: 1598px;
+    position: relative;
+    width: 1280px;
+}
+#headlinks_projects {
+    background: none;
+    z-index: 9999;
+}
+#anagiling, #anagilogo {
+    background-image: none;
+    float: right;
+    font-size: 7pt;
+    height: 45px;
+    line-height: 89px;
+    margin-bottom: 58px;
+    position: relative;
+    text-align: right;
+    text-shadow: 1px 1px #000000;
+    vertical-align: middle;
+    width: 104px;
+}
+#social, #social_transparent {
+    clear: both;
+    display: block;
+    float: right;
+    height: 139px;
+    margin: 0;
+    padding-right: 5px;
+    text-decoration: none;
+    z-index: 9999;
+}
+.buy {
+    background: none repeat scroll 0 0 transparent;
+    clear: both;
+    color: transparent;
+    float: right;
+    font-size: 8pt;
+    margin-top: 46px;
+    padding-bottom: 5px;
+    padding-top: 18px;
+    position: relative;
+    text-align: right;
+    width: 118px;
+    z-index: 99999;
+}
+.block {
+    color: transparent;
+    float: right;
+    height: 34px;
+    overflow: hidden;
+    position: relative;
+    top: 4px;
+    width: 136px;
+}
+#footer {
+    clear: left;
+    color: #FFFFFF;
+    height: 42px;
+    position: relative;
+    top: 100px;
+    width: 100%;
+}
+.nav_container {
+    bottom: 318px;
+    margin-bottom: -90px;
+    position: relative;
+}
+#social_transparent {
+    background-image: none;
+    background-position: -379px 6px;
+    left: 0;
+    position: relative;
+}
+a.link_inline {
+    color: #00C969;
+    display: inline;
+    font-size: 8pt;
+    text-transform: capitalize;
+}
+p {
+    font-family: "Trebuchet MS";
+    font-size: 1em;
+    margin: 0 0 20px;
+    text-align: left;
+    width: 207px;
+}
+ul#products_list {
+    margin-left: 80px;
+    margin-top: 207px;
+    position: relative;
+}
+#middlecontent_projects {
+    font-size: 7pt;
+    margin-bottom: 10px;
+    position: relative;
+    text-align: left;
+    top: 10px;
+    width: 75%;
+}

@@ -68,7 +68,7 @@ ul {
     overflow: hidden;
     position: relative;
     top: 4px;
-    width: 109px;
+    width: 135px;
 }
 #footer {
     clear: left;
@@ -78,6 +78,17 @@ ul {
     top: 100px;
     width: 100%;
 }
+.left_footer {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: none;
+    background-position: 0 0;
+    float: left;
+    font-size: 10px;
+    margin-top: 13px;
+    position: relative;
+    width: 233px;
+}
 .nav_container {
     bottom: 318px;
     position: relative;
@@ -86,7 +97,20 @@ ul {
     background-image: none;
     background-position: -379px 6px;
     left: 0;
+    margin-right: 10px;
     position: relative;
+}
+h1 {
+    color: #FFFFFF;
+    font-family: "Trebuchet MS";
+    font-size: 28pt;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-left: 136px;
+    margin-top: 22px;
+    position: relative;
+    text-align: left;
+    text-shadow: 2px 4px 2px #000000;
 }
 
 p {
