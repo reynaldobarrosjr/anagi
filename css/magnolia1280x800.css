@@ -154,10 +154,11 @@ div#building_text {
 #coda-slider-2, #coda-slider-2 .panel {
     bottom: 13px;
     position: relative;
-    width: 1141px;
+    width: 1185px;
 }
 .panel-wrapper img {
-    height: 540px;
+    height: 541px;
+    margin-left: 69px;
     width: 800px;
 }
 /* footer */

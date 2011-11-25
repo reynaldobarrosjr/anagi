@@ -37,6 +37,9 @@ p {
     margin: 0 0 5px;
     color: #ffffff;
 }
+#coda-slider-2, #coda-slider-2 .panel {
+    width: 1228px;
+}
 .coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel {
     width: 1008px;
 }
