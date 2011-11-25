@@ -49,8 +49,9 @@
 	.coda-nav ul li a.current { background: #39c }
 	
 	/* Panel padding */
-	.coda-slider .panel-wrapper {}
-	.coda-slider-2 .panel-wrapper-2 {padding: 0px;} 
+.coda-slider .panel-wrapper {
+    margin-left: -40px;
+}	.coda-slider-2 .panel-wrapper-2 {padding: 0px;} 
 	
 	/* Preloader */
 	.coda-slider p.loading { padding: 20px; text-align: center }

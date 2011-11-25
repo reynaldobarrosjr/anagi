@@ -16,12 +16,35 @@ html {
     position: relative;
     width: 1024px;
 }
+
 ul {
     padding-left: 1.9em;
 }
-#headlinks_projects {
-    background: none;
-    z-index: 9999;
+h1 {
+    color: #FFFFFF;
+    font-family: "Trebuchet MS";
+    font-size: 17pt;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-left: 0;
+    position: relative;
+    text-align: left;
+    text-shadow: 2px 4px 2px #000000;
+    text-transform: uppercase;
+}
+#headlinks_projects, #headlinks_projects_transparent {
+	background: none;
+    height: 213px;
+    margin-right: 32px;
+    position: relative;
+    width: 70px;
+}
+.panel-wrapper img, .panel-wrapper-1 img {
+    height: 430px;
+    padding: 0;
+    position: relative;
+    top: 0;
+    width: 902px;
 }
 #anagiling, #anagilogo {
     background-image: none;
@@ -88,7 +111,10 @@ ul {
     left: 0;
     position: relative;
 }
-
+#coda-slider-1 img {
+    height: 356px;
+    width: 495px;
+}
 p {
     font-family: "Trebuchet MS";
     font-size: 1.2em;
@@ -102,4 +128,24 @@ p {
     text-align: left;
     top: 10px;
     width: 75%;
+}
+#footer_absolute {
+    background: none repeat scroll 0 0 transparent;
+    bottom: -14px;
+    color: #FFFFFF;
+    height: 55px;
+    position: absolute;
+    width: 98%;
+}
+.left_footer {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: none;
+    background-position: 0 0;
+    float: left;
+    font-size: 10px;
+    margin-left: 19px;
+    position: relative;
+    top: 10px;
+    width: 206px;
 }

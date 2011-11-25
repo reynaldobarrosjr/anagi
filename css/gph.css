@@ -63,7 +63,11 @@ ul#menu li {
     top: 202px;
     z-index: -10;
 }
-
+.panel-wrapper-1 img {
+    height: 427px;
+    margin-top: 7px;
+    width: 902px;
+}
 /* */
 #details {
     height: 920px;
@@ -141,10 +145,13 @@ div#text_container p{
 
 
 /* footer */
-#footer_gph {
+#footer_absolute {
+    background: none repeat scroll 0 0 transparent;
+    bottom: -18px;
     color: #FFFFFF;
-    height: 45px;
-    margin-top: -43px;
+    height: 55px;
+    position: absolute;
+    width: 1024px;
 }
 .left_footer {
     background-attachment: scroll;

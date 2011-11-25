@@ -96,6 +96,17 @@ ul.list_photos li{ display: inline;
 .left_footer{
 	top:7px;
 }
+a.back_button {
+    background: url("../images/sprite_team_info.png") repeat scroll -5136px 0 transparent;
+    display: block;
+    font-size: 18pt;
+    line-height: 30px;
+    margin-bottom: 131px;
+    margin-left: 350px;
+    position: relative;
+    text-indent: -9999px;
+    width: 68px;
+}
 .gallery_category img {
     width: 134px;
 }
@@ -108,7 +119,7 @@ div.gallery_category {
 
 div.category_line {
     height: 170px;
-    margin-bottom: 237px;
+    margin-bottom: 61px;
     margin-top: 76px;
     padding-left: 110px;
     padding-top: 0;
@@ -116,17 +127,16 @@ div.category_line {
 }
 
 #row2 {
-    margin-bottom: -20px;
-    margin-top: -70px;
+    margin-bottom: 82px;
+    margin-top: -60px;
     position: relative;
 }
 #row3 {
-    margin-bottom: 44px;
-    
+    margin-bottom: 45px;
     position: relative;
 }
 a.next_team_page {
-    background: url("../images/sprite_team_info.png") repeat scroll -4961px 0 transparent;
+    background: url("../images/sprite_team_info.png") repeat scroll -5048px 0 transparent;
     color: transparent;
     margin-left: 993px;
     margin-top: 0;
@@ -151,7 +161,7 @@ a.next_team_page {
     clear: left;
     color: #FFFFFF;
     height: 27px;
-    margin-top: -28px;
+    margin-top: -50px;
     position: relative;
     width: 98%;
 }

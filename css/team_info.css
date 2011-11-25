@@ -45,9 +45,8 @@ h5 {
     padding: 22px 0 3px 3px;
     position: relative;
     right: 14px;
-    width: 838px;
+    width: 845px;
 }
-
 span.team_member_txt, span.destaq {
     display: block;
     margin-bottom: 5px;
@@ -67,22 +66,20 @@ a#director_current, a#director:hover,a#technical,a#technical:hover,a#technical_c
 
 
 a#director {
-    background-position: 0 58px;
+    background-position: -1297px -87px;
     padding: 0 3px 7px 0;
     text-indent: -9999px;
-    width: 73px;
+    width: 109px;
 }
-
 a#director_current, a#director:hover {
-    background: url("../images/sprite_button_team.png") repeat scroll 0 0 transparent;
+    background: url("../images/sprite_button_team.png") repeat scroll -1297px -31px transparent;
     color: transparent;
     height: 20px;
     margin-left: 0;
     padding: 0 3px 7px 0;
     text-indent: -9999px;
-    width: 73px;
+    width: 110px;
 }
-
 a#technical {
     background-position: -92px -57px;
     width: 140px;
@@ -119,7 +116,7 @@ a#human_current, a#human:hover {
 }
 a#mechanization {
     background-position: -758px -87px;
-    left: -78px;
+    left: -115px;
     position: relative;
     width: 104px;
 }
@@ -131,9 +128,9 @@ a#mechanization_current, a#mechanization:hover {
 }
 a#shops {
     background-position: -876px -87px;
-    left: -79px;
+    left: -118px;
     position: relative;
-    width: 274px;
+    width: 269px;
 }
 a#shops_current, a#shops:hover {
     background-position: -876px -145px;
@@ -144,9 +141,9 @@ a#shops_current, a#shops:hover {
 
 a#juridical {
     background-position: -1148px -87px;
-    left: -94px;
+    left: -130px;
     position: relative;
-    width: 298px;
+    width: 148px;
 }
 a#juridical_current, a#juridical:hover {
     background-position: -1148px -145px;

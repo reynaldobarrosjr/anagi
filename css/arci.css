@@ -157,11 +157,23 @@ a.next_button {
 
 /* footer */
 
-#footer_airport {
+#footer_absolute {
+    background: none repeat scroll 0 0 transparent;
+    bottom: -12px;
     color: #FFFFFF;
-    height: 45px;
+    height: 55px;
+    position: absolute;
+    width: 1024px;
+}
+.block {
+    color: transparent;
+    float: right;
+    height: 34px;
+    margin-right: 24px;
+    overflow: hidden;
     position: relative;
-    top: 7px;
+    top: 3px;
+    width: 109px;
 }
 
 .left_footer {

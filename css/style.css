@@ -898,8 +898,13 @@ border-color: #0000FF;}
     
 
 
-
-
+.panel-wrapper img, .panel-wrapper-1 img {
+    height: 355px;
+    padding: 0;
+    position: relative;
+    top: 0;
+    width: 479px;
+}
     
 a#director_current,a#director:hover{background: url("../images/team_links.png") repeat scroll 0 0 transparent;
     color: transparent;

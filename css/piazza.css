@@ -1,9 +1,11 @@
 html{width: 100%;}
 body{width: 100%;overflow-x: hidden;}
-.container{
-margin-left: auto;margin-right: auto;
-background: url(../images/background_piazza.jpg) no-repeat 0 0 scroll;
-
+.container {
+    background: url("../images/background_piazza.jpg") no-repeat scroll 0 0 transparent;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+    min-width: 1024px;
 }
 h1 {
     color: #FFFFFF;
@@ -135,13 +137,12 @@ div#text_container p{
     position: relative;
 }
 .block {
-  color:transparent;
-  float:right;
-  margin-right:10px;
-  overflow-x:hidden;
-  overflow-y:hidden;
-  position:relative;
-  width:109px;
+    color: transparent;
+    float: right;
+    margin-right: 34px;
+    overflow: hidden;
+    position: relative;
+    width: 109px;
 }
 .left_footer {
     background-attachment: scroll;
