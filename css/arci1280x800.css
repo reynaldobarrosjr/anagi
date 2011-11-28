@@ -163,22 +163,25 @@ a.next_button {
 .panel-wrapper-1 img {
     bottom: 11px;
     height: 540px;
+    margin-left: 10px;
     position: relative;
     width: 1230px;
 }
 .panel-wrapper-1 {
     padding: 0;
     position: relative;
-    top: 47px;
+    top: 36px;
 }
 
 /* footer */
 
-#footer_airport {
+#footer_absolute {
+    background: none repeat scroll 0 0 transparent;
+    bottom: -3px;
     color: #FFFFFF;
-    height: 45px;
-    position: relative;
-    top: 155px;
+    height: 55px;
+    position: absolute;
+    width: 98%;
 }
 
 .left_footer {
