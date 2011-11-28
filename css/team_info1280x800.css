@@ -218,6 +218,24 @@ a.next_team_page {
     position: relative;
     top: 1165px;
 }
+a.dummy{
+	color: transparent;
+    margin-top: 400px;
+    padding: 6px 0 30px 45px;
+    position: relative;
+    top: 1165px;
+
+}
+.space{
+    color: transparent;
+    margin-top: 400px;
+    padding: 6px 0 30px 45px;
+    position: relative;
+    line-height: 40px; 
+    text-indent: -999px; 
+
+
+}
 /*footer*/
 #footer {
     background: none repeat scroll 0 0 transparent;
@@ -225,7 +243,7 @@ a.next_team_page {
     clear: left;
     color: #FFFFFF;
     height: 42px;
-    margin-top: 1466px;
+    margin-top: 1215px;
     position: relative;
     width: 99%;
 }

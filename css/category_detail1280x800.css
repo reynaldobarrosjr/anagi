@@ -127,3 +127,11 @@ p {
     top: 10px;
     width: 75%;
 }
+#footer_absolute {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    color: #FFFFFF;
+    height: 55px;
+    position: absolute;
+    width: 98%;
+}

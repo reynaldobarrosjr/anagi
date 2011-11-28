@@ -81,7 +81,7 @@ ul#menu li {
     margin-right: auto;
     position: relative;
     text-align: left;
-    top: 70px;
+    top: -54px;
     width: 60%;
 }
 /*top text - left and description*/
@@ -169,6 +169,14 @@ a.next_button {
     position: relative;
     top: 260px;
 }
+#footer_absolute {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 24px;
+    color: #FFFFFF;
+    height: 25px;
+    position: absolute;
+    width: 100%;
+}
 
 .left_footer {
     background-attachment: scroll;
@@ -178,6 +186,6 @@ a.next_button {
     float: left;
     font-size: 10px;
     position: relative;
-    top: 10px;
+    top: 5px;
     width: 233px;
 }

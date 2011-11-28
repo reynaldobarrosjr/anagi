@@ -133,7 +133,7 @@ div.category_line {
     margin-bottom: 51px;
 
 }
-a.next_team_page {
+a.next_team_page,.next_team_page_dummy {
     background: url("../images/sprite_team_info.png") repeat scroll -5048px 0 transparent;
     color: transparent;
     margin-left: 993px;
@@ -142,6 +142,14 @@ a.next_team_page {
     padding-left: 39px;
     padding-top: 6px;
     position: relative;
+}
+.next_team_page_dummy {
+    background: none repeat scroll 0 0 transparent;
+    color: transparent;
+    margin-bottom: -64px;
+    position: relative;
+    text-indent: -9999px;
+    margin-top: 10px;
 }
 #footer_projects_internal {
     bottom: 0;

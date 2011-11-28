@@ -157,9 +157,9 @@ div#building_text {
     width: 1185px;
 }
 .panel-wrapper img {
-    height: 541px;
-    margin-left: 69px;
-    width: 800px;
+    height: 100%;
+    margin-left: -15px;
+    width: 111.7%;
 }
 /* footer */
 a.next_button {
