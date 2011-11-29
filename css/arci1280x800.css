@@ -43,6 +43,18 @@ p {
 .coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel {
     width: 1008px;
 }
+/*Somente para Safari e Chrome*/
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+	.panel-wrapper-1 img {
+	  bottom:10px;
+	  height:540px;
+	  margin-left:10px;
+	  margin-top:5px;
+	  position:relative;
+	  width:1230px;
+	}
+}
 ul#menu li {
     float: left;
     margin-left: 50px;

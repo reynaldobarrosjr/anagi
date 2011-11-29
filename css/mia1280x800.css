@@ -161,12 +161,13 @@ a.next_button {
 @media screen and (-webkit-min-device-pixel-ratio:0)
 {
 .panel-wrapper img, .panel-wrapper-1 img {
-  height:90%;
+  height:80%;
   margin-left:88px;
   position:relative;
   top:-69px;
   width:69%;
 }
+p{color:yellow;}
 }
 /* footer */
 

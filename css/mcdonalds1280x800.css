@@ -33,6 +33,18 @@ div.container {
     margin-left: 20px;
     width: 1208px;
 }
+/*Somente para Safari e Chrome*/
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+	.panel-wrapper img {
+  height:542px;
+  margin-left:20px;
+  margin-top:18px;
+  width:1208px;
+}
+	
+}
+
 h1 {
     color: #FFFFFF;
     font-family: "Trebuchet MS";

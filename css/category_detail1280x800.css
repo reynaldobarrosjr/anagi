@@ -119,6 +119,9 @@ p {
     margin: 0 0 20px;
     width: 500px;
 }
+img.category_image {
+    margin-top: 41px;
+}
 #middlecontent_projects {
     font-size: 7pt;
     margin-bottom: 10px;
