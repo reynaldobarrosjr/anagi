@@ -1,4 +1,4 @@
-html{min-width: 100%;min-height: 1593px;max-height: 1593px;}
+html{min-width: 100%;min-height: 1593px;max-height: 1593px;background:#11110f;}
 body{max-height: inherit;width: 100%;overflow-x: hidden;min-height: inherit;}
 div.container {
     background: url("../images/background_mc.jpg") no-repeat scroll 0 0 transparent;

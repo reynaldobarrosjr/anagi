@@ -1,6 +1,6 @@
 /* HTML TAGS */
 
-html{width: 100%;}
+html{width: 100%;background: #dddddd;}
 
 p{font-size: 1.4em;
     margin: 0 0 20px;font-family:"Trebuchet MS";}

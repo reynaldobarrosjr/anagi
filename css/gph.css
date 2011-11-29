@@ -1,4 +1,4 @@
-html{min-width: 100%;min-height: 1591px;max-height: 1592px;}
+html{min-width: 100%;min-height: 1591px;max-height: 1592px;background: #11110f;}
 body{max-height: inherit;width: 100%;overflow-x: hidden;min-height: inherit;}
 div.container {
     background: url("../images/background_gph.jpg") no-repeat scroll 0 0 transparent;

@@ -1,10 +1,12 @@
 html {
     min-height: 1961px;
     min-width: 100%;
+    background: #11110f;
 }
 body {
     max-height: 1961px;
     overflow-x: hidden;
+    background: #11110f;
 }
 a.next_button {
     background: url("../images/sprite_mesa.png") repeat scroll -1160px 10px transparent;

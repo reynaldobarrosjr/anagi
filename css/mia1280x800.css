@@ -77,11 +77,9 @@ ul#menu li {
 }
 #text_container {
     font-size: 6pt;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: -194px;
     position: relative;
     text-align: left;
-    top: -54px;
     width: 60%;
 }
 /*top text - left and description*/
@@ -160,6 +158,16 @@ a.next_button {
     width: 25%;
 }
 
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+.panel-wrapper img, .panel-wrapper-1 img {
+  height:90%;
+  margin-left:88px;
+  position:relative;
+  top:-69px;
+  width:69%;
+}
+}
 /* footer */
 
 #footer_airport {

@@ -1,4 +1,4 @@
-html{min-width: 100%;min-height: 1591px;max-height: 1592px;}
+html{min-width: 100%;min-height: 1591px;max-height: 1592px;background: #11110f;}
 body{max-height: inherit;width: 100%;overflow-x: hidden;min-height: inherit;}
 
 div.container {
@@ -155,6 +155,8 @@ div#text_container p{
     position: relative;
     width: 930px;
 }
+
+
 a.next_button {
     background: url("../images/sprite_mesa.png") repeat scroll -1160px 10px transparent;
     color: transparent;

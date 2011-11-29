@@ -155,12 +155,32 @@ div#building_text {
     bottom: 13px;
     position: relative;
     width: 1185px;
+    height: 800px;
 }
 .panel-wrapper img {
-    height: 100%;
-    margin-left: -15px;
+    height: 86.6%;
+    margin-left: -17px;
     width: 111.7%;
 }
+/*Somente para Safari e Chrome*/
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+	#coda-slider-2 .panel-container{height: 900px;padding-bottom: 100px;}
+  
+	#text_container {
+ 	 	font-size:7pt;
+ 		position:relative;
+ 	 	text-align:left;
+  		width:60%;
+  		
+	}
+	#coda-slider-2 .panel-wrapper{margin-top:2px;position: relative;}
+	#coda-slider-2 .panel-wrapper img{height: 541px;margin-top:3px;position: relative;}
+	div#coda-slider-2{height:700px;}
+	#building_details .coda-slider-wrapper{}
+	
+}
+
 /* footer */
 a.next_button {
     background: url("../images/sprite_mesa.png") repeat scroll -1160px 10px transparent;

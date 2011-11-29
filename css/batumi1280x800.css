@@ -172,6 +172,32 @@ a.next_button {
     top: 27px;
     width: 60%;
 }
+/*Somente para Safari e Chrome*/
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+    .panel-wrapper img, .panel-wrapper-1 img {
+    height: 100%;
+    padding: 0;
+    position: relative;
+    top: 27px;
+    width: 55%;
+	}
+	p{}
+	#text_container {
+ 	 	font-size:7pt;
+ 	 	margin-top:85px;
+ 		position:relative;
+ 	 	text-align:left;
+  		width:60%;
+	}
+	.coda-slider .panel-wrapper {
+  	padding-bottom:20px;
+  	padding-left:20px;
+  	padding-right:20px;
+  	padding-top:20px;
+  	height: 300px;
+	}
+}
 /* footer */
 
 #footer_absolute {
