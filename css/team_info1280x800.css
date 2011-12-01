@@ -236,7 +236,9 @@ a.dummy{
 
 
 }
+#footer_space{display: block;background: red;}
 /*footer*/
+
 #footer {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
@@ -246,6 +248,24 @@ a.dummy{
     margin-top: 1215px;
     position: relative;
     width: 99%;
+}
+#footer_nonext {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    clear: left;
+    color: #FFFFFF;
+    height: 42px;
+    margin-top: 1472px;
+    position: relative;
+    width: 99%;
+}
+#footer_nonext img {
+    margin-top: 4px;
+}
+#footer_nonext span {
+    line-height: 40px;
+    margin-top: 14px;
+    position: relative;
 }
 #footer_1line {
     background: none repeat scroll 0 0 transparent;

@@ -974,3 +974,15 @@ a.wishmodus {
 
 
 /* end of style of slider footer */
+
+
+/** category pages**/
+a.next_building {
+    color: transparent;
+    display: inline-block;
+    line-height: 40px;
+    margin-bottom: 107px;
+    position: relative;
+    right: 72px;
+    top: 284px;
+}

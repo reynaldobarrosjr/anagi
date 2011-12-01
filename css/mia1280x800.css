@@ -44,10 +44,10 @@ ul#menu li {
 
 #headlinks_projects, #headlinks_projects_transparent {
     background: url("../images/sprite_root1280x800.png") no-repeat scroll -3px -5px transparent;
-    height: 292px;
+    height: 279px;
     margin-bottom: 60px;
     margin-right: 11px;
-    padding-top: 20px;
+    padding-top: 38px;
     position: relative;
     width: 69px;
 }
@@ -73,15 +73,9 @@ ul#menu li {
     position: relative;
 }
 #building_details {
-    height: 618px;
+    height: 900px;
 }
-#text_container {
-    font-size: 6pt;
-    margin-top: -194px;
-    position: relative;
-    text-align: left;
-    width: 60%;
-}
+
 /*top text - left and description*/
 
 #top_text {
@@ -161,13 +155,34 @@ a.next_button {
 @media screen and (-webkit-min-device-pixel-ratio:0)
 {
 .panel-wrapper img, .panel-wrapper-1 img {
-  height:80%;
+  height:371px;
   margin-left:88px;
   position:relative;
-  top:-69px;
-  width:69%;
+  width:799px;
 }
-p{color:yellow;}
+p{}
+#text_container {
+  font-size:6pt;
+  margin-top:-235px;
+  position:relative;
+  text-align:left;
+  width:60%;
+}
+}
+
+#building_details .coda-slider-wrapper {
+  clear:both;
+  margin-top:-29px;
+  overflow-x:hidden;
+  overflow-y:hidden;
+}
+
+#text_container {
+    font-size: 6pt;
+    margin-top: -194px;
+    position: relative;
+    text-align: left;
+    width: 60%;
 }
 /* footer */
 
