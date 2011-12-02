@@ -346,6 +346,17 @@ a.anagiling {
     text-indent: -9999px;
     text-shadow: none;
 }
+#eng_link {
+    background-position: -675px -399px;
+    color: transparent;
+    padding: 13px 0 11px 5px;
+    text-indent: -9999px;
+    text-shadow: none;
+    width: 89px;
+}
+#eng_link:hover {
+    background-position: -575px -399px;
+}
 a.anagiling:hover{background: url("../images/sprite_root1280x800_geo.png") 0px 0px transparent;}
 
 a.buy:hover{color: transparent;}
