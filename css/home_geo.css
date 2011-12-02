@@ -1,20 +1,39 @@
+html {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background: #dddddd;
+    
+    background-origin: padding-box;
+    background-position: center top;
+    background-repeat: no-repeat;
+    max-height: 768px;
+    min-height: 768px;
+    overflow-x: hidden;
+    width: 100%;
+}
+body{max-height: inherit;width: 100%;}
+div.container {
+    background: url("../images/background_index.png") no-repeat scroll 0 0 transparent;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 768px;
+    min-height: 767px;
+    position: relative;
+    width: 1024px;
+}
+
+
+
 
 
 
 a#piazza_dock,a#batumi_dock,a#mcdonalds_dock{float: left;position: relative;text-indent: -9999px;height:426px;}
-a#piazza_dock{background: url(../images/geo/piazza_ico.png) 0 0 no-repeat scroll;width: 384px;}
-a#piazza_dock:hover{background: url(../images/geo/piazza_ico_on.png) 0 0 no-repeat scroll;width: 384px;}
-a#batumi_dock{background: url(../images/geo/batumi_ico.png) 0 0 no-repeat scroll;width: 365px;}
-a#batumi_dock:hover{background: url(../images/geo/batumi_ico_on.png) 0 0 no-repeat scroll;width: 365px;}
-a#mcdonalds_dock{background: url(../images/geo/mc_donalds_ico.png) 0 0 no-repeat scroll;width: 365px;}
-a#mcdonalds_dock:hover{background: url(../images/geo/mc_donalds_ico_on.png) 0 0 no-repeat scroll;width: 365px;}
-a#opera_dock,a#airport_dock,a#gph_dock{float: left;position: relative;text-indent: -9999px;height:426px;}
-a#opera_dock{background: url(../images/geo/opera_ico.png) 0 0 no-repeat scroll;width: 381px;}
-a#opera_dock:hover{background: url(../images/geo/opera_ico_on.png) 0 0 no-repeat scroll;width: 381px;}
-a#airport_dock{background: url(../images/geo/airport_ico.png) 0 0 no-repeat scroll;width: 325px;}
-a#airport_dock:hover{background: url(../images/geo/airport_ico_on.png) 0 0 no-repeat scroll;width: 325px;}
-a#gph_dock{background: url(../images/geo/gph_ico.png) 0 0 no-repeat scroll;width: 416px;}
-a#gph_dock:hover{background: url(../images/geo/gph_ico_on.png) 0 0 no-repeat scroll;width: 416px;}
+a#piazza_dock{background: url(../images/piazza_ico.png) 0 0 no-repeat scroll;width: 261px;}
+a#piazza_dock:hover{background: url(../images/piazza_ico_on.png) 0 0 no-repeat scroll;width: 261px;}
+a#batumi_dock{background: url(../images/batumi_ico.png) 0 0 no-repeat scroll;width: 365px;}
+a#batumi_dock:hover{background: url(../images/batumi_ico_on.png) 0 0 no-repeat scroll;width: 365px;}
+a#mcdonalds_dock{background: url(../images/mc_donalds_ico.png) 0 0 no-repeat scroll;width: 365px;}
+a#mcdonalds_dock:hover{background: url(../images/mc_donalds_ico_on.png) 0 0 no-repeat scroll;width: 365px;}
 
 
 #dock ul{
@@ -22,13 +41,88 @@ a#gph_dock:hover{background: url(../images/geo/gph_ico_on.png) 0 0 no-repeat scr
     height: 100px;
     margin-left: auto;
     margin-right: auto;
-    width: 1175px;
 
 
 
 }
-#table_container ul li{margin-left:30px;}
+#table_container ul li{}
 
 a.current_lang{color: #00c969;}
 
-a.social_twitter{background-image:url(../images/twitt.png);width: 32px;height: 32px;text-indent: -9999px;margin-top:30px;}
+#space{width: 50%;}
+
+#rightpart {
+    margin-bottom: -20px;
+    position: relative;
+    width: 25%;
+    z-index: 1;
+}
+/* DOCK STYLE */
+
+#left_table,#middle_table,#right_table{height:437px;}
+
+#left_table{  background: url("../images/left_table.png") no-repeat scroll right bottom transparent;
+    display: table-cell;
+    float: left;
+    height: 393px;
+    width: 180px;}
+
+
+#middle_table{     background: url("../images/table.png") repeat-x scroll center bottom transparent;
+    display: table-cell;
+    height: 400px;
+    vertical-align: bottom;
+    width: 72%;}
+    
+#right_table{  background: url("../images/right_table.png") no-repeat scroll left bottom transparent;
+    display: table-cell;
+    width: 180px;}
+    
+#dock_container{ bottom: 72px;
+    display: inline-block;
+    height: 400px;
+    position: absolute;
+    width: 100%;}
+    
+.coda-slider-wrapper {
+    bottom: -77px;
+    clear: both;
+    margin-bottom: -9px;
+    margin-left: 0;
+    margin-right: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: relative;
+    top: 195px;
+    width: auto;
+}
+
+.left_footer {
+    background: none repeat scroll 0 0 transparent;
+    float: left;
+    font-size: 10px;
+    margin: 4px;
+    padding: 0;
+    position: relative;
+    top: 0;
+    width: 218px;
+}
+.block {
+    color: transparent;
+    float: right;
+    height: 34px;
+    margin-right: 24px;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    width: 109px;
+}
+#footer {
+    background: none repeat scroll 0 0 transparent;
+    bottom: -203px;
+    clear: left;
+    color: #FFFFFF;
+    height: 44px;
+    position: relative;
+    width: 100%;
+}
