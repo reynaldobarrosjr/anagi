@@ -2,8 +2,12 @@
 
 
 html{background-color: #dddddd; font-family: "AcadNusx";}
-p{font-size: 1.4em;
-    margin: 0 0 20px; font-family: "AcadNusx";}
+p {
+    font-family: "AcadNusx";
+    font-size: 1.4em;
+    margin: 0 0 20px;
+    text-transform: lowercase;
+}
 p.photo {
     color: #444444;
     float: none;
@@ -259,11 +263,11 @@ a#company_over {
 
 
 #anagilogo {
-    background-position: -754px -497px;
+    background-position: -807px -542px;
     height: 63px;
-    width: 134px;
+    width: 143px;
 }
-	#anagiling a.last{padding-right: 30px;}
+#anagiling a.last{padding-right: 30px;}
 #rightpart {
     height: 402px;
     padding-right: 0;
@@ -361,11 +365,12 @@ a.anagiling:hover{background: url("../images/sprite_root1280x800_geo.png") 0px 0
 
 a.buy:hover{color: transparent;}
 .buy {
-    background: url("../images/sprite_root1280x800_geo.png") repeat scroll -549px -1444px transparent;
+    background: url("../images/sprite_root1280x800_geo.png") repeat scroll -549px -1448px transparent;
     clear: both;
     color: transparent;
     float: right;
     font-size: 8pt;
+    margin-top: 12px;
     padding-bottom: 5px;
     padding-top: 18px;
     position: relative;
@@ -730,6 +735,7 @@ a.next_button {
 #headlinks_projects, #headlinks_projects_transparent {
     height: 213px;
     margin-right: 11px;
+    margin-top: 15px;
     position: relative;
 }
 #headlinks_projects {
@@ -770,29 +776,37 @@ li.current {
     width: 135px;
 }
 h1#project {
-    background: url("../images/sprite_project1280x800.png") no-repeat scroll -21px 0 transparent;
+    background: url("../images/sprite_project1280x800_geo.png") no-repeat scroll -21px 0 transparent;
     position: relative;
     text-indent: -9999px;
     top: -11px;
 }
 h1#current {
-    background: url("../images/sprite_project1280x800.png") repeat scroll -17px -170px transparent;
+    background: url("../images/sprite_project1280x800_geo.png") repeat scroll -17px -170px transparent;
     height: 86px;
     text-indent: -9999px;
     width: 300px;
 }
 h1#realized {
-    background: url("../images/sprite_project1280x800.png") repeat scroll -17px -60px transparent;
+    background: url("../images/sprite_project1280x800_geo.png") repeat scroll -17px -60px transparent;
     height: 86px;
     text-indent: -9999px;
     width: 300px;
 }
 a.realized_link {
-    color: #FFFFFF;
-    line-height: 136px;
+    font-family: "AcadNusx";
+    font-size: 1.4em;
+    line-height: 16px;
+    margin-top: 61px;
+    text-transform: lowercase;
 }
 a.realized_link:hover{color:#000;}
-a.current_link{color: #fff;}
+a.current_link {
+    color: #FFFFFF;
+    font-family: "AcadNusx";
+    font-size: 1.4em;
+    text-transform: lowercase;
+}
 a.current_link:hover{color:#EF113B;}
 
 
@@ -815,6 +829,8 @@ a.current_link:hover{color:#EF113B;}
      margin-left: 30px;	}
 
 li.no_label {
+    margin-bottom: 9px;
+    margin-left: 6px;
     overflow: hidden;
     width: 35px;
 }
@@ -826,13 +842,13 @@ li.no_label a{height: 32px;}
 
 h2 {
     color: #4A4A4A;
-    font-family: "Trebuchet MS";
+    font-family: "AcadNusx";
     font-size: 15pt;
     font-weight: bold;
     margin-bottom: 10px;
 }
 #company {
-    background: url("../images/sprite_company1280x800.png") no-repeat scroll 0 1px transparent;
+    background: url("../images/sprite_company1280x800_geo.png") no-repeat scroll 0 1px transparent;
     font-size: 22pt;
     margin-bottom: 15px;
     padding-top: 10px;

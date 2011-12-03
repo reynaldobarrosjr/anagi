@@ -1,0 +1,42 @@
+html{
+    width: 100%;
+    }
+body{max-width: 100%;overflow-x: hidden;}
+form {
+    font-family: "AcadNusx";
+    font-size: 1.5em;
+    text-transform: lowercase;
+}
+div.container {
+    background: url("../images/background_clients1280x800.png") no-repeat scroll center center #181818;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 800px;
+    min-height: 800px;
+    position: relative;
+    width: 1280px;
+}
+h1#contact {
+    background: url("../images/contact_title1280x800_geo.png") no-repeat scroll 0 0 transparent;
+    text-indent: -9999px;
+}
+
+textarea{ height: 130px;
+    width: 300px;}
+#footer {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    clear: left;
+    color: #FFFFFF;
+    height: 40px;
+    padding-top: 11px;
+    position: relative;
+    top: 240px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+select, input, textarea, button {
+    font: 99% arial,helvetica,clean,sans-serif;
+    margin-bottom: 20px;
+}

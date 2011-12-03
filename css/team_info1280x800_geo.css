@@ -12,24 +12,23 @@ body{width: inherit;}
     min-height: 1562px;
     position: relative;
     width: 1280px;
-    overflow-x: hidden;
 }
 #middlecontent_projects {
     font-size: 7pt;
     margin-bottom: 12px;
+    padding-left: 46px;
     position: relative;
     text-align: left;
-    top: 80px;
+    top: 30px;
     width: 75%;
 }
-
 
 html#shops{background: url(../images/background_shops1280x800.jpg) no-repeat 0 0 scroll;min-width: 1008px;}
 
 
 
 h1#anagi_team {
-    background: url("../images/sprite_team_info_1280x800.png") no-repeat scroll -50px 0 transparent;
+    background: url("../images/sprite_team_info_1280x800_geo.png") no-repeat scroll -50px 0 transparent;
     bottom: 40px;
     position: relative;
     right: 6px;
@@ -37,8 +36,9 @@ h1#anagi_team {
     width: 250px;
 }
 h2 {
-    margin-bottom: -30px;
-    
+    font-family: "AcadNusx";
+    margin-bottom: -31px;
+    margin-top: -31px;
 }
 h5 {
     font-size: 8pt;
@@ -53,18 +53,20 @@ h5 {
     width: 838px;
 }
 
-a#director_current, a#director:hover,a#technical,a#technical:hover,a#technical_current,a#financial_current,a#financial:hover,a#financial,a#line,a#human_current,a#human:hover,a#human,a#mechanization,a#mechanization_current,a#mechanization:hover,a#shops_current,a#shops:hover,a#shops,a#juridical,a#juridical_current,a#juridical:hover,a#director,a#line_current, a#line:hover {  background: url("../images/sprite_button_team.png") repeat scroll 0 0 transparent;
+a#director_current, a#director:hover,a#technical,a#technical:hover,a#technical_current,a#financial_current,a#financial:hover,a#financial,a#line,a#human_current,a#human:hover,a#human,a#mechanization,a#mechanization_current,a#mechanization:hover,a#shops_current,a#shops:hover,a#shops,a#juridical,a#juridical_current,a#juridical:hover,a#director,a#line_current, a#line:hover {  background: url("../images/sprite_button_team_geo.png") repeat scroll 0 0 transparent;
     height: 24px;
     text-indent: -9999px;
     margin-right: 9px;}
 
 span.team_member_txt, span.destaq {
     display: block;
+    font-family: "AcadNusx";
     font-size: 9pt;
     margin-bottom: 5px;
     width: 490px;
 }
 span.destaq {
+    font-family: "AcadNusx";
     font-weight: bold;
 }
 a#director {
@@ -75,87 +77,83 @@ a#director {
 }
 
 a#director_current, a#director:hover {
-    background: url("../images/sprite_button_team.png") repeat scroll -1297px -30px transparent;
+    background: url("../images/sprite_button_team_geo.png") repeat scroll 0 -65px transparent;
     color: transparent;
-    height: 20px;
     margin-left: 0;
     padding: 0 43px 7px 0;
     text-indent: -9999px;
-    width: 70px;
+    width: 63px;
 }
-
 a#technical {
-    background-position: -92px -57px;
-    width: 140px;
+    background-position: -119px 0;
+    height: 24px;
+    width: 124px;
 }
 a#financial {
-    background-position: -257px -57px;
-    width: 150px;
+    background-position: -259px -117px;
+    width: 167px;
 }
 a#line {
-    background-position: -421px -57px;
-    width: 107px;
+    background-position: -441px 0;
+    width: 125px;
 }
 a#line_current, a#line:hover {
-    background-position: -421px -115px;
-    width: 107px;
+    background-position: -441px -182px;
+    width: 125px;
 }
-a#technical_current,a#technical:hover{  
-	background-position: -92px 0;
-	width: 140px;
-    
+a#technical_current, a#technical:hover {
+    background-position: -119px -65px;
+    width: 124px;
 }
 
 a#financial_current, a#financial:hover {
-    background-position: -257px -115px;
-    width: 150px;
+    background-position: -259px -182px;
+    width: 167px;
 }
 a#human {
-    background-position: -545px 58px;
+    background-position: -458px 88px;
     width: 200px;
 }
 a#human_current, a#human:hover {
-    background-position: -545px -115px;
-    width: 200px;
+    background-position: -1189px -211px;
+    width: 175px;
 }
 a#mechanization {
-    background-position: -758px -87px;
+    background-position: -730px -27px;
     left: -115px;
     position: relative;
     width: 104px;
 }
 a#mechanization_current, a#mechanization:hover {
-    background-position: -758px -145px;
-    width: 104px;
-    left:-115px;
+    background-position: -730px -209px;
+    left: -115px;
     position: relative;
+    width: 104px;
 }
 a#shops {
-    background-position: -876px -87px;
-    left: -117px;
+    background-position: -834px -27px;
+    left: -129px;
     position: relative;
-    width: 273px;
+    width: 341px;
 }
 a#shops_current, a#shops:hover {
-    background-position: -876px -145px;
-     left: -117px;
+    background-position: -834px 25px;
+    left: -129px;
     position: relative;
-    width: 273px;
+    width: 341px;
 }
-
 a#juridical {
-    background-position: -1148px -87px;
+    background-position: -1189px -144px;
     left: -132px;
     position: relative;
-    width: 154px;
+    width: 169px;
 }
 a#juridical_current, a#juridical:hover {
-    background-position: -1148px -145px;
+    background-position: -1189px -209px;
     left: -132px;
     position: relative;
-    width: 154px;
+    width: 169px;
 }
-
 
 
 li.list_team {
@@ -175,6 +173,7 @@ p {
 
 .list_box h1 {
     color: #FFFFFF;
+    font-family: "AcadNusx";
     font-size: 10pt;
     line-height: 49px;
     margin-left: 10px;
@@ -246,8 +245,8 @@ a.dummy{
     clear: left;
     color: #FFFFFF;
     height: 42px;
-    margin-top: 1215px;
-    position: relative;
+    margin-top: 1431px;
+    position: absolute;
     width: 99%;
 }
 #footer_nonext {
