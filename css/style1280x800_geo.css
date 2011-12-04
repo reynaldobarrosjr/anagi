@@ -293,11 +293,11 @@ ul#social li {
 }
 #social_transparent {
     background-image: url("../images/sprite_root1280x800_geo.png");
-    background-position: -510px -139px;
+    background-position: -567px -134px;
     left: 0;
     margin-bottom: 15px;
     position: relative;
-}	
+}
 #social a, #social_transparent a {
     height: 30px;
     width: 30px;
@@ -546,7 +546,7 @@ ul#menu li a span {
     }
     
 a.details {
-    background: url("../images/sprite_mesa1280x800_geo.png") repeat scroll -1329px 94px transparent;
+    background: url("../images/sprite_mesa1280x800_geo.png") repeat scroll -1312px 94px transparent;
     color: transparent;
     float: left;
     height: 62px;
@@ -554,11 +554,11 @@ a.details {
     position: relative;
     text-indent: -9999px;
     top: 676px;
-    width: 56px;
+    width: 96px;
     z-index: 99;
 }
 a.details:hover {
-    background: url("../images/sprite_mesa1280x800_geo.png") repeat scroll -1329px 144px transparent;
+    background: url("../images/sprite_mesa1280x800_geo.png") repeat scroll -1311px 144px transparent;
     height: 34px;
 }
 a.up {
