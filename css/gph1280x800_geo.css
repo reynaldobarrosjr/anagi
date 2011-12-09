@@ -151,12 +151,16 @@ div#text_container p {
     position: relative;
     width: 30px;
 }
+.panel-wrapper-1{
+	height: 600px;
+}
 .panel-wrapper-1 img {
     bottom: 0;
-    height: 542px;
-    margin-left: 60px;
+    height: 91.5%;
+    margin-left: 46px;
+    margin-top: 0;
     position: relative;
-    width: 930px;
+    width: 91.5%;
 }
 
 

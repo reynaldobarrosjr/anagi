@@ -14,9 +14,11 @@ p.photo {
 
 a{  color: #FFFFFF;
     text-decoration: none;text-transform:uppercase;font-family: Arial;}
-	a:focus,a:hover{color: #00c969;}
-
+a:focus, a:hover {
+    color: #00C969;
+    
 }
+.building_information a,.building_information a:hover{font-size: 1.5em;}
 hr{text-indent: -9999px;}
 hr.team {
     background: none repeat scroll 0 0 transparent;
