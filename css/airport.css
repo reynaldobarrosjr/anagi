@@ -1,15 +1,9 @@
-html{min-width: 100%;min-height: 1593px;max-height: 1593px;}
-body{max-height: inherit;width: 100%;overflow-x: hidden;min-height: inherit;}
-div.container {
+html{min-width: 1008px;}
+body {
     background: url("../images/background_airport.jpg") no-repeat scroll 0 0 transparent;
-    margin-left: auto;
-    margin-right: auto;
-    max-height: inherit;
-    min-height: inherit;
-    position: relative;
-    width: 1024px;
+    max-height: 1632px;
+    overflow-x: hidden;
 }
-
 h1 {
     color: #FFFFFF;
     font-family: "Trebuchet MS";
@@ -32,14 +26,6 @@ p {
     font-family: "Trebuchet MS";
     font-size: 1.4em;
     margin: 0 0 5px;
-}
-.panel-wrapper img, .panel-wrapper-1 img {
-    height: 434px;
-    margin-bottom: 17px;
-    padding: 0;
-    position: relative;
-    top: 14px;
-    width: 902px;
 }
 .coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel {
     width: 750px;
@@ -147,15 +133,22 @@ div#text_container p{
 
 /* footer */
 
-#footer_absolute {
-    background: none repeat scroll 0 0 transparent;
-    bottom: -8px;
-    color: #FFFFFF;
-    height: 55px;
-    position: absolute;
-    width: 97%;
+#footer_airport {
+	padding-top:5px;
+    height: 45px;
+    color: #fff;
 }
-
+.left_footer {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: none;
+    background-position: 0 0;
+    float: left;
+    font-size: 10px;
+    position: relative;
+    top: 10px;
+    width: 233px;
+}
 
 .left_footer {
     background-attachment: scroll;
@@ -177,7 +170,6 @@ div#text_container p{
     top: 11px;
     width: 109px;
 }
-
 .slider {
     background: url("../images/wishmodus_logo.png") no-repeat scroll 0 0 transparent;
     bottom: 0;

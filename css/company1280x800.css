@@ -1,18 +1,12 @@
-html{
-    width: 100%;
-    }
-body{max-width: 100%;overflow-x: hidden;}
-.container {
+html{background-attachment: fixed;
+    background-clip: border-box;
+    background-color: #FFFFFF;
     background-image: url("../images/background_company1280x800.png");
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 800px;
-    min-height: 800px;
-    position: relative;
-    width: 1280px;
-    max-width: 1280px;
-    overflow-x: hidden;
-}
+    background-origin: padding-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-width: 1008px;
+    }
 #navlist li a {
     background: url("../images/sprite_company1280x800.png") no-repeat scroll 0 -57px transparent;
     color: transparent;
@@ -42,15 +36,15 @@ body{max-width: 100%;overflow-x: hidden;}
 }
 
 #footer {
-    background: none repeat scroll 0 0 transparent;
+    background: url("../images/sprite_root.png") no-repeat scroll 0 -391px #555554;
     bottom: 0;
     clear: left;
     color: #FFFFFF;
     height: 42px;
-    margin-top: 609px;
     position: relative;
-    width: 99%;
-}	
+    top: 87px;
+    width: 100%;
+}
 #navlist li a#tech_info {
     background-position: -162px -57px;
     padding-left: 19px;
@@ -58,14 +52,4 @@ body{max-width: 100%;overflow-x: hidden;}
 #navlist li a#lugo {
     background-position: -313px -57px;
     padding-left: 27px;
-}
-.block {
-    color: transparent;
-    float: right;
-    height: 45px;
-    margin-right: 10px;
-    overflow: hidden;
-    position: relative;
-    top: 4px;
-    width: 136px;
 }

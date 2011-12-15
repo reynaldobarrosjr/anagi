@@ -1,19 +1,10 @@
 html {
-    max-height: 1960px;
-    min-height: 1960px;
-    min-width: 100%;
 }
-body{max-height: inherit;width: 100%;overflow-x: hidden;min-height: inherit;}
-div.container {
-    background: url("../images/background_arci1280x800.jpg") no-repeat scroll 0 0 transparent;
-    margin-left: auto;
-    margin-right: auto;
-    max-height: inherit;
-    min-height: inherit;
-    position: relative;
-    width: 1280px;
-}
-
+body{background: url(../images/background_arci1280x800.jpg) no-repeat 0 0 scroll;
+	max-height: 1960px;
+    overflow-x: hidden;
+	}
+	
 h1 {
     color: #FFFFFF;
     font-family: "Trebuchet MS";
@@ -37,23 +28,8 @@ p {
     margin: 0 0 5px;
     color: #ffffff;
 }
-#coda-slider-2, #coda-slider-2 .panel {
-    width: 1228px;
-}
 .coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel {
     width: 1008px;
-}
-/*Somente para Safari e Chrome*/
-@media screen and (-webkit-min-device-pixel-ratio:0)
-{
-	.panel-wrapper-1 img {
-	  bottom:10px;
-	  height:540px;
-	  margin-left:10px;
-	  margin-top:5px;
-	  position:relative;
-	  width:1230px;
-	}
 }
 ul#menu li {
     float: left;
@@ -89,9 +65,7 @@ ul#menu li {
     position: relative;
 }
 #building_details {
-    height: 906px;
-    position: relative;
-    top: 11px;
+    height: 905px;
 }
 #text_container {
     font-size: 6pt;
@@ -161,39 +135,26 @@ a.next_button {
     top: -50px;
 }
 
-#rightpart {
-    height: 389px;
-    padding-right: 0;
-    width: 25%;
-}
+
 #social a, #social_transparent a {
-    height: 30px;
-    left: 5px;
+    height: 22px;
+    left: 15px;
     position: relative;
-    width: 30px;
-}
-.panel-wrapper-1 img {
-    bottom: 11px;
-    height: 540px;
-    margin-left: 10px;
-    position: relative;
-    width: 1230px;
+    width: 22px;
 }
 .panel-wrapper-1 {
     padding: 0;
     position: relative;
-    top: 36px;
+    top: 47px;
 }
 
 /* footer */
 
-#footer_absolute {
-    background: none repeat scroll 0 0 transparent;
-    bottom: -3px;
+#footer_airport {
     color: #FFFFFF;
-    height: 55px;
-    position: absolute;
-    width: 98%;
+    height: 45px;
+    position: relative;
+    top: 155px;
 }
 
 .left_footer {
@@ -206,14 +167,4 @@ a.next_button {
     position: relative;
     top: 10px;
     width: 233px;
-}
-.block {
-    color: transparent;
-    float: right;
-    height: 45px;
-    margin-right: 10px;
-    overflow: hidden;
-    position: relative;
-    top: 8px;
-    width: 136px;
 }

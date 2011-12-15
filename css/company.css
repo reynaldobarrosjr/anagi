@@ -1,51 +1,18 @@
-html {
+html{background-attachment: fixed;
     background-clip: border-box;
-    
-    background-origin: padding-box;
-    background-repeat: no-repeat;
-    width: 100%;
-    overflow-x: hidden;
-    
-}
-.container {
+    background-color: #FFFFFF;
     background-image: url("../images/background_company.png");
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 768px;
-    min-height: 768px;
-    position: relative;
-    width: 1024px;
-}
-.block {
-    color: transparent;
-    float: right;
-    height: 27px;
-    margin-right: 20px;
-    overflow: hidden;
-    position: relative;
-    top: 4px;
-    width: 109px;
-}
+    background-origin: padding-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-width: 1008px;
+    }
 #footer {
+    background: url("../images/sprite_root.png") no-repeat scroll 0 -391px #555554;
+    bottom: 0;
     clear: left;
     color: #FFFFFF;
     height: 42px;
     position: relative;
-    top: 100px;
     width: 100%;
-}
-
-p {
-    font-family: "Trebuchet MS";
-    font-size: 1.2em;
-    margin: 0 0 20px;
-    width: 500px;
-}
-#middlecontent_projects {
-    font-size: 7pt;
-    margin-bottom: 10px;
-    position: relative;
-    text-align: left;
-    top: 10px;
-    width: 75%;
 }
