@@ -1,0 +1,192 @@
+html {
+    color: #FFFFFF;
+    width: 100%;
+}
+.dwelling .block,.hotel .block ,.offices .block,.industrial .block,.rehabilitation .block,.individualdwelling .block, .entertainment .block{
+background: none;
+   
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 1016px;
+    min-height: 1016px;
+    position: relative;
+    width: 1280px;
+}
+
+/* CONTAINERS */ 
+html.dwelling .container{	background: url("../images/../images/background_category_dwelling_1280x800.jpg") no-repeat scroll 0 0 transparent;}
+html.hotel .container{	background: url("../images/background_category_hotel_1280x1024.jpg") no-repeat scroll 0 0 transparent;}
+html.offices .container{	background: url("../images/bck_category_offices1280x800.jpg") no-repeat scroll 0 0 transparent;}
+html.rehabilitation .container{	background: url("../images/bck_category_rehabilitation1280x800.jpg") no-repeat scroll 0 0 transparent;}
+html.individual_dwelling .container{	background: url("../images/bck_category_individual1280x800	.jpg") no-repeat scroll 0 0 transparent;}
+html.entertainment .container{	background: url("../images/bck_category_entertainment1280x800.jpg") no-repeat scroll 0 0 transparent;}
+html.current_dwelling .container{background: url("../images/bck_category_current_dwelling1280x800.jpg") no-repeat scroll 0 0 transparent;}
+html.current_rehabilitation .container{background: url("../images/bck_category_current_rehabilitation1280x800.jpg") no-repeat scroll 0 0 transparent;}
+html.current_individualdwelling .container{background: url("../images/bck_category_current_individual1280x800.jpg") no-repeat scroll 0 0 transparent;}
+html.industrial .container{background: url("../images/background_category_hotel_1280x1024.jpg") no-repeat scroll 0 0 transparent;}
+
+
+h2 {
+    color: #fff;
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+}
+
+a {color: #00c969; text-transform: lowercase;}
+p.start,p.complete{    color: #FFFFFF;
+    display: inline;
+    font-size: 9.5pt;
+    margin-right: 30px;
+}
+#rightpart_projects {
+    background: none repeat scroll 0 0 transparent;
+    height: 841px;
+    position: relative;
+    width: 15%;
+    z-index: 9999;
+}
+hr{color: transparent;background: transparent;}
+.buy {
+    background: url("../images/sprite_root1280x800.png") repeat scroll -508px -1343px transparent;
+    clear: both;
+    color: transparent;
+    float: right;
+    font-size: 8pt;
+    padding-bottom: 5px;
+    padding-top: 18px;
+    position: relative;
+    text-align: right;
+    top: 75px;
+    width: 133px;
+}
+
+#social, #social_transparent {
+    clear: both;
+    display: block;
+    float: right;
+    height: 137px;
+    margin: 0;
+    padding-right: 25px;
+    position: relative;
+    text-decoration: none;
+    top: 30px;
+}
+div.building_information {
+    background: none repeat scroll 0 0 transparent;
+    border-left: 2px solid #FFFFFF;
+    float: left;
+    font-size: 7pt;
+    height: 184px;
+    padding-left: 30px;
+    text-align: left;
+    width: 150px;
+}
+#category_info{width: 30%;float: left;}
+#photos{}
+
+ul.list_photos li{ display: inline;
+    float: left;
+    height: 173px;}
+.info_box{border-left: solid 1px #fff;padding:15px;}
+.dashed_box{  border: 1px dashed #FFFFFF;
+    display: table;padding: 30px;}
+.left_footer{
+	top:7px;
+}
+a.back_button {
+    background: url("../images/sprite_team_info.png") repeat scroll -5136px 0 transparent;
+    display: block;
+    font-size: 18pt;
+    line-height: 30px;
+    margin-bottom: 131px;
+    margin-left: 350px;
+    position: relative;
+    text-indent: -9999px;
+    width: 68px;
+}
+.gallery_category img {
+    width: 134px;
+}
+div.gallery_category {
+    float: right;
+    padding-top: 15px;
+    position: relative;
+}
+
+div.category_line {
+    height: 170px;
+    margin-bottom: 61px;
+    margin-top: 76px;
+    padding-left: 110px;
+    padding-top: 0;
+    width: 84%;
+}
+
+#row2{
+	margin-top: -60px;
+    position: relative;
+}
+#row3 {
+    margin-bottom: 51px;
+
+}
+a.next_team_page,.next_team_page_dummy {
+    background: url("../images/sprite_team_info.png") repeat scroll -5048px 0 transparent;
+    color: transparent;
+    margin-left: 993px;
+    margin-top: 0;
+    padding-bottom: 10px;
+    padding-left: 39px;
+    padding-top: 6px;
+    position: relative;
+}
+.next_team_page_dummy {
+    background: none repeat scroll 0 0 transparent;
+    color: transparent;
+    margin-bottom: -64px;
+    position: relative;
+    text-indent: -9999px;
+    margin-top: 10px;
+}
+#footer_projects_internal {
+    bottom: 0;
+    clear: left;
+    color: #FFFFFF;
+    height: 40px;
+    padding-top: 11px;
+    position: relative;
+    top: 487px;
+    vertical-align: bottom;
+    width: 100%;
+}
+#footer {
+    bottom: 0;
+    clear: left;
+    color: #FFFFFF;
+    height: 27px;
+    margin-top: -50px;
+    position: relative;
+    width: 98%;
+}
+
+.left_footer_internal {
+    background: none repeat scroll 0 0 transparent;
+    float: left;
+    font-size: 102px;
+    position: relative;
+    top: 0;
+    width: 233px;
+}
+.block {
+    color: transparent;
+    float: right;
+    height: 45px;
+    margin-right: 10px;
+    overflow: hidden;
+    position: relative;
+    top: 10px;
+    width: 136px;
+}

@@ -1,0 +1,143 @@
+body {
+    max-height: 1217px;
+    min-height: 1217px;
+    overflow-y: hidden;
+}
+
+html.dwelling,html.hotel, html.offices,html.rehabilitation,html.individual_dwelling ,html.entertainment,html.current_dwelling,html.current_rehabilitation,html.current_individualdwelling{
+    color: #FFFFFF;
+    max-height: 1217px;
+    max-width: 100%;
+    min-height: 1217px;
+    min-width: 1600px;
+    overflow-x: hidden;
+}
+
+/* CONTAINERS */ 
+html.dwelling .container{	background: url("../images/../images/bck_cat_dwelling_1600x900.jpg") no-repeat scroll 0 0 transparent;}
+html.hotel .container{	background: url("../images/bck_cat_hotel_1600x900.jpg") no-repeat scroll 0 0 transparent;}
+html.offices .container{	background: url("../images/bck_cat_offices_1600x900.jpg") no-repeat scroll 0 0 transparent;}
+html.rehabilitation .container{	background: url("../images/bck_cat_rehabilitation_1600x900.jpg") no-repeat scroll 0 0 transparent;}
+html.individual_dwelling .container{	background: url("../images/bck_cat_individualdwelling_1600x900.jpg") no-repeat scroll 0 0 transparent;}
+html.entertainment .container{	background: url("../images/bck_cat_entertainment_1600x900.jpg") no-repeat scroll 0 0 transparent;}
+html.current_dwelling .container{background: url("../images/bck_cat_current_dwelling_1600x900.jpg") no-repeat scroll 0 0 transparent;}
+html.current_rehabilitation .container{background: url("../images/bck_cat_current_rehabilitation_1600x900.jpg") no-repeat scroll 0 0 transparent;}
+html.current_individualdwelling .container{background: url("../images/bck_cat_current_individualdwelling_1600x900.jpg") no-repeat scroll 0 0 transparent;}
+
+
+
+
+
+
+
+
+.dwelling .block, .hotel .block, .offices .block, .industrial .block, .rehabilitation .block, .individualdwelling .block, .entertainment .block {
+    color: transparent;
+    float: right;
+    overflow: hidden;
+    position: relative;
+    width: 169px;
+}
+   
+.industrial{
+    background: url("../images/background_industrial1600x900.jpg") no-repeat scroll transparent;
+    color: #FFFFFF;
+    min-height: 1217px;    
+}    
+
+
+
+h2 {
+    color: #FFFFFF;
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+}
+
+a {color: #00c969; text-transform: lowercase;}
+p.start,p.complete{    color: #FFFFFF;
+    display: inline;
+    font-size: 9.5pt;
+    margin-right: 30px;
+}
+
+hr{color: transparent;background: transparent;}
+.buy {
+    background: url("../images/sprite_root1280x800.png") repeat scroll -508px -1343px transparent;
+    clear: both;
+    color: transparent;
+    float: right;
+    font-size: 8pt;
+    padding-bottom: 5px;
+    padding-top: 18px;
+    position: relative;
+    text-align: right;
+    top: 75px;
+    width: 133px;
+}
+
+#social, #social_transparent {
+    clear: both;
+    display: block;
+    float: right;
+    height: 137px;
+    margin: 0;
+    padding-right: 25px;
+    position: relative;
+    text-decoration: none;
+    top: 30px;
+}
+
+#category_info{width: 30%;float: left;}
+#photos{}
+ul.list_photos li{ display: inline;
+    float: left;
+    height: 173px;}
+.info_box{border-left: solid 1px #fff;padding:15px;}
+.dashed_box{  border: 1px dashed #FFFFFF;
+    display: table;padding: 30px;}
+
+/* FOOTER */  
+#footer {
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll 0 -391px transparent;
+    clear: left;
+    color: #FFFFFF;
+    height: 47px;
+    margin-top: -18px;
+    position: relative;
+    width: 1600px;
+}
+
+/* PROJECTS LINES*/
+div.category_line {
+    height: 170px;
+    margin-bottom: 239px;
+    margin-top: 122px;
+    padding-left: 110px;
+    padding-top: 0;
+    width: 84%;
+}
+div.gallery_category {
+    float: left;
+    margin-left: 172px;
+    position: relative;
+    width: 66%;
+}
+div.building_information {
+    background: none repeat scroll 0 0 transparent;
+    border-left: 2px solid #FFFFFF;
+    float: left;
+    font-size: 7pt;
+    height: 184px;
+    padding-left: 30px;
+    text-align: left;
+    width: 150px;
+}
+div#row3 {
+    margin-bottom: 65px;
+    margin-top: -136px;
+    position: relative;
+}
+.gallery_category img {
+    margin-right: 50px;
+    
+}

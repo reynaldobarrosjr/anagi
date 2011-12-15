@@ -1,10 +1,16 @@
+html{min-width: 100%;min-height: 1591px;max-height: 1592px;background: #11110f;}
+body{max-height: inherit;width: 100%;overflow-x: hidden;min-height: inherit;}
 
-html{background: #000;min-width: 1008px;}
-body {
+div.container {
     background: url("../images/background_gph1280x800.jpg") no-repeat scroll 0 0 transparent;
+    margin-left: auto;
+    margin-right: auto;
     max-height: 1963px;
-    overflow-x: hidden;
+    min-height: 1963px;
+    position: relative;
+    width: 1280px;
 }
+
 h1 {
     color: #FFFFFF;
     font-family: "Trebuchet MS";
@@ -80,12 +86,19 @@ ul#menu li {
 }
 
 /*top text - left and description*/
-
+#rightpart {
+    height: 385px;
+    padding-right: 0;
+    width: 25%;
+}
 #top_text {
     color: black;
     height: 145px;
     margin-left: auto;
     margin-right: auto;
+}
+#coda-slider-2, #coda-slider-2 .panel {
+    width: 1228px;
 }
 #left_corner {
     float: left;
@@ -128,13 +141,44 @@ div#text_container p{
 
 
 }
+#social a, #social_transparent a {
+    bottom: 2px;
+    height: 30px;
+    left: 2px;
+    position: relative;
+    width: 30px;
+}
 
+.panel-wrapper-1{
+	height: 600px;
+}
+.panel-wrapper-1 img {
+    bottom: 0;
+    height: 91.5%;
+    margin-left: 46px;
+    margin-top: 0;
+    position: relative;
+    width: 91.5%;
+}
+
+a.next_button {
+    background: url("../images/sprite_mesa.png") repeat scroll -1160px 10px transparent;
+    color: transparent;
+    float: right;
+    left: 42px;
+    padding: 33px 20px;
+    position: relative;
+    top: -46px;
+}
 
 /* footer */
-#footer_gph {
+#footer_absolute {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
     color: #FFFFFF;
-    height: 45px;
-    margin-top: 115px;
+    height: 55px;
+    position: absolute;
+    width: 99%;
 }
 .left_footer {
     background-attachment: scroll;
@@ -146,4 +190,14 @@ div#text_container p{
     position: relative;
     top: 10px;
     width: 233px;
+}
+.block {
+    color: transparent;
+    float: right;
+    height: 45px;
+    margin-right: 10px;
+    overflow: hidden;
+    position: relative;
+    top: 8px;
+    width: 136px;
 }

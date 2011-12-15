@@ -1,42 +1,64 @@
+.container{position: relative;margin-left:auto;margin-right:auto;max-width: 1280px;max-height:768px;min-height: 768px; }
+img {
+    margin-right: 20px;
+    width: 100px;
+}
 .offices {
-    background: url("../images/background_offices.jpg") no-repeat scroll 100% 50% transparent;
+    background: url("../images/background_category_offices_1024x768.jpg") no-repeat scroll transparent;
     color: #FFFFFF;
     min-height: 768px;
 }
 .dwelling{
-    background: url("../images/background_dwelling.jpg") no-repeat scroll 100% 50% transparent;
+   	background: url(../images/background_dwelling_1024x768.jpg) no-repeat scroll;
     color: #FFFFFF;
     min-height: 768px;
 }
-.hotel{
-    background: url("../images/background_hotel.jpg") no-repeat scroll 100% 50% transparent;
+.current_dwelling{
+   	background: url(../images/background_category_current_dwelling1024x768.jpg) no-repeat scroll;
     color: #FFFFFF;
-    min-height: 768px;    
-}    
+    min-height: 768px;
+}
+
+.hotel {
+    background: url("../images/background_category_hotel_1024x768.jpg") no-repeat scroll transparent;
+    color: #FFFFFF;
+    min-height: 768px;
+}  
 .industrial{
     background: url("../images/background_industrial.jpg") no-repeat scroll 100% 50% transparent;
     color: #FFFFFF;
     min-height: 768px;    
 }    
 .rehabilitation{
-    background: url("../images/background_rehabilitation.jpg") no-repeat scroll 100% 50% transparent;
+    background: url("../images/background_category_rehabilitation_1024x768.jpg") no-repeat scroll transparent;
     color: #FFFFFF;
     min-height: 768px;    
 }
-.individualdwelling{
-    background: url("../images/background_individualdwelling.jpg") no-repeat scroll 100% 50% transparent;
+.current_rehabilitation{
+    background: url("../images/background_category_current_rehabilitation1024x768.jpg") no-repeat scroll transparent;
+    color: #FFFFFF;
+    min-height: 768px;    
+}
+.individual_dwelling{
+    background: url("../images/background_category_individual_dwelling1024x768.jpg") no-repeat scroll transparent;
+    color: #FFFFFF;
+    min-height: 768px;    
+}
+.current_individualdwelling{
+    background: url("../images/background_category_current_individual_dwelling1024x768.jpg") no-repeat scroll transparent;
     color: #FFFFFF;
     min-height: 768px;    
 }
 .entertainment{
-    background: url("../images/background_entertainment.jpg") no-repeat scroll 100% 50% transparent;
+    background: url("../images/background_category_entertainment_1024x768.jpg") no-repeat scroll transparent;
     color: #FFFFFF;
     min-height: 768px;        
         
 }
 h2 {
-    color: #fff;
+    color: #FFFFFF;
     font-family: "Trebuchet MS";
+    font-size: 11pt;
     font-weight: bold;
 }
 
@@ -60,7 +82,6 @@ hr{color: transparent;background: transparent;}
     text-align: right;
     width: 104px;
 }
-
 #category_info{width: 30%;float: left;}
 #photos{}
 ul.list_photos li{ display: inline;
@@ -72,18 +93,44 @@ ul.list_photos li{ display: inline;
 .left_footer{
 	top:7px;
 }
-  
-#footer_projects_internal {
-  bottom: 0;
-  clear: left;
-  color: #FFFFFF;
-  height: 40px;
-  padding-top: 11px;
-  position: relative;
-  top: 463px;
-  vertical-align: bottom;
-  width: 100%;
+/*PROJECTS LINES*/
+
+div.building_information {
+    background: none repeat scroll 0 0 transparent;
+    border-left: 2px solid #FFFFFF;
+    float: left;
+    font-size: 6pt;
+    height: 137px;
+    padding-left: 15px;
+    text-align: left;
+    width: 150px;
 }
+div.gallery_category {
+    float: right;
+    padding-top: 15px;
+    position: relative;
+    width: 60%;
+}
+
+div.category_line {
+    height: 153px;
+    margin-bottom: 154px;
+    margin-left: 82px;
+    margin-top: 40px;
+    padding-left: 0;
+    padding-top: 0;
+    width: 82%;
+}
+#rightpart_projects {
+    height: 571px;
+    position: relative;
+    width: 15%;
+    z-index: 9999;
+}
+
+/*FOOTER*/
+
+
 
 .left_footer_internal {
     background: none repeat scroll 0 0 transparent;
@@ -92,4 +139,12 @@ ul.list_photos li{ display: inline;
     position: relative;
     top: 0;
     width: 233px;
+}
+#row2 {
+    margin-bottom: -43px;
+    margin-top: 137px;
+    position: relative;
+}
+#row3 {
+    margin-bottom: 0;
 }

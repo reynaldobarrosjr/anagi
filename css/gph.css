@@ -1,9 +1,15 @@
+html{min-width: 100%;min-height: 1591px;max-height: 1592px;background: #11110f;}
+body{max-height: inherit;width: 100%;overflow-x: hidden;min-height: inherit;}
+div.container {
+    background: url("../images/background_gph.jpg") no-repeat scroll 0 0 transparent;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: inherit;
+    min-height: inherit;
+    position: relative;
+    width: 1024px;
+}
 
-html{background: #000;min-width: 1008px;}
-body{background: url(../images/background_gph.jpg) no-repeat 0 0 scroll;
-	max-height: 1632px;
-    overflow-x: hidden;
-	}
 h1 {
     color: #FFFFFF;
     font-family: "Trebuchet MS";
@@ -57,7 +63,11 @@ ul#menu li {
     top: 202px;
     z-index: -10;
 }
-
+.panel-wrapper-1 img {
+    height: 427px;
+    margin-top: 7px;
+    width: 902px;
+}
 /* */
 #details {
     height: 920px;
@@ -135,10 +145,13 @@ div#text_container p{
 
 
 /* footer */
-#footer_gph {
+#footer_absolute {
+    background: none repeat scroll 0 0 transparent;
+    bottom: -18px;
     color: #FFFFFF;
-    height: 45px;
-    margin-top: -43px;
+    height: 55px;
+    position: absolute;
+    width: 1024px;
 }
 .left_footer {
     background-attachment: scroll;

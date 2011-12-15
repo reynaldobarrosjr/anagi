@@ -1,0 +1,217 @@
+html{min-width: 100%;min-height: 1593px;max-height: 1593px;}
+body{max-height: inherit;width: 100%;overflow-x: hidden;min-height: inherit;}
+div.container {
+    background: url("../images/backgorund_mia1280x800_geo.jpg") no-repeat scroll 0 0 transparent;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: inherit;
+    min-height: 1960px;
+    position: relative;
+    width: 1280px;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: "Trebuchet MS";
+    font-size: 22pt;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-left: 40px;
+    text-shadow: 2px 4px 2px #000000;
+}
+h2 {
+    color: #212121;
+ 
+}
+
+ul {
+    padding-left: 20px;
+}
+p {
+    color: #FFFFFF;
+    font-family: "AcadNusx";
+    font-size: 1.8em;
+    margin: 0 0 5px;
+}
+p.details_data{font-size: 1.3em;}
+.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel {
+    width: 1008px;
+}
+ul#menu li {
+    float: left;
+    margin-left: 50px;
+}
+
+
+#headlinks_projects, #headlinks_projects_transparent {
+    background: url("../images/sprite_root1280x800.png") no-repeat scroll -3px -5px transparent;
+    height: 279px;
+    margin-bottom: 60px;
+    margin-right: 11px;
+    padding-top: 38px;
+    position: relative;
+    width: 69px;
+}
+
+/* dock navigation*/
+
+.coda-nav-left a, .coda-nav-right a {
+    display: block;
+    right: 80px;
+    text-align: center;
+    text-decoration: none;
+    top: 256px;
+}
+.coda-nav-left a {
+    display: block;
+    float: left;
+    top: 202px;
+    z-index: -10;
+}
+
+/* */
+#details {
+    position: relative;
+}
+#building_details {
+    height: 900px;
+}
+
+/*top text - left and description*/
+
+#top_text {
+    color: black;
+    height: 105px;
+    margin-bottom: 66px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0 30px 30px;
+}
+#left_corner {
+    float: left;
+    left: 12px;
+    position: relative;
+    text-align: left;
+    text-indent: -9999px;
+    text-transform: uppercase;
+    top: 24px;
+    width: 336px;
+}
+#description {
+    background: none repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    display: table;
+    float: right;
+    font-size: 7pt;
+    margin-bottom: 30px;
+    position: relative;
+    right: 70px;
+    text-align: left;
+    top: 30px;
+    width: 40%;
+    font-family: "AcadNusx";
+
+}
+
+div#text_container p {
+    color: #282828;
+    font-family: "AcadNusx";
+    font-size: 1.5em;
+    margin: 0;
+    position: relative;
+}
+div#building_text {
+    color: #FFFFFF;
+    font-family: "AcadNusx";
+    font-size: 9pt;
+    left: -150px;
+    margin-bottom: 61px;
+    margin-left: auto;
+    position: relative;
+    text-align: left;
+    text-shadow: 1px 1px 1px #000000;
+    top: 7px;
+    width: 550px;
+}
+
+a.next_button {
+    background: url("../images/sprite_mesa.png") repeat scroll -1160px 10px transparent;
+    color: transparent;
+    float: right;
+    left: 42px;
+    padding: 33px 20px;
+    position: relative;
+    top: -255px;
+}
+#social a, #social_transparent a {
+    height: 30px;
+    left: 15px;
+    position: relative;
+    width: 30px;
+}
+#rightpart {
+    height: 391px;
+    padding-right: 0;
+    width: 25%;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+.panel-wrapper img, .panel-wrapper-1 img {
+  height:371px;
+  margin-left:88px;
+  position:relative;
+  width:799px;
+}
+p{}
+#text_container {
+  font-size:6pt;
+  margin-top:-235px;
+  position:relative;
+  text-align:left;
+  width:60%;
+}
+}
+
+#building_details .coda-slider-wrapper {
+    clear: both;
+    margin-top: -57px;
+    overflow: hidden;
+}
+
+#text_container {
+    font-size: 7pt;
+    margin-top: -222px;
+    position: relative;
+    text-align: left;
+    width: 60%;
+}
+/* footer */
+
+#footer_airport {
+    bottom: -30px;
+    color: #FFFFFF;
+    height: 45px;
+    position: relative;
+    top: 260px;
+}
+#footer_absolute {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 24px;
+    color: #FFFFFF;
+    height: 25px;
+    position: absolute;
+    width: 98%;
+}
+
+.left_footer {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: none;
+    background-position: 0 0;
+    float: left;
+    font-size: 10px;
+    position: relative;
+    top: 5px;
+    width: 233px;
+}

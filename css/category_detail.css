@@ -1,0 +1,151 @@
+html {
+    background-clip: border-box;
+    
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    width: 100%;
+    overflow-x: hidden;
+    
+}
+.container {
+    background-image: url("../images/bck_category_detail_1024x768.jpg");
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 798px;
+    min-height: 798px;
+    position: relative;
+    width: 1024px;
+}
+
+ul {
+    padding-left: 1.9em;
+}
+h1 {
+    color: #FFFFFF;
+    font-family: "Trebuchet MS";
+    font-size: 17pt;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-left: 0;
+    position: relative;
+    text-align: left;
+    text-shadow: 2px 4px 2px #000000;
+    text-transform: uppercase;
+}
+#headlinks_projects, #headlinks_projects_transparent {
+	background: none;
+    height: 213px;
+    margin-right: 32px;
+    position: relative;
+    width: 70px;
+}
+.panel-wrapper img, .panel-wrapper-1 img {
+    height: 430px;
+    padding: 0;
+    position: relative;
+    top: 0;
+    width: 902px;
+}
+#anagiling, #anagilogo {
+    background-image: none;
+    float: right;
+    font-size: 7pt;
+    height: 45px;
+    line-height: 89px;
+    margin-bottom: 16px;
+    position: relative;
+    text-align: right;
+    text-shadow: 1px 1px #000000;
+    vertical-align: middle;
+    width: 104px;
+}
+#social, #social_transparent {
+    clear: both;
+    display: block;
+    float: right;
+    height: 139px;
+    margin: 0;
+    padding-right: 5px;
+    text-decoration: none;
+    z-index: 9999;
+}
+.buy {
+    background: none repeat scroll 0 0 transparent;
+    clear: both;
+    color: transparent;
+    float: right;
+    font-size: 8pt;
+    margin-top: 28px;
+    padding-bottom: 5px;
+    padding-top: 18px;
+    position: relative;
+    text-align: right;
+    width: 118px;
+    z-index: 99999;
+}
+.block {
+    color: transparent;
+    float: right;
+    height: 27px;
+    margin-right: 10px;
+    overflow: hidden;
+    position: relative;
+    top: 4px;
+    width: 109px;
+}
+#footer {
+    clear: left;
+    color: #FFFFFF;
+    height: 42px;
+    position: relative;
+    top: 100px;
+    width: 100%;
+}
+.nav_container {
+    bottom: 228px;
+    position: relative;
+}
+#social_transparent {
+    background-image: none;
+    background-position: -379px 6px;
+    left: 0;
+    position: relative;
+}
+#coda-slider-1 img {
+    height: 356px;
+    width: 495px;
+}
+p {
+    font-family: "Trebuchet MS";
+    font-size: 1.2em;
+    margin: 0 0 20px;
+    width: 500px;
+}
+#middlecontent_projects {
+    font-size: 7pt;
+    margin-bottom: 10px;
+    position: relative;
+    text-align: left;
+    top: 10px;
+    width: 75%;
+}
+#footer_absolute {
+    background: none repeat scroll 0 0 transparent;
+    bottom: -14px;
+    color: #FFFFFF;
+    height: 55px;
+    position: absolute;
+    width: 98%;
+}
+.left_footer {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: none;
+    background-position: 0 0;
+    float: left;
+    font-size: 10px;
+    margin-left: 19px;
+    position: relative;
+    top: 10px;
+    width: 206px;
+}

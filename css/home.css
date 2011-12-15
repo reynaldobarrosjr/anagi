@@ -1,12 +1,31 @@
-html{background-attachment: fixed;
+html {
+    background-attachment: scroll;
     background-clip: border-box;
-    background-color: #FFFFFF;
-    background-image: url("../images/background_index.png");
+    background: #dddddd;
+    
     background-origin: padding-box;
-    background-position: center center;
+    background-position: center top;
     background-repeat: no-repeat;
-    min-width: 1008px;
-    }
+    max-height: 768px;
+    min-height: 768px;
+    overflow-x: hidden;
+    width: 100%;
+}
+body{max-height: inherit;width: 100%;}
+div.container {
+    background: url("../images/background_index.png") no-repeat scroll 0 0 transparent;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 768px;
+    min-height: 767px;
+    position: relative;
+    width: 1024px;
+}
+
+
+
+
+
 
 a#piazza_dock,a#batumi_dock,a#mcdonalds_dock{float: left;position: relative;text-indent: -9999px;height:426px;}
 a#piazza_dock{background: url(../images/piazza_ico.png) 0 0 no-repeat scroll;width: 261px;}
@@ -65,22 +84,45 @@ a.current_lang{color: #00c969;}
     position: absolute;
     width: 100%;}
     
-    
 .coda-slider-wrapper {
-    background: url("../images/dock_bkg.png") no-repeat scroll center bottom transparent;
-    bottom: 50px;
+    bottom: -77px;
     clear: both;
-    margin-bottom: -7px;
+    margin-bottom: -9px;
+    margin-left: 0;
+    margin-right: 0;
     overflow-x: auto;
     overflow-y: hidden;
-    position: absolute;
+    position: relative;
+    top: 195px;
+    width: auto;
 }
 
 .left_footer {
     background: none repeat scroll 0 0 transparent;
     float: left;
     font-size: 10px;
+    margin: 4px;
+    padding: 0;
     position: relative;
     top: 0;
-    width: 233px;
+    width: 218px;
+}
+.block {
+    color: transparent;
+    float: right;
+    height: 34px;
+    margin-right: 24px;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    width: 109px;
+}
+#footer {
+    background: none repeat scroll 0 0 transparent;
+    bottom: -203px;
+    clear: left;
+    color: #FFFFFF;
+    height: 44px;
+    position: relative;
+    width: 100%;
 }
